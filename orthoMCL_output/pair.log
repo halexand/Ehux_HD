@@ -1,0 +1,131 @@
+
+
+============================================================================================
+Thu Apr 30 10:20:07 2015 orthomclPairs mysql.config pair.log cleanup=no
+=============================================================================================
+
+Thu Apr 30 10:20:08 2015 Constructing common temp tables
+Thu Apr 30 10:20:08 2015   Find min evalue exp  (OrthoMCL-DB V2 took ??? for this step)
+Thu Apr 30 10:23:08 2015   done
+Thu Apr 30 10:23:08 2015   updating SimilarSequences, setting 0 evalue_exp to underflow value (-180 - 1)  (Benchmark dataset took 25 min for this step)
+Thu Apr 30 10:28:27 2015   step 'updateMinimumEvalueExponent' done (5 mins)
+
+Thu Apr 30 10:28:27 2015   create BestQueryTaxonScore  (Benchmark dataset took 1.5 hours for this step)
+Thu Apr 30 10:34:47 2015   step 'bestQueryTaxonScore' done (6 mins)
+
+Thu Apr 30 10:34:47 2015   create qtscore_ix index on BestQueryTaxonScore  (Benchmark dataset took 15 min for this step)
+Thu Apr 30 10:34:55 2015   step 'qtscore_ix' done (1 mins)
+
+Thu Apr 30 10:34:55 2015 Constructing ortholog tables
+Thu Apr 30 10:34:55 2015   create BestHit  (Benchmark dataset took 1.5 hours for this step)
+Thu Apr 30 10:35:27 2015   step 'bestHit' done (1 mins)
+
+Thu Apr 30 10:35:27 2015   create best_hit_ix index on BestHit  (Benchmark dataset took 15 min for this step)
+Thu Apr 30 10:35:32 2015   step 'best_hit_ix' done (1 mins)
+
+Thu Apr 30 10:35:32 2015   create OrthologTemp table  (Benchmark dataset took 5 min for this step)
+Thu Apr 30 10:35:35 2015   step 'ortholog' done (1 mins)
+
+Thu Apr 30 10:35:35 2015   create OrthologTaxon table  (Benchmark dataset took 1 min for this step)
+Thu Apr 30 10:35:35 2015   step 'orthologTaxon' done (1 mins)
+
+Thu Apr 30 10:35:35 2015   create OrthologAvgScore table  (Benchmark dataset took 1 min for this step)
+Thu Apr 30 10:35:35 2015   step 'orthologAvg' done (1 mins)
+
+Thu Apr 30 10:35:35 2015   create OrthologAvgScore index  (Benchmark dataset took 1 min for this step)
+Thu Apr 30 10:35:35 2015   step 'orthologAvgIndex' done (1 mins)
+
+Thu Apr 30 10:35:35 2015   populate Ortholog table, including normalized_score  (Benchmark dataset took 2 min for this step)
+Thu Apr 30 10:35:36 2015   step 'orthologsNormalization' done (1 mins)
+
+Thu Apr 30 10:35:36 2015 Constructing inParalog tables
+Thu Apr 30 10:35:36 2015   create BestInterTaxonScore  (Benchmark dataset took 5 min for this step)
+Thu Apr 30 10:35:40 2015   step 'bestInterTaxonScore' done (1 mins)
+
+Thu Apr 30 10:35:40 2015   create bis_uids_ix index on BestQueryTaxonScore  (Benchmark dataset took 1 min for this step)
+Thu Apr 30 10:35:44 2015   step 'bis_uids_ix' done (1 mins)
+
+Thu Apr 30 10:35:44 2015   create UniqSimSeqsQueryId  (Benchmark dataset took 25 min for this step)
+Thu Apr 30 10:37:54 2015   step 'uniqueSimSeqsQueryId' done (2 mins)
+
+Thu Apr 30 10:37:54 2015   create ust_qids_ix index on UniqSimSeqsQueryId  (Benchmark dataset took 1 min for this step)
+Thu Apr 30 10:37:58 2015   step 'ust_qids_ix' done (1 mins)
+
+Thu Apr 30 10:37:58 2015   create BetterHit table  (Benchmark dataset took 3 hours for this step)
+Thu Apr 30 10:39:20 2015   step 'betterHit' done (1 mins)
+
+Thu Apr 30 10:39:20 2015   create better_hit_ix index on BetterHit  (Benchmark dataset took 25 min for this step)
+Thu Apr 30 10:39:21 2015   step 'better_hit_ix' done (1 mins)
+
+Thu Apr 30 10:39:21 2015   create InParalogTemp table  (Benchmark dataset took 15 min for this step)
+Thu Apr 30 10:39:21 2015   step 'inParalog' done (1 mins)
+
+Thu Apr 30 10:39:21 2015   create InParalogTaxonAvg table  (Benchmark dataset took 1 min for this step)
+Thu Apr 30 10:39:21 2015   step 'inParalogTaxonAvg' done (1 mins)
+
+Thu Apr 30 10:39:21 2015   create OrthologUniqueId table  (Benchmark dataset took 5 min for this step)
+Thu Apr 30 10:39:22 2015   step 'orthologUniqueId' done (1 mins)
+
+Thu Apr 30 10:39:22 2015   create unique ortho_uniq_id_ix index  (Benchmark dataset took 1 min for this step)
+Thu Apr 30 10:39:23 2015   step 'orthologUniqueIdIndex' done (1 mins)
+
+Thu Apr 30 10:39:23 2015   create InplgOrthTaxonAvg table  (Benchmark dataset took 10 min for this step)
+Thu Apr 30 10:39:24 2015   step 'inplgOrthTaxonAvg' done (1 mins)
+
+Thu Apr 30 10:39:24 2015   create InParalogAvgScore table  (Benchmark dataset took 1 min for this step)
+Thu Apr 30 10:39:24 2015   step 'inParalogAvg' done (1 mins)
+
+Thu Apr 30 10:39:24 2015   create InParalogAvgScore index  (Benchmark dataset took 1 min for this step)
+Thu Apr 30 10:39:24 2015   step 'inParalogAvgIndex' done (1 mins)
+
+Thu Apr 30 10:39:24 2015   populate InParalog table, including normalized_score  (Benchmark dataset took 3 min for this step)
+Thu Apr 30 10:39:24 2015   step 'inParalogsNormalization' done (1 mins)
+
+Thu Apr 30 10:39:24 2015 Constructing coOrtholog tables
+Thu Apr 30 10:39:24 2015   create InParalog2Way  (Benchmark dataset took 1.5 hours for this step)
+Thu Apr 30 10:39:24 2015   step 'inParalog2Way' done (1 mins)
+
+Thu Apr 30 10:39:24 2015   index in2a_ix  (Benchmark dataset took 45 min for this step)
+Thu Apr 30 10:39:25 2015   step 'in2a_ix' done (1 mins)
+
+Thu Apr 30 10:39:25 2015   index in2b_ix  (Benchmark dataset took 45 min for this step)
+Thu Apr 30 10:39:26 2015   step 'in2b_ix' done (1 mins)
+
+Thu Apr 30 10:39:26 2015   create Ortholog2Way  (Benchmark dataset took 1 hours for this step)
+Thu Apr 30 10:39:33 2015   step 'ortholog2Way' done (1 mins)
+
+Thu Apr 30 10:39:33 2015   index ortholog2way_ix  (Benchmark dataset took 5 min for this step)
+Thu Apr 30 10:39:37 2015   step 'ortholog2WayIndex' done (1 mins)
+
+Thu Apr 30 10:39:37 2015   create InplgOrthoInplg  (Benchmark dataset took 20 min for this step)
+Thu Apr 30 10:39:39 2015   step 'inplgOrthoInplg' done (1 mins)
+
+Thu Apr 30 10:39:39 2015   create InParalogOrtholog  (Benchmark dataset took 15 min for this step)
+Thu Apr 30 10:39:41 2015   step 'inParalogOrtholog' done (1 mins)
+
+Thu Apr 30 10:39:41 2015   create CoOrthologCandidate  (Benchmark dataset took 1 hour for this step)
+Thu Apr 30 10:39:42 2015   step 'coOrthologCandidate' done (1 mins)
+
+Thu Apr 30 10:39:42 2015   create CoOrthNotOrtholog table  (Benchmark dataset took 10 min for this step)
+Thu Apr 30 10:39:44 2015   step 'coOrthologNotOrtholog' done (1 mins)
+
+Thu Apr 30 10:39:44 2015   index cno_ix  (Benchmark dataset took 1 min for this step)
+Thu Apr 30 10:39:44 2015   step 'coOrthologNotOrthologIndex' done (1 mins)
+
+Thu Apr 30 10:39:44 2015   create CoOrthologTemp table  (Benchmark dataset took 2 hours for this step)
+Thu Apr 30 10:42:10 2015   step 'coOrtholog' done (2 mins)
+
+Thu Apr 30 10:42:10 2015   create CoOrthologTaxon table  (Benchmark dataset took 1 min for this step)
+Thu Apr 30 10:42:10 2015   step 'coOrthologTaxon' done (1 mins)
+
+Thu Apr 30 10:42:10 2015   create CoOrthologAvgScore table  (Benchmark dataset took 1 min for this step)
+Thu Apr 30 10:42:10 2015   step 'coOrthologAvg' done (1 mins)
+
+Thu Apr 30 10:42:10 2015   create CoOrthologAvgScore index  (Benchmark dataset took 1 min for this step)
+Thu Apr 30 10:42:10 2015   step 'coOrthologAvgIndex' done (1 mins)
+
+Thu Apr 30 10:42:10 2015   populate CoOrtholog table, including normalized_score  (Benchmark dataset took 2 min for this step)
+Thu Apr 30 10:42:11 2015   step 'coOrthologsNormalization' done (1 mins)
+
+
+Done

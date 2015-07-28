@@ -1,0 +1,119 @@
+    1  history
+    2  exit
+    3  history
+    4  history
+    5  orthomclAdjustFasta 
+    6  cd workshop_files/
+    7  ls
+    8  less PbergheiANKA.fasta 
+    9  cd ..
+   10  ls
+   11  mkdir Ehux
+   12  ls
+   13  cd Ehux/
+   14  ls
+   15  mv ~/Desktop/All_Ehux_LongerThan70.pep.fa .
+   16  ls
+   17  orthomclAdjustFasta Ehux All_Ehux_LongerThan70.pep.fa 1
+   18  ls
+   19  less All_Ehux_LongerThan70.pep.fa 
+   20  grep ">" All_Ehux_LongerThan70.pep.fa |wc
+   21  mv ~/Desktop/E* .
+   22  ls
+   23  rm All_Ehux_LongerThan70.pep.fa 
+   24  ls
+   25  less Ehux.fasta 
+   26  rm Ehux.fasta 
+   27  ls
+   28  orthomclAdjustFasta Emihu1 Emihu1_reduced_proteins.fasta.LongerThan70 
+   29  head Emihu1_reduced_proteins.fasta.LongerThan70 
+   30  ls
+   31  orthomclAdjustFasta Emihu1 Emihu1_reduced_proteins.fasta.LongerThan70 3
+   32  ls
+   33  less Emihu1.fasta 
+   34  head Emiliania-huxleyi-374.pep.fa.LongerThan70 
+   35  orthomclAdjustFasta Emi374 Emiliania-huxleyi-374.pep.fa.LongerThan70 1
+   36  ls
+   37  less Emi374.fasta 
+   38  orthomclAdjustFasta Emi379 Emiliania-huxleyi-379.pep.fa.LongerThan70 1
+   39  head Emi379.fasta 
+   40  ls
+   41  orthomclAdjustFasta Emi370 Emiliania-huxleyi-370.pep.fa.LongerThan70 1
+   42  orthomclAdjustFasta Emi370 Emiliania-huxleyi-CCMP370.pep.fa.LongerThan70 1
+   43  orthomclAdjustFasta Emi219 Emiliania-huxleyi-PLYM219.pep.fa.LongerThan70 1
+   44  ls
+   45  mkdir compliantFasta
+   46  mv *fasta compliantFasta/
+   47  ls
+   48  cd compliantFasta/
+   49  cd ..
+   50  ls
+   51  mkdir originialFasta
+   52  mv *70 originialFasta/
+   53  ls
+   54  orthomclFilterFasta compliantFasta/ 10 20
+   55  ls
+   56  grep ">" goodProteins.fasta 
+   57  grep ">" goodProteins.fasta |wc
+   58  grep ">" poorProteins.fasta 
+   59  ls
+   60  ll
+   61  EmiHux_Clean_Proteins.fasta
+   62  mv goodProteins.fasta EmiHux_Clean_Proteins.fasta
+   63  ls
+   64  less EmiHux_Clean_Proteins.fasta 
+   65  makeblastdb -in EmiHux_Clean_Proteins.fasta -dbtype prot -parse_seqids -out EmiHux_Clean_Proteins
+   66  ls
+   67  blastp -db EmiHux_Clean_Proteins -query EmiHux_Clean_Proteins.fasta -outfmt 6 -out EmiHux_All_blastresults.tsv -num_threads8
+   68  blastp -db EmiHux_Clean_Proteins -query EmiHux_Clean_Proteins.fasta -outfmt 6 -out EmiHux_All_blastresults.tsv -num_threads 8
+   69  ls
+   70  orthomclBlastParser EmiHux_All_blastresults.tsv ./compliantFasta/ >> similarSequences.txt
+   71  ls
+   72  cp ../workshop_files/scripts/mysql.config .
+   73  ls
+   74  less mysql.config 
+   75  orthomclInstallSchema mysql.config mysql.log
+   76  ls
+   77  less mysql.log 
+   78  orthomclLoadBlast mysql.config similarSequences.txt 
+   79  orthomclPairs mysql.config pair.log cleanup=no
+   80  orthomclDumpPairsFiles mysql.config 
+   81  mcl mclInput --abc -I 1.5 -o groups_1.5.txt
+   82  orthomclMclToGroups OG1_5_ 1000 < groups_1.5.txt > named_groups_1.5.txt
+   83  ls
+   84  less named_groups_1.5.txt 
+   85  ln -sf ../../purduepete/workshop_files/scripts/ .
+   86  ls
+   87  scripts/CopyNumberGen.sh named_groups_1.5.txt > named_groups_1.5_frequency.txt
+   88  scripts/ExtractSCOs.sh named_groups_1.5_frequency.txt > scos_list.txt
+   89  less scos_list.txt 
+   90  cut -f 1 scos_list.txt > ids.txt
+   91  while read line;  do grep -w "$line" named_groups_1.5.txt ; done < ids.txt > named_sco_groups_1.5.txt
+   92  less named_sco_groups_1.5.txt 
+   93  scripts/ExtractSeq.sh -o Rep_Sequences.fa > named_sco_groups_1.5.txt EmiHux_Clean_Proteins.fasta 
+   94  scripts/ExtractSeq.sh -o Rep_Sequences.fa  named_sco_groups_1.5.txt EmiHux_Clean_Proteins.fasta 
+   95  scripts/ExtractSeq.sh -o sequences named_sco_groups_1.5.txt EmiHux_Clean_Proteins.fasta 
+   96  ll -tr
+   97  less named_sco_groups_1.5.txt 
+   98  while read line;  do grep -w "$line" named_groups_1.5.txt ; done < ids.txt > named_sco_groups_1.5.txt
+   99  less named_sco_groups_1.5.txt 
+  100  head -n 100 named_sco_groups_1.5.txt > tmp
+  101  ls
+  102  scripts/ExtractSeq.sh -o sequences tmp EmiHux_Clean_Proteins.fasta 
+  103  scripts/ExtractSeq.sh -o sequences tmp EmiHux_Clean_Proteins
+  104  ls
+  105  less sequences/
+  106  cd sequences/
+  107  ls
+  108  cd ../scripts
+  109  ls
+  110  less CopyNumberGen.sh 
+  111  less ExtractSCOs.sh 
+  112  less ExtractSeq.sh 
+  113  ls
+  114  less ExtractSeq.sh 
+  115  history|grep orthomcl
+  116  cd ../
+  117  less named_groups_1.5.txt 
+  118  history 
+  119  history > EhuxProtocol.txt
