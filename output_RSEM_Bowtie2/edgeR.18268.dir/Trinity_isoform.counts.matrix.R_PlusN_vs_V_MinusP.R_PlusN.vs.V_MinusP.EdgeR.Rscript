@@ -1,0 +1,21 @@
+library(edgeR)
+
+data = read.table("/Users/harrietalexander/Analysis/Ehux_HD/output_RSEM_Bowtie2/Trinity_isoform.counts.matrix", header=T, row.names=1, com='')
+col_ordering = c(2,8,5,11)
+rnaseqMatrix = data[,col_ordering]
+rnaseqMatrix = round(rnaseqMatrix)
+rnaseqMatrix = rnaseqMatrix[rowSums(rnaseqMatrix)>=2,]
+conditions = factor(c(rep("R_PlusN", 2), rep("V_MinusP", 2)))
+
+exp_study = DGEList(counts=rnaseqMatrix, group=conditions)
+exp_study = calcNormFactors(exp_study)
+exp_study = estimateCommonDisp(exp_study)
+exp_study = estimateTagwiseDisp(exp_study)
+et = exactTest(exp_study)
+tTags = topTags(et,n=NULL)
+write.table(tTags, file='Trinity_isoform.counts.matrix.R_PlusN_vs_V_MinusP.edgeR.DE_results', sep='	', quote=F, row.names=T)
+source("/Users/harrietalexander/bin/trinityrnaseq-2.0.6/Analysis/DifferentialExpression/R/rnaseq_plot_funcs.R")
+pdf("Trinity_isoform.counts.matrix.R_PlusN_vs_V_MinusP.edgeR.DE_results.MA_n_Volcano.pdf")
+result_table = tTags$table
+plot_MA_and_Volcano(result_table$logCPM, result_table$logFC, result_table$FDR)
+dev.off()

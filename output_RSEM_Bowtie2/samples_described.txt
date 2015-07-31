@@ -1,0 +1,17 @@
+Q_con     E1-Q_ATCACG
+Q_con     E2-Q_CAGATC
+
+R_PlusN     E1-R_CGATGT
+R_PlusN     E2-R_ACTTGA
+
+S_PlusP     E1-S_TTAGGC
+S_PlusP     E2-S_GATCAG
+
+T_MinusN     E1-T_TGACCA
+T_MinusN     E2-T_TAGCTT
+
+V_MinusP     E1-V_ACAGTG
+V_MinusP     E2-V_GGCTAC
+
+X_PlusDSW     E1-X_GCCAAT
+X_PlusDSW     E2-X_CTTGTA
