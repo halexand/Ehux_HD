@@ -1,0 +1,38 @@
+term_ID,description,frequency,plot_X,plot_Y,plot_size,log10 p-value,uniqueness,dispensability,representative,eliminated
+GO:0009405,"pathogenesis",0.620%,-0.171,-0.704,5.489,-1.6223,0.946,0.000,9405,0
+GO:0009765,"photosynthesis, light harvesting",0.007%,-5.492, 0.628,3.523,-19.2917,0.893,0.000,9765,0
+GO:0044238,"primary metabolic process",51.925%,-3.527,-0.918,7.412,-1.6268,0.963,0.007,44238,0
+GO:0038032,"termination of G-protein coupled receptor signaling pathway",0.015%, 6.765,-0.520,3.880,-2.4427,0.737,0.015,38032,0
+GO:0007034,"vacuolar transport",0.006%, 2.031,-4.737,3.498,-1.9297,0.849,0.031,7034,0
+GO:0019700,"organic phosphonate catabolic process",0.035%,-3.438, 2.236,4.243,-1.7146,0.870,0.032,19700,0
+GO:0006629,"lipid metabolic process",3.094%,-0.003, 4.216,6.187,-2.3804,0.824,0.046,6629,0
+GO:0051017,"actin filament bundle assembly",0.007%,-4.381,-4.430,3.515,-2.2275,0.709,0.055,51017,0
+GO:0006071,"glycerol metabolic process",0.254%,-3.788, 4.419,5.102,-1.9100,0.792,0.119,6071,0
+GO:0008610,"lipid biosynthetic process",2.206%, 1.258, 6.561,6.040,-1.9252,0.700,0.154,8610,0
+GO:0006884,"cell volume homeostasis",0.009%, 7.112, 1.559,3.663,-1.6932,0.790,0.179,6884,0
+GO:0006662,"glycerol ether metabolic process",0.130%,-5.846, 4.227,4.810,-1.4562,0.833,0.191,6662,0
+GO:0006836,"neurotransmitter transport",0.046%, 2.606,-5.337,4.357,-1.9245,0.837,0.209,6836,0
+GO:0055114,"oxidation-reduction process",15.044%,-3.129, 6.022,6.874,-1.3306,0.822,0.210,55114,0
+GO:0015734,"taurine transport",0.015%, 2.198,-6.353,3.861,-1.6955,0.844,0.219,15734,0
+GO:0045893,"positive regulation of transcription, DNA-templated",0.193%, 5.206, 2.724,4.983,-2.1198,0.769,0.229,45893,0
+GO:0006572,"tyrosine catabolic process",0.002%,-5.899, 2.852,3.072,-1.3155,0.814,0.231,6572,0
+GO:0070588,"calcium ion transmembrane transport",0.036%, 3.477,-5.566,4.252,-1.4649,0.804,0.232,70588,0
+GO:0044070,"regulation of anion transport",0.063%, 4.471,-2.530,4.497,-1.3688,0.751,0.346,44070,0
+GO:0032784,"regulation of DNA-templated transcription, elongation",0.118%, 5.828, 2.854,4.767,-1.9262,0.775,0.349,32784,0
+GO:0006811,"ion transport",5.991%, 2.355,-5.565,6.474,-1.5856,0.798,0.356,6811,0
+GO:0006357,"regulation of transcription from RNA polymerase II promoter",0.211%, 5.615, 3.194,5.022,-1.6024,0.768,0.365,6357,0
+GO:0006950,"response to stress",4.119%, 7.034,-2.581,6.312,-1.4418,0.882,0.370,6950,0
+GO:0006120,"mitochondrial electron transport, NADH to ubiquinone",0.107%,-2.233, 4.456,4.724,-1.3201,0.753,0.404,6120,0
+GO:0006471,"protein ADP-ribosylation",0.005%, 4.072, 5.661,3.422,-1.6285,0.802,0.405,6471,0
+GO:0007021,"tubulin complex assembly",0.002%,-4.707,-3.885,2.959,-1.9346,0.840,0.458,7021,0
+GO:0030148,"sphingolipid biosynthetic process",0.004%, 0.387, 7.408,3.329,-1.4902,0.755,0.486,30148,0
+GO:0001678,"cellular glucose homeostasis",0.004%, 6.740, 1.488,3.319,-1.3973,0.795,0.494,1678,0
+GO:0007010,"cytoskeleton organization",0.151%,-3.853,-4.527,4.876,-1.9288,0.787,0.575,7010,0
+GO:0007188,"adenylate cyclase-modulating G-protein coupled receptor signaling pathway",0.011%, 6.491,-0.557,3.743,-2.1482,0.740,0.624,7188,0
+GO:0007186,"G-protein coupled receptor signaling pathway",0.368%, 6.475,-0.097,5.263,-1.6508,0.699,0.702,7186,0
+GO:0006650,"glycerophospholipid metabolic process",0.339%,-0.595, 6.835,5.227,-1.3722,0.703,0.709,6650,0
+GO:0008299,"isoprenoid biosynthetic process",0.463%, 1.513, 6.895,5.362,-1.4830,0.702,0.733,8299,0
+GO:0051764,"actin crosslink formation",0.001%,-3.850,-4.944,2.611,-2.2275,0.729,0.736,51764,0
+GO:0006631,"fatty acid metabolic process",0.867%,-1.552, 6.503,5.635,-1.6645,0.683,0.787,6631,0
+GO:0030042,"actin filament depolymerization",0.007%,-3.897,-4.747,3.531,-1.6103,0.709,0.817,30042,0
+GO:0030036,"actin cytoskeleton organization",0.073%,-4.184,-4.659,4.559,-1.3133,0.698,0.852,30036,0

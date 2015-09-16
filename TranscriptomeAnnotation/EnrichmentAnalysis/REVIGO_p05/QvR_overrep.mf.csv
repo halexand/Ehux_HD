@@ -1,0 +1,46 @@
+term_ID,description,frequency,plot_X,plot_Y,plot_size,log10 p-value,uniqueness,dispensability,representative,eliminated
+GO:0003674,"molecular_function",100.000%,-2.004, 6.094,7.675,-1.9107,1.000,0.000,3674,0
+GO:0003735,"structural constituent of ribosome",2.608%,-4.593, 5.109,6.091,-1.5851,0.956,0.000,3735,0
+GO:0003936,"hydrogen-transporting two-sector ATPase activity",0.159%,-3.875,-5.198,4.849,-2.9200,0.955,0.000,3936,0
+GO:0004299,"proteasome endopeptidase activity",0.159%,-1.328, 2.805,4.849,-2.0312,0.955,0.000,4299,0
+GO:0004467,"long-chain fatty acid-CoA ligase activity",0.016%, 2.755, 6.864,3.887,-2.7944,0.845,0.000,4467,0
+GO:0005094,"Rho GDP-dissociation inhibitor activity",0.002%, 2.551,-0.257,3.006,-1.8355,0.930,0.000,5094,0
+GO:0005215,"transporter activity",12.041%,-2.825,-2.751,6.756,-2.5168,0.960,0.000,5215,0
+GO:0005261,"cation channel activity",0.105%,-5.556,-2.115,4.696,-3.4874,0.861,0.000,5261,0
+GO:0009055,"electron carrier activity",2.493%,-1.081, 4.464,6.072,-1.8334,0.956,0.000,9055,0
+GO:0051015,"actin filament binding",0.011%, 7.564,-1.666,3.703,-4.4359,0.879,0.000,51015,0
+GO:0018800,"5-oxopent-3-ene-1,2,5-tricarboxylate decarboxylase activity",0.008%,-3.513, 5.114,3.596,-1.7128,0.940,0.012,18800,0
+GO:0004175,"endopeptidase activity",1.827%,-7.327, 1.162,5.937,-2.7526,0.857,0.018,4175,0
+GO:0008704,"5-carboxymethyl-2-hydroxymuconate delta-isomerase activity",0.019%, 1.275, 1.318,3.946,-1.7128,0.914,0.018,8704,0
+GO:0008817,"cob(I)yrinic acid a,c-diamide adenosyltransferase activity",0.032%, 6.021,-1.020,4.179,-1.4859,0.923,0.019,8817,0
+GO:0005536,"glucose binding",0.001%,-1.808,-0.093,2.491,-1.3104,0.946,0.025,5536,0
+GO:0008137,"NADH dehydrogenase (ubiquinone) activity",0.693%, 2.390,-7.158,5.516,-2.5396,0.885,0.025,8137,0
+GO:0005509,"calcium ion binding",0.365%, 5.289,-0.216,5.237,-2.8913,0.926,0.035,5509,0
+GO:0050662,"coenzyme binding",4.565%,-2.900,-0.460,6.334,-2.2053,0.941,0.060,50662,0
+GO:0043531,"ADP binding",0.067%,-0.414, 0.382,4.504,-2.2210,0.936,0.114,43531,0
+GO:0004692,"cGMP-dependent protein kinase activity",0.001%, 6.203,-0.230,2.627,-1.4187,0.928,0.119,4692,0
+GO:0008825,"cyclopropane-fatty-acyl-phospholipid synthase activity",0.010%, 1.988,-0.459,3.678,-1.3907,0.925,0.136,8825,0
+GO:0004842,"ubiquitin-protein transferase activity",0.087%, 2.930,-2.476,4.615,-1.3841,0.921,0.156,4842,0
+GO:0042284,"sphingolipid delta-4 desaturase activity",0.000%, 0.699,-6.672,1.778,-1.4015,0.911,0.177,42284,0
+GO:0009703,"nitrate reductase (NADH) activity",0.001%, 1.789,-6.503,2.435,-1.8116,0.908,0.192,9703,0
+GO:0008810,"cellulase activity",0.023%,-8.294, 1.578,4.033,-1.5236,0.878,0.193,8810,0
+GO:0003774,"motor activity",0.216%,-7.909, 0.558,5.009,-2.6588,0.867,0.235,3774,0
+GO:0004721,"phosphoprotein phosphatase activity",0.228%,-6.792, 2.011,5.032,-2.2489,0.884,0.237,4721,0
+GO:0016671,"oxidoreductase activity, acting on a sulfur group of donors, disulfide as acceptor",0.138%, 2.732,-7.534,4.814,-1.3846,0.892,0.284,16671,0
+GO:0019789,"SUMO ligase activity",0.005%, 3.354, 6.595,3.399,-1.4447,0.871,0.337,19789,0
+GO:0005506,"iron ion binding",2.467%, 7.213, 0.452,6.067,-1.6114,0.925,0.338,5506,0
+GO:0016616,"oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor",1.929%, 2.153,-7.025,5.960,-1.4869,0.869,0.367,16616,0
+GO:0046933,"proton-transporting ATP synthase activity, rotational mechanism",0.362%,-6.833,-0.988,5.233,-1.5634,0.781,0.500,46933,0
+GO:0046961,"proton-transporting ATPase activity, rotational mechanism",0.159%,null,null,4.875,-1.4713,0.788,0.922,46933,1
+GO:0003905,"alkylbase DNA N-glycosylase activity",0.070%,-8.190,-0.122,4.519,-1.3781,0.874,0.519,3905,0
+GO:0008519,"ammonium transmembrane transporter activity",0.050%,-5.448,-1.810,4.370,-1.4993,0.873,0.537,8519,0
+GO:0008691,"3-hydroxybutyryl-CoA dehydrogenase activity",0.007%, 1.777,-7.221,3.535,-1.4354,0.888,0.546,8691,0
+GO:0004869,"cysteine-type endopeptidase inhibitor activity",0.025%, 0.691,-1.307,4.077,-1.8020,0.930,0.568,4869,0
+GO:0004639,"phosphoribosylaminoimidazolesuccinocarboxamide synthase activity",0.043%, 2.907, 6.567,4.306,-1.3185,0.864,0.589,4639,0
+GO:0003756,"protein disulfide isomerase activity",0.017%, 3.787, 1.260,3.896,-1.3946,0.915,0.590,3756,0
+GO:0004298,"threonine-type endopeptidase activity",0.068%,-7.171, 0.888,4.506,-1.8960,0.873,0.601,4298,0
+GO:0005262,"calcium channel activity",0.018%,-5.341,-2.130,3.921,-1.6882,0.865,0.767,5262,0
+GO:0003779,"actin binding",0.080%, 4.811,-1.895,4.579,-3.6334,0.873,0.788,3779,0
+GO:0016878,"acid-thiol ligase activity",0.183%, 3.148, 6.948,4.937,-2.2063,0.833,0.826,16878,0
+GO:0008756,"o-succinylbenzoate-CoA ligase activity",0.022%, 3.335, 6.989,4.020,-2.1826,0.843,0.843,8756,0
+GO:0015631,"tubulin binding",0.066%, 7.889,-1.285,4.495,-1.8545,0.874,0.888,15631,0

@@ -1,0 +1,41 @@
+<graph label="Cytoscape Web" directed="0" Graphic="1" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:cy="http://www.cytoscape.org" xmlns="http://www.cs.rpi.edu/XGMML">
+<att name="documentVersion" value="0.1"/>
+<node id="GO:6508" label="proteolysis">
+	<att type="string" name="description" value="proteolysis"/>
+	<att type="real" name="value" value="-1.358"/>
+	<att type="real" name="log_size" value="6.266"/>
+	<att type="real" name="uniqueness" value="0.292"/>
+	<att type="real" name="dispensability" value="0.208"/>
+	<graphics type="ELLIPSE" x="-105.080" y="74.524" fill="#ff5757"/>
+</node>
+<node id="GO:7018" label="microtubule-based movement">
+	<att type="string" name="description" value="microtubule-based movement"/>
+	<att type="real" name="value" value="-1.332"/>
+	<att type="real" name="log_size" value="4.511"/>
+	<att type="real" name="uniqueness" value="0.395"/>
+	<att type="real" name="dispensability" value="0.025"/>
+	<graphics type="ELLIPSE" x="127.711" y="-12.223" fill="#ff5b5b"/>
+</node>
+<node id="GO:6260" label="DNA replication">
+	<att type="string" name="description" value="DNA replication"/>
+	<att type="real" name="value" value="-2.059"/>
+	<att type="real" name="log_size" value="5.997"/>
+	<att type="real" name="uniqueness" value="0.142"/>
+	<att type="real" name="dispensability" value="0.000"/>
+	<graphics type="ELLIPSE" x="-130.251" y="-34.572" fill="#ff0000"/>
+</node>
+<node id="GO:6281" label="DNA repair">
+	<att type="string" name="description" value="DNA repair"/>
+	<att type="real" name="value" value="-1.999"/>
+	<att type="real" name="log_size" value="5.988"/>
+	<att type="real" name="uniqueness" value="0.126"/>
+	<att type="real" name="dispensability" value="0.658"/>
+	<graphics type="ELLIPSE" x="-111.008" y="-54.659" fill="#ff0808"/>
+</node>
+<edge id="e0" target="GO:6508" source="GO:6260" directed="false" label="e104">
+	<att type="real" name="weight" value="0.208"/>
+<graphics width="2.845" fill="#edecec"/></edge>
+<edge id="e1" target="GO:6260" source="GO:6281" directed="false" label="e104">
+	<att type="real" name="weight" value="0.658"/>
+<graphics width="6.845" fill="#edecec"/></edge>
+</graph>

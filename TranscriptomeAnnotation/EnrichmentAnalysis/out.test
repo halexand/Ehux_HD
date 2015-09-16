@@ -1,0 +1,108 @@
+GO.ID	Description	p.Val		Phenotype
+GO:0009765	photosynthesis, light harvesting	3.3983214574e-23		+1
+GO:0016020	membrane	2.53062725161e-06		+1
+GO:0051015	actin filament binding	3.66517135426e-05		+1
+GO:0005489	nan	0.00021721886068		+1
+GO:0003779	actin binding	0.000232592115937		+1
+GO:0005783	endoplasmic reticulum	0.000234401672776		+1
+GO:0005261	cation channel activity	0.000325557667726		+1
+GO:0007010	cytoskeleton organization	0.000704837759804		+1
+GO:0007034	vacuolar transport	0.000879627236465		+1
+GO:0016459	myosin complex	0.00112469458735		+1
+GO:0003936	nan	0.00120237761042		+1
+GO:0005509	calcium ion binding	0.00128444707008		+1
+GO:0019773	proteasome core complex, alpha-subunit complex	0.00131184977152		+1
+GO:0051603	proteolysis involved in cellular protein catabolic process	0.00136543045326		+1
+GO:0004467	long-chain fatty acid-CoA ligase activity	0.00160537030408		+1
+GO:0004175	endopeptidase activity	0.00176755509215		+1
+GO:0005839	proteasome core complex	0.00176755509215		+1
+GO:0003774	motor activity	0.00219387844158		+1
+GO:0008137	NADH dehydrogenase (ubiquinone) activity	0.00288660878155		+1
+GO:0005478	nan	0.00304223251257		+1
+GO:0009405	pathogenesis	0.00529506099679		+1
+GO:0004721	phosphoprotein phosphatase activity	0.0056378204327		+1
+GO:0043531	ADP binding	0.00601197366672		+1
+GO:0016878	acid-thiol ligase activity	0.00621858494326		+1
+GO:0050662	coenzyme binding	0.00623373282007		+1
+GO:0008756	o-succinylbenzoate-CoA ligase activity	0.00656815840445		+1
+GO:0051017	actin filament bundle assembly	0.00790950098483		+1
+GO:0051764	actin crosslink formation	0.00790950098483		+1
+GO:0045893	positive regulation of transcription, DNA-templated	0.00901242019381		+1
+GO:0005742	mitochondrial outer membrane translocase complex	0.00911298826333		+1
+GO:0004299	nan	0.00930778082906		+1
+GO:0007188	adenylate cyclase-modulating G-protein coupled receptor signaling pathway	0.010015633677		+1
+GO:0005554	nan	0.0122817022084		+1
+GO:0004298	threonine-type endopeptidase activity	0.0127054977571		+1
+GO:0007021	tubulin complex assembly	0.0139810837772		+1
+GO:0015631	tubulin binding	0.0139810837772		+1
+GO:0005094	Rho GDP-dissociation inhibitor activity	0.0146055284613		+1
+GO:0009055	electron carrier activity	0.0146758467466		+1
+GO:0009703	nitrate reductase (NADH) activity	0.0154327666203		+1
+GO:0004869	cysteine-type endopeptidase inhibitor activity	0.0157750071346		+1
+GO:0032784	regulation of DNA-templated transcription, elongation	0.0159285105441		+1
+GO:0006629	lipid metabolic process	0.0167174835278		+1
+GO:0008704	5-carboxymethyl-2-hydroxymuconate delta-isomerase activity	0.0193725485194		+1
+GO:0018800	5-oxopent-3-ene-1,2,5-tricarboxylate decarboxylase activity	0.0193725485194		+1
+GO:0005840	ribosome	0.0201653835055		+1
+GO:0006812	cation transport	0.0202248865357		+1
+GO:0006886	intracellular protein transport	0.0204544686659		+1
+GO:0005262	calcium channel activity	0.0205016804646		+1
+GO:0016471	vacuolar proton-transporting V-type ATPase complex	0.0209063542058		+1
+GO:1901023	4-hydroxyphenylacetate catabolic process	0.0222594755244		+1
+GO:0005506	iron ion binding	0.0244668466035		+1
+GO:0015629	actin cytoskeleton	0.0259728578293		+1
+GO:0003735	structural constituent of ribosome	0.0259940137438		+1
+GO:0015734	taurine transport	0.0263275677141		+1
+GO:0046933	proton-transporting ATP synthase activity, rotational mechanism	0.0273264674045		+1
+GO:0031012	extracellular matrix	0.0274523740345		+1
+GO:0030532	small nuclear ribonucleoprotein complex	0.0280515892048		+1
+GO:0000124	SAGA complex	0.0286628798422		+1
+GO:0044238	primary metabolic process	0.0289207114453		+1
+GO:0008810	cellulase activity	0.0299488086594		+1
+GO:0030042	actin filament depolymerization	0.0300577586097		+1
+GO:0006816	calcium ion transport	0.0311001367873		+1
+GO:0006163	purine nucleotide metabolic process	0.0312761216792		+1
+GO:0008519	ammonium transmembrane transporter activity	0.0316720591779		+1
+GO:0016616	oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor	0.0325890902576		+1
+GO:0008817	cob(I)yrinic acid a,c-diamide adenosyltransferase activity	0.0326651989933		+1
+GO:0046961	proton-transporting ATPase activity, rotational mechanism	0.0337840115495		+1
+GO:0006357	regulation of transcription from RNA polymerase II promoter	0.0338203652429		+1
+GO:0006631	fatty acid metabolic process	0.0347877647098		+1
+GO:0017004	cytochrome complex assembly	0.0352947790227		+1
+GO:0016469	proton-transporting two-sector ATPase complex	0.0353534643771		+1
+GO:0019789	SUMO transferase activity	0.0359187180715		+1
+GO:0008691	3-hydroxybutyryl-CoA dehydrogenase activity	0.03669483188		+1
+GO:0004692	cGMP-dependent protein kinase activity	0.0381361912831		+1
+GO:0030148	sphingolipid biosynthetic process	0.0396714208725		+1
+GO:0042284	sphingolipid delta-4 desaturase activity	0.0396714208725		+1
+GO:0003756	protein disulfide isomerase activity	0.0403089529016		+1
+GO:0008825	cyclopropane-fatty-acyl-phospholipid synthase activity	0.0406732031409		+1
+GO:0016671	oxidoreductase activity, acting on a sulfur group of donors, disulfide as acceptor	0.0412521731533		+1
+GO:0004840	nan	0.0412981534442		+1
+GO:0003905	alkylbase DNA N-glycosylase activity	0.0418703350623		+1
+GO:0038032	termination of G-protein coupled receptor signaling pathway	0.0422140951794		+1
+GO:0006512	nan	0.0435326988342		+1
+GO:0006118	nan	0.0460304586013		+1
+GO:0004639	phosphoribosylaminoimidazolesuccinocarboxamide synthase activity	0.0480288088344		+1
+GO:0001678	cellular glucose homeostasis	0.0489371441373		+1
+GO:0005536	glucose binding	0.0489371441373		+1
+GO:0070588	calcium ion transmembrane transport	0.0497869775146		+1
+GO:0006508	proteolysis	0.043855432527		-1
+GO:0005524	ATP binding	0.0349095778945		-1
+GO:0016818	hydrolase activity, acting on acid anhydrides, in phosphorus-containing anhydrides	0.0488072841112		-1
+GO:0003723	RNA binding	0.019975828972		-1
+GO:0007018	microtubule-based movement	0.0465517483035		-1
+GO:0016757	transferase activity, transferring glycosyl groups	0.0461262561705		-1
+GO:0051082	unfolded protein binding	0.0226319393959		-1
+GO:0004386	helicase activity	0.0195396156786		-1
+GO:0016706	oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, 2-oxoglutarate as one donor, and incorporation of one atom each of oxygen into both donors	0.0219683013061		-1
+GO:0006281	DNA repair	0.0100331723511		-1
+GO:0008026	ATP-dependent helicase activity	0.0103107683593		-1
+GO:0006260	DNA replication	0.00872788874916		-1
+GO:0003684	damaged DNA binding	0.0325810608315		-1
+GO:0003777	microtubule motor activity	0.0164149802544		-1
+GO:0003887	DNA-directed DNA polymerase activity	0.00878692549848		-1
+GO:0005351	sugar:proton symporter activity	0.0362669786355		-1
+GO:0008017	microtubule binding	0.047458276834		-1
+GO:0008484	sulfuric ester hydrolase activity	0.0281400510933		-1
+GO:0022857	transmembrane transporter activity	0.0388388804925		-1

@@ -1,0 +1,49 @@
+term_ID,description,frequency,plot_X,plot_Y,plot_size,log10 p-value,uniqueness,dispensability,representative,eliminated
+GO:0003674,"molecular_function",100.000%, 3.181, 1.344,7.675,-1.9089,1.000,0.000,3674,0
+GO:0003735,"structural constituent of ribosome",2.608%, 3.187, 2.694,6.091,-1.5393,0.959,0.000,3735,0
+GO:0003936,"hydrogen-transporting two-sector ATPase activity",0.159%, 0.401, 3.181,4.849,-3.3007,0.958,0.000,3936,0
+GO:0004869,"cysteine-type endopeptidase inhibitor activity",0.025%, 1.715,-3.526,4.077,-1.9453,0.934,0.000,4869,0
+GO:0005261,"cation channel activity",0.105%, 1.243, 7.977,4.696,-3.1410,0.821,0.000,5261,0
+GO:0005216,"ion channel activity",0.258%,null,null,5.087,-1.6036,0.823,0.921,5261,1
+GO:0008889,"glycerophosphodiester phosphodiesterase activity",0.111%, 3.764, 5.333,4.722,-2.1723,0.858,0.000,8889,0
+GO:0008943,"glyceraldehyde-3-phosphate dehydrogenase activity",0.159%, 4.690, 2.329,4.849,-1.4355,0.958,0.000,8943,0
+GO:0009055,"electron carrier activity",2.493%, 1.885, 0.417,6.072,-1.6740,0.959,0.000,9055,0
+GO:0051015,"actin filament binding",0.011%, 1.035,-7.720,3.703,-4.7907,0.888,0.000,51015,0
+GO:0009703,"nitrate reductase (NADH) activity",0.001%,-6.113, 3.019,2.435,-1.8929,0.878,0.012,9703,0
+GO:0003956,"NAD(P)+-protein-arginine ADP-ribosyltransferase activity",0.002%, 0.833,-5.331,2.936,-1.7240,0.925,0.013,3956,0
+GO:0050096,"methylaspartate ammonia-lyase activity",0.002%,-0.835,-0.136,3.015,-1.3246,0.944,0.013,50096,0
+GO:0004452,"isopentenyl-diphosphate delta-isomerase activity",0.032%, 0.254, 1.059,4.181,-1.9931,0.941,0.015,4452,0
+GO:0004639,"phosphoribosylaminoimidazolesuccinocarboxamide synthase activity",0.043%, 1.940,-1.989,4.306,-1.4057,0.920,0.015,4639,0
+GO:0016853,"isomerase activity",3.154%,-3.734, 0.608,6.174,-1.3277,0.936,0.022,16853,0
+GO:0005536,"glucose binding",0.001%,-2.238,-0.213,2.491,-1.3973,0.951,0.025,5536,0
+GO:0005509,"calcium ion binding",0.365%,-1.840,-2.882,5.237,-3.0447,0.945,0.035,5509,0
+GO:0050662,"coenzyme binding",4.565%,-1.832, 1.401,6.334,-1.5572,0.948,0.060,50662,0
+GO:0004692,"cGMP-dependent protein kinase activity",0.001%,-0.080,-6.797,2.627,-1.3215,0.927,0.104,4692,0
+GO:0043531,"ADP binding",0.067%, 0.186,-1.135,4.504,-1.5671,0.946,0.114,43531,0
+GO:0008825,"cyclopropane-fatty-acyl-phospholipid synthase activity",0.010%, 0.746,-4.382,3.678,-1.5285,0.923,0.117,8825,0
+GO:0042284,"sphingolipid delta-4 desaturase activity",0.000%,-5.817, 1.643,1.778,-1.4902,0.883,0.128,42284,0
+GO:0004366,"glycerol-3-phosphate O-acyltransferase activity",0.025%, 1.853,-5.658,4.071,-1.3722,0.921,0.134,4366,0
+GO:0008810,"cellulase activity",0.023%, 4.717, 4.777,4.033,-1.6118,0.905,0.157,8810,0
+GO:0016765,"transferase activity, transferring alkyl or aryl (other than methyl) groups",0.820%, 2.753,-5.749,5.589,-1.3118,0.914,0.179,16765,0
+GO:0003774,"motor activity",0.216%, 3.122, 5.653,5.009,-1.9516,0.880,0.184,3774,0
+GO:0008137,"NADH dehydrogenase (ubiquinone) activity",0.693%,-8.098, 2.761,5.516,-1.5963,0.839,0.192,8137,0
+GO:0016702,"oxidoreductase activity, acting on single donors with incorporation of molecular oxygen, incorporation of two atoms of oxygen",0.082%,-6.969, 3.673,4.587,-1.3266,0.831,0.271,16702,0
+GO:0003995,"acyl-CoA dehydrogenase activity",0.368%,-8.157, 2.144,5.241,-1.3307,0.823,0.310,3995,0
+GO:0016616,"oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor",1.929%,-7.774, 2.667,5.960,-1.4577,0.819,0.367,16616,0
+GO:0016620,"oxidoreductase activity, acting on the aldehyde or oxo group of donors, NAD or NADP as acceptor",0.788%,-7.548, 2.774,5.571,-1.4022,0.821,0.373,16620,0
+GO:0016937,"short-branched-chain-acyl-CoA dehydrogenase activity",0.000%,-6.480, 0.295,0.301,-1.3307,0.875,0.384,16937,0
+GO:0005328,"neurotransmitter:sodium symporter activity",0.039%, 1.387, 8.065,4.269,-1.9245,0.840,0.424,5328,0
+GO:0017099,"very-long-chain-acyl-CoA dehydrogenase activity",0.000%,-6.651, 1.233,1.505,-1.3307,0.864,0.450,17099,0
+GO:0004637,"phosphoribosylamine-glycine ligase activity",0.043%, 1.961,-2.104,4.312,-1.3021,0.920,0.518,4637,0
+GO:0046933,"proton-transporting ATP synthase activity, rotational mechanism",0.362%, 2.865, 7.368,5.233,-1.9015,0.767,0.528,46933,0
+GO:0046961,"proton-transporting ATPase activity, rotational mechanism",0.159%,null,null,4.875,-1.7994,0.775,0.922,46933,1
+GO:0008691,"3-hydroxybutyryl-CoA dehydrogenase activity",0.007%,-7.178, 2.480,3.535,-1.5772,0.855,0.546,8691,0
+GO:0005332,"gamma-aminobutyric acid:sodium symporter activity",0.001%, 1.654, 8.317,2.377,-1.9245,0.861,0.561,5332,0
+GO:0005094,"Rho GDP-dissociation inhibitor activity",0.002%, 1.610,-3.781,3.006,-1.9161,0.934,0.568,5094,0
+GO:0004365,"glyceraldehyde-3-phosphate dehydrogenase (NAD+) (phosphorylating) activity",0.012%,-7.052, 2.854,3.736,-1.3229,0.848,0.657,4365,0
+GO:0004721,"phosphoprotein phosphatase activity",0.228%, 4.045, 5.567,5.032,-1.7821,0.855,0.698,4721,0
+GO:0008081,"phosphoric diester hydrolase activity",0.283%, 4.736, 5.671,5.126,-1.3803,0.853,0.752,8081,0
+GO:0004411,"homogentisate 1,2-dioxygenase activity",0.007%,-7.983, 3.544,3.492,-1.3155,0.845,0.767,4411,0
+GO:0005262,"calcium channel activity",0.018%, 1.445, 8.096,3.921,-1.8094,0.821,0.767,5262,0
+GO:0003779,"actin binding",0.080%, 0.832,-6.399,4.579,-3.4289,0.883,0.788,3779,0
+GO:0015631,"tubulin binding",0.066%, 1.222,-7.708,4.495,-1.9346,0.884,0.888,15631,0

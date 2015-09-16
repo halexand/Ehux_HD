@@ -1,0 +1,5 @@
+term_ID,description,frequency,plot_X,plot_Y,plot_size,log10 p-value,uniqueness,dispensability,representative,eliminated
+GO:0006260,"DNA replication",1.998%,-5.210,-1.383,5.997,-2.0591,0.142,0.000,6260,0
+GO:0007018,"microtubule-based movement",0.065%, 5.108,-0.489,4.511,-1.3321,0.395,0.025,7018,0
+GO:0006508,"proteolysis",3.705%,-4.203, 2.981,6.266,-1.3580,0.292,0.208,6508,0
+GO:0006281,"DNA repair",1.953%,-4.440,-2.186,5.988,-1.9986,0.126,0.658,6281,0

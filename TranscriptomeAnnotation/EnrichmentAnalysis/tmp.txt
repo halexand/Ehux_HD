@@ -1,0 +1,67 @@
+GO.ID	Description	p.Val
+GO:0009765	photosynthesis, light harvesting	3.3983214574e-23
+GO:0016020	membrane	2.53062725161e-06
+GO:0051015	actin filament binding	3.66517135426e-05
+GO:0005489	nan	0.00021721886068
+GO:0003779	actin binding	0.000232592115937
+GO:0005783	endoplasmic reticulum	0.000234401672776
+GO:0005261	cation channel activity	0.000325557667726
+GO:0007010	cytoskeleton organization	0.000704837759804
+GO:0007034	vacuolar transport	0.000879627236465
+GO:0016459	myosin complex	0.00112469458735
+GO:0003936	nan	0.00120237761042
+GO:0005509	calcium ion binding	0.00128444707008
+GO:0019773	proteasome core complex, alpha-subunit complex	0.00131184977152
+GO:0051603	proteolysis involved in cellular protein catabolic process	0.00136543045326
+GO:0004467	long-chain fatty acid-CoA ligase activity	0.00160537030408
+GO:0004175	endopeptidase activity	0.00176755509215
+GO:0005839	proteasome core complex	0.00176755509215
+GO:0003774	motor activity	0.00219387844158
+GO:0008137	NADH dehydrogenase (ubiquinone) activity	0.00288660878155
+GO:0005478	nan	0.00304223251257
+GO:0009405	pathogenesis	0.00529506099679
+GO:0004721	phosphoprotein phosphatase activity	0.0056378204327
+GO:0043531	ADP binding	0.00601197366672
+GO:0016878	acid-thiol ligase activity	0.00621858494326
+GO:0050662	coenzyme binding	0.00623373282007
+GO:0008756	o-succinylbenzoate-CoA ligase activity	0.00656815840445
+GO:0051017	actin filament bundle assembly	0.00790950098483
+GO:0051764	actin crosslink formation	0.00790950098483
+GO:0045893	positive regulation of transcription, DNA-templated	0.00901242019381
+GO:0005742	mitochondrial outer membrane translocase complex	0.00911298826333
+GO:0004299	nan	0.00930778082906
+GO:0007188	adenylate cyclase-modulating G-protein coupled receptor signaling pathway	0.010015633677
+GO:0005554	nan	0.0122817022084
+GO:0004298	threonine-type endopeptidase activity	0.0127054977571
+GO:0007021	tubulin complex assembly	0.0139810837772
+GO:0015631	tubulin binding	0.0139810837772
+GO:0005094	Rho GDP-dissociation inhibitor activity	0.0146055284613
+GO:0009055	electron carrier activity	0.0146758467466
+GO:0009703	nitrate reductase (NADH) activity	0.0154327666203
+GO:0004869	cysteine-type endopeptidase inhibitor activity	0.0157750071346
+GO:0032784	regulation of DNA-templated transcription, elongation	0.0159285105441
+GO:0006629	lipid metabolic process	0.0167174835278
+GO:0008704	5-carboxymethyl-2-hydroxymuconate delta-isomerase activity	0.0193725485194
+GO:0018800	5-oxopent-3-ene-1,2,5-tricarboxylate decarboxylase activity	0.0193725485194
+GO:0005840	ribosome	0.0201653835055
+GO:0006812	cation transport	0.0202248865357
+GO:0006886	intracellular protein transport	0.0204544686659
+GO:0005262	calcium channel activity	0.0205016804646
+GO:0016471	vacuolar proton-transporting V-type ATPase complex	0.0209063542058
+GO:1901023	4-hydroxyphenylacetate catabolic process	0.0222594755244
+GO:0005506	iron ion binding	0.0244668466035
+GO:0015629	actin cytoskeleton	0.0259728578293
+GO:0003735	structural constituent of ribosome	0.0259940137438
+GO:0015734	taurine transport	0.0263275677141
+GO:0046933	proton-transporting ATP synthase activity, rotational mechanism	0.0273264674045
+GO:0031012	extracellular matrix	0.0274523740345
+GO:0030532	small nuclear ribonucleoprotein complex	0.0280515892048
+GO:0000124	SAGA complex	0.0286628798422
+GO:0044238	primary metabolic process	0.0289207114453
+GO:0008810	cellulase activity	0.0299488086594
+GO:0030042	actin filament depolymerization	0.0300577586097
+GO:0006816	calcium ion transport	0.0311001367873
+GO:0006163	purine nucleotide metabolic process	0.0312761216792
+GO:0008519	ammonium transmembrane transporter activity	0.0316720591779
+GO:0016616	oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor	0.0325890902576
+GO:0008817	cob(I)yrinic acid a,c-diamide adenosyltransferase activit

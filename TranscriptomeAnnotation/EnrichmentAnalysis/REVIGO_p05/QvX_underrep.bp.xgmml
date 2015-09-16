@@ -1,0 +1,22 @@
+<graph label="Cytoscape Web" directed="0" Graphic="1" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:cy="http://www.cytoscape.org" xmlns="http://www.cs.rpi.edu/XGMML">
+<att name="documentVersion" value="0.1"/>
+<node id="GO:6260" label="DNA replication">
+	<att type="string" name="description" value="DNA replication"/>
+	<att type="real" name="value" value="-2.494"/>
+	<att type="real" name="log_size" value="5.997"/>
+	<att type="real" name="uniqueness" value="0.408"/>
+	<att type="real" name="dispensability" value="0.000"/>
+	<graphics type="ELLIPSE" x="24.500" y="16.459" fill="#ff0000"/>
+</node>
+<node id="GO:6281" label="DNA repair">
+	<att type="string" name="description" value="DNA repair"/>
+	<att type="real" name="value" value="-1.744"/>
+	<att type="real" name="log_size" value="5.988"/>
+	<att type="real" name="uniqueness" value="0.408"/>
+	<att type="real" name="dispensability" value="0.658"/>
+	<graphics type="ELLIPSE" x="16.459" y="24.512" fill="#ff4d4d"/>
+</node>
+<edge id="e0" target="GO:6260" source="GO:6281" directed="false" label="e104">
+	<att type="real" name="weight" value="0.658"/>
+<graphics width="Infinity" fill="#edecec"/></edge>
+</graph>

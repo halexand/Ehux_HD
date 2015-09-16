@@ -1,0 +1,3 @@
+term_ID,description,frequency,plot_X,plot_Y,plot_size,log10 p-value,uniqueness,dispensability,representative,eliminated
+GO:0006260,"DNA replication",1.998%, 0.980, 0.658,5.997,-2.4942,0.408,0.000,6260,0
+GO:0006281,"DNA repair",1.953%, 0.658, 0.980,5.988,-1.7445,0.408,0.658,6281,0

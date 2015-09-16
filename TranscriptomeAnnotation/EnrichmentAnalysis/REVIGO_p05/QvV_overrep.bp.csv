@@ -1,0 +1,29 @@
+term_ID,description,frequency,plot_X,plot_Y,plot_size,log10 p-value,uniqueness,dispensability,representative,eliminated
+GO:0009405,"pathogenesis",0.620%,-3.751, 3.207,5.489,-1.7850,0.928,0.000,9405,0
+GO:0009765,"photosynthesis, light harvesting",0.007%,-0.316,-1.247,3.523,-11.0189,0.862,0.000,9765,0
+GO:0030416,"methylamine metabolic process",0.002%, 5.446, 2.906,2.989,-1.3370,0.875,0.003,30416,0
+GO:0038032,"termination of G-protein coupled receptor signaling pathway",0.015%,-6.497,-2.794,3.880,-3.7765,0.698,0.015,38032,0
+GO:0006939,"smooth muscle contraction",0.007%,-1.428, 3.192,3.571,-1.3665,0.879,0.031,6939,0
+GO:0006836,"neurotransmitter transport",0.046%,-6.109, 2.797,4.357,-2.0426,0.859,0.034,6836,0
+GO:0006801,"superoxide metabolic process",0.138%, 3.514, 4.413,4.836,-1.6109,0.879,0.035,6801,0
+GO:0051017,"actin filament bundle assembly",0.007%,-0.153, 5.768,3.515,-2.3416,0.751,0.055,51017,0
+GO:0006631,"fatty acid metabolic process",0.867%, 4.314,-4.256,5.635,-2.8162,0.641,0.074,6631,0
+GO:0006629,"lipid metabolic process",3.094%, 4.957, 0.941,6.187,-2.4724,0.800,0.137,6629,0
+GO:0055114,"oxidation-reduction process",15.044%, 4.025,-0.411,6.874,-1.8831,0.804,0.210,55114,0
+GO:0006071,"glycerol metabolic process",0.254%, 5.094,-5.465,5.102,-2.0346,0.696,0.225,6071,0
+GO:0001932,"regulation of protein phosphorylation",0.166%,-3.640,-5.673,4.916,-2.3557,0.678,0.226,1932,0
+GO:0044070,"regulation of anion transport",0.063%,-6.078,-0.854,4.497,-1.4321,0.772,0.241,44070,0
+GO:0006572,"tyrosine catabolic process",0.002%, 6.582,-2.534,3.072,-1.3772,0.757,0.284,6572,0
+GO:0045893,"positive regulation of transcription, DNA-templated",0.193%,-5.010,-4.801,4.983,-2.2614,0.731,0.336,45893,0
+GO:0006120,"mitochondrial electron transport, NADH to ubiquinone",0.107%, 1.086,-5.583,4.724,-1.4143,0.681,0.404,6120,0
+GO:0006471,"protein ADP-ribosylation",0.005%,-0.648,-8.082,3.422,-1.8312,0.716,0.423,6471,0
+GO:0030148,"sphingolipid biosynthetic process",0.004%, 2.418,-5.445,3.329,-1.5604,0.755,0.482,30148,0
+GO:0007165,"signal transduction",3.804%,-5.550,-3.329,6.277,-1.3795,0.654,0.520,7165,0
+GO:0006470,"protein dephosphorylation",0.176%,-1.851,-8.071,4.942,-2.0680,0.779,0.540,6470,0
+GO:0006097,"glyoxylate cycle",0.055%, 5.397,-4.884,4.436,-1.9378,0.689,0.601,6097,0
+GO:1901023,"4-hydroxyphenylacetate catabolic process",0.011%, 6.247,-3.857,3.747,-1.3727,0.704,0.606,1901023,0
+GO:0007188,"adenylate cyclase-modulating G-protein coupled receptor signaling pathway",0.011%,-6.256,-2.666,3.743,-2.2721,0.702,0.624,7188,0
+GO:0006650,"glycerophospholipid metabolic process",0.339%, 0.966,-6.549,5.227,-1.4356,0.700,0.683,6650,0
+GO:0007186,"G-protein coupled receptor signaling pathway",0.368%,-6.151,-3.166,5.263,-1.4818,0.659,0.707,7186,0
+GO:0051764,"actin crosslink formation",0.001%,-0.566, 5.752,2.611,-2.3416,0.764,0.736,51764,0
+GO:0030042,"actin filament depolymerization",0.007%, 0.162, 5.651,3.531,-1.6904,0.751,0.817,30042,0

@@ -1,0 +1,33 @@
+<graph label="Cytoscape Web" directed="0" Graphic="1" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:cy="http://www.cytoscape.org" xmlns="http://www.cs.rpi.edu/XGMML">
+<att name="documentVersion" value="0.1"/>
+<node id="GO:6310" label="DNA recombination">
+	<att type="string" name="description" value="DNA recombination"/>
+	<att type="real" name="value" value="-1.544"/>
+	<att type="real" name="log_size" value="5.962"/>
+	<att type="real" name="uniqueness" value="0.021"/>
+	<att type="real" name="dispensability" value="0.653"/>
+	<graphics type="ELLIPSE" x="-22.035" y="-0.908" fill="#ff4949"/>
+</node>
+<node id="GO:6260" label="DNA replication">
+	<att type="string" name="description" value="DNA replication"/>
+	<att type="real" name="value" value="-2.152"/>
+	<att type="real" name="log_size" value="5.997"/>
+	<att type="real" name="uniqueness" value="0.021"/>
+	<att type="real" name="dispensability" value="0.000"/>
+	<graphics type="ELLIPSE" x="11.906" y="-18.569" fill="#ff0000"/>
+</node>
+<node id="GO:6281" label="DNA repair">
+	<att type="string" name="description" value="DNA repair"/>
+	<att type="real" name="value" value="-2.148"/>
+	<att type="real" name="log_size" value="5.988"/>
+	<att type="real" name="uniqueness" value="0.021"/>
+	<att type="real" name="dispensability" value="0.658"/>
+	<graphics type="ELLIPSE" x="10.534" y="19.379" fill="#ff0101"/>
+</node>
+<edge id="e0" target="GO:6310" source="GO:6260" directed="false" label="e104">
+	<att type="real" name="weight" value="0.653"/>
+<graphics width="527.120" fill="#edecec"/></edge>
+<edge id="e1" target="GO:6260" source="GO:6281" directed="false" label="e104">
+	<att type="real" name="weight" value="0.658"/>
+<graphics width="531.120" fill="#edecec"/></edge>
+</graph>
