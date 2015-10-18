@@ -1,0 +1,2900 @@
+BLASTP 2.2.30+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: EmiHux_Clean_Proteins.fasta
+           133,147 sequences; 45,538,491 total letters
+
+
+
+Query= 
+Length=482
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+Emihu1|72565  unnamed protein product                                   992   0.0  
+Emihu1|234105  unnamed protein product                                  562   0.0  
+Emi379|CAMPEP_0187625488  unnamed protein product                       132   4e-32
+Emi379|CAMPEP_0187634950  unnamed protein product                     93.2    1e-19
+Emihu1|443389  unnamed protein product                                92.4    2e-19
+Emi374|CAMPEP_0187574958  unnamed protein product                     92.8    2e-19
+Emi370|CAMPEP_0187666162  unnamed protein product                     92.8    2e-19
+Emi219|CAMPEP_0187763318  unnamed protein product                     92.4    2e-19
+Emi379|CAMPEP_0187629078  unnamed protein product                     76.3    4e-14
+Emi374|CAMPEP_0187578458  unnamed protein product                     75.5    5e-14
+Emi370|CAMPEP_0187667376  unnamed protein product                     75.5    5e-14
+Emi219|CAMPEP_0187779220  unnamed protein product                     75.5    5e-14
+Emi370|CAMPEP_0187677918  unnamed protein product                     63.9    3e-10
+Emi219|CAMPEP_0187768164  unnamed protein product                     63.9    4e-10
+Emi379|CAMPEP_0187645722  unnamed protein product                     62.4    1e-09
+Emi379|CAMPEP_0187637558  unnamed protein product                     62.0    1e-09
+Emi374|CAMPEP_0187606928  unnamed protein product                     62.0    1e-09
+Emi370|CAMPEP_0187718966  unnamed protein product                     61.6    1e-09
+Emi374|CAMPEP_0187606670  unnamed protein product                     61.6    1e-09
+Emi219|CAMPEP_0187748444  unnamed protein product                     62.0    1e-09
+Emi219|CAMPEP_0187781802  unnamed protein product                     57.8    2e-08
+Emi374|CAMPEP_0187598504  unnamed protein product                     57.0    3e-08
+Emi219|CAMPEP_0187806494  unnamed protein product                     57.8    3e-08
+Emi370|CAMPEP_0187704756  unnamed protein product                     57.8    4e-08
+Emi379|CAMPEP_0187656516  unnamed protein product                     57.4    4e-08
+Emi219|CAMPEP_0187760532  unnamed protein product                     57.4    5e-08
+Emi370|CAMPEP_0187693276  unnamed protein product                     57.0    5e-08
+Emi379|CAMPEP_0187629296  unnamed protein product                     57.0    6e-08
+Emi374|CAMPEP_0187610068  unnamed protein product                     57.0    6e-08
+Emi219|CAMPEP_0187788096  unnamed protein product                     54.3    8e-08
+Emihu1|65915  unnamed protein product                                 51.6    2e-07
+Emihu1|71873  unnamed protein product                                 51.6    2e-07
+Emi379|CAMPEP_0187635378  unnamed protein product                     53.9    2e-07
+Emi379|CAMPEP_0187615598  unnamed protein product                     52.4    2e-07
+Emi370|CAMPEP_0187693072  unnamed protein product                     52.4    2e-07
+Emihu1|351238  unnamed protein product                                52.4    2e-07
+Emihu1|103141  unnamed protein product                                54.7    2e-07
+Emi370|CAMPEP_0187735590  unnamed protein product                     52.8    3e-07
+Emihu1|455000  unnamed protein product                                54.3    3e-07
+Emi370|CAMPEP_0187691872  unnamed protein product                     52.4    4e-07
+Emihu1|442722  unnamed protein product                                51.6    6e-07
+Emihu1|438232  unnamed protein product                                51.2    7e-07
+Emi219|CAMPEP_0187771330  unnamed protein product                     50.1    7e-07
+Emi370|CAMPEP_0187685316  unnamed protein product                     53.1    9e-07
+Emi374|CAMPEP_0187593230  unnamed protein product                     50.4    1e-06
+Emihu1|433467  unnamed protein product                                52.4    1e-06
+Emi219|CAMPEP_0187802222  unnamed protein product                     52.8    1e-06
+Emi219|CAMPEP_0187746478  unnamed protein product                     51.2    1e-06
+Emihu1|463495  unnamed protein product                                50.8    4e-06
+Emihu1|417285  unnamed protein product                                48.5    1e-05
+Emihu1|445099  unnamed protein product                                43.9    4e-04
+Emihu1|49137  unnamed protein product                                 40.8    7e-04
+Emi370|CAMPEP_0187701190  unnamed protein product                     42.4    0.002
+Emi374|CAMPEP_0187575370  unnamed protein product                     42.4    0.002
+Emi379|CAMPEP_0187612782  unnamed protein product                     42.0    0.002
+Emi219|CAMPEP_0187738508  unnamed protein product                     42.0    0.002
+Emihu1|357433  unnamed protein product                                42.0    0.003
+Emihu1|60965  unnamed protein product                                 38.1    0.006
+Emi370|CAMPEP_0187682126  unnamed protein product                     40.8    0.007
+Emi219|CAMPEP_0187775596  unnamed protein product                     40.4    0.008
+Emi374|CAMPEP_0187609498  unnamed protein product                     40.4    0.008
+Emi370|CAMPEP_0187661542  unnamed protein product                     39.3    0.009
+Emi370|CAMPEP_0187662766  unnamed protein product                     38.9    0.011
+Emi379|CAMPEP_0187652400  unnamed protein product                     39.3    0.012
+Emi374|CAMPEP_0187588102  unnamed protein product                     40.0    0.013
+Emi379|CAMPEP_0187658196  unnamed protein product                     40.0    0.014
+Emi219|CAMPEP_0187744044  unnamed protein product                     39.7    0.014
+Emi219|CAMPEP_0187756106  unnamed protein product                     39.7    0.015
+Emihu1|368897  unnamed protein product                                38.5    0.019
+Emihu1|465828  unnamed protein product                                38.9    0.024
+Emi219|CAMPEP_0187766044  unnamed protein product                     37.4    0.044
+Emi379|CAMPEP_0187655630  unnamed protein product                     37.4    0.063
+Emihu1|212921  unnamed protein product                                37.4    0.074
+Emi370|CAMPEP_0187668252  unnamed protein product                     35.8    0.16 
+Emi219|CAMPEP_0187761944  unnamed protein product                     35.8    0.17 
+Emi379|CAMPEP_0187622294  unnamed protein product                     35.8    0.21 
+Emihu1|442508  unnamed protein product                                35.8    0.22 
+Emi370|CAMPEP_0187674064  unnamed protein product                     35.4    0.25 
+Emihu1|100420  unnamed protein product                                35.0    0.35 
+Emi374|CAMPEP_0187575902  unnamed protein product                     35.0    0.35 
+Emi370|CAMPEP_0187697710  unnamed protein product                     35.0    0.36 
+Emi219|CAMPEP_0187799498  unnamed protein product                     33.5    0.38 
+Emi379|CAMPEP_0187617774  unnamed protein product                     33.5    0.40 
+Emihu1|236634  unnamed protein product                                33.5    0.44 
+Emihu1|227710  unnamed protein product                                33.5    0.45 
+Emi370|CAMPEP_0187665690  unnamed protein product                     33.1    0.48 
+Emi374|CAMPEP_0187596740  unnamed protein product                     33.9    0.49 
+Emi219|CAMPEP_0187752742  unnamed protein product                     33.5    0.49 
+Emi219|CAMPEP_0187757650  unnamed protein product                     34.7    0.51 
+Emi370|CAMPEP_0187660374  unnamed protein product                     33.5    0.59 
+Emi379|CAMPEP_0187631912  unnamed protein product                     32.0    0.61 
+Emihu1|438795  unnamed protein product                                32.0    0.98 
+Emi374|CAMPEP_0187576608  unnamed protein product                     33.1    1.1  
+Emi370|CAMPEP_0187692624  unnamed protein product                     32.0    1.1  
+Emi379|CAMPEP_0187617478  unnamed protein product                     33.1    1.1  
+Emi374|CAMPEP_0187584290  unnamed protein product                     32.3    1.2  
+Emihu1|437693  unnamed protein product                                33.1    1.3  
+Emi219|CAMPEP_0187800578  unnamed protein product                     32.7    1.3  
+Emi370|CAMPEP_0187706344  unnamed protein product                     30.8    1.4  
+Emi219|CAMPEP_0187775742  unnamed protein product                     32.7    1.6  
+Emihu1|216445  unnamed protein product                                32.3    1.6  
+Emihu1|116654  unnamed protein product                                31.6    1.8  
+Emi374|CAMPEP_0187588592  unnamed protein product                     32.7    1.9  
+Emihu1|107771  unnamed protein product                                32.7    1.9  
+Emi370|CAMPEP_0187693426  unnamed protein product                     32.3    1.9  
+Emi219|CAMPEP_0187800390  unnamed protein product                     32.3    2.1  
+Emi370|CAMPEP_0187695894  unnamed protein product                     32.3    2.2  
+Emi374|CAMPEP_0187608992  unnamed protein product                     32.7    2.2  
+Emihu1|309902  unnamed protein product                                32.3    2.3  
+Emihu1|76102  unnamed protein product                                 32.3    2.3  
+Emi374|CAMPEP_0187589322  unnamed protein product                     32.0    2.4  
+Emi379|CAMPEP_0187612874  unnamed protein product                     32.3    2.4  
+Emi370|CAMPEP_0187693432  unnamed protein product                     32.3    2.4  
+Emi219|CAMPEP_0187748596  unnamed protein product                     32.3    2.4  
+Emi374|CAMPEP_0187608180  unnamed protein product                     32.3    2.5  
+Emihu1|454147  unnamed protein product                                32.3    2.6  
+Emi219|CAMPEP_0187739784  unnamed protein product                     32.3    2.8  
+Emi379|CAMPEP_0187648872  unnamed protein product                     32.3    2.8  
+Emi379|CAMPEP_0187638014  unnamed protein product                     32.0    2.9  
+Emihu1|443634  unnamed protein product                                31.6    3.0  
+Emi374|CAMPEP_0187606794  unnamed protein product                     32.0    3.0  
+Emi219|CAMPEP_0187782110  unnamed protein product                     32.0    3.1  
+Emi370|CAMPEP_0187669522  unnamed protein product                     32.0    3.1  
+Emi379|CAMPEP_0187646164  unnamed protein product                     32.0    3.1  
+Emi374|CAMPEP_0187580190  unnamed protein product                     32.0    3.2  
+Emi379|CAMPEP_0187642130  unnamed protein product                     32.0    3.2  
+Emi374|CAMPEP_0187581306  unnamed protein product                     32.0    3.3  
+Emi370|CAMPEP_0187735684  unnamed protein product                     32.0    3.6  
+Emihu1|214147  unnamed protein product                                31.2    3.6  
+Emihu1|107980  unnamed protein product                                31.6    3.8  
+Emihu1|456958  unnamed protein product                                32.0    3.8  
+Emihu1|237254  unnamed protein product                                31.6    4.0  
+Emi370|CAMPEP_0187733916  unnamed protein product                     31.6    4.1  
+Emi219|CAMPEP_0187761620  unnamed protein product                     31.6    4.1  
+Emihu1|223435  unnamed protein product                                31.6    4.1  
+Emi370|CAMPEP_0187693342  unnamed protein product                     31.6    4.4  
+Emi219|CAMPEP_0187796186  unnamed protein product                     30.0    4.6  
+Emi370|CAMPEP_0187679838  unnamed protein product                     30.8    5.1  
+Emihu1|194783  unnamed protein product                                31.2    5.6  
+Emi379|CAMPEP_0187637514  unnamed protein product                     31.2    5.6  
+Emi370|CAMPEP_0187692278  unnamed protein product                     31.2    5.6  
+Emi219|CAMPEP_0187751960  unnamed protein product                     30.8    6.1  
+Emi374|CAMPEP_0187601126  unnamed protein product                     30.0    6.4  
+Emi370|CAMPEP_0187683668  unnamed protein product                     30.8    6.6  
+Emi219|CAMPEP_0187756798  unnamed protein product                     30.8    6.7  
+Emi379|CAMPEP_0187630014  unnamed protein product                     30.4    7.1  
+Emi219|CAMPEP_0187746246  unnamed protein product                     30.0    7.4  
+Emi379|CAMPEP_0187628626  unnamed protein product                     30.8    7.5  
+Emihu1|260412  unnamed protein product                                29.6    7.9  
+Emi370|CAMPEP_0187721352  unnamed protein product                     30.4    8.3  
+Emihu1|435830  unnamed protein product                                30.4    9.6  
+Emi219|CAMPEP_0187741730  unnamed protein product                     30.4    9.8  
+
+
+>Emihu1|72565 unnamed protein product
+Length=482
+
+ Score =   992 bits (2565),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 482/482 (100%), Positives = 482/482 (100%), Gaps = 0/482 (0%)
+
+Query  1    AGQPTLREYTLAEVGKHCSRGDAWIVVDERVYDVSRFIDAHPGGVGPILNLAGKDCTDVF  60
+            AGQPTLREYTLAEVGKHCSRGDAWIVVDERVYDVSRFIDAHPGGVGPILNLAGKDCTDVF
+Sbjct  1    AGQPTLREYTLAEVGKHCSRGDAWIVVDERVYDVSRFIDAHPGGVGPILNLAGKDCTDVF  60
+
+Query  61   ANYHAARIVVAPHVADFRRIRQELLRRGLFETDSRFYLKMLAWHCTLWLCAMYLSLGCDS  120
+            ANYHAARIVVAPHVADFRRIRQELLRRGLFETDSRFYLKMLAWHCTLWLCAMYLSLGCDS
+Sbjct  61   ANYHAARIVVAPHVADFRRIRQELLRRGLFETDSRFYLKMLAWHCTLWLCAMYLSLGCDS  120
+
+Query  121  CGAHMLGAALMGVFWQQLAGIGHDLGHSGVTHSFRRDHLVGSLLSAFMGLSVGWWKSDHN  180
+            CGAHMLGAALMGVFWQQLAGIGHDLGHSGVTHSFRRDHLVGSLLSAFMGLSVGWWKSDHN
+Sbjct  121  CGAHMLGAALMGVFWQQLAGIGHDLGHSGVTHSFRRDHLVGSLLSAFMGLSVGWWKSDHN  180
+
+Query  181  THHVVCNAVEHDPNIQHMPMLAITDKVFRRPRFWDTYHRKWVGMDDAAHWLVSHQHLFFY  240
+            THHVVCNAVEHDPNIQHMPMLAITDKVFRRPRFWDTYHRKWVGMDDAAHWLVSHQHLFFY
+Sbjct  181  THHVVCNAVEHDPNIQHMPMLAITDKVFRRPRFWDTYHRKWVGMDDAAHWLVSHQHLFFY  240
+
+Query  241  PLMALGRWNLYAQGLIYLLTQPDKTHFRKTELAGIAVYFGWVLGTALSMPSWAESVGWVM  300
+            PLMALGRWNLYAQGLIYLLTQPDKTHFRKTELAGIAVYFGWVLGTALSMPSWAESVGWVM
+Sbjct  241  PLMALGRWNLYAQGLIYLLTQPDKTHFRKTELAGIAVYFGWVLGTALSMPSWAESVGWVM  300
+
+Query  301  LSHACMDESGILHVQIVLSHWSMHTYEGRAYNGADDEWYVTTMRTTMNVATPPWLDWVHI  360
+            LSHACMDESGILHVQIVLSHWSMHTYEGRAYNGADDEWYVTTMRTTMNVATPPWLDWVHI
+Sbjct  301  LSHACMDESGILHVQIVLSHWSMHTYEGRAYNGADDEWYVTTMRTTMNVATPPWLDWVHI  360
+
+Query  361  GLQFQIEHHLFPRLPRHNLRLARDMVREVVEAHFPAGSAECKRLFPLGVAYHEPGFFAGE  420
+            GLQFQIEHHLFPRLPRHNLRLARDMVREVVEAHFPAGSAECKRLFPLGVAYHEPGFFAGE
+Sbjct  361  GLQFQIEHHLFPRLPRHNLRLARDMVREVVEAHFPAGSAECKRLFPLGVAYHEPGFFAGE  420
+
+Query  421  LEQLRVAWPTPPASHGSRLTLLGNLEMWRVLRSAAYAARGAKRGEHGFWQSALWEGMSLA  480
+            LEQLRVAWPTPPASHGSRLTLLGNLEMWRVLRSAAYAARGAKRGEHGFWQSALWEGMSLA
+Sbjct  421  LEQLRVAWPTPPASHGSRLTLLGNLEMWRVLRSAAYAARGAKRGEHGFWQSALWEGMSLA  480
+
+Query  481  G*  482
+            G*
+Sbjct  481  G*  482
+
+
+>Emihu1|234105 unnamed protein product
+Length=287
+
+ Score =   562 bits (1448),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 276/291 (95%), Positives = 276/291 (95%), Gaps = 15/291 (5%)
+
+Query  14   VGKHCSRGDAWIVVDERVYDVSRFIDAHPGGVGPILNLAGKDCTDVFANYHAARIVVAPH  73
+            VGKHCSRGDAWIVVDERVYDVSRFIDAHPGGVGPILNLAGKDCTDVFANYHAAR      
+Sbjct  5    VGKHCSRGDAWIVVDERVYDVSRFIDAHPGGVGPILNLAGKDCTDVFANYHAAR------  58
+
+Query  74   VADFRRIRQELLRRGLFETDSRFYLKMLAWHCTLWLCAMYLSLGCDSCGAHMLGAALMGV  133
+                     ELLRRGLFETDSRFYLKMLAWHCTLWLCAMYLSLGCDSCGAHMLGAALMGV
+Sbjct  59   ---------ELLRRGLFETDSRFYLKMLAWHCTLWLCAMYLSLGCDSCGAHMLGAALMGV  109
+
+Query  134  FWQQLAGIGHDLGHSGVTHSFRRDHLVGSLLSAFMGLSVGWWKSDHNTHHVVCNAVEHDP  193
+            FWQQLAGIGHDLGHSGVTHSFRRDHLVGSLLSAFMGLSVGWWKSDHNTHHVVCNAVEHDP
+Sbjct  110  FWQQLAGIGHDLGHSGVTHSFRRDHLVGSLLSAFMGLSVGWWKSDHNTHHVVCNAVEHDP  169
+
+Query  194  NIQHMPMLAITDKVFRRPRFWDTYHRKWVGMDDAAHWLVSHQHLFFYPLMALGRWNLYAQ  253
+            NIQHMPMLAITDKVFRRPRFWDTYHRKWVGMDDAAHWLVSHQHLFFYPLMALGRWNLYAQ
+Sbjct  170  NIQHMPMLAITDKVFRRPRFWDTYHRKWVGMDDAAHWLVSHQHLFFYPLMALGRWNLYAQ  229
+
+Query  254  GLIYLLTQPDKTHFRKTELAGIAVYFGWVLGTALSMPSWAESVGWVMLSHA  304
+            GLIYLLTQPDKTHFRKTELAGIAVYFGWVLGTALSMPSWAESVGWVMLSHA
+Sbjct  230  GLIYLLTQPDKTHFRKTELAGIAVYFGWVLGTALSMPSWAESVGWVMLSHA  280
+
+
+>Emi379|CAMPEP_0187625488 unnamed protein product
+Length=962
+
+ Score =   132 bits (332),  Expect = 4e-32, Method: Compositional matrix adjust.
+ Identities = 141/477 (30%), Positives = 200/477 (42%), Gaps = 106/477 (22%)
+
+Query  13   EVGKHCSRGDAWIVVDERVYDVSRFIDAHPGGVGPILNLAGKDCTDVFANYHAARIV---  69
+            E+ +H S GD+W+ +   VY+VSR+ D HPGG   +L  AG+D +D F  +H   +    
+Sbjct  494  ELQRHSSGGDSWLAIHGMVYNVSRWHDRHPGGSDILLAYAGRDASDQFELFHPPAVARRL  553
+
+Query  70   ------------------------------------------VAPHVADFRRIRQELLRR  87
+                                                       +  V D        LRR
+Sbjct  554  KPFLVGALEARRPPSTGVRWGLFSEPDEGPPGSSGGGGGGDGSSSRVGDGATTDYRKLRR  613
+
+Query  88   -----GLFETDSRFYLKMLAWHCTLWLCAMYLSL---GCDSC---GAHMLGAALMGVFWQ  136
+                 G FE D+ FY    A    LW  A+ + L   G D+    G  +L AAL+ +  Q
+Sbjct  614  QLWEEGAFEPDASFYWLKQAVVIGLWGTAVGVLLAATGSDAKPARGQILLSAALLALALQ  673
+
+Query  137  QLAGIGHDLGHSGVT-----HSFRRDHLVGSLLSAFMGLSVGWWKSDHNTHHVVCNAVEH  191
+            Q A IGHD  H+GV       ++RR  L      A +G+S G W  +HN HH        
+Sbjct  674  QGAFIGHDTLHNGVLARPRGRTWRRAALAQLNAGALLGISCGMWLEEHNLHHAYTLRPHA  733
+
+Query  192  DPNIQHMPMLAITDK-----VFRRPRFWDTYHRKWVGMDDAAHWLVSHQHLFFYPL-MAL  245
+            DP  ++ P+   + K     +   P         W         L   QHL F PL M +
+Sbjct  734  DPQFRYFPLWLQSVKEIPHWLAELPSAPLPRRAAW----RVVQCLTRVQHLTFLPLAMIV  789
+
+Query  246  GRWNLYAQGLIYLLTQPDKTHFRKTELAGIAVYFGWVLGTAL--SMPSWAESVGWVMLSH  303
+            GR+N  A    Y L +      +  +LA +A++ GW  G  L   +P  +E + +V + +
+Sbjct  790  GRYNFLAISWAYALRRR-----QWADLAAMALHVGW-FGAFLWALLPGMSERLLFVAVHY  843
+
+Query  304  ACMDESGILHVQIVLSHWSMHTYEGRAYNGADDEWYVTTMR----TTMNVATPPWLDWVH  359
+            A +   G+LHVQ++LSH     +       AD+E  +  +R    TT N+ T  W  W H
+Sbjct  844  ALV---GVLHVQLLLSHLCTQQFT------ADEEAALGVLRFQLATTRNMRTCWWDAWFH  894
+
+Query  360  IGLQFQIEHHLFPRLPRHNLRLARDMVREVVEAHFPAGSAECKRLFPLGVAYHEPGF  416
+             GL+ QIEHHLFP+LPRH LR     V+ +   H              G+AY E  F
+Sbjct  895  GGLEMQIEHHLFPQLPRHRLRAVAPRVKALAARH--------------GIAYLETDF  937
+
+
+>Emi379|CAMPEP_0187634950 unnamed protein product
+Length=491
+
+ Score = 93.2 bits (230),  Expect = 1e-19, Method: Compositional matrix adjust.
+ Identities = 96/391 (25%), Positives = 167/391 (43%), Gaps = 52/391 (13%)
+
+Query  25   IVVDERVYDVSRFIDAHPGGVGPILNLAGKDCTDVFANYH-----AARIVVA--------  71
+            +++  RVYDVS FI  HPGG    L+L G D TD + N+H     A +++ A        
+Sbjct  56   MIIRGRVYDVSDFIKRHPGGSIIKLSL-GSDATDAYNNFHIRSKKADKMLRALPSRPVAD  114
+
+Query  72   -----PHVADFRRIRQELLRRGLFETDSRFYLKMLAWHCTLWLCAMYLSLGCDSCGAHML  126
+                    ADF  +R +L   G FE +    L  +A+     +   +  +     G   L
+Sbjct  115  GFARDALSADFEALRAQLEAEGYFEPN----LWHVAYRVAEVVAMYWAGIRLIWAGYWFL  170
+
+Query  127  GAALMGVFWQQLAGIGHDLGHSGVTHSFRRD-HLVGSLLSAFMGLSVGWWKSDHNTHHVV  185
+            GA + G+   +   + H+ GH  +T + + D H+   +     G+S  +W++ HN HH  
+Sbjct  171  GAIVAGIAQGRCGWLQHEGGHYSLTGNIKLDRHMQMIIYGLGCGMSGCYWRNQHNKHHAT  230
+
+Query  186  CNAVEHDPNIQHMPMLAITDKVFRRPRFWDTYHRKWVGMDDAAHWLVSHQHLFFYPLMAL  245
+               +  DP++Q MP++A    +  + R                 WL     LFF  ++  
+Sbjct  231  PQKLGADPDLQTMPLVAFHGLIGAKAR------------GAGKSWLAWQAPLFFGGVIT-  277
+
+Query  246  GRWNLYAQGLIYLLTQPDKTHFRKTELAGIAVYFGWVLGTALSMPSWAESVGWVMLSHAC  305
+                L + G  ++       H +     G  +  G++   AL    W  + G + L  A 
+Sbjct  278  ---TLVSFGWQFV------QHPKHALRVGNQLELGYM---ALRYALWYAAFGHLGLGGAF  325
+
+Query  306  MDESGILHV--QIVLSHWSM-HTYEGRAYNGADDEWYVTTMRTTMNVATPPWLDWVHIGL  362
+               +  + V    + +++++ HT++    +     W + +   T N +  P ++W    L
+Sbjct  326  RLYAFYVAVGGTYIFTNFAVSHTHKDVVPHDKHISWTLYSANHTTNQSNTPLVNWWMAYL  385
+
+Query  363  QFQIEHHLFPRLPRHNLRLARDMVREVVEAH  393
+             FQIEHHLFP +P++N       V+++ E H
+Sbjct  386  NFQIEHHLFPSMPQYNHPKICGRVKQLFEKH  416
+
+
+>Emihu1|443389 unnamed protein product
+Length=456
+
+ Score = 92.4 bits (228),  Expect = 2e-19, Method: Compositional matrix adjust.
+ Identities = 96/391 (25%), Positives = 167/391 (43%), Gaps = 52/391 (13%)
+
+Query  25   IVVDERVYDVSRFIDAHPGGVGPILNLAGKDCTDVFANYH-----AARIVVA--------  71
+            +++  RVYDVS FI  HPGG    L+L G D TD + N+H     A +++ A        
+Sbjct  45   MIIRGRVYDVSDFIKRHPGGSIIKLSL-GSDATDAYNNFHIRSKKADKMLRALPSRPVAD  103
+
+Query  72   -----PHVADFRRIRQELLRRGLFETDSRFYLKMLAWHCTLWLCAMYLSLGCDSCGAHML  126
+                    ADF  +R +L   G FE +    L  +A+     +   +  +     G   L
+Sbjct  104  GFARDALSADFEALRAQLEAEGYFEPN----LWHVAYRVAEVVAMYWAGIRLIWAGYWFL  159
+
+Query  127  GAALMGVFWQQLAGIGHDLGHSGVTHSFRRD-HLVGSLLSAFMGLSVGWWKSDHNTHHVV  185
+            GA + G+   +   + H+ GH  +T + + D H+   +     G+S  +W++ HN HH  
+Sbjct  160  GAIVAGIAQGRCGWLQHEGGHYSLTGNIKLDRHMQMIIYGLGCGMSGCYWRNQHNKHHAT  219
+
+Query  186  CNAVEHDPNIQHMPMLAITDKVFRRPRFWDTYHRKWVGMDDAAHWLVSHQHLFFYPLMAL  245
+               +  DP++Q MP++A    +  + R                 WL     LFF  ++  
+Sbjct  220  PQKLGADPDLQTMPLVAFHGLIGAKAR------------GAGKSWLAWQAPLFFGGVIT-  266
+
+Query  246  GRWNLYAQGLIYLLTQPDKTHFRKTELAGIAVYFGWVLGTALSMPSWAESVGWVMLSHAC  305
+                L + G  ++       H +     G  +  G++   AL    W  + G + L  A 
+Sbjct  267  ---TLVSFGWQFV------QHPKHALRVGNQLELGYM---ALRYALWYAAFGHLGLGGAF  314
+
+Query  306  MDESGILHV--QIVLSHWSM-HTYEGRAYNGADDEWYVTTMRTTMNVATPPWLDWVHIGL  362
+               +  + V    + +++++ HT++    +     W + +   T N +  P ++W    L
+Sbjct  315  RLYAFYVAVGGTYIFTNFAVSHTHKDVVPHDKHISWTLYSANHTTNQSNTPLVNWWMAYL  374
+
+Query  363  QFQIEHHLFPRLPRHNLRLARDMVREVVEAH  393
+             FQIEHHLFP +P++N       V+++ E H
+Sbjct  375  NFQIEHHLFPSMPQYNHPKICGRVKQLFEKH  405
+
+
+>Emi374|CAMPEP_0187574958 unnamed protein product
+Length=490
+
+ Score = 92.8 bits (229),  Expect = 2e-19, Method: Compositional matrix adjust.
+ Identities = 96/391 (25%), Positives = 167/391 (43%), Gaps = 52/391 (13%)
+
+Query  25   IVVDERVYDVSRFIDAHPGGVGPILNLAGKDCTDVFANYH-----AARIVVA--------  71
+            +++  RVYDVS FI  HPGG    L+L G D TD + N+H     A +++ A        
+Sbjct  55   MIIRGRVYDVSDFIKRHPGGSIIKLSL-GSDATDAYNNFHIRSKKADKMLRALPSRPVAD  113
+
+Query  72   -----PHVADFRRIRQELLRRGLFETDSRFYLKMLAWHCTLWLCAMYLSLGCDSCGAHML  126
+                    ADF  +R +L   G FE +    L  +A+     +   +  +     G   L
+Sbjct  114  GFARDALSADFEALRAQLEAEGYFEPN----LWHVAYRVAEVVAMYWAGIRLIWAGYWFL  169
+
+Query  127  GAALMGVFWQQLAGIGHDLGHSGVTHSFRRD-HLVGSLLSAFMGLSVGWWKSDHNTHHVV  185
+            GA + G+   +   + H+ GH  +T + + D H+   +     G+S  +W++ HN HH  
+Sbjct  170  GAIVAGIAQGRCGWLQHEGGHYSLTGNIKLDRHMQMIIYGLGCGMSGCYWRNQHNKHHAT  229
+
+Query  186  CNAVEHDPNIQHMPMLAITDKVFRRPRFWDTYHRKWVGMDDAAHWLVSHQHLFFYPLMAL  245
+               +  DP++Q MP++A    +  + R                 WL     LFF  ++  
+Sbjct  230  PQKLGADPDLQTMPLVAFHGLIGAKAR------------GAGKSWLAWQAPLFFGGVIT-  276
+
+Query  246  GRWNLYAQGLIYLLTQPDKTHFRKTELAGIAVYFGWVLGTALSMPSWAESVGWVMLSHAC  305
+                L + G  ++       H +     G  +  G++   AL    W  + G + L  A 
+Sbjct  277  ---TLVSFGWQFV------QHPKHALRVGNQLELGYM---ALRYALWYAAFGHLGLGGAF  324
+
+Query  306  MDESGILHV--QIVLSHWSM-HTYEGRAYNGADDEWYVTTMRTTMNVATPPWLDWVHIGL  362
+               +  + V    + +++++ HT++    +     W + +   T N +  P ++W    L
+Sbjct  325  RLYAFYVAVGGTYIFTNFAVSHTHKDVVPHDKHISWTLYSANHTTNQSNTPLVNWWMAYL  384
+
+Query  363  QFQIEHHLFPRLPRHNLRLARDMVREVVEAH  393
+             FQIEHHLFP +P++N       V+++ E H
+Sbjct  385  NFQIEHHLFPSMPQYNHPKICGRVKQLFEKH  415
+
+
+>Emi370|CAMPEP_0187666162 unnamed protein product
+Length=491
+
+ Score = 92.8 bits (229),  Expect = 2e-19, Method: Compositional matrix adjust.
+ Identities = 96/391 (25%), Positives = 167/391 (43%), Gaps = 52/391 (13%)
+
+Query  25   IVVDERVYDVSRFIDAHPGGVGPILNLAGKDCTDVFANYH-----AARIVVA--------  71
+            +++  RVYDVS FI  HPGG    L+L G D TD + N+H     A +++ A        
+Sbjct  56   MIIRGRVYDVSDFIKRHPGGSIIKLSL-GSDATDAYNNFHIRSKKADKMLRALPSRPVAD  114
+
+Query  72   -----PHVADFRRIRQELLRRGLFETDSRFYLKMLAWHCTLWLCAMYLSLGCDSCGAHML  126
+                    ADF  +R +L   G FE +    L  +A+     +   +  +     G   L
+Sbjct  115  GFARDALSADFEALRAQLEAEGYFEPN----LWHVAYRVAEVVAMYWAGIRLIWAGYWFL  170
+
+Query  127  GAALMGVFWQQLAGIGHDLGHSGVTHSFRRD-HLVGSLLSAFMGLSVGWWKSDHNTHHVV  185
+            GA + G+   +   + H+ GH  +T + + D H+   +     G+S  +W++ HN HH  
+Sbjct  171  GAIVAGIAQGRCGWLQHEGGHYSLTGNIKLDRHMQMIIYGLGCGMSGCYWRNQHNKHHAT  230
+
+Query  186  CNAVEHDPNIQHMPMLAITDKVFRRPRFWDTYHRKWVGMDDAAHWLVSHQHLFFYPLMAL  245
+               +  DP++Q MP++A    +  + R                 WL     LFF  ++  
+Sbjct  231  PQKLGADPDLQTMPLVAFHGLIGAKAR------------GAGKSWLAWQAPLFFGGVIT-  277
+
+Query  246  GRWNLYAQGLIYLLTQPDKTHFRKTELAGIAVYFGWVLGTALSMPSWAESVGWVMLSHAC  305
+                L + G  ++       H +     G  +  G++   AL    W  + G + L  A 
+Sbjct  278  ---TLVSFGWQFV------QHPKHALRVGNQLELGYM---ALRYALWYAAFGHLGLGGAF  325
+
+Query  306  MDESGILHV--QIVLSHWSM-HTYEGRAYNGADDEWYVTTMRTTMNVATPPWLDWVHIGL  362
+               +  + V    + +++++ HT++    +     W + +   T N +  P ++W    L
+Sbjct  326  RLYAFYVAVGGTYIFTNFAVSHTHKDVVPHDKHISWTLYSANHTTNQSNTPLVNWWMAYL  385
+
+Query  363  QFQIEHHLFPRLPRHNLRLARDMVREVVEAH  393
+             FQIEHHLFP +P++N       V+++ E H
+Sbjct  386  NFQIEHHLFPSMPQYNHPKICGRVKQLFEKH  416
+
+
+>Emi219|CAMPEP_0187763318 unnamed protein product
+Length=491
+
+ Score = 92.4 bits (228),  Expect = 2e-19, Method: Compositional matrix adjust.
+ Identities = 96/391 (25%), Positives = 167/391 (43%), Gaps = 52/391 (13%)
+
+Query  25   IVVDERVYDVSRFIDAHPGGVGPILNLAGKDCTDVFANYH-----AARIVVA--------  71
+            +++  RVYDVS FI  HPGG    L+L G D TD + N+H     A +++ A        
+Sbjct  56   MIIRGRVYDVSDFIKRHPGGSIIKLSL-GSDATDAYNNFHIRSKKADKMLRALPSRPVAD  114
+
+Query  72   -----PHVADFRRIRQELLRRGLFETDSRFYLKMLAWHCTLWLCAMYLSLGCDSCGAHML  126
+                    ADF  +R +L   G FE +    L  +A+     +   +  +     G   L
+Sbjct  115  GFARDALSADFEALRAQLEAEGYFEPN----LWHVAYRVAEVVAMYWAGIRLIWAGYWFL  170
+
+Query  127  GAALMGVFWQQLAGIGHDLGHSGVTHSFRRD-HLVGSLLSAFMGLSVGWWKSDHNTHHVV  185
+            GA + G+   +   + H+ GH  +T + + D H+   +     G+S  +W++ HN HH  
+Sbjct  171  GAIVAGIAQGRCGWLQHEGGHYSLTGNIKLDRHMQMIIYGLGCGMSGCYWRNQHNKHHAT  230
+
+Query  186  CNAVEHDPNIQHMPMLAITDKVFRRPRFWDTYHRKWVGMDDAAHWLVSHQHLFFYPLMAL  245
+               +  DP++Q MP++A    +  + R                 WL     LFF  ++  
+Sbjct  231  PQKLGADPDLQTMPLVAFHGLIGAKAR------------GAGKSWLAWQAPLFFGGVIT-  277
+
+Query  246  GRWNLYAQGLIYLLTQPDKTHFRKTELAGIAVYFGWVLGTALSMPSWAESVGWVMLSHAC  305
+                L + G  ++       H +     G  +  G++   AL    W  + G + L  A 
+Sbjct  278  ---TLVSFGWQFV------QHPKHALRVGNQLELGYM---ALRYALWYAAFGHLGLGGAF  325
+
+Query  306  MDESGILHV--QIVLSHWSM-HTYEGRAYNGADDEWYVTTMRTTMNVATPPWLDWVHIGL  362
+               +  + V    + +++++ HT++    +     W + +   T N +  P ++W    L
+Sbjct  326  RLYAFYVAVGGTYIFTNFAVSHTHKDVVPHDKHISWTLYSANHTTNQSNTPLVNWWMAYL  385
+
+Query  363  QFQIEHHLFPRLPRHNLRLARDMVREVVEAH  393
+             FQIEHHLFP +P++N       V+++ E H
+Sbjct  386  NFQIEHHLFPSMPQYNHPKICGRVKQLFEKH  416
+
+
+>Emi379|CAMPEP_0187629078 unnamed protein product
+Length=455
+
+ Score = 76.3 bits (186),  Expect = 4e-14, Method: Compositional matrix adjust.
+ Identities = 94/393 (24%), Positives = 152/393 (39%), Gaps = 65/393 (17%)
+
+Query  30   RVYDVSRFIDAHPGGVGPILNLAGKDCTDVFANYHA--------ARIVVAPHV-------  74
+            +  DVS+F   HPGG   +     +D T+ F  YH+        A    AP         
+Sbjct  27   KAVDVSKFAKLHPGGAKALRIFNNRDATEQFEMYHSPAAHKMMRAMSKSAPEAPRESEVA  86
+
+Query  75   -----ADFRRIRQELLRRGLFETDSRFYLKMLAWHCTLWLCAMYLSLGCDSCGAHMLGAA  129
+                  DF ++ Q L   G F+     +    A+   L L   +L       G   LG+ 
+Sbjct  87   TSVVGTDFAKLTQTLHDVGCFDP----HYPDEAFKLGLTLLPGFLGFYLLQSGMPALGSF  142
+
+Query  130  LMGVFWQQLAGIGHDLGHSGVTHSFRR-----DHLVGSLLSAFMGLSVGWWKSDHNTHHV  184
+            L+   +       HD  H G     ++     ++ VG  + A+ G +VGWW++ HNTHH+
+Sbjct  143  LIAFSYYMSGWTSHDYLHHGCLKGGQKQLVHWNNAVGYAIGAWQGYAVGWWRARHNTHHL  202
+
+Query  185  VCNAVEHDPNIQHMPMLAITDKVFRRPRFWDTYHRKWVGMDDAAHWLVSHQHLFFYPLMA  244
+            V N   +DP+I   P+L     V   P            ++ A  W    Q  ++ P M+
+Sbjct  203  VTNEEGNDPDIMTAPVLIF---VRNSPVI-------AAALNAAQRW----QQYYYVPAMS  248
+
+Query  245  LGRWNLYAQGLIYLLTQPDKTHFRKT--ELAGIAVYFGWVLGTALSMPSWAESVGWVMLS  302
+            L       + + YL  +P    F K     A +A+++ +V         +     W++L+
+Sbjct  249  LMDMYWRFESMQYLAARP----FNKVWASWALLALHYSFV------GYMFHGQYQWLLLT  298
+
+Query  303  HACMDESGILHVQIVLSHWSMHTYEGRAYNGADDEWYVT--TMRTTMNVATPPWLDWVHI  360
+               M   G L   +V S     T+ G      D    +   T  T+ N+     ++ +  
+Sbjct  299  ---MLVRGFLTGIVVFS-----THYGEEVIPGDHGMTLVEQTALTSRNITGGYLVNLLTG  350
+
+Query  361  GLQFQIEHHLFPRLPRHNLRLARDMVREVVEAH  393
+             +  Q EHHL+P +P   L  A+   R   + H
+Sbjct  351  YISLQTEHHLWPMMPTARLEAAQPYARAFFKKH  383
+
+
+>Emi374|CAMPEP_0187578458 unnamed protein product
+Length=455
+
+ Score = 75.5 bits (184),  Expect = 5e-14, Method: Compositional matrix adjust.
+ Identities = 94/393 (24%), Positives = 152/393 (39%), Gaps = 65/393 (17%)
+
+Query  30   RVYDVSRFIDAHPGGVGPILNLAGKDCTDVFANYHA--------ARIVVAPHV-------  74
+            +  DVS+F   HPGG   +     +D T+ F  YH+        A    AP         
+Sbjct  27   KAVDVSKFAKLHPGGAKALRIFNNRDATEQFEMYHSPAAHKMMRAMSKSAPEAPRESEVA  86
+
+Query  75   -----ADFRRIRQELLRRGLFETDSRFYLKMLAWHCTLWLCAMYLSLGCDSCGAHMLGAA  129
+                  DF ++ Q L   G F+     +    A+   L L   +L       G   LG+ 
+Sbjct  87   TSVVGTDFAKLTQTLHDVGCFDP----HYPDEAFKLGLTLLPGFLGFYLLRSGMPALGSF  142
+
+Query  130  LMGVFWQQLAGIGHDLGHSGVTHSFRR-----DHLVGSLLSAFMGLSVGWWKSDHNTHHV  184
+            L+   +       HD  H G     ++     ++ VG  + A+ G +VGWW++ HNTHH+
+Sbjct  143  LIAFSYYMSGWTSHDYLHHGCLKGGQKQLVHWNNAVGYAIGAWQGYAVGWWRARHNTHHL  202
+
+Query  185  VCNAVEHDPNIQHMPMLAITDKVFRRPRFWDTYHRKWVGMDDAAHWLVSHQHLFFYPLMA  244
+            V N   +DP+I   P+L     V   P            ++ A  W    Q  ++ P M+
+Sbjct  203  VTNEEGNDPDIMTAPVLIF---VRNSPVI-------AAALNAAQRW----QQYYYVPAMS  248
+
+Query  245  LGRWNLYAQGLIYLLTQPDKTHFRKT--ELAGIAVYFGWVLGTALSMPSWAESVGWVMLS  302
+            L       + + YL  +P    F K     A +A+++ +V         +     W++L+
+Sbjct  249  LMDMYWRFESMQYLAARP----FNKVWASWALLALHYSFV------GYMFHGQYQWLLLT  298
+
+Query  303  HACMDESGILHVQIVLSHWSMHTYEGRAYNGADDEWYVT--TMRTTMNVATPPWLDWVHI  360
+               M   G L   +V S     T+ G      D    +   T  T+ N+     ++ +  
+Sbjct  299  ---MLVRGFLTGIVVFS-----THYGEEVIPGDHGMTLVEQTALTSRNITGGYLVNLLTG  350
+
+Query  361  GLQFQIEHHLFPRLPRHNLRLARDMVREVVEAH  393
+             +  Q EHHL+P +P   L  A+   R   + H
+Sbjct  351  YISLQTEHHLWPMMPTARLEAAQPYARAFFKKH  383
+
+
+>Emi370|CAMPEP_0187667376 unnamed protein product
+Length=455
+
+ Score = 75.5 bits (184),  Expect = 5e-14, Method: Compositional matrix adjust.
+ Identities = 94/393 (24%), Positives = 152/393 (39%), Gaps = 65/393 (17%)
+
+Query  30   RVYDVSRFIDAHPGGVGPILNLAGKDCTDVFANYHA--------ARIVVAPHV-------  74
+            +  DVS+F   HPGG   +     +D T+ F  YH+        A    AP         
+Sbjct  27   KAVDVSKFAKLHPGGAKALRIFNNRDATEQFEMYHSPAAHKMMRAMSKSAPEAPRESEVA  86
+
+Query  75   -----ADFRRIRQELLRRGLFETDSRFYLKMLAWHCTLWLCAMYLSLGCDSCGAHMLGAA  129
+                  DF ++ Q L   G F+     +    A+   L L   +L       G   LG+ 
+Sbjct  87   TSVVGTDFAKLTQTLHDVGCFDP----HYPDEAFKLGLTLLPGFLGFYLLRSGMPALGSF  142
+
+Query  130  LMGVFWQQLAGIGHDLGHSGVTHSFRR-----DHLVGSLLSAFMGLSVGWWKSDHNTHHV  184
+            L+   +       HD  H G     ++     ++ VG  + A+ G +VGWW++ HNTHH+
+Sbjct  143  LIAFSYYMSGWTSHDYLHHGCLKGGQKQLVHWNNAVGYAIGAWQGYAVGWWRARHNTHHL  202
+
+Query  185  VCNAVEHDPNIQHMPMLAITDKVFRRPRFWDTYHRKWVGMDDAAHWLVSHQHLFFYPLMA  244
+            V N   +DP+I   P+L     V   P            ++ A  W    Q  ++ P M+
+Sbjct  203  VTNEEGNDPDIMTAPVLIF---VRNSPVI-------AAALNAAQRW----QQYYYVPAMS  248
+
+Query  245  LGRWNLYAQGLIYLLTQPDKTHFRKT--ELAGIAVYFGWVLGTALSMPSWAESVGWVMLS  302
+            L       + + YL  +P    F K     A +A+++ +V         +     W++L+
+Sbjct  249  LMDMYWRFESMQYLAARP----FNKVWASWALLALHYSFV------GYMFHGQYQWLLLT  298
+
+Query  303  HACMDESGILHVQIVLSHWSMHTYEGRAYNGADDEWYVT--TMRTTMNVATPPWLDWVHI  360
+               M   G L   +V S     T+ G      D    +   T  T+ N+     ++ +  
+Sbjct  299  ---MLVRGFLTGIVVFS-----THYGEEVIPGDHGMTLVEQTALTSRNITGGYLVNLLTG  350
+
+Query  361  GLQFQIEHHLFPRLPRHNLRLARDMVREVVEAH  393
+             +  Q EHHL+P +P   L  A+   R   + H
+Sbjct  351  YISLQTEHHLWPMMPTARLEAAQPYARAFFKKH  383
+
+
+>Emi219|CAMPEP_0187779220 unnamed protein product
+Length=455
+
+ Score = 75.5 bits (184),  Expect = 5e-14, Method: Compositional matrix adjust.
+ Identities = 94/393 (24%), Positives = 152/393 (39%), Gaps = 65/393 (17%)
+
+Query  30   RVYDVSRFIDAHPGGVGPILNLAGKDCTDVFANYHA--------ARIVVAPHV-------  74
+            +  DVS+F   HPGG   +     +D T+ F  YH+        A    AP         
+Sbjct  27   KAVDVSKFAKLHPGGAKALRIFNNRDATEQFEMYHSPAAHKMMRAMSKSAPEAPRESEVA  86
+
+Query  75   -----ADFRRIRQELLRRGLFETDSRFYLKMLAWHCTLWLCAMYLSLGCDSCGAHMLGAA  129
+                  DF ++ Q L   G F+     +    A+   L L   +L       G   LG+ 
+Sbjct  87   TSVVGTDFAKLTQTLHDVGCFDP----HYPDEAFKLGLTLLPGFLGFYLLRSGMPALGSF  142
+
+Query  130  LMGVFWQQLAGIGHDLGHSGVTHSFRR-----DHLVGSLLSAFMGLSVGWWKSDHNTHHV  184
+            L+   +       HD  H G     ++     ++ VG  + A+ G +VGWW++ HNTHH+
+Sbjct  143  LIAFSYYMSGWTSHDYLHHGCLKGGQKQLVHWNNAVGYAIGAWQGYAVGWWRARHNTHHL  202
+
+Query  185  VCNAVEHDPNIQHMPMLAITDKVFRRPRFWDTYHRKWVGMDDAAHWLVSHQHLFFYPLMA  244
+            V N   +DP+I   P+L     V   P            ++ A  W    Q  ++ P M+
+Sbjct  203  VTNEEGNDPDIMTAPVLIF---VRNSPVI-------AAALNAAQRW----QQYYYVPAMS  248
+
+Query  245  LGRWNLYAQGLIYLLTQPDKTHFRKT--ELAGIAVYFGWVLGTALSMPSWAESVGWVMLS  302
+            L       + + YL  +P    F K     A +A+++ +V         +     W++L+
+Sbjct  249  LMDMYWRFESMQYLAARP----FNKVWASWALLALHYSFV------GYMFHGQYQWLLLT  298
+
+Query  303  HACMDESGILHVQIVLSHWSMHTYEGRAYNGADDEWYVT--TMRTTMNVATPPWLDWVHI  360
+               M   G L   +V S     T+ G      D    +   T  T+ N+     ++ +  
+Sbjct  299  ---MLVRGFLTGIVVFS-----THYGEEVIPGDHGMTLVEQTALTSRNITGGYLVNLLTG  350
+
+Query  361  GLQFQIEHHLFPRLPRHNLRLARDMVREVVEAH  393
+             +  Q EHHL+P +P   L  A+   R   + H
+Sbjct  351  YISLQTEHHLWPMMPTARLEAAQPYARAFFKKH  383
+
+
+>Emi370|CAMPEP_0187677918 unnamed protein product
+Length=519
+
+ Score = 63.9 bits (154),  Expect = 3e-10, Method: Compositional matrix adjust.
+ Identities = 94/379 (25%), Positives = 150/379 (40%), Gaps = 60/379 (16%)
+
+Query  20   RGDAWIVVDERVYDVSRFIDAHPGGVGPILNLAGKDCTDVFANYHAARIV----------  69
+            +G   I +D+  YD++ +  AHP G   I      D T+V   +H+ + +          
+Sbjct  50   KGRLNIRIDDEWYDLTNWRAAHPAGTHWIDAYNNSDATEVMYAFHSDKAISMFKRLPNSR  109
+
+Query  70   -----VAPHVAD---FRRIRQELLRRGLFETDSRFYLKMLAWHCTLWLCAMYLSLGCDSC  121
+                 +AP  A    FR +RQ L+  G F+      L+ LA    +    ++L+      
+Sbjct  110  APPEGIAPPSASTYAFRELRQRLVEEGWFKIHPLGELQKLAPWSAVTAAGVWLARRSGFW  169
+
+Query  122  GAHMLGAALMGVFWQQLAG-IGHDLGHSGVTHSFRRDHLVGSLLSAFMGLSVGWWKSDHN  180
+             A   G   + +    LAG + HD  H     ++      G L+    G+S  WW + HN
+Sbjct  170  SA-FAGVVCLAIG-NSLAGWLSHDYVHGRQPFAWAMRGF-GELIG---GMSTTWWSNKHN  223
+
+Query  181  THHVVCNAVEHDPNIQHMPMLAITDKVFRRPRFWDTYHRKWVGMDDAAHWLVSHQHLFFY  240
+             HH + N V +D +I   P L +     R     DT    W+      +W + +  LF Y
+Sbjct  224  MHHALTNEVGYDEDIALDPALHLWAPDPRH----DTL--PWLRQWQHVYWPLPYSILFLY  277
+
+Query  241  PLMALGRWNLYAQGLIYLLTQPDKTHFRKTELAGIAVYFGWVLGTALSMPSWAESVGWVM  300
+                   W      + Y+L   DK       LA     F  ++   L + S      W+ 
+Sbjct  278  -------WRF--DSIRYVLK--DKKWGEAARLAAHWAAFSALVPFRLLLAS-----VWL-  320
+
+Query  301  LSHACMDESGILHVQIV-LSHWSMHTYEGRAYNGADDEWYVTTMRTTMNVATPPWL-DWV  358
+                    SG++   IV ++H S   + G      D  +     R+T +     W  D +
+Sbjct  321  --------SGLITATIVTVTHQSEEIFLGDTLRKYD--FVEAQFRSTRDAKCNNWFSDVL  370
+
+Query  359  HIGLQFQIEHHLFPRLPRH  377
+              G+Q+Q+EHHLFP +PR+
+Sbjct  371  WGGMQWQLEHHLFPTMPRY  389
+
+
+>Emi219|CAMPEP_0187768164 unnamed protein product
+Length=537
+
+ Score = 63.9 bits (154),  Expect = 4e-10, Method: Compositional matrix adjust.
+ Identities = 94/379 (25%), Positives = 150/379 (40%), Gaps = 60/379 (16%)
+
+Query  20   RGDAWIVVDERVYDVSRFIDAHPGGVGPILNLAGKDCTDVFANYHAARIV----------  69
+            +G   I +D+  YD++ +  AHP G   I      D T+V   +H+ + +          
+Sbjct  68   KGRLNIRIDDEWYDLTNWRAAHPAGTHWIDAYNNSDATEVMYAFHSDKAISMFKRLPNSR  127
+
+Query  70   -----VAPHVAD---FRRIRQELLRRGLFETDSRFYLKMLAWHCTLWLCAMYLSLGCDSC  121
+                 +AP  A    FR +RQ L+  G F+      L+ LA    +    ++L+      
+Sbjct  128  APPEGIAPPSASTYAFRELRQRLVEEGWFKIHPLGELQKLAPWSAVTAAGVWLARRSGFW  187
+
+Query  122  GAHMLGAALMGVFWQQLAG-IGHDLGHSGVTHSFRRDHLVGSLLSAFMGLSVGWWKSDHN  180
+             A   G   + +    LAG + HD  H     ++      G L+    G+S  WW + HN
+Sbjct  188  SA-FAGVVCLAIG-NSLAGWLSHDYVHGRQPFAWAMRGF-GELIG---GMSTTWWSNKHN  241
+
+Query  181  THHVVCNAVEHDPNIQHMPMLAITDKVFRRPRFWDTYHRKWVGMDDAAHWLVSHQHLFFY  240
+             HH + N V +D +I   P L +     R     DT    W+      +W + +  LF Y
+Sbjct  242  MHHALTNEVGYDEDIALDPALHLWAPDPRH----DTL--PWLRQWQHVYWPLPYSILFLY  295
+
+Query  241  PLMALGRWNLYAQGLIYLLTQPDKTHFRKTELAGIAVYFGWVLGTALSMPSWAESVGWVM  300
+                   W      + Y+L   DK       LA     F  ++   L + S      W+ 
+Sbjct  296  -------WRF--DSIRYVLK--DKKWGEAARLAAHWAAFSALVPFRLLLAS-----VWL-  338
+
+Query  301  LSHACMDESGILHVQIV-LSHWSMHTYEGRAYNGADDEWYVTTMRTTMNVATPPWL-DWV  358
+                    SG++   IV ++H S   + G      D  +     R+T +     W  D +
+Sbjct  339  --------SGLITATIVTVTHQSEEIFLGDTLRKYD--FVEAQFRSTRDAKCNNWFSDVL  388
+
+Query  359  HIGLQFQIEHHLFPRLPRH  377
+              G+Q+Q+EHHLFP +PR+
+Sbjct  389  WGGMQWQLEHHLFPTMPRY  407
+
+
+>Emi379|CAMPEP_0187645722 unnamed protein product
+Length=493
+
+ Score = 62.4 bits (150),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 97/394 (25%), Positives = 145/394 (37%), Gaps = 67/394 (17%)
+
+Query  24   WIVVDERVYDVSRFIDAHPGGVGPILNLAGKDCTDVFANYHA------------------  65
+            W  +  R  DVS+F   HPGG   I    G D T  F  +H                   
+Sbjct  24   WTTIHGRHVDVSKF--RHPGG-NIIELFYGMDSTSAFEQFHGHHKGAWKMLKALPTKEVD  80
+
+Query  66   -ARIVVAP--HVADFRRIRQELLRRGLFETDSRFYLKMLAWHCTLWLCAMYLSLGCDSCG  122
+             A +   P  HVA+  R+      RGLF+        + +    L + A  ++    +  
+Sbjct  81   PADVPQQPQEHVAEMTRLMTSWRERGLFKPRP-----VASGIYGLAVVAAIVACIACAPH  135
+
+Query  123  AHMLGAALMGVFWQQLAGIGHDLGHS--GVTHSFRRDHLVGSLLSAFMGLSVGWWKSDHN  180
+            A +L    +G  W Q   + H  GH   GV +SF   H    LL    G S  WW++ HN
+Sbjct  136  APVLSGIGLGSCWAQCGFLQHMGGHREWGVRYSFLLQHFFEGLLK---GGSASWWRNRHN  192
+
+Query  181  THHVVCNAVEHDPNIQHMPMLAITDKVFRRPRFWDTYHRKWVGMDDAAHWLVSHQHLFFY  240
+             HH   N +  D +++  P  A           WD    K V       W +  Q   F 
+Sbjct  193  KHHAKTNVLGEDGDLRTTPFFA-----------WDPTLAKKV-----PDWSLKTQAFTFL  236
+
+Query  241  PLMALGRWNLYAQGLIYLLTQPDKTHFRKT--ELAGIAVYFGWVLGTALSMPSWAESVGW  298
+            P  ALG     A   ++  T       +K   ELA +  ++  +   AL +   +   G 
+Sbjct  237  P--ALG-----AYVFVFAFTIRKYAVVKKLWHELALMIAHYA-MFYYALQLAGASLGSGL  288
+
+Query  299  VMLSHACMDESGILHVQIVLSHWSMHTYEGRAYNGADDEWYVTTMRTTMN-VATPPWLDW  357
+                     +   L     LSH+++      A       W  ++M  T++   +  +  +
+Sbjct  289  AFYCTGYAWQGIYLGFFFGLSHFAVERVPSTA------TWLESSMIGTVDWGGSSAFCGY  342
+
+Query  358  VHIGLQFQIEHHLFPRLPRHNLRLARDMVREVVE  391
+            V   L  QIEHH+ P++P  NLR  R   +   E
+Sbjct  343  VSGFLNIQIEHHMAPQMPMENLRQIRADCKASAE  376
+
+
+>Emi379|CAMPEP_0187637558 unnamed protein product
+Length=536
+
+ Score = 62.0 bits (149),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 95/379 (25%), Positives = 149/379 (39%), Gaps = 60/379 (16%)
+
+Query  20   RGDAWIVVDERVYDVSRFIDAHPGGVGPILNLAGKDCTDVFANYHAARIV----------  69
+            +G A    D+  YD++ +  AHP G   I      D T+V   +H+ + +          
+Sbjct  67   QGQAQHPEDDEWYDLTNWRAAHPAGTHWIDAYNNSDATEVMYAFHSDKAISMFKRLPNSR  126
+
+Query  70   -----VAPHVAD---FRRIRQELLRRGLFETDSRFYLKMLAWHCTLWLCAMYLSLGCDSC  121
+                 +AP  A    FR +RQ L+  G F+      L+ LA    +    ++L+      
+Sbjct  127  APPEGIAPPSASTYAFRELRQRLVEEGWFKIHPLGELQKLAPWSAVTAAGIWLARRSGFW  186
+
+Query  122  GAHMLGAALMGVFWQQLAG-IGHDLGHSGVTHSFRRDHLVGSLLSAFMGLSVGWWKSDHN  180
+             A   G   + +    LAG + HD  H     ++      G L+    G+S  WW + HN
+Sbjct  187  SA-FAGVVCLAIG-NSLAGWLSHDYVHGRQPFAWAMRGF-GELIG---GMSTTWWSNKHN  240
+
+Query  181  THHVVCNAVEHDPNIQHMPMLAITDKVFRRPRFWDTYHRKWVGMDDAAHWLVSHQHLFFY  240
+             HH + N V +D +I   P L +     R     DT    W+      +W + +  LF Y
+Sbjct  241  MHHALTNEVGYDEDIALDPALHLWAPDPRH----DTL--PWLRQWQHVYWPLPYSILFLY  294
+
+Query  241  PLMALGRWNLYAQGLIYLLTQPDKTHFRKTELAGIAVYFGWVLGTALSMPSWAESVGWVM  300
+                   W      + Y+L   DK       LA     F  ++   L + S       V 
+Sbjct  295  -------WRF--DSIRYVLK--DKKWGEAARLAAHWAAFSALVPFRLLLAS-------VW  336
+
+Query  301  LSHACMDESGILHVQIV-LSHWSMHTYEGRAYNGADDEWYVTTMRTTMNVATPPWL-DWV  358
+            L       SG++   IV ++H S   + G      D  +     R+T +     W  D +
+Sbjct  337  L-------SGLITATIVTVTHQSEEIFLGDTLRKYD--FVEAQFRSTRDAKCNNWFSDVL  387
+
+Query  359  HIGLQFQIEHHLFPRLPRH  377
+              G+Q+Q+EHHLFP +PR+
+Sbjct  388  WGGMQWQLEHHLFPTMPRY  406
+
+
+>Emi374|CAMPEP_0187606928 unnamed protein product
+Length=535
+
+ Score = 62.0 bits (149),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 95/379 (25%), Positives = 149/379 (39%), Gaps = 60/379 (16%)
+
+Query  20   RGDAWIVVDERVYDVSRFIDAHPGGVGPILNLAGKDCTDVFANYHAARIV----------  69
+            +G A    D+  YD++ +  AHP G   I      D T+V   +H+ + +          
+Sbjct  66   QGQAQHPEDDEWYDLTNWRAAHPAGTHWIDAYNNSDATEVMYAFHSDKAISMFKRLPNSR  125
+
+Query  70   -----VAPHVAD---FRRIRQELLRRGLFETDSRFYLKMLAWHCTLWLCAMYLSLGCDSC  121
+                 +AP  A    FR +RQ L+  G F+      L+ LA    +    ++L+      
+Sbjct  126  APPEGIAPPSASTYAFRELRQRLVEEGWFKIHPLGELQKLAPWSAVTAAGVWLARRSGFW  185
+
+Query  122  GAHMLGAALMGVFWQQLAG-IGHDLGHSGVTHSFRRDHLVGSLLSAFMGLSVGWWKSDHN  180
+             A   G   + +    LAG + HD  H     ++      G L+    G+S  WW + HN
+Sbjct  186  SA-FAGVVCLAIG-NSLAGWLSHDYVHGRQPFAWAMRGF-GELIG---GMSTTWWSNKHN  239
+
+Query  181  THHVVCNAVEHDPNIQHMPMLAITDKVFRRPRFWDTYHRKWVGMDDAAHWLVSHQHLFFY  240
+             HH + N V +D +I   P L +     R     DT    W+      +W + +  LF Y
+Sbjct  240  MHHALTNEVGYDEDIALDPALHLWAPDPRH----DTL--PWLRQWQHVYWPLPYSILFLY  293
+
+Query  241  PLMALGRWNLYAQGLIYLLTQPDKTHFRKTELAGIAVYFGWVLGTALSMPSWAESVGWVM  300
+                   W      + Y+L   DK       LA     F  ++   L + S       V 
+Sbjct  294  -------WRF--DSIRYVLK--DKKWGEAARLAAHWAAFSALVPFRLLLAS-------VW  335
+
+Query  301  LSHACMDESGILHVQIV-LSHWSMHTYEGRAYNGADDEWYVTTMRTTMNVATPPWL-DWV  358
+            L       SG++   IV ++H S   + G      D  +     R+T +     W  D +
+Sbjct  336  L-------SGLITATIVTVTHQSEEIFLGDTLRKYD--FVEAQFRSTRDAKCNNWFSDVL  386
+
+Query  359  HIGLQFQIEHHLFPRLPRH  377
+              G+Q+Q+EHHLFP +PR+
+Sbjct  387  WGGMQWQLEHHLFPTMPRY  405
+
+
+>Emi370|CAMPEP_0187718966 unnamed protein product
+Length=437
+
+ Score = 61.6 bits (148),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 99/397 (25%), Positives = 145/397 (37%), Gaps = 73/397 (18%)
+
+Query  24   WIVVDERVYDVSRFIDAHPGGVGPILNLAGKDCTDVFANYHA------------------  65
+            W  +  R  DVS+F   HPGG   I    G D T  F  +H                   
+Sbjct  26   WTTIHGRHVDVSKF--RHPGG-NIIELFYGMDSTSAFEQFHGHHKGAWKMLKALPTKEVD  82
+
+Query  66   -ARIVVAP--HVADFRRIRQELLRRGLFE---TDSRFYLKMLAWHCTLWLCAMYLSLGCD  119
+             A +   P  HVA+  R+      RGLF+     S  Y         L + A  ++    
+Sbjct  83   PADVPQQPQEHVAEMTRLMTSWRERGLFKPRPVASGIY--------GLAVVAAIVACIAC  134
+
+Query  120  SCGAHMLGAALMGVFWQQLAGIGHDLGHS--GVTHSFRRDHLVGSLLSAFMGLSVGWWKS  177
+            +  A +L    +G  W Q   + H  GH   GV +SF   H    LL    G S  WW++
+Sbjct  135  APHAPVLSGIGLGSCWAQCGFLQHMGGHREWGVRYSFLLQHFFEGLLK---GGSASWWRN  191
+
+Query  178  DHNTHHVVCNAVEHDPNIQHMPMLAITDKVFRRPRFWDTYHRKWVGMDDAAHWLVSHQHL  237
+             HN HH   N +  D +++  P  A           WD    K V       W +  Q  
+Sbjct  192  RHNKHHAKTNVLGEDGDLRTTPFFA-----------WDPTLAKKV-----PDWSLKTQAF  235
+
+Query  238  FFYPLMALGRWNLYAQGLIYLLTQPDKTHFRKT--ELAGIAVYFGWVLGTALSMPSWAES  295
+             F P  ALG     A   ++  T       +K   ELA +  ++  +   AL +   +  
+Sbjct  236  TFLP--ALG-----AYVFVFAFTIRKYAVVKKLWHELALMIAHYA-MFYYALQLAGASLG  287
+
+Query  296  VGWVMLSHACMDESGILHVQIVLSHWSMHTYEGRAYNGADDEWYVTTMRTTMN-VATPPW  354
+             G          +   L     LSH+++      A       W  ++M  T++   +  +
+Sbjct  288  SGLAFYCTGYAWQGIYLGFFFGLSHFAVERVPSTA------TWLESSMIGTVDWGGSSAF  341
+
+Query  355  LDWVHIGLQFQIEHHLFPRLPRHNLRLARDMVREVVE  391
+              +V   L  QIEHH+ P++P  NLR  R   +   E
+Sbjct  342  CGYVSGFLNIQIEHHMAPQMPMENLRQIRADCKASAE  378
+
+
+>Emi374|CAMPEP_0187606670 unnamed protein product
+Length=439
+
+ Score = 61.6 bits (148),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 97/394 (25%), Positives = 145/394 (37%), Gaps = 67/394 (17%)
+
+Query  24   WIVVDERVYDVSRFIDAHPGGVGPILNLAGKDCTDVFANYHA------------------  65
+            W  +  R  DVS+F   HPGG   I    G D T  F  +H                   
+Sbjct  28   WTTIHGRHVDVSKF--RHPGG-NIIELFYGMDSTSAFEQFHGHHKGAWKMLKALPTKEVD  84
+
+Query  66   -ARIVVAP--HVADFRRIRQELLRRGLFETDSRFYLKMLAWHCTLWLCAMYLSLGCDSCG  122
+             A +   P  HVA+  R+      RGLF+        + +    L + A  ++    +  
+Sbjct  85   PADVPQQPQEHVAEMTRLMTSWRERGLFKPRP-----VASGIYGLAVVAAIVACIACAPH  139
+
+Query  123  AHMLGAALMGVFWQQLAGIGHDLGHS--GVTHSFRRDHLVGSLLSAFMGLSVGWWKSDHN  180
+            A +L    +G  W Q   + H  GH   GV +SF   H    LL    G S  WW++ HN
+Sbjct  140  APVLSGIGLGSCWAQCGFLQHMGGHREWGVRYSFLLQHFFEGLLK---GGSASWWRNRHN  196
+
+Query  181  THHVVCNAVEHDPNIQHMPMLAITDKVFRRPRFWDTYHRKWVGMDDAAHWLVSHQHLFFY  240
+             HH   N +  D +++  P  A           WD    K V       W +  Q   F 
+Sbjct  197  KHHAKTNVLGEDGDLRTTPFFA-----------WDPTLAKKV-----PDWSLKTQAFTFL  240
+
+Query  241  PLMALGRWNLYAQGLIYLLTQPDKTHFRKT--ELAGIAVYFGWVLGTALSMPSWAESVGW  298
+            P  ALG     A   ++  T       +K   ELA +  ++  +   AL +   +   G 
+Sbjct  241  P--ALG-----AYVFVFAFTIRKYAVVKKLWHELALMIAHYA-MFYYALQLAGASLGSGL  292
+
+Query  299  VMLSHACMDESGILHVQIVLSHWSMHTYEGRAYNGADDEWYVTTMRTTMN-VATPPWLDW  357
+                     +   L     LSH+++      A       W  ++M  T++   +  +  +
+Sbjct  293  AFYCTGYAWQGIYLGFFFGLSHFAVERVPSTA------TWLESSMIGTVDWGGSSAFCGY  346
+
+Query  358  VHIGLQFQIEHHLFPRLPRHNLRLARDMVREVVE  391
+            V   L  QIEHH+ P++P  NLR  R   +   E
+Sbjct  347  VSGFLNIQIEHHMAPQMPMENLRQIRADCKASAE  380
+
+
+>Emi219|CAMPEP_0187748444 unnamed protein product
+Length=526
+
+ Score = 62.0 bits (149),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 97/394 (25%), Positives = 145/394 (37%), Gaps = 67/394 (17%)
+
+Query  24   WIVVDERVYDVSRFIDAHPGGVGPILNLAGKDCTDVFANYHA------------------  65
+            W  +  R  DVS+F   HPGG   I    G D T  F  +H                   
+Sbjct  27   WTTIHGRHVDVSKF--RHPGG-NIIELFYGMDSTSAFEQFHGHHKGAWKMLKALPTKEVD  83
+
+Query  66   -ARIVVAP--HVADFRRIRQELLRRGLFETDSRFYLKMLAWHCTLWLCAMYLSLGCDSCG  122
+             A +   P  HVA+  R+      RGLF+        + +    L + A  ++    +  
+Sbjct  84   PADVPQQPQEHVAEMTRLMTSWRERGLFKPRP-----VASGIYGLAVVAAIVACIACAPH  138
+
+Query  123  AHMLGAALMGVFWQQLAGIGHDLGHS--GVTHSFRRDHLVGSLLSAFMGLSVGWWKSDHN  180
+            A +L    +G  W Q   + H  GH   GV +SF   H    LL    G S  WW++ HN
+Sbjct  139  APVLSGIGLGSCWAQCGFLQHMGGHREWGVRYSFLLQHFFEGLLK---GGSASWWRNRHN  195
+
+Query  181  THHVVCNAVEHDPNIQHMPMLAITDKVFRRPRFWDTYHRKWVGMDDAAHWLVSHQHLFFY  240
+             HH   N +  D +++  P  A           WD    K V       W +  Q   F 
+Sbjct  196  KHHAKTNVLGEDGDLRTTPFFA-----------WDPTLAKKV-----PDWSLKTQAFTFL  239
+
+Query  241  PLMALGRWNLYAQGLIYLLTQPDKTHFRKT--ELAGIAVYFGWVLGTALSMPSWAESVGW  298
+            P  ALG     A   ++  T       +K   ELA +  ++  +   AL +   +   G 
+Sbjct  240  P--ALG-----AYVFVFAFTIRKYAVVKKLWHELALMIAHYA-MFYYALQLAGASLGSGL  291
+
+Query  299  VMLSHACMDESGILHVQIVLSHWSMHTYEGRAYNGADDEWYVTTMRTTMN-VATPPWLDW  357
+                     +   L     LSH+++      A       W  ++M  T++   +  +  +
+Sbjct  292  AFYCTGYAWQGIYLGFFFGLSHFAVERVPSTA------TWLESSMIGTVDWGGSSAFCGY  345
+
+Query  358  VHIGLQFQIEHHLFPRLPRHNLRLARDMVREVVE  391
+            V   L  QIEHH+ P++P  NLR  R   +   E
+Sbjct  346  VSGFLNIQIEHHMAPQMPMENLRQIRADCKASAE  379
+
+
+>Emi219|CAMPEP_0187781802 unnamed protein product
+Length=398
+
+ Score = 57.8 bits (138),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 63/231 (27%), Positives = 97/231 (42%), Gaps = 48/231 (21%)
+
+Query  169  GLSVGWWKSDHNTHHVVCNAVEHDPNIQHMPMLAITDKVFRRPRFWDTYHRKWVGMDDAA  228
+            G S  WW + HN HH   N V  D +I   P   +      R   W              
+Sbjct  142  GHSSTWWSNKHNLHHACTNQVGVDEDIMSDPFFFLWPPDPARDSRWRRL-----------  190
+
+Query  229  HWLVSHQHLFFYP----LMALGRWNLYAQGLIYLLTQPDKTHFRKTELAGIAVYFGWVLG  284
+                  QHL+  P    L AL R+N          T   K  +R  E   + + + W+  
+Sbjct  191  ------QHLYALPVYSALFALWRFN-------SARTVWSKRLWR--EAVPMGLNYLWM--  233
+
+Query  285  TALSMPSWAESVGWVMLSHACMDESGILHVQIV-LSHWSMHTYEGRAYNGADDEWYVTTM  343
+             AL +P  A +VG V+L+       G L   IV +SH +   +         D+W  + +
+Sbjct  234  -ALCLPP-AVAVGHVLLA-------GALTATIVTVSHQAEDLFHEH-----QDDWVASQV  279
+
+Query  344  RTTMN-VATPPWLDWVHIGLQFQIEHHLFPRLPRHNLRLARDMVREVVEAH  393
+             +T + V + P+ +W+  G+Q+Q+EHHL P +PR+    A  +VR++   H
+Sbjct  280  HSTRDAVTSSPFSEWLWGGMQYQLEHHLLPTMPRYRYPSAAPLVRQLCAEH  330
+
+
+>Emi374|CAMPEP_0187598504 unnamed protein product
+Length=344
+
+ Score = 57.0 bits (136),  Expect = 3e-08, Method: Compositional matrix adjust.
+ Identities = 63/231 (27%), Positives = 95/231 (41%), Gaps = 48/231 (21%)
+
+Query  169  GLSVGWWKSDHNTHHVVCNAVEHDPNIQHMPMLAITDKVFRRPRFWDTYHRKWVGMDDAA  228
+            G S  WW + HN HH   N V  D +I   P   +      R   W              
+Sbjct  103  GHSSTWWSNKHNLHHACTNQVGVDEDIMSDPFFFLWPPDPARDSRWRRL-----------  151
+
+Query  229  HWLVSHQHLFFYP----LMALGRWNLYAQGLIYLLTQPDKTHFRKTELAGIAVYFGWVLG  284
+                  QHL+  P    L AL R+N          T   K  +R+    G+       L 
+Sbjct  152  ------QHLYALPVYSALFALWRFN-------SARTVWSKRLWREAVPMGLNY-----LW  193
+
+Query  285  TALSMPSWAESVGWVMLSHACMDESGILHVQIV-LSHWSMHTYEGRAYNGADDEWYVTTM  343
+             AL +P  A +VG V+L+       G L   IV +SH +   +         D+W  + +
+Sbjct  194  MALCLPP-AVAVGHVLLA-------GALTATIVTVSHQAEDLFHEH-----QDDWVASQV  240
+
+Query  344  RTTMN-VATPPWLDWVHIGLQFQIEHHLFPRLPRHNLRLARDMVREVVEAH  393
+             +T + V + P+ +W+  G+Q+Q+EHHL P +PR+    A  +VR++   H
+Sbjct  241  HSTRDAVTSSPFSEWLWGGMQYQLEHHLLPTMPRYRYPSAAPLVRQLCAEH  291
+
+
+>Emi219|CAMPEP_0187806494 unnamed protein product
+Length=643
+
+ Score = 57.8 bits (138),  Expect = 3e-08, Method: Compositional matrix adjust.
+ Identities = 63/231 (27%), Positives = 97/231 (42%), Gaps = 48/231 (21%)
+
+Query  169  GLSVGWWKSDHNTHHVVCNAVEHDPNIQHMPMLAITDKVFRRPRFWDTYHRKWVGMDDAA  228
+            G S  WW + HN HH   N V  D +I   P   +      R   W              
+Sbjct  386  GHSSTWWSNKHNLHHACTNQVGVDEDIMSDPFFFLWPPDPARDSRWRRL-----------  434
+
+Query  229  HWLVSHQHLFFYP----LMALGRWNLYAQGLIYLLTQPDKTHFRKTELAGIAVYFGWVLG  284
+                  QHL+  P    L AL R+N          T   K  +R  E   + + + W+  
+Sbjct  435  ------QHLYALPVYSALFALWRFN-------SARTVWSKRLWR--EAVPMGLNYLWM--  477
+
+Query  285  TALSMPSWAESVGWVMLSHACMDESGILHVQIV-LSHWSMHTYEGRAYNGADDEWYVTTM  343
+             AL +P  A +VG V+L+       G L   IV +SH +   +         D+W  + +
+Sbjct  478  -ALCLPP-AVAVGHVLLA-------GALTATIVTVSHQAEDLFHEH-----QDDWVASQV  523
+
+Query  344  RTTMN-VATPPWLDWVHIGLQFQIEHHLFPRLPRHNLRLARDMVREVVEAH  393
+             +T + V + P+ +W+  G+Q+Q+EHHL P +PR+    A  +VR++   H
+Sbjct  524  HSTRDAVTSSPFSEWLWGGMQYQLEHHLLPTMPRYRYPSAAPLVRQLCAEH  574
+
+
+>Emi370|CAMPEP_0187704756 unnamed protein product
+Length=670
+
+ Score = 57.8 bits (138),  Expect = 4e-08, Method: Compositional matrix adjust.
+ Identities = 63/231 (27%), Positives = 97/231 (42%), Gaps = 48/231 (21%)
+
+Query  169  GLSVGWWKSDHNTHHVVCNAVEHDPNIQHMPMLAITDKVFRRPRFWDTYHRKWVGMDDAA  228
+            G S  WW + HN HH   N V  D +I   P   +      R   W              
+Sbjct  399  GHSSTWWSNKHNLHHACTNQVGVDEDIMSDPFFFLWPPDPARDSRWRRL-----------  447
+
+Query  229  HWLVSHQHLFFYP----LMALGRWNLYAQGLIYLLTQPDKTHFRKTELAGIAVYFGWVLG  284
+                  QHL+  P    L AL R+N          T   K  +R  E   + + + W+  
+Sbjct  448  ------QHLYALPVYSALFALWRFN-------SARTVWSKRLWR--EAVPMGLNYLWM--  490
+
+Query  285  TALSMPSWAESVGWVMLSHACMDESGILHVQIV-LSHWSMHTYEGRAYNGADDEWYVTTM  343
+             AL +P  A +VG V+L+       G L   IV +SH +   +         D+W  + +
+Sbjct  491  -ALCLPP-AVAVGHVLLA-------GALTATIVTVSHQAEDLFHEH-----QDDWVASQV  536
+
+Query  344  RTTMN-VATPPWLDWVHIGLQFQIEHHLFPRLPRHNLRLARDMVREVVEAH  393
+             +T + V + P+ +W+  G+Q+Q+EHHL P +PR+    A  +VR++   H
+Sbjct  537  HSTRDAVTSSPFSEWLWGGMQYQLEHHLLPTMPRYRYPSAAPLVRQLCAEH  587
+
+
+>Emi379|CAMPEP_0187656516 unnamed protein product
+Length=634
+
+ Score = 57.4 bits (137),  Expect = 4e-08, Method: Compositional matrix adjust.
+ Identities = 58/229 (25%), Positives = 96/229 (42%), Gaps = 44/229 (19%)
+
+Query  169  GLSVGWWKSDHNTHHVVCNAVEHDPNIQHMPMLAITDKVFRRPRFWDTYHRKWVGMDDAA  228
+            G S  WW + HN HH   N V  D +I   P   +      R   W              
+Sbjct  393  GHSSTWWSNKHNLHHACTNQVGVDEDIMSDPFFFLWPPDPARDSRWRRL-----------  441
+
+Query  229  HWLVSHQHLFFYPLMA--LGRWNLYAQGLIYLLTQPDKTHFRKTELAGIAVYFGWVLGTA  286
+                  QHL+  P+ +     W   +   ++      K  +R  E   + + + W+   A
+Sbjct  442  ------QHLYALPVYSALFALWRFNSARTVW-----SKRLWR--EAVPMGLNYLWM---A  485
+
+Query  287  LSMPSWAESVGWVMLSHACMDESGILHVQIV-LSHWSMHTYEGRAYNGADDEWYVTTMRT  345
+            L +P  A +VG V+L+       G L   IV +SH +   +         D+W  + + +
+Sbjct  486  LCLPP-AVAVGHVLLA-------GALTATIVTVSHQAEDLFHEH-----QDDWVASQVHS  532
+
+Query  346  TMN-VATPPWLDWVHIGLQFQIEHHLFPRLPRHNLRLARDMVREVVEAH  393
+            T + V + P+ +W+  G+Q+Q+EHHL P +PR+    A  +VR++   H
+Sbjct  533  TRDAVTSSPFSEWLWGGMQYQLEHHLLPTMPRYRYPSAAPLVRQLCAEH  581
+
+
+>Emi219|CAMPEP_0187760532 unnamed protein product
+Length=851
+
+ Score = 57.4 bits (137),  Expect = 5e-08, Method: Compositional matrix adjust.
+ Identities = 23/61 (38%), Positives = 38/61 (62%), Gaps = 0/61 (0%)
+
+Query  7    REYTLAEVGKHCSRGDAWIVVDERVYDVSRFIDAHPGGVGPILNLAGKDCTDVFANYHAA  66
+            ++++LAE+ +H ++ D WI V   VYD + +++ HPGG   IL  AG D T+ F   H+ 
+Sbjct  498  KQFSLAEIARHSTKEDCWIAVKGVVYDATPYLEEHPGGASSILIAAGTDATEDFEALHSE  557
+
+Query  67   R  67
+            +
+Sbjct  558  K  558
+
+
+>Emi370|CAMPEP_0187693276 unnamed protein product
+Length=893
+
+ Score = 57.0 bits (136),  Expect = 5e-08, Method: Compositional matrix adjust.
+ Identities = 23/61 (38%), Positives = 38/61 (62%), Gaps = 0/61 (0%)
+
+Query  7    REYTLAEVGKHCSRGDAWIVVDERVYDVSRFIDAHPGGVGPILNLAGKDCTDVFANYHAA  66
+            ++++LAE+ +H ++ D WI V   VYD + +++ HPGG   IL  AG D T+ F   H+ 
+Sbjct  506  KQFSLAEIARHSTKEDCWIAVKGVVYDATPYLEEHPGGASSILIAAGTDATEDFEALHSE  565
+
+Query  67   R  67
+            +
+Sbjct  566  K  566
+
+
+>Emi379|CAMPEP_0187629296 unnamed protein product
+Length=849
+
+ Score = 57.0 bits (136),  Expect = 6e-08, Method: Compositional matrix adjust.
+ Identities = 23/61 (38%), Positives = 38/61 (62%), Gaps = 0/61 (0%)
+
+Query  7    REYTLAEVGKHCSRGDAWIVVDERVYDVSRFIDAHPGGVGPILNLAGKDCTDVFANYHAA  66
+            ++++LAE+ +H ++ D WI V   VYD + +++ HPGG   IL  AG D T+ F   H+ 
+Sbjct  496  KQFSLAEIARHSTKEDCWIAVKGVVYDATPYLEEHPGGASSILIAAGTDATEDFEALHSE  555
+
+Query  67   R  67
+            +
+Sbjct  556  K  556
+
+
+>Emi374|CAMPEP_0187610068 unnamed protein product
+Length=1000
+
+ Score = 57.0 bits (136),  Expect = 6e-08, Method: Compositional matrix adjust.
+ Identities = 23/61 (38%), Positives = 38/61 (62%), Gaps = 0/61 (0%)
+
+Query  7    REYTLAEVGKHCSRGDAWIVVDERVYDVSRFIDAHPGGVGPILNLAGKDCTDVFANYHAA  66
+            ++++LAE+ +H ++ D WI V   VYD + +++ HPGG   IL  AG D T+ F   H+ 
+Sbjct  647  KQFSLAEIARHSTKEDCWIAVKGVVYDATPYLEEHPGGASSILIAAGTDATEDFEALHSE  706
+
+Query  67   R  67
+            +
+Sbjct  707  K  707
+
+
+>Emi219|CAMPEP_0187788096 unnamed protein product
+Length=204
+
+ Score = 54.3 bits (129),  Expect = 8e-08, Method: Compositional matrix adjust.
+ Identities = 24/58 (41%), Positives = 39/58 (67%), Gaps = 0/58 (0%)
+
+Query  8    EYTLAEVGKHCSRGDAWIVVDERVYDVSRFIDAHPGGVGPILNLAGKDCTDVFANYHA  65
+            +++LA+V  H +  D+W+ V  +VY+VS ++  HPGGV  +L+ AG D T +F  +HA
+Sbjct  130  KWSLADVASHTTPEDSWMAVRGKVYNVSPYLRYHPGGVDTLLDAAGTDATALFQQHHA  187
+
+
+>Emihu1|65915 unnamed protein product
+Length=74
+
+ Score = 51.6 bits (122),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 23/57 (40%), Positives = 35/57 (61%), Gaps = 0/57 (0%)
+
+Query  13  EVGKHCSRGDAWIVVDERVYDVSRFIDAHPGGVGPILNLAGKDCTDVFANYHAARIV  69
+           E+ +H S GD+W+ +   VY+VSR+ D HPGG   +L  AG+D +D F  +H   + 
+Sbjct  6   ELQRHSSGGDSWLAIHGMVYNVSRWHDRHPGGSDILLAYAGRDASDQFELFHPPAVA  62
+
+
+>Emihu1|71873 unnamed protein product
+Length=74
+
+ Score = 51.6 bits (122),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 23/57 (40%), Positives = 35/57 (61%), Gaps = 0/57 (0%)
+
+Query  13  EVGKHCSRGDAWIVVDERVYDVSRFIDAHPGGVGPILNLAGKDCTDVFANYHAARIV  69
+           E+ +H S GD+W+ +   VY+VSR+ D HPGG   +L  AG+D +D F  +H   + 
+Sbjct  6   ELQRHSSGGDSWLAIHGMVYNVSRWHDRHPGGSDILLAYAGRDASDQFELFHPPAVA  62
+
+
+>Emi379|CAMPEP_0187635378 unnamed protein product
+Length=235
+
+ Score = 53.9 bits (128),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 23/58 (40%), Positives = 39/58 (67%), Gaps = 0/58 (0%)
+
+Query  8    EYTLAEVGKHCSRGDAWIVVDERVYDVSRFIDAHPGGVGPILNLAGKDCTDVFANYHA  65
+            +++LA+V  H +  D+W+ +  +VY+VS ++  HPGGV  +L+ AG D T +F  +HA
+Sbjct  161  KWSLADVASHTTPEDSWMAIRGKVYNVSPYLRYHPGGVDTLLDAAGTDATALFQQHHA  218
+
+
+>Emi379|CAMPEP_0187615598 unnamed protein product
+Length=150
+
+ Score = 52.4 bits (124),  Expect = 2e-07, Method: Composition-based stats.
+ Identities = 21/66 (32%), Positives = 45/66 (68%), Gaps = 3/66 (5%)
+
+Query  2   GQPTLREYTLAEVGKHCSRGDAWIVVDERVYDVSRFIDAHPGGVGPILNLAGKDCTDVFA  61
+           G+P +   ++A+V  H ++ D W+V+ ++VY+V++++D HPGG   +++ AG++ T+ F 
+Sbjct  19  GRPFM---SMADVESHNTQEDVWMVIHDKVYNVTKYLDDHPGGEEVLMDRAGQNATEDFE  75
+
+Query  62  NYHAAR  67
+           +   +R
+Sbjct  76  DVGHSR  81
+
+
+>Emi370|CAMPEP_0187693072 unnamed protein product
+Length=150
+
+ Score = 52.4 bits (124),  Expect = 2e-07, Method: Composition-based stats.
+ Identities = 21/66 (32%), Positives = 45/66 (68%), Gaps = 3/66 (5%)
+
+Query  2   GQPTLREYTLAEVGKHCSRGDAWIVVDERVYDVSRFIDAHPGGVGPILNLAGKDCTDVFA  61
+           G+P +   ++A+V  H ++ D W+V+ ++VY+V++++D HPGG   +++ AG++ T+ F 
+Sbjct  19  GRPFM---SMADVESHNTQEDVWMVIHDKVYNVTKYLDDHPGGEEVLMDRAGQNATEDFE  75
+
+Query  62  NYHAAR  67
+           +   +R
+Sbjct  76  DVGHSR  81
+
+
+>Emihu1|351238 unnamed protein product
+Length=151
+
+ Score = 52.4 bits (124),  Expect = 2e-07, Method: Composition-based stats.
+ Identities = 21/66 (32%), Positives = 45/66 (68%), Gaps = 3/66 (5%)
+
+Query  2   GQPTLREYTLAEVGKHCSRGDAWIVVDERVYDVSRFIDAHPGGVGPILNLAGKDCTDVFA  61
+           G+P +   ++A+V  H ++ D W+V+ ++VY+V++++D HPGG   +++ AG++ T+ F 
+Sbjct  19  GRPFM---SMADVESHNTQEDVWMVIHDKVYNVTKYLDDHPGGEEVLMDRAGQNATEDFE  75
+
+Query  62  NYHAAR  67
+           +   +R
+Sbjct  76  DVGHSR  81
+
+
+>Emihu1|103141 unnamed protein product
+Length=456
+
+ Score = 54.7 bits (130),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 24/58 (41%), Positives = 39/58 (67%), Gaps = 0/58 (0%)
+
+Query  8    EYTLAEVGKHCSRGDAWIVVDERVYDVSRFIDAHPGGVGPILNLAGKDCTDVFANYHA  65
+            +++LA+V  H +  D+W+ V  +VY+VS ++  HPGGV  +L+ AG D T +F  +HA
+Sbjct  381  KWSLADVASHTTPEDSWMAVRGKVYNVSPYLRYHPGGVDTLLDAAGTDATALFQQHHA  438
+
+
+>Emi370|CAMPEP_0187735590 unnamed protein product
+Length=206
+
+ Score = 52.8 bits (125),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 23/58 (40%), Positives = 38/58 (66%), Gaps = 0/58 (0%)
+
+Query  8    EYTLAEVGKHCSRGDAWIVVDERVYDVSRFIDAHPGGVGPILNLAGKDCTDVFANYHA  65
+            +++LA+V  H +  D+W+ V  +VY+VS ++  HPGG   +L+ AG D T +F  +HA
+Sbjct  132  KWSLADVASHTTPEDSWMAVRGKVYNVSPYLRYHPGGADTLLDAAGTDATALFQQHHA  189
+
+
+>Emihu1|455000 unnamed protein product
+Length=515
+
+ Score = 54.3 bits (129),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 24/58 (41%), Positives = 39/58 (67%), Gaps = 0/58 (0%)
+
+Query  8    EYTLAEVGKHCSRGDAWIVVDERVYDVSRFIDAHPGGVGPILNLAGKDCTDVFANYHA  65
+            +++LA+V  H +  D+W+ V  +VY+VS ++  HPGGV  +L+ AG D T +F  +HA
+Sbjct  453  KWSLADVASHTTPEDSWMAVRGKVYNVSPYLRYHPGGVDALLDAAGTDATALFQQHHA  510
+
+
+>Emi370|CAMPEP_0187691872 unnamed protein product
+Length=211
+
+ Score = 52.4 bits (124),  Expect = 4e-07, Method: Compositional matrix adjust.
+ Identities = 27/67 (40%), Positives = 39/67 (58%), Gaps = 8/67 (12%)
+
+Query  9   YTLAEVGKHCSRGDAWIVVDERVYDVSRFIDAHPGGVGP--------ILNLAGKDCTDVF  60
+           +T+AEV +HC   DAWIVV ++VYD++  +  H G VG         +L+  G DC+  F
+Sbjct  34  FTMAEVARHCYSDDAWIVVSDKVYDMTAHVQHHEGWVGSGKVSTLLALLSAMGTDCSLDF  93
+
+Query  61  ANYHAAR  67
+            + H AR
+Sbjct  94  NSTHDAR  100
+
+
+>Emihu1|442722 unnamed protein product
+Length=201
+
+ Score = 51.6 bits (122),  Expect = 6e-07, Method: Compositional matrix adjust.
+ Identities = 27/67 (40%), Positives = 39/67 (58%), Gaps = 8/67 (12%)
+
+Query  9   YTLAEVGKHCSRGDAWIVVDERVYDVSRFIDAHPGGVGP--------ILNLAGKDCTDVF  60
+           +T+AEV +HC   DAWIVV ++VYD++  +  H G VG         +L+  G DC+  F
+Sbjct  26  FTMAEVARHCYSDDAWIVVSDKVYDMTAHVQHHEGWVGSGKVSTLLALLSAMGTDCSLDF  85
+
+Query  61  ANYHAAR  67
+            + H AR
+Sbjct  86  NSTHDAR  92
+
+
+>Emihu1|438232 unnamed protein product
+Length=201
+
+ Score = 51.2 bits (121),  Expect = 7e-07, Method: Compositional matrix adjust.
+ Identities = 27/67 (40%), Positives = 39/67 (58%), Gaps = 8/67 (12%)
+
+Query  9   YTLAEVGKHCSRGDAWIVVDERVYDVSRFIDAHPGGVGP--------ILNLAGKDCTDVF  60
+           +T+AEV +HC   DAWIVV ++VYD++  +  H G VG         +L+  G DC+  F
+Sbjct  26  FTMAEVARHCYSDDAWIVVSDKVYDMTAHVQHHEGWVGSGKVSTLLALLSAMGTDCSIDF  85
+
+Query  61  ANYHAAR  67
+            + H AR
+Sbjct  86  NSTHDAR  92
+
+
+>Emi219|CAMPEP_0187771330 unnamed protein product
+Length=102
+
+ Score = 50.1 bits (118),  Expect = 7e-07, Method: Compositional matrix adjust.
+ Identities = 26/65 (40%), Positives = 37/65 (57%), Gaps = 8/65 (12%)
+
+Query  11  LAEVGKHCSRGDAWIVVDERVYDVSRFIDAHPGGVGP--------ILNLAGKDCTDVFAN  62
+           +AEV +HC   DAWIVV ++VYD++  +  H G VG         +L+  G DC+  F +
+Sbjct  1   MAEVARHCYSDDAWIVVSDKVYDMTAHVQHHEGWVGSGKVSTLLALLSAMGTDCSLDFNS  60
+
+Query  63  YHAAR  67
+            H AR
+Sbjct  61  THDAR  65
+
+
+>Emi370|CAMPEP_0187685316 unnamed protein product
+Length=588
+
+ Score = 53.1 bits (126),  Expect = 9e-07, Method: Compositional matrix adjust.
+ Identities = 27/58 (47%), Positives = 36/58 (62%), Gaps = 1/58 (2%)
+
+Query  9    YTLAEVGKHCSRGDAWIVVDERVYDVSRFIDAHPGGVGPILNLAGKDCTDVFANYHAA  66
+            YT+ +V  H S  D W+VV  +VYDV+ F+ +HP GV  IL  AG D T  F  +H+A
+Sbjct  52   YTMGQVAAHNSVDDCWLVVHGKVYDVTAFMQSHPAGVRAILRHAGTDATRDF-EFHSA  108
+
+
+>Emi374|CAMPEP_0187593230 unnamed protein product
+Length=183
+
+ Score = 50.4 bits (119),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 18/53 (34%), Positives = 39/53 (74%), Gaps = 0/53 (0%)
+
+Query  10   TLAEVGKHCSRGDAWIVVDERVYDVSRFIDAHPGGVGPILNLAGKDCTDVFAN  62
+            ++A+V  H ++ D W+V+ ++VY+V++++D HPGG   +++ AG++ T+ F +
+Sbjct  57   SMADVESHNTQEDVWMVIHDKVYNVTKYLDDHPGGEEVLMDRAGQNATEDFED  109
+
+
+>Emihu1|433467 unnamed protein product
+Length=361
+
+ Score = 52.4 bits (124),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 55/202 (27%), Positives = 78/202 (39%), Gaps = 34/202 (17%)
+
+Query  24   WIVVDERVYDVSRFIDAHPGGVGPILNLAGKDCTDVFANYHA------------------  65
+            W  +  R  DVS+F   HPGG   I    G D T  F  +H                   
+Sbjct  14   WTTIHGRHVDVSKF--RHPGG-NIIELFYGMDSTSAFEQFHGHHKGAWKMLKALPTKEVD  70
+
+Query  66   -ARIVVAP--HVADFRRIRQELLRRGLFETDSRFYLKMLAWHCTLWLCAMYLSLGCDSCG  122
+             A +   P  HVA+  R+      RGLF+        + +    L + A  ++    +  
+Sbjct  71   PADVPQQPQEHVAEMTRLMTSWRERGLFKPRP-----VASGIYGLAVVAAIVACIACAPH  125
+
+Query  123  AHMLGAALMGVFWQQLAGIGHDLGHS--GVTHSFRRDHLVGSLLSAFMGLSVGWWKSDHN  180
+            A +L    +G  W Q   + H  GH   GV +SF   H    LL    G S  WW++ HN
+Sbjct  126  APVLSGIGLGSCWAQCGFLQHMGGHREWGVRYSFLLQHFFEGLLK---GGSASWWRNRHN  182
+
+Query  181  THHVVCNAVEHDPNIQHMPMLA  202
+             HH   N +  D +++  P  A
+Sbjct  183  KHHAKTNVLGEDGDLRTTPFFA  204
+
+
+>Emi219|CAMPEP_0187802222 unnamed protein product
+Length=563
+
+ Score = 52.8 bits (125),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 23/58 (40%), Positives = 38/58 (66%), Gaps = 0/58 (0%)
+
+Query  8    EYTLAEVGKHCSRGDAWIVVDERVYDVSRFIDAHPGGVGPILNLAGKDCTDVFANYHA  65
+            +++LA+V  H +  D+W+ V  +VY+VS ++  HPGG   +L+ AG D T +F  +HA
+Sbjct  489  KWSLADVASHTTPEDSWMAVRGKVYNVSPYLRYHPGGADTLLDAAGTDATALFQQHHA  546
+
+
+>Emi219|CAMPEP_0187746478 unnamed protein product
+Length=237
+
+ Score = 51.2 bits (121),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 19/58 (33%), Positives = 41/58 (71%), Gaps = 0/58 (0%)
+
+Query  10  TLAEVGKHCSRGDAWIVVDERVYDVSRFIDAHPGGVGPILNLAGKDCTDVFANYHAAR  67
+           ++A+V  H ++ D W+V+ ++VY+V++++D HPGG   +++ AG++ T+ F +   +R
+Sbjct  24  SMADVESHNTQEDVWMVIHDKVYNVTKYLDDHPGGEEVLMDRAGQNATEDFEDVGHSR  81
+
+
+>Emihu1|463495 unnamed protein product
+Length=540
+
+ Score = 50.8 bits (120),  Expect = 4e-06, Method: Compositional matrix adjust.
+ Identities = 92/388 (24%), Positives = 145/388 (37%), Gaps = 104/388 (27%)
+
+Query  25   IVVDERVYDVSRFIDAHPGGVGPILNLAGKDCTDVFANY--HAARIVVAPHVAD------  76
+            + +D   +D+ R+  AHP GV  +   AG+D TDV  +     +  V  P +        
+Sbjct  184  VRIDGEWFDLRRWRAAHPAGVHWLDGFAGRDATDVMLSRLPRLSAAVQPPSLPPASALTL  243
+
+Query  77   -FRRIRQELLRRGLFETDSRFYLKMLAWHCTLWLCAMYLSLGCDSCGAHMLGAALMGVFW  135
+             FRR+R  L+  G              W+  LW       L C +C          GV W
+Sbjct  244  GFRRLRARLVAEG--------------WYERLWWREAQNLLPCLAC---------YGVGW  280
+
+Query  136  QQLAGIGHDLGHSGVTHSFRRDHLVGSLLSAFMGLSVGWWKSDHNTHHVVCNAVEHDPNI  195
+            +                  R   L+ ++  A    S GW                    I
+Sbjct  281  RLA----------------RAAPLLATVSLALGSTSAGW--------------------I  304
+
+Query  196  QHMPMLAITDKVFRRPRFWDTYHRKWVGMDD-AAHWLVSHQHLFFYP----LMALGRWNL  250
+             H       D V  R RF          M+  ++ W    QHL+  P    L AL R+N 
+Sbjct  305  AH-------DLVHGRGRFCAAMRGFGALMNGHSSTWWRRLQHLYALPVYSALFALWRFNS  357
+
+Query  251  YA---QGLIYLLTQPDKTHFRKTELAGIAVYFGWVLGTALSMPSWAESVGWVMLSHACMD  307
+                    ++    P   ++ +  L    V+       AL +P  A +VG V+L+     
+Sbjct  358  ARTVWSKRLWREAAPMGLNYLRGALEAARVWM------ALCLPP-AVAVGHVLLA-----  405
+
+Query  308  ESGILHVQIV-LSHWSMHTYEGRAYNGADDEWYVTTMRTTMN-VATPPWLDWVHIGLQFQ  365
+              G L   IV +SH +   +         D+W  + + +T + V + P+ +W+  G+Q+Q
+Sbjct  406  --GALTATIVTVSHQAEDLFHEH-----QDDWVASQVHSTRDAVTSSPFSEWLWGGMQYQ  458
+
+Query  366  IEHHLFPRLPRHNLRLARDMVREVVEAH  393
+            +EHHL P +PR+    A  +VR++   H
+Sbjct  459  LEHHLLPTMPRYRYPSAAPLVRQLCAEH  486
+
+
+>Emihu1|417285 unnamed protein product
+Length=359
+
+ Score = 48.5 bits (114),  Expect = 1e-05, Method: Compositional matrix adjust.
+ Identities = 82/322 (25%), Positives = 127/322 (39%), Gaps = 45/322 (14%)
+
+Query  62   NYHAARIVVAPHVAD---FRRIRQELLRRGLFETDSRFYLKMLAWHCTLWLCAMYLSLGC  118
+            N  A    +AP  A    FR +RQ L+  G F+      L+ LA    +    ++L+   
+Sbjct  18   NSRAPPEGIAPPSASTYAFRELRQRLVEEGWFKIHPLGELQKLAPWSAVTAAGVWLARRS  77
+
+Query  119  DSCGAHMLGAALMGVFWQQLAG-IGHDLGHSGVTHSFRRDHLVGSLLSAFMGLSVGWWKS  177
+                A   G   + +    LAG + HD  H     ++      G L+    G+S  WW +
+Sbjct  78   GFWSA-FAGVVCLAIG-NSLAGWLSHDYVHGRQPFAWAMRGF-GELIG---GMSTTWWSN  131
+
+Query  178  DHNTHHVVCNAVEHDPNIQHMPMLAITDKVFRRPRFWDTYHRKWVGMDDAAHWLVSHQHL  237
+             HN HH + N V +D +I   P L +     R     DT    W+      +W + +  L
+Sbjct  132  KHNMHHALTNEVGYDEDIALDPALHLWAPDPRH----DTL--PWLRQWQHVYWPLPYSIL  185
+
+Query  238  FFYPLMALGRWNLYAQGLIYLLTQPDKTHFRKTELAGIAVYFGWVLGTALSMPSWAESVG  297
+            F Y       W      + Y+L   DK       LA     F  ++   L + S      
+Sbjct  186  FLY-------WRF--DSIRYVLK--DKKWGEAARLAAHWAAFSALVPFRLLLAS-----V  229
+
+Query  298  WVMLSHACMDESGILHVQIV-LSHWSMHTYEGRAYNGADDEWYVTTMRTTMNVATPPWL-  355
+            W+         SG++   IV ++H S   + G      D  +     R+T +     W  
+Sbjct  230  WL---------SGLITATIVTVTHQSEEIFLGDTLRKYD--FVEAQFRSTRDAKCNNWFS  278
+
+Query  356  DWVHIGLQFQIEHHLFPRLPRH  377
+            D +  G+Q+Q+EHHLFP +PR+
+Sbjct  279  DVLWGGMQWQLEHHLFPTMPRY  300
+
+
+>Emihu1|445099 unnamed protein product
+Length=232
+
+ Score = 43.9 bits (102),  Expect = 4e-04, Method: Compositional matrix adjust.
+ Identities = 18/53 (34%), Positives = 33/53 (62%), Gaps = 1/53 (2%)
+
+Query  335  DDEWYVTTMRTTMN-VATPPWLDWVHIGLQFQIEHHLFPRLPRHNLRLARDMV  386
+             D+W  + + +T + V + P+ +W+  G+Q+Q+EHHL P +PR+    A  +V
+Sbjct  46   QDDWVASQVHSTRDAVTSSPFSEWLWGGMQYQLEHHLLPTMPRYRYPSAAPLV  98
+
+
+>Emihu1|49137 unnamed protein product
+Length=75
+
+ Score = 40.8 bits (94),  Expect = 7e-04, Method: Compositional matrix adjust.
+ Identities = 21/54 (39%), Positives = 29/54 (54%), Gaps = 0/54 (0%)
+
+Query  14  VGKHCSRGDAWIVVDERVYDVSRFIDAHPGGVGPILNLAGKDCTDVFANYHAAR  67
+           V +H S    WIV+  RV D + ++  HPGG   I  LAG+D T  + N   +R
+Sbjct  3   VRQHASEFACWIVIGGRVLDATAYLGHHPGGGTIIQKLAGRDATRAYENARHSR  56
+
+
+>Emi370|CAMPEP_0187701190 unnamed protein product
+Length=588
+
+ Score = 42.4 bits (98),  Expect = 0.002, Method: Compositional matrix adjust.
+ Identities = 25/62 (40%), Positives = 36/62 (58%), Gaps = 6/62 (10%)
+
+Query  4    PTLREYTLAEVGKHCSRGDA--WIVVDERVYDVSRFIDAHPGGVGPILNLAGKDCTDVFA  61
+            PT R     +V KH   GDA  W+++  RV+D++ FI+ HPGG+  I+  AGK     +A
+Sbjct  58   PTFRR---DDVAKHAG-GDAGVWVMLGSRVFDITHFIENHPGGMDKIMMAAGKSLEPFWA  113
+
+Query  62   NY  63
+             Y
+Sbjct  114  LY  115
+
+
+>Emi374|CAMPEP_0187575370 unnamed protein product
+Length=584
+
+ Score = 42.4 bits (98),  Expect = 0.002, Method: Compositional matrix adjust.
+ Identities = 25/62 (40%), Positives = 36/62 (58%), Gaps = 6/62 (10%)
+
+Query  4    PTLREYTLAEVGKHCSRGDA--WIVVDERVYDVSRFIDAHPGGVGPILNLAGKDCTDVFA  61
+            PT R     +V KH   GDA  W+++  RV+D++ FI+ HPGG+  I+  AGK     +A
+Sbjct  54   PTFRR---DDVAKHAG-GDAGVWVMLGSRVFDITHFIENHPGGMDKIMMAAGKSLEPFWA  109
+
+Query  62   NY  63
+             Y
+Sbjct  110  LY  111
+
+
+>Emi379|CAMPEP_0187612782 unnamed protein product
+Length=581
+
+ Score = 42.0 bits (97),  Expect = 0.002, Method: Compositional matrix adjust.
+ Identities = 25/62 (40%), Positives = 36/62 (58%), Gaps = 6/62 (10%)
+
+Query  4    PTLREYTLAEVGKHCSRGDA--WIVVDERVYDVSRFIDAHPGGVGPILNLAGKDCTDVFA  61
+            PT R     +V KH   GDA  W+++  RV+D++ FI+ HPGG+  I+  AGK     +A
+Sbjct  51   PTFRR---DDVAKHAG-GDAGVWVMLGSRVFDITHFIENHPGGMDKIMMAAGKSLEPFWA  106
+
+Query  62   NY  63
+             Y
+Sbjct  107  LY  108
+
+
+>Emi219|CAMPEP_0187738508 unnamed protein product
+Length=581
+
+ Score = 42.0 bits (97),  Expect = 0.002, Method: Compositional matrix adjust.
+ Identities = 25/62 (40%), Positives = 36/62 (58%), Gaps = 6/62 (10%)
+
+Query  4    PTLREYTLAEVGKHCSRGDA--WIVVDERVYDVSRFIDAHPGGVGPILNLAGKDCTDVFA  61
+            PT R     +V KH   GDA  W+++  RV+D++ FI+ HPGG+  I+  AGK     +A
+Sbjct  51   PTFRR---DDVAKHAG-GDAGVWVMLGSRVFDITHFIENHPGGMDKIMMAAGKSLEPFWA  106
+
+Query  62   NY  63
+             Y
+Sbjct  107  LY  108
+
+
+>Emihu1|357433 unnamed protein product
+Length=610
+
+ Score = 42.0 bits (97),  Expect = 0.003, Method: Compositional matrix adjust.
+ Identities = 25/62 (40%), Positives = 36/62 (58%), Gaps = 6/62 (10%)
+
+Query  4    PTLREYTLAEVGKHCSRGDA--WIVVDERVYDVSRFIDAHPGGVGPILNLAGKDCTDVFA  61
+            PT R     +V KH   GDA  W+++  RV+D++ FI+ HPGG+  I+  AGK     +A
+Sbjct  51   PTFRRD---DVAKHAG-GDAGVWVMLGSRVFDITHFIENHPGGMDKIMMAAGKSLEPFWA  106
+
+Query  62   NY  63
+             Y
+Sbjct  107  LY  108
+
+
+>Emihu1|60965 unnamed protein product
+Length=75
+
+ Score = 38.1 bits (87),  Expect = 0.006, Method: Compositional matrix adjust.
+ Identities = 19/54 (35%), Positives = 27/54 (50%), Gaps = 2/54 (4%)
+
+Query  7   REYTLAEVGKHCSRGDAWIVVDERVYDVSRFIDAHPGGVGPILNLAGKDCTDVF  60
+           R  + AE+  H +    WIV+   VYDV+ F   HPGG   +    G+D +  F
+Sbjct  3   RRVSSAELAAHATNESCWIVIHGDVYDVTDF--HHPGGNDRLFERGGRDASAAF  54
+
+
+>Emi370|CAMPEP_0187682126 unnamed protein product
+Length=628
+
+ Score = 40.8 bits (94),  Expect = 0.007, Method: Compositional matrix adjust.
+ Identities = 90/409 (22%), Positives = 141/409 (34%), Gaps = 96/409 (23%)
+
+Query  27   VDERVYDVSRFIDAHPGGVGPILNLAGKDCTDVFANYH---------AARIVVAPHVADF  77
+            +D + YD++ FI AHPGG  P+    G D + +F ++H         A   V  P   D 
+Sbjct  132  LDSQFYDLTAFIKAHPGGPLPLSQSMGTDISALFHSHHMRGVPETLLAKYRVAEPKPDDV  191
+
+Query  78   RRIR------------QELLRR--------GLFETDSRFYLKMLAWHCTL---WLCAMYL  114
+              I             QE  RR        G+      +  K+ A        W    +L
+Sbjct  192  AAIEACDYTFEENGFFQECKRRVQAMGMTTGVAAVTWPYVFKVSAVFGAFLGSWYAVCFL  251
+
+Query  115  SLGCDSCGAHMLGAALMGVFWQQ-LAGIGHDLGHSGVTHSFRRDHLVGSLLSAFMGLSVG  173
+             L     G  ++  A + ++ +  L GIGH+       H   ++ L        M     
+Sbjct  252  PL-----GPTVIALAFINMWTRMCLTGIGHE-----AIHGRMQNWLTWEFFDMTMLFPSD  301
+
+Query  174  WWKSDHNT-HHVVCNAVEHDPNIQHMPMLAITD------KVFRRPRFWDTYHRKWVGMDD  226
+             W  +H T HH      E+DP+    P     D       +F+ P          V   D
+Sbjct  302  SWHLEHVTQHHPHSKRHEYDPDEILDPFRLCEDVSWTPLHIFQAPLQIVLVFASVVSCID  361
+
+Query  227  AAHWLVSHQHLFFYPLMALGRWNLYAQGLIYLLTQPDKTHFRKTELAGIAVYFGWVLGTA  286
+                    +H+     M  G + L+A  L+   T+   T+     L+G++V         
+Sbjct  362  --------KHIVCRTSMLKGTFYLFALHLLPFFTR--ATYGEAWLLSGLSV---------  402
+
+Query  287  LSMPSWAESVGWVMLSHACMDESGILHVQIVLSHWSMHTYEGRAYNGADDE---WYVTTM  343
+                                   G+ ++ IVL     H  E  A +    E   W    +
+Sbjct  403  -----------------------GMANLTIVLCFHLSHVNESNALHARFQEGGDWGAHQL  439
+
+Query  344  RTTMNV-ATPPWLDWVHIGLQFQIEHHLFPRLPRHNLRLARDMVREVVE  391
+             T+ N   T   L ++   L+ QIEHHLFP L   N    + +V++  +
+Sbjct  440  LTSSNFNGTLGALCYITGMLEMQIEHHLFPSLSYENQLKIKPVVQQCAK  488
+
+
+>Emi219|CAMPEP_0187775596 unnamed protein product
+Length=636
+
+ Score = 40.4 bits (93),  Expect = 0.008, Method: Compositional matrix adjust.
+ Identities = 86/404 (21%), Positives = 140/404 (35%), Gaps = 86/404 (21%)
+
+Query  27   VDERVYDVSRFIDAHPGGVGPILNLAGKDCTDVFANYH---------AARIVVAPHVADF  77
+            +D + YD++ FI AHPGG  P+    G D + +F ++H         A   V  P   D 
+Sbjct  143  LDSQFYDLTAFIKAHPGGPLPLSQSMGTDISALFHSHHMRGVPETLLAKYRVAEPKPDDV  202
+
+Query  78   RRIRQ---ELLRRGLFETDSRFYLKM--------LAWHCTLWLCAMY-------LSLGCD  119
+              I          G F+   R    M        + W     + A++        ++   
+Sbjct  203  AAIEACDYTFEENGFFQECKRRVQAMGMTTGVAAVTWPYVFKVSAVFGAFLGSWYAVCFL  262
+
+Query  120  SCGAHMLGAALMGVFWQQ-LAGIGHDLGHSGVTHSFRRDHLVGSLLSAFMGLSVGWWKSD  178
+              G  ++  A + ++ +  L GIGH+       H   ++ L        M      W  +
+Sbjct  263  PLGPTVIALAFINMWTRMCLTGIGHE-----AIHGRMQNWLTWEFFDMTMLFPSDSWHLE  317
+
+Query  179  HNT-HHVVCNAVEHDPNIQHMPMLAITD------KVFRRPRFWDTYHRKWVGMDDAAHWL  231
+            H T HH      E+DP+    P     D       +F+ P          V   D     
+Sbjct  318  HVTQHHPHSKRHEYDPDEILDPFRLCEDVSWTPLHIFQAPLQIVLVFASVVSCID-----  372
+
+Query  232  VSHQHLFFYPLMALGRWNLYAQGLIYLLTQPDKTHFRKTELAGIAVYFGWVLGTALSMPS  291
+               +H+     M  G + L+A  L+   T+   T+     L+G++V              
+Sbjct  373  ---KHIVCRTSMLKGTFYLFALHLLPFFTR--DTYGEAWLLSGLSV--------------  413
+
+Query  292  WAESVGWVMLSHACMDESGILHVQIVLSHWSMHTYEGRAYNGADDE---WYVTTMRTTMN  348
+                              G+ ++ IVL     H  E  A +    E   W    + T+ N
+Sbjct  414  ------------------GMANLTIVLCFHLSHVNESNALHARFQEGGDWGAHQLLTSSN  455
+
+Query  349  V-ATPPWLDWVHIGLQFQIEHHLFPRLPRHNLRLARDMVREVVE  391
+               T   L ++   L+ QIEHHLFP L   N    + +V++  +
+Sbjct  456  FNGTLGALCYITGMLEMQIEHHLFPSLSYENQLKIKPVVQQCAK  499
+
+
+>Emi374|CAMPEP_0187609498 unnamed protein product
+Length=504
+
+ Score = 40.4 bits (93),  Expect = 0.008, Method: Compositional matrix adjust.
+ Identities = 91/403 (23%), Positives = 144/403 (36%), Gaps = 99/403 (25%)
+
+Query  27   VDERVYDVSRFIDAHPGGVGPILNLAG---KDCTDVFA----NYHAARIVVAPHVADFRR  79
+            +  R YD   F+  HPGG   +L LA    +D T  F     NY  AR V+A +      
+Sbjct  89   IGGRWYDFEPFLKLHPGG-AEVLRLARDRFEDSTYAFEAHHHNYAHARKVIAKYEVP---  144
+
+Query  80   IRQELLRR-------------------GLFETDSRFYL--KMLAWH--------------  104
+               ELL+R                    L + D+ + +  + LA H              
+Sbjct  145  APAELLQRPEGAVVPGAGGDGGITTLPALLDDDAFYSVVRRRLAAHLRCVRCPGGGPTRE  204
+
+Query  105  CTLWLCAMYLSL----GCDSCGAHMLGAALMGVFWQQLAGIGHDLGHSGV--THSFRRDH  158
+            C ++  A + +     G       +  A L GV    L   GH+  H      HS+    
+Sbjct  205  CVVFFWATFAAFVGAWGLMWASGSVAAALLFGVVAAVLGAFGHNWVHQPAYRLHSYLSLD  264
+
+Query  159  LVGSLLSAFMGLSVGWWKSDHNTHHVVCNAVEHDPNIQHMPMLAITDKVFRRPRFWDTYH  218
+             VG         S GW++     HH+  N    D + +      +TD    R        
+Sbjct  265  TVGFS-------STGWFREHVLQHHMYTN-TPWDNHFRGTEPFLVTDPTVPR--------  308
+
+Query  219  RKWVGMDDAAHWLVSHQHLFFYPL-MALGRWNLYAQGLIYLLTQPDKTHFRKT----ELA  273
+                      HWL +    +  PL +  G +  Y    + +    ++    K      +A
+Sbjct  309  ----------HWLQAWVMPYANPLVLTFGLYGNYVDHCVNMAKGSEEWRPTKAILPLNIA  358
+
+Query  274  GIAVYFGWVLGTALSMPSWAESVGWVMLSHACMDESGILHVQIVLSHWSMHTYEGRAYNG  333
+             +   +G + G AL+  +W  ++G    + A M+            H + HT++    N 
+Sbjct  359  LVVWRWGLLRGAALTY-AWTAALGLWYFTMALMN------------HNAEHTHDVERRNK  405
+
+Query  334  ADDEWYVTTMRTTMN--VATPPWLDWVHIGLQFQIEHHLFPRL  374
+            A D W    + ++ +  V  P W  WV++ L +   HHLFPRL
+Sbjct  406  ARD-WGEAQLVSSADWGVQLPFWRAWVYLWLNYHTVHHLFPRL  447
+
+
+>Emi370|CAMPEP_0187661542 unnamed protein product
+Length=233
+
+ Score = 39.3 bits (90),  Expect = 0.009, Method: Compositional matrix adjust.
+ Identities = 22/61 (36%), Positives = 32/61 (52%), Gaps = 3/61 (5%)
+
+Query  7    REYTLAEVGKH--CSRGD-AWIVVDERVYDVSRFIDAHPGGVGPILNLAGKDCTDVFANY  63
+            R  + +E+  H  C  G+  W+ +  RVYD + F+D HP G   I +L G D T  F + 
+Sbjct  155  RAVSASELKAHGGCGEGEPCWVGLYGRVYDFASFLDEHPAGPTSISDLGGADGTVAFEHI  214
+
+Query  64   H  64
+            H
+Sbjct  215  H  215
+
+
+>Emi370|CAMPEP_0187662766 unnamed protein product
+Length=209
+
+ Score = 38.9 bits (89),  Expect = 0.011, Method: Compositional matrix adjust.
+ Identities = 22/61 (36%), Positives = 32/61 (52%), Gaps = 3/61 (5%)
+
+Query  7   REYTLAEVGKH--CSRGD-AWIVVDERVYDVSRFIDAHPGGVGPILNLAGKDCTDVFANY  63
+           R  + +E+  H  C  G+  W+ +  RVYD + F+D HP G   I +L G D T  F + 
+Sbjct  22  RAVSASELKAHGGCGEGEPCWVGLYGRVYDFASFLDEHPAGPTSISDLGGADGTVAFEHI  81
+
+Query  64  H  64
+           H
+Sbjct  82  H  82
+
+
+>Emi379|CAMPEP_0187652400 unnamed protein product
+Length=270
+
+ Score = 39.3 bits (90),  Expect = 0.012, Method: Compositional matrix adjust.
+ Identities = 22/61 (36%), Positives = 32/61 (52%), Gaps = 3/61 (5%)
+
+Query  7    REYTLAEVGKH--CSRGD-AWIVVDERVYDVSRFIDAHPGGVGPILNLAGKDCTDVFANY  63
+            R  + +E+  H  C  G+  W+ +  RVYD + F+D HP G   I +L G D T  F + 
+Sbjct  132  RAVSASELKAHGGCGEGEPCWVGLYGRVYDFASFLDEHPAGPTSISDLGGADGTVAFEHI  191
+
+Query  64   H  64
+            H
+Sbjct  192  H  192
+
+
+>Emi374|CAMPEP_0187588102 unnamed protein product
+Length=1331
+
+ Score = 40.0 bits (92),  Expect = 0.013, Method: Compositional matrix adjust.
+ Identities = 22/61 (36%), Positives = 32/61 (52%), Gaps = 3/61 (5%)
+
+Query  7     REYTLAEVGKH--CSRGD-AWIVVDERVYDVSRFIDAHPGGVGPILNLAGKDCTDVFANY  63
+             R  + +E+  H  C  G+  W+ +  RVYD + F+D HP G   I +L G D T  F + 
+Sbjct  1253  RAVSASELKAHGGCGEGEPCWVGLYGRVYDFASFLDEHPAGPTSISDLGGADGTVAFEHI  1312
+
+Query  64    H  64
+             H
+Sbjct  1313  H  1313
+
+
+>Emi379|CAMPEP_0187658196 unnamed protein product
+Length=1441
+
+ Score = 40.0 bits (92),  Expect = 0.014, Method: Compositional matrix adjust.
+ Identities = 22/61 (36%), Positives = 32/61 (52%), Gaps = 3/61 (5%)
+
+Query  7     REYTLAEVGKH--CSRGD-AWIVVDERVYDVSRFIDAHPGGVGPILNLAGKDCTDVFANY  63
+             R  + +E+  H  C  G+  W+ +  RVYD + F+D HP G   I +L G D T  F + 
+Sbjct  1244  RAVSASELKAHGGCGEGEPCWVGLYGRVYDFASFLDEHPAGPTSISDLGGADGTVAFEHI  1303
+
+Query  64    H  64
+             H
+Sbjct  1304  H  1304
+
+
+>Emi219|CAMPEP_0187744044 unnamed protein product
+Length=524
+
+ Score = 39.7 bits (91),  Expect = 0.014, Method: Compositional matrix adjust.
+ Identities = 22/61 (36%), Positives = 32/61 (52%), Gaps = 3/61 (5%)
+
+Query  7    REYTLAEVGKH--CSRGD-AWIVVDERVYDVSRFIDAHPGGVGPILNLAGKDCTDVFANY  63
+            R  + +E+  H  C  G+  W+ +  RVYD + F+D HP G   I +L G D T  F + 
+Sbjct  386  RAVSASELKAHGGCGEGEPCWVGLYGRVYDFASFLDEHPAGPTSISDLGGADGTVAFEHI  445
+
+Query  64   H  64
+            H
+Sbjct  446  H  446
+
+
+>Emi219|CAMPEP_0187756106 unnamed protein product
+Length=716
+
+ Score = 39.7 bits (91),  Expect = 0.015, Method: Compositional matrix adjust.
+ Identities = 22/61 (36%), Positives = 32/61 (52%), Gaps = 3/61 (5%)
+
+Query  7    REYTLAEVGKH--CSRGD-AWIVVDERVYDVSRFIDAHPGGVGPILNLAGKDCTDVFANY  63
+            R  + +E+  H  C  G+  W+ +  RVYD + F+D HP G   I +L G D T  F + 
+Sbjct  529  RAVSASELKAHGGCGEGEPCWVGLYGRVYDFASFLDEHPAGPTSISDLGGADGTVAFEHI  588
+
+Query  64   H  64
+            H
+Sbjct  589  H  589
+
+
+>Emihu1|368897 unnamed protein product
+Length=216
+
+ Score = 38.5 bits (88),  Expect = 0.019, Method: Compositional matrix adjust.
+ Identities = 23/62 (37%), Positives = 32/62 (52%), Gaps = 8/62 (13%)
+
+Query  25  IVVDERVYDVSRFIDAHPGGVGPILNLAGKDCTDVFANYHAARIVVAPHVADFRRIRQEL  84
+             +  RVYD + ++D HPG    +L+ AG D T+VFA        +A H  + R I QE 
+Sbjct  14  FAISGRVYDATDYLDLHPGLPDFLLSAAGTDATEVFA--------LAGHSRNARTILQEF  65
+
+Query  85  LR  86
+            R
+Sbjct  66  WR  67
+
+
+>Emihu1|465828 unnamed protein product
+Length=1205
+
+ Score = 38.9 bits (89),  Expect = 0.024, Method: Compositional matrix adjust.
+ Identities = 19/48 (40%), Positives = 26/48 (54%), Gaps = 1/48 (2%)
+
+Query  18    CSRGD-AWIVVDERVYDVSRFIDAHPGGVGPILNLAGKDCTDVFANYH  64
+             C  G+  W+ +  RVYD + F+D HP G   I +L G D T  F + H
+Sbjct  1139  CGEGEPCWVGLYGRVYDFASFLDEHPAGPTSISDLGGADGTVAFEHIH  1186
+
+
+>Emi219|CAMPEP_0187766044 unnamed protein product
+Length=280
+
+ Score = 37.4 bits (85),  Expect = 0.044, Method: Compositional matrix adjust.
+ Identities = 24/65 (37%), Positives = 33/65 (51%), Gaps = 8/65 (12%)
+
+Query  25   IVVDERVYDVSRFIDAHPGGVGPILNLAGKDCTDVFANYHAARIVVAPHVADFRRIRQEL  84
+              +  RVYD + ++D HPG    +L+ AG D T+VFA        +A H  + R I QE 
+Sbjct  99   FAISGRVYDATDYLDLHPGLPDFLLSAAGTDATEVFA--------LAGHSRNARTILQEF  150
+
+Query  85   LRRGL  89
+             R  L
+Sbjct  151  WRPQL  155
+
+
+>Emi379|CAMPEP_0187655630 unnamed protein product
+Length=349
+
+ Score = 37.4 bits (85),  Expect = 0.063, Method: Compositional matrix adjust.
+ Identities = 19/54 (35%), Positives = 27/54 (50%), Gaps = 2/54 (4%)
+
+Query  7   REYTLAEVGKHCSRGDAWIVVDERVYDVSRFIDAHPGGVGPILNLAGKDCTDVF  60
+           R  + AE+  H +    WIV+   VYDV+ F   HPGG   +    G+D +  F
+Sbjct  19  RRVSSAELAAHATNESCWIVIHGDVYDVTDF--HHPGGNDRLFERGGRDASAAF  70
+
+
+>Emihu1|212921 unnamed protein product
+Length=565
+
+ Score = 37.4 bits (85),  Expect = 0.074, Method: Compositional matrix adjust.
+ Identities = 15/38 (39%), Positives = 24/38 (63%), Gaps = 0/38 (0%)
+
+Query  27   VDERVYDVSRFIDAHPGGVGPILNLAGKDCTDVFANYH  64
+            +D + YD++ FI AHPGG  P+    G D + +F ++H
+Sbjct  192  LDSQFYDLTAFIKAHPGGPLPLSQSMGTDISALFHSHH  229
+
+
+ Score = 32.0 bits (71),  Expect = 3.0, Method: Compositional matrix adjust.
+ Identities = 25/86 (29%), Positives = 39/86 (45%), Gaps = 4/86 (5%)
+
+Query  310  GILHVQIVLSHWSMHTYEGRAYNGADDE---WYVTTMRTTMNV-ATPPWLDWVHIGLQFQ  365
+            G+ ++ IVL     H  E  A +    E   W    + T+ N   T   L ++   L+ Q
+Sbjct  454  GMANLTIVLCFHLSHVNESNALHARFQEGGDWGAHQLLTSSNFNGTLGALCYITGMLEMQ  513
+
+Query  366  IEHHLFPRLPRHNLRLARDMVREVVE  391
+            IEHHLFP L   N    + +V++  +
+Sbjct  514  IEHHLFPSLSYENQLKIKPVVQQCAK  539
+
+
+>Emi370|CAMPEP_0187668252 unnamed protein product
+Length=316
+
+ Score = 35.8 bits (81),  Expect = 0.16, Method: Compositional matrix adjust.
+ Identities = 17/44 (39%), Positives = 23/44 (52%), Gaps = 0/44 (0%)
+
+Query  345  TTMNVATPPWLDWVHIGLQFQIEHHLFPRLPRHNLRLARDMVRE  388
+            T   V T P  +W+  G+ +   HH+ PR+P H LR A D  R 
+Sbjct  245  TARVVLTHPAYEWLSWGMNYHAVHHMHPRVPFHQLRRAFDATRR  288
+
+
+>Emi219|CAMPEP_0187761944 unnamed protein product
+Length=327
+
+ Score = 35.8 bits (81),  Expect = 0.17, Method: Compositional matrix adjust.
+ Identities = 17/44 (39%), Positives = 23/44 (52%), Gaps = 0/44 (0%)
+
+Query  345  TTMNVATPPWLDWVHIGLQFQIEHHLFPRLPRHNLRLARDMVRE  388
+            T   V T P  +W+  G+ +   HH+ PR+P H LR A D  R 
+Sbjct  256  TARVVLTHPAYEWLSWGMNYHAVHHMHPRVPFHQLRRAFDATRR  299
+
+
+>Emi379|CAMPEP_0187622294 unnamed protein product
+Length=504
+
+ Score = 35.8 bits (81),  Expect = 0.21, Method: Compositional matrix adjust.
+ Identities = 90/403 (22%), Positives = 143/403 (35%), Gaps = 99/403 (25%)
+
+Query  27   VDERVYDVSRFIDAHPGGVGPILNLAG---KDCTDVFA----NYHAARIVVAPHVADFRR  79
+            +  R YD   F+  HPGG   +L LA    +D T  F     NY  AR V+A +      
+Sbjct  89   IGGRWYDFEPFLKLHPGG-AEVLRLARDRFEDSTYAFEAHHHNYAHARKVIAKYEVP---  144
+
+Query  80   IRQELLRR-------------------GLFETDSRFYL--KMLAWH--------------  104
+               ELL+R                    L + D+ + +  + LA H              
+Sbjct  145  APAELLQRPEGAVVPGAGGDGGITTLPALLDDDAFYSVVRRRLAAHLRCVRCPGGGPTRE  204
+
+Query  105  CTLWLCAMYLSL----GCDSCGAHMLGAALMGVFWQQLAGIGHDLGHSGV--THSFRRDH  158
+            C ++  A + +     G       +  A L GV    L   GH+  H      HS+    
+Sbjct  205  CVVFFWATFAAFVGAWGLMWASGSVAAALLFGVVAAVLGAFGHNWVHQPAYRLHSYLSLD  264
+
+Query  159  LVGSLLSAFMGLSVGWWKSDHNTHHVVCNAVEHDPNIQHMPMLAITDKVFRRPRFWDTYH  218
+             VG         S GW++     HH+  N    D + +      +TD    R        
+Sbjct  265  TVGFS-------STGWFREHVLQHHMYTN-TPWDNHFRGTEPFLVTDPTVPR--------  308
+
+Query  219  RKWVGMDDAAHWLVSHQHLFFYPL-MALGRWNLYAQGLIYLLTQPDKTHFRKT----ELA  273
+                      HWL +    +  PL +  G +  Y    + +    ++    K      +A
+Sbjct  309  ----------HWLQAWVMPYANPLVLTFGLYGNYVDHCVNMAKGSEEWRPTKAILPLNIA  358
+
+Query  274  GIAVYFGWVLGTALSMPSWAESVGWVMLSHACMDESGILHVQIVLSHWSMHTYEGRAYNG  333
+             +   +G + G AL+  +W  ++G    + A M+            H + HT++    N 
+Sbjct  359  LVVWRWGLLRGAALTY-AWTAALGLWYFTMALMN------------HNAEHTHDVERRNK  405
+
+Query  334  ADDEWYVTTMRTTMN--VATPPWLDWVHIGLQFQIEHHLFPRL  374
+            A D W    + ++ +  V  P    WV++ L +   HHLFPRL
+Sbjct  406  ARD-WGEAQLVSSADWGVQLPFRRAWVYLWLNYHTVHHLFPRL  447
+
+
+>Emihu1|442508 unnamed protein product
+Length=505
+
+ Score = 35.8 bits (81),  Expect = 0.22, Method: Compositional matrix adjust.
+ Identities = 90/403 (22%), Positives = 143/403 (35%), Gaps = 99/403 (25%)
+
+Query  27   VDERVYDVSRFIDAHPGGVGPILNLAG---KDCTDVFA----NYHAARIVVAPHVADFRR  79
+            +  R YD   F+  HPGG   +L LA    +D T  F     NY  AR V+A +      
+Sbjct  89   IGGRWYDFEPFLKLHPGG-AEVLRLARDRFEDSTYAFEAHHHNYAHARKVIAKYEVP---  144
+
+Query  80   IRQELLRR-------------------GLFETDSRFYL--KMLAWH--------------  104
+               ELL+R                    L + D+ + +  + LA H              
+Sbjct  145  APAELLQRPEGAVVPGAGGDGGITTLPALLDDDAFYSVVRRRLAAHLRCVRCPAGGPTRE  204
+
+Query  105  CTLWLCAMYLSL----GCDSCGAHMLGAALMGVFWQQLAGIGHDLGHSGV--THSFRRDH  158
+            C ++  A + +     G       +  A L GV    L   GH+  H      HS+    
+Sbjct  205  CVVFFWATFAAFVGAWGLMWASGSVAAALLFGVVAAVLGAFGHNWVHQPAYRLHSYLSLD  264
+
+Query  159  LVGSLLSAFMGLSVGWWKSDHNTHHVVCNAVEHDPNIQHMPMLAITDKVFRRPRFWDTYH  218
+             VG         S GW++     HH+  N    D + +      +TD    R        
+Sbjct  265  TVGFS-------STGWFREHVLQHHMYTN-TPWDNHFRGTEPFLVTDPTVPR--------  308
+
+Query  219  RKWVGMDDAAHWLVSHQHLFFYPL-MALGRWNLYAQGLIYLLTQPDKTHFRKT----ELA  273
+                      HWL +    +  PL +  G +  Y    + +    ++    K      +A
+Sbjct  309  ----------HWLQAWVMPYANPLVLTFGLYGNYVDHCVNMAKGSEEWRPTKAILPLNIA  358
+
+Query  274  GIAVYFGWVLGTALSMPSWAESVGWVMLSHACMDESGILHVQIVLSHWSMHTYEGRAYNG  333
+             +   +G + G AL+  +W  ++G    + A M+            H + HT++    N 
+Sbjct  359  LVVWRWGLLRGAALTY-AWTAALGLWYFTMALMN------------HNAEHTHDVERRNK  405
+
+Query  334  ADDEWYVTTMRTTMN--VATPPWLDWVHIGLQFQIEHHLFPRL  374
+            A D W    + ++ +  V  P    WV++ L +   HHLFPRL
+Sbjct  406  ARD-WGEAQLVSSADWGVQLPFRRAWVYLWLNYHTVHHLFPRL  447
+
+
+>Emi370|CAMPEP_0187674064 unnamed protein product
+Length=508
+
+ Score = 35.4 bits (80),  Expect = 0.25, Method: Compositional matrix adjust.
+ Identities = 90/403 (22%), Positives = 143/403 (35%), Gaps = 99/403 (25%)
+
+Query  27   VDERVYDVSRFIDAHPGGVGPILNLAG---KDCTDVFA----NYHAARIVVAPHVADFRR  79
+            +  R YD   F+  HPGG   +L LA    +D T  F     NY  AR V+A +      
+Sbjct  93   IGGRWYDFEPFLKLHPGG-AEVLRLARDRFEDSTYAFEAHHHNYAHARKVIAKYEVP---  148
+
+Query  80   IRQELLRR-------------------GLFETDSRFYL--KMLAWH--------------  104
+               ELL+R                    L + D+ + +  + LA H              
+Sbjct  149  APAELLQRPEGAVVPGAGGDGGITTLPALLDDDAFYSVVRRRLAAHLRCVRCPAGGPTRE  208
+
+Query  105  CTLWLCAMYLSL----GCDSCGAHMLGAALMGVFWQQLAGIGHDLGHSGV--THSFRRDH  158
+            C ++  A + +     G       +  A L GV    L   GH+  H      HS+    
+Sbjct  209  CVVFFWATFAAFVGAWGLMWASGSVAAALLFGVVAAVLGAFGHNWVHQPAYRLHSYLSLD  268
+
+Query  159  LVGSLLSAFMGLSVGWWKSDHNTHHVVCNAVEHDPNIQHMPMLAITDKVFRRPRFWDTYH  218
+             VG         S GW++     HH+  N    D + +      +TD    R        
+Sbjct  269  TVGFS-------STGWFREHVLQHHMYTN-TPWDNHFRGTEPFLVTDPTVPR--------  312
+
+Query  219  RKWVGMDDAAHWLVSHQHLFFYPL-MALGRWNLYAQGLIYLLTQPDKTHFRKT----ELA  273
+                      HWL +    +  PL +  G +  Y    + +    ++    K      +A
+Sbjct  313  ----------HWLQAWVMPYANPLVLTFGLYGNYVDHCVNMAKGSEEWRPTKAILPLNIA  362
+
+Query  274  GIAVYFGWVLGTALSMPSWAESVGWVMLSHACMDESGILHVQIVLSHWSMHTYEGRAYNG  333
+             +   +G + G AL+  +W  ++G    + A M+            H + HT++    N 
+Sbjct  363  LVVWRWGLLRGAALTY-AWTAALGLWYFTMALMN------------HNAEHTHDVERRNK  409
+
+Query  334  ADDEWYVTTMRTTMN--VATPPWLDWVHIGLQFQIEHHLFPRL  374
+            A D W    + ++ +  V  P    WV++ L +   HHLFPRL
+Sbjct  410  ARD-WGEAQLVSSADWGVQLPFRRAWVYLWLNYHTVHHLFPRL  451
+
+
+>Emihu1|100420 unnamed protein product
+Length=504
+
+ Score = 35.0 bits (79),  Expect = 0.35, Method: Compositional matrix adjust.
+ Identities = 19/50 (38%), Positives = 26/50 (52%), Gaps = 1/50 (2%)
+
+Query  19   SRGDAWIVVDERVYDVSRFIDAHPGGVGPILNLA-GKDCTDVFANYHAAR  67
+             RG  W+ +D  V+D+  ++  HPGG   I   A   D T  F  YHA+R
+Sbjct  394  ERGGCWVTMDGMVFDLEAWLPEHPGGATIIPQQALNADSTVFFELYHASR  443
+
+
+>Emi374|CAMPEP_0187575902 unnamed protein product
+Length=521
+
+ Score = 35.0 bits (79),  Expect = 0.35, Method: Compositional matrix adjust.
+ Identities = 19/49 (39%), Positives = 26/49 (53%), Gaps = 1/49 (2%)
+
+Query  20   RGDAWIVVDERVYDVSRFIDAHPGGVGPILNLA-GKDCTDVFANYHAAR  67
+            RG  W+ +D  V+D+  ++  HPGG   I   A   D T  F  YHA+R
+Sbjct  385  RGGCWVTMDGMVFDLEAWLPEHPGGATIIPQQALNADSTVFFELYHASR  433
+
+
+>Emi370|CAMPEP_0187697710 unnamed protein product
+Length=545
+
+ Score = 35.0 bits (79),  Expect = 0.36, Method: Compositional matrix adjust.
+ Identities = 19/49 (39%), Positives = 26/49 (53%), Gaps = 1/49 (2%)
+
+Query  20   RGDAWIVVDERVYDVSRFIDAHPGGVGPILNLA-GKDCTDVFANYHAAR  67
+            RG  W+ +D  V+D+  ++  HPGG   I   A   D T  F  YHA+R
+Sbjct  403  RGGCWVTMDGMVFDLEAWLPEHPGGATIIPQQALNADSTVFFELYHASR  451
+
+
+>Emi219|CAMPEP_0187799498 unnamed protein product
+Length=141
+
+ Score = 33.5 bits (75),  Expect = 0.38, Method: Compositional matrix adjust.
+ Identities = 18/45 (40%), Positives = 26/45 (58%), Gaps = 2/45 (4%)
+
+Query  7   REYTLAEVGKHCSRG--DAWIVVDERVYDVSRFIDAHPGGVGPIL  49
+           R  T  EV +H  RG  + W VVD  V D +  +++HPGG+  +L
+Sbjct  27  RVITGDEVRQHNGRGGENFWAVVDGYVVDATDLVNSHPGGLKKLL  71
+
+
+>Emi379|CAMPEP_0187617774 unnamed protein product
+Length=141
+
+ Score = 33.5 bits (75),  Expect = 0.40, Method: Compositional matrix adjust.
+ Identities = 18/45 (40%), Positives = 26/45 (58%), Gaps = 2/45 (4%)
+
+Query  7   REYTLAEVGKHCSRG--DAWIVVDERVYDVSRFIDAHPGGVGPIL  49
+           R  T  EV +H  RG  + W VVD  V D +  +++HPGG+  +L
+Sbjct  27  RVITHDEVRQHNGRGGENFWAVVDGYVVDATDLVNSHPGGLKKLL  71
+
+
+>Emihu1|236634 unnamed protein product
+Length=155
+
+ Score = 33.5 bits (75),  Expect = 0.44, Method: Compositional matrix adjust.
+ Identities = 15/41 (37%), Positives = 24/41 (59%), Gaps = 0/41 (0%)
+
+Query  20   RGDAWIVVDERVYDVSRFIDAHPGGVGPILNLAGKDCTDVF  60
+            RG   + + ++ YDV+ ++D HPGG   + + AG D T  F
+Sbjct  100  RGHVVLQLGDQYYDVTTYLDDHPGGPEYLSDAAGTDATGAF  140
+
+
+>Emihu1|227710 unnamed protein product
+Length=142
+
+ Score = 33.5 bits (75),  Expect = 0.45, Method: Compositional matrix adjust.
+ Identities = 18/45 (40%), Positives = 26/45 (58%), Gaps = 2/45 (4%)
+
+Query  7   REYTLAEVGKHCSRG--DAWIVVDERVYDVSRFIDAHPGGVGPIL  49
+           R  T  EV +H  RG  + W VVD  V D +  +++HPGG+  +L
+Sbjct  27  RVITHDEVRQHNGRGGENFWAVVDGYVVDATDMVNSHPGGLKKLL  71
+
+
+>Emi370|CAMPEP_0187665690 unnamed protein product
+Length=141
+
+ Score = 33.1 bits (74),  Expect = 0.48, Method: Compositional matrix adjust.
+ Identities = 18/46 (39%), Positives = 26/46 (57%), Gaps = 2/46 (4%)
+
+Query  7   REYTLAEVGKHCSRG--DAWIVVDERVYDVSRFIDAHPGGVGPILN  50
+           R  T  EV +H  RG  + W VVD  V D +  +++HPGG+  +L 
+Sbjct  27  RVITGDEVRQHNGRGGENFWAVVDGYVVDATDMVNSHPGGLKKLLT  72
+
+
+>Emi374|CAMPEP_0187596740 unnamed protein product
+Length=209
+
+ Score = 33.9 bits (76),  Expect = 0.49, Method: Compositional matrix adjust.
+ Identities = 15/41 (37%), Positives = 24/41 (59%), Gaps = 0/41 (0%)
+
+Query  20   RGDAWIVVDERVYDVSRFIDAHPGGVGPILNLAGKDCTDVF  60
+            RG   + + ++ YDV+ ++D HPGG   + + AG D T  F
+Sbjct  144  RGHVVLQLGDQYYDVTTYLDDHPGGPEYLSDAAGTDATGAF  184
+
+
+>Emi219|CAMPEP_0187752742 unnamed protein product
+Length=176
+
+ Score = 33.5 bits (75),  Expect = 0.49, Method: Compositional matrix adjust.
+ Identities = 15/41 (37%), Positives = 24/41 (59%), Gaps = 0/41 (0%)
+
+Query  20   RGDAWIVVDERVYDVSRFIDAHPGGVGPILNLAGKDCTDVF  60
+            RG   + + ++ YDV+ ++D HPGG   + + AG D T  F
+Sbjct  111  RGHVVLQLGDQYYDVTTYLDDHPGGPEYLSDAAGTDATGAF  151
+
+
+>Emi219|CAMPEP_0187757650 unnamed protein product
+Length=505
+
+ Score = 34.7 bits (78),  Expect = 0.51, Method: Compositional matrix adjust.
+ Identities = 89/403 (22%), Positives = 143/403 (35%), Gaps = 99/403 (25%)
+
+Query  27   VDERVYDVSRFIDAHPGGVGPILNLAG---KDCTDVFA----NYHAARIVVAPHVADFRR  79
+            +  R YD   F+  HPGG   +L LA    +D T  F     NY  AR V+A +      
+Sbjct  90   IGGRWYDFEPFLKLHPGG-AEVLRLARDRFEDSTYAFEAHHHNYAHARKVIAKYEVP---  145
+
+Query  80   IRQELLRR-------------------GLFETDSRFYL--KMLAWH--------------  104
+               ELL+R                    L + D+ + +  + +A H              
+Sbjct  146  APAELLQRPEGAVVPGAGGDGGITTLPALLDDDAFYSVVRRRVAAHLRCVRCPAGGPTRE  205
+
+Query  105  CTLWLCAMYLSL----GCDSCGAHMLGAALMGVFWQQLAGIGHDLGHSGV--THSFRRDH  158
+            C ++  A + +     G       +  A L GV    L   GH+  H      HS+    
+Sbjct  206  CVVFFWATFAAFVGAWGLMWASGSVAAALLFGVVAAVLGAFGHNWVHQPAYRLHSYLSLD  265
+
+Query  159  LVGSLLSAFMGLSVGWWKSDHNTHHVVCNAVEHDPNIQHMPMLAITDKVFRRPRFWDTYH  218
+             VG         S GW++     HH+  N    D + +      +TD    R        
+Sbjct  266  TVGFS-------STGWFREHVLQHHMYTN-TPWDNHFRGTEPFLVTDPTVPR--------  309
+
+Query  219  RKWVGMDDAAHWLVSHQHLFFYPL-MALGRWNLYAQGLIYLLTQPDKTHFRKT----ELA  273
+                      HWL +    +  PL +  G +  Y    + +    ++    K      +A
+Sbjct  310  ----------HWLQAWVMPYANPLVLTFGLYGNYVDHCVNMAKGSEEWRPTKAILPLNIA  359
+
+Query  274  GIAVYFGWVLGTALSMPSWAESVGWVMLSHACMDESGILHVQIVLSHWSMHTYEGRAYNG  333
+             +   +G + G AL+  +W  ++G    + A M+            H + HT++    N 
+Sbjct  360  LVVWRWGLLRGAALTY-AWTAALGLWYFTMALMN------------HNAEHTHDVERRNK  406
+
+Query  334  ADDEWYVTTMRTTMN--VATPPWLDWVHIGLQFQIEHHLFPRL  374
+            A D W    + ++ +  V  P    WV++ L +   HHLFPRL
+Sbjct  407  ARD-WGEAQLVSSADWGVQLPFRRAWVYLWLNYHTVHHLFPRL  448
+
+
+>Emi370|CAMPEP_0187660374 unnamed protein product
+Length=182
+
+ Score = 33.5 bits (75),  Expect = 0.59, Method: Compositional matrix adjust.
+ Identities = 15/41 (37%), Positives = 24/41 (59%), Gaps = 0/41 (0%)
+
+Query  20   RGDAWIVVDERVYDVSRFIDAHPGGVGPILNLAGKDCTDVF  60
+            RG   + + ++ YDV+ ++D HPGG   + + AG D T  F
+Sbjct  106  RGHVVLQLGDQYYDVTTYLDDHPGGPEYLSDAAGTDATGAF  146
+
+
+>Emi379|CAMPEP_0187631912 unnamed protein product
+Length=99
+
+ Score = 32.0 bits (71),  Expect = 0.61, Method: Composition-based stats.
+ Identities = 16/45 (36%), Positives = 27/45 (60%), Gaps = 4/45 (9%)
+
+Query  1   AGQPTLREYTLAEV---GKHCSRGDAWIVVDERVYDVSRFIDAHP  42
+           AG+P++   +  E     ++ +R DAWI VD+   +V +F+ AHP
+Sbjct  44  AGRPSIEAESAGEALQKAQYGARNDAWIAVDDARQEV-QFLRAHP  87
+
+
+>Emihu1|438795 unnamed protein product
+Length=116
+
+ Score = 32.0 bits (71),  Expect = 0.98, Method: Compositional matrix adjust.
+ Identities = 15/38 (39%), Positives = 24/38 (63%), Gaps = 0/38 (0%)
+
+Query  356  DWVHIGLQFQIEHHLFPRLPRHNLRLARDMVREVVEAH  393
+            D++H  L +QIEHHL+P+L   + + A   +R + E H
+Sbjct  34   DFMHGWLNYQIEHHLWPQLSMLSYQKAAPQLRAICEKH  71
+
+
+>Emi374|CAMPEP_0187576608 unnamed protein product
+Length=274
+
+ Score = 33.1 bits (74),  Expect = 1.1, Method: Compositional matrix adjust.
+ Identities = 24/72 (33%), Positives = 31/72 (43%), Gaps = 11/72 (15%)
+
+Query  31   VYDVSRFIDAHPGGVGPI---LNLAGKDCTDVFANYHAARIVVAPHVADFRRIRQELLRR  87
+            VYD + F   HPGG   I   +  AG DCTD+F   +        H    R I + L+  
+Sbjct  183  VYDATSFAANHPGGGALIHMGMACAGDDCTDLFDAAN--------HTEHARSILRALVVP  234
+
+Query  88   GLFETDSRFYLK  99
+            GL +      LK
+Sbjct  235  GLEQLPEPPPLK  246
+
+
+>Emi370|CAMPEP_0187692624 unnamed protein product
+Length=120
+
+ Score = 32.0 bits (71),  Expect = 1.1, Method: Compositional matrix adjust.
+ Identities = 16/44 (36%), Positives = 22/44 (50%), Gaps = 2/44 (5%)
+
+Query  17  HCSRGDAWIVVDERVYDVSRFIDAHPGGVGPILNLAGKDCTDVF  60
+           H +    WIV+   VYDV+ F   HPGG   +    G+D +  F
+Sbjct  2   HATNESCWIVIHGDVYDVTDF--HHPGGNDRLFERGGRDASAAF  43
+
+
+>Emi379|CAMPEP_0187617478 unnamed protein product
+Length=269
+
+ Score = 33.1 bits (74),  Expect = 1.1, Method: Compositional matrix adjust.
+ Identities = 24/72 (33%), Positives = 31/72 (43%), Gaps = 11/72 (15%)
+
+Query  31   VYDVSRFIDAHPGGVGPI---LNLAGKDCTDVFANYHAARIVVAPHVADFRRIRQELLRR  87
+            VYD + F   HPGG   I   +  AG DCTD+F   +        H    R I + L+  
+Sbjct  184  VYDATSFAANHPGGGALIHMGMACAGDDCTDLFDAAN--------HTEHARSILRALVVP  235
+
+Query  88   GLFETDSRFYLK  99
+            GL +      LK
+Sbjct  236  GLEQLPEPPPLK  247
+
+
+>Emi374|CAMPEP_0187584290 unnamed protein product
+Length=143
+
+ Score = 32.3 bits (72),  Expect = 1.2, Method: Composition-based stats.
+ Identities = 16/45 (36%), Positives = 27/45 (60%), Gaps = 4/45 (9%)
+
+Query  1    AGQPTLREYTLAEV---GKHCSRGDAWIVVDERVYDVSRFIDAHP  42
+            AG+P++   +  E     ++ +R DAWI VD+   +V +F+ AHP
+Sbjct  67   AGRPSIEAESAGEALQKAQYGARNDAWIAVDDARQEV-QFLRAHP  110
+
+
+>Emihu1|437693 unnamed protein product
+Length=384
+
+ Score = 33.1 bits (74),  Expect = 1.3, Method: Compositional matrix adjust.
+ Identities = 53/246 (22%), Positives = 89/246 (36%), Gaps = 30/246 (12%)
+
+Query  141  IGHDLGHSGVTHSFRRDHLVGSL---LSAFMGLSVGWWKSDHNTHHVVCNAVEHDPNIQH  197
+            I HD GH       +R  +   L   +SA M  +   W   H  HH     +  D     
+Sbjct  108  IFHDCGHGSFFQGSKRMRMANWLTLHVSAVMCATPPDWNVGHQLHHANVGNLGQDDYDWG  167
+
+Query  198  MPMLAITDKVFRRPRFWDTYHRKWVGMDDAAHWLVSHQHLFFYPLMALGRWNLYAQGLIY  257
+              +   + +    P +                W V    L F+ L  +  W  +   L +
+Sbjct  168  ETVFHTSSQFVAMPAWKQQL------------WRVLRHPLPFFSLAGVLTW-YFKMRLPF  214
+
+Query  258  LLTQPDKTHFRKTE-LAGIAVYFGWVLGTALSMPSWAESVGWVMLSHACMDESGILHVQI  316
+             L    K  +R T+ L    + FG      +  P+ A + G  + S   + +   + + +
+Sbjct  215  ELRPGRKAAYRFTDKLLSALIVFG------VRYPA-AHACG--IFSLVLLGDYLAMTMGV  265
+
+Query  317  VLSHWSMHTYEGRAYNGADDEWYV--TTMRTTMNVATPPWLDWVHIGLQFQIEHHLFPRL  374
+            +L HW  H Y+   Y     EW +    M  +     P WL +  +G+++   HH   R+
+Sbjct  266  LLFHWQ-HVYD-HGYVRGSAEWKLREAAMHGSSLAVVPTWLKYFTLGIEYHHIHHFRMRI  323
+
+Query  375  PRHNLR  380
+            P + LR
+Sbjct  324  PGYMLR  329
+
+
+>Emi219|CAMPEP_0187800578 unnamed protein product
+Length=224
+
+ Score = 32.7 bits (73),  Expect = 1.3, Method: Compositional matrix adjust.
+ Identities = 19/67 (28%), Positives = 35/67 (52%), Gaps = 10/67 (15%)
+
+Query  337  EWYVTTMRTTMNVAT----------PPWLDWVHIGLQFQIEHHLFPRLPRHNLRLARDMV  386
+             +Y+  + +++N AT             +D++H  L +QIEHHL+P L   + + A  +V
+Sbjct  69   SFYMRQVTSSVNFATGDGRGGHGHAADCVDFLHGWLNYQIEHHLWPDLSMLSYQKAAPLV  128
+
+Query  387  REVVEAH  393
+            R++   H
+Sbjct  129  RDLCAKH  135
+
+
+>Emi370|CAMPEP_0187706344 unnamed protein product
+Length=90
+
+ Score = 30.8 bits (68),  Expect = 1.4, Method: Compositional matrix adjust.
+ Identities = 19/67 (28%), Positives = 31/67 (46%), Gaps = 4/67 (6%)
+
+Query  316  IVLSHWSMHTYEGRAYNGADDEWYV--TTMRTTMNVATPPWLDWVHIGLQFQIEHHLFPR  373
+            ++L HW  H Y+   Y     EW +    M  +     P WL +  +G+++   HH   R
+Sbjct  5    VLLFHWQ-HVYD-HGYVRGSAEWKLREAAMHGSSLAVVPTWLKYFTLGIEYHHIHHFRMR  62
+
+Query  374  LPRHNLR  380
+            +P + LR
+Sbjct  63   IPGYMLR  69
+
+
+>Emi219|CAMPEP_0187775742 unnamed protein product
+Length=300
+
+ Score = 32.7 bits (73),  Expect = 1.6, Method: Compositional matrix adjust.
+ Identities = 25/72 (35%), Positives = 31/72 (43%), Gaps = 11/72 (15%)
+
+Query  31   VYDVSRFIDAHPGGVGPI---LNLAGKDCTDVFANYHAARIVVAPHVADFRRIRQELLRR  87
+            VYD + F   HPGG   I   +  AG DCTD+F          A H    R I + L+  
+Sbjct  185  VYDATSFAANHPGGGALIHMGMACAGDDCTDLFD--------AANHTEHARSILRALVVP  236
+
+Query  88   GLFETDSRFYLK  99
+            GL +      LK
+Sbjct  237  GLEQLPEPPPLK  248
+
+
+>Emihu1|216445 unnamed protein product
+Length=216
+
+ Score = 32.3 bits (72),  Expect = 1.6, Method: Compositional matrix adjust.
+ Identities = 13/36 (36%), Positives = 19/36 (53%), Gaps = 0/36 (0%)
+
+Query  30  RVYDVSRFIDAHPGGVGPILNLAGKDCTDVFANYHA  65
+           +  DVS+F   HPGG   +     +D T+ F  YH+
+Sbjct  27  KAVDVSKFAKLHPGGAKALRIFNNRDATEQFEMYHS  62
+
+
+>Emihu1|116654 unnamed protein product
+Length=139
+
+ Score = 31.6 bits (70),  Expect = 1.8, Method: Composition-based stats.
+ Identities = 13/36 (36%), Positives = 19/36 (53%), Gaps = 0/36 (0%)
+
+Query  30  RVYDVSRFIDAHPGGVGPILNLAGKDCTDVFANYHA  65
+           +  DVS+F   HPGG   +     +D T+ F  YH+
+Sbjct  27  KAVDVSKFAKLHPGGAKALRIFNNRDATEQFEMYHS  62
+
+
+>Emi374|CAMPEP_0187588592 unnamed protein product
+Length=432
+
+ Score = 32.7 bits (73),  Expect = 1.9, Method: Compositional matrix adjust.
+ Identities = 19/65 (29%), Positives = 31/65 (48%), Gaps = 8/65 (12%)
+
+Query  25   IVVDERVYDVSRFIDAHPGGVGPILNLAGKDCTDVFANYHAARIVVAPHVADFRRIRQEL  84
+            +++D+ +YDV+ F   HPG    +   +G D T+ F +          H A+  RI +  
+Sbjct  134  LLIDDAIYDVTAFAPLHPGMAASLHLFSGSDATEPFHDVA--------HSAEALRIMRSF  185
+
+Query  85   LRRGL  89
+            L  GL
+Sbjct  186  LVPGL  190
+
+
+>Emihu1|107771 unnamed protein product
+Length=716
+
+ Score = 32.7 bits (73),  Expect = 1.9, Method: Compositional matrix adjust.
+ Identities = 22/48 (46%), Positives = 27/48 (56%), Gaps = 7/48 (15%)
+
+Query  31   VYDVSRFIDAHPGGVGPI---LNLAGKDCTDVF--ANY--HAARIVVA  71
+            VYD + F   HPGG   I   +  AG DCTD+F  AN+  HA  I+ A
+Sbjct  160  VYDATSFAANHPGGGALIHMGMACAGDDCTDLFDAANHTEHARSILRA  207
+
+
+>Emi370|CAMPEP_0187693426 unnamed protein product
+Length=230
+
+ Score = 32.3 bits (72),  Expect = 1.9, Method: Compositional matrix adjust.
+ Identities = 16/33 (48%), Positives = 19/33 (58%), Gaps = 3/33 (9%)
+
+Query  31   VYDVSRFIDAHPGGVGPI---LNLAGKDCTDVF  60
+            VYD + F   HPGG   I   +  AG DCTD+F
+Sbjct  170  VYDATSFAANHPGGGALIHMGMACAGDDCTDLF  202
+
+
+>Emi219|CAMPEP_0187800390 unnamed protein product
+Length=302
+
+ Score = 32.3 bits (72),  Expect = 2.1, Method: Compositional matrix adjust.
+ Identities = 15/39 (38%), Positives = 25/39 (64%), Gaps = 0/39 (0%)
+
+Query  355  LDWVHIGLQFQIEHHLFPRLPRHNLRLARDMVREVVEAH  393
+            +D++H  L +QIEHHL+P L   + + A  +VR++   H
+Sbjct  104  VDFLHGWLNYQIEHHLWPDLSMLSYQKAAPLVRDLCAKH  142
+
+
+>Emi370|CAMPEP_0187695894 unnamed protein product
+Length=431
+
+ Score = 32.3 bits (72),  Expect = 2.2, Method: Compositional matrix adjust.
+ Identities = 19/65 (29%), Positives = 31/65 (48%), Gaps = 8/65 (12%)
+
+Query  25   IVVDERVYDVSRFIDAHPGGVGPILNLAGKDCTDVFANYHAARIVVAPHVADFRRIRQEL  84
+            +++D+ +YDV+ F   HPG    +   +G D T+ F +          H A+  RI +  
+Sbjct  133  LLIDDAIYDVTAFAPLHPGMAASLHLFSGSDATEPFHDVA--------HSAEALRIMRSF  184
+
+Query  85   LRRGL  89
+            L  GL
+Sbjct  185  LVPGL  189
+
+
+>Emi374|CAMPEP_0187608992 unnamed protein product
+Length=1010
+
+ Score = 32.7 bits (73),  Expect = 2.2, Method: Compositional matrix adjust.
+ Identities = 23/88 (26%), Positives = 37/88 (42%), Gaps = 5/88 (6%)
+
+Query  290  PSWAE----SVGWVMLSHACMDESGILHVQIVLSHWSMHT-YEGRAYNGADDEWYVTTMR  344
+            P+WA         V ++HAC    G+ H + + S WS  T   G A + A+ +  V   +
+Sbjct  80   PAWARLGECEKNAVYMTHACRRACGLCHPKPICSVWSHRTPVPGSAADSAELKLLVRAPK  139
+
+Query  345  TTMNVATPPWLDWVHIGLQFQIEHHLFP  372
+                   P   +  H+ +Q Q    +FP
+Sbjct  140  APFLWLAPRGSEKRHLRVQLQAWSSMFP  167
+
+
+>Emihu1|309902 unnamed protein product
+Length=374
+
+ Score = 32.3 bits (72),  Expect = 2.3, Method: Compositional matrix adjust.
+ Identities = 18/74 (24%), Positives = 30/74 (41%), Gaps = 4/74 (5%)
+
+Query  128  AALMGVFWQQLAGIGHDLGHSGVTHSFRRDHLVGSLLSAFMGLSVGWWKSDHNTHHVVCN  187
+            AA+ G  W  +  + H+ GH   + + +    VG  L   + +    W+  H  HH   N
+Sbjct  65   AAVTGTVWTGMWVVAHECGHKAFSDNLKLQDAVGYFLHTLLLVPYFSWQRSHAVHHAHTN  124
+
+Query  188  AV----EHDPNIQH  197
+             +     H P + H
+Sbjct  125  HITKGETHVPFVVH  138
+
+
+>Emihu1|76102 unnamed protein product
+Length=374
+
+ Score = 32.3 bits (72),  Expect = 2.3, Method: Compositional matrix adjust.
+ Identities = 18/74 (24%), Positives = 30/74 (41%), Gaps = 4/74 (5%)
+
+Query  128  AALMGVFWQQLAGIGHDLGHSGVTHSFRRDHLVGSLLSAFMGLSVGWWKSDHNTHHVVCN  187
+            AA+ G  W  +  + H+ GH   + + +    VG  L   + +    W+  H  HH   N
+Sbjct  65   AAVTGTVWTGMWVVAHECGHKAFSDNLKLQDAVGYFLHTLLLVPYFSWQRSHAVHHAHTN  124
+
+Query  188  AV----EHDPNIQH  197
+             +     H P + H
+Sbjct  125  HITKGETHVPFVVH  138
+
+
+>Emi374|CAMPEP_0187589322 unnamed protein product
+Length=226
+
+ Score = 32.0 bits (71),  Expect = 2.4, Method: Compositional matrix adjust.
+ Identities = 19/66 (29%), Positives = 34/66 (52%), Gaps = 10/66 (15%)
+
+Query  338  WYVTTMRTTMNVAT----------PPWLDWVHIGLQFQIEHHLFPRLPRHNLRLARDMVR  387
+            +Y+  + +++N AT             +D++H  L +QIEHHL+P L   + + A  +VR
+Sbjct  70   FYMRQVTSSVNFATGDGRGGHGHAADCVDFLHGWLNYQIEHHLWPDLSMLSYQKAAPLVR  129
+
+Query  388  EVVEAH  393
+             +   H
+Sbjct  130  NLCAKH  135
+
+
+>Emi379|CAMPEP_0187612874 unnamed protein product
+Length=411
+
+ Score = 32.3 bits (72),  Expect = 2.4, Method: Compositional matrix adjust.
+ Identities = 19/65 (29%), Positives = 31/65 (48%), Gaps = 8/65 (12%)
+
+Query  25   IVVDERVYDVSRFIDAHPGGVGPILNLAGKDCTDVFANYHAARIVVAPHVADFRRIRQEL  84
+            +++D+ +YDV+ F   HPG    +   +G D T+ F +          H A+  RI +  
+Sbjct  113  LLIDDAIYDVTAFAPLHPGMAASLHLFSGSDATEPFHDVA--------HSAEALRIMRSF  164
+
+Query  85   LRRGL  89
+            L  GL
+Sbjct  165  LVPGL  169
+
+
+>Emi370|CAMPEP_0187693432 unnamed protein product
+Length=620
+
+ Score = 32.3 bits (72),  Expect = 2.4, Method: Compositional matrix adjust.
+ Identities = 15/38 (39%), Positives = 24/38 (63%), Gaps = 0/38 (0%)
+
+Query  356  DWVHIGLQFQIEHHLFPRLPRHNLRLARDMVREVVEAH  393
+            D++H  L +QIEHHL+P+L   + + A   +R + E H
+Sbjct  426  DFMHGWLNYQIEHHLWPQLSMLSYQKAAPQLRAICEKH  463
+
+
+>Emi219|CAMPEP_0187748596 unnamed protein product
+Length=419
+
+ Score = 32.3 bits (72),  Expect = 2.4, Method: Compositional matrix adjust.
+ Identities = 19/65 (29%), Positives = 31/65 (48%), Gaps = 8/65 (12%)
+
+Query  25   IVVDERVYDVSRFIDAHPGGVGPILNLAGKDCTDVFANYHAARIVVAPHVADFRRIRQEL  84
+            +++D+ +YDV+ F   HPG    +   +G D T+ F +          H A+  RI +  
+Sbjct  121  LLIDDAIYDVTAFAPLHPGMAASLHLFSGSDATEPFHDVA--------HSAEALRIMRSF  172
+
+Query  85   LRRGL  89
+            L  GL
+Sbjct  173  LVPGL  177
+
+
+>Emi374|CAMPEP_0187608180 unnamed protein product
+Length=440
+
+ Score = 32.3 bits (72),  Expect = 2.5, Method: Compositional matrix adjust.
+ Identities = 19/65 (29%), Positives = 31/65 (48%), Gaps = 8/65 (12%)
+
+Query  25   IVVDERVYDVSRFIDAHPGGVGPILNLAGKDCTDVFANYHAARIVVAPHVADFRRIRQEL  84
+            +++D+ +YDV+ F   HPG    +   +G D T+ F +          H A+  RI +  
+Sbjct  113  LLIDDAIYDVTAFAPLHPGMAASLHLFSGSDATEPFHDVA--------HSAEALRIMRSF  164
+
+Query  85   LRRGL  89
+            L  GL
+Sbjct  165  LVPGL  169
+
+
+>Emihu1|454147 unnamed protein product
+Length=449
+
+ Score = 32.3 bits (72),  Expect = 2.6, Method: Compositional matrix adjust.
+ Identities = 15/38 (39%), Positives = 24/38 (63%), Gaps = 0/38 (0%)
+
+Query  356  DWVHIGLQFQIEHHLFPRLPRHNLRLARDMVREVVEAH  393
+            D++H  L +QIEHHL+P+L   + + A   +R + E H
+Sbjct  367  DFMHGWLNYQIEHHLWPQLSMLSYQKAAPQLRAICEKH  404
+
+
+>Emi219|CAMPEP_0187739784 unnamed protein product
+Length=496
+
+ Score = 32.3 bits (72),  Expect = 2.8, Method: Compositional matrix adjust.
+ Identities = 15/38 (39%), Positives = 24/38 (63%), Gaps = 0/38 (0%)
+
+Query  356  DWVHIGLQFQIEHHLFPRLPRHNLRLARDMVREVVEAH  393
+            D++H  L +QIEHHL+P+L   + + A   +R + E H
+Sbjct  415  DFMHGWLNYQIEHHLWPQLSMLSYQKAAPQLRAICEKH  452
+
+
+>Emi379|CAMPEP_0187648872 unnamed protein product
+Length=504
+
+ Score = 32.3 bits (72),  Expect = 2.8, Method: Compositional matrix adjust.
+ Identities = 15/38 (39%), Positives = 24/38 (63%), Gaps = 0/38 (0%)
+
+Query  356  DWVHIGLQFQIEHHLFPRLPRHNLRLARDMVREVVEAH  393
+            D++H  L +QIEHHL+P+L   + + A   +R + E H
+Sbjct  423  DFMHGWLNYQIEHHLWPQLSMLSYQKAAPQLRAICEKH  460
+
+
+>Emi379|CAMPEP_0187638014 unnamed protein product
+Length=307
+
+ Score = 32.0 bits (71),  Expect = 2.9, Method: Compositional matrix adjust.
+ Identities = 17/50 (34%), Positives = 26/50 (52%), Gaps = 1/50 (2%)
+
+Query  9    YTLAEVGKHCSRGDAWIVVDERVYDVSRFIDAHPGGVG-PILNLAGKDCT  57
+            YT A+V  H    D W+ +  +V D+S  +  H G +  P++  AG D T
+Sbjct  95   YTPADVAAHDRADDLWVSLFHKVVDLSDLVFLHAGPLAQPLIEAAGTDIT  144
+
+
+>Emihu1|443634 unnamed protein product
+Length=250
+
+ Score = 31.6 bits (70),  Expect = 3.0, Method: Compositional matrix adjust.
+ Identities = 19/65 (29%), Positives = 31/65 (48%), Gaps = 8/65 (12%)
+
+Query  25   IVVDERVYDVSRFIDAHPGGVGPILNLAGKDCTDVFANYHAARIVVAPHVADFRRIRQEL  84
+            +++D+ +YDV+ F   HPG    +   +G D T+ F +          H A+  RI +  
+Sbjct  129  LLIDDAIYDVTAFAPLHPGMAASLHLFSGSDATEPFHDVA--------HSAEALRIMRSF  180
+
+Query  85   LRRGL  89
+            L  GL
+Sbjct  181  LVPGL  185
+
+
+>Emi374|CAMPEP_0187606794 unnamed protein product
+Length=489
+
+ Score = 32.0 bits (71),  Expect = 3.0, Method: Compositional matrix adjust.
+ Identities = 15/62 (24%), Positives = 26/62 (42%), Gaps = 0/62 (0%)
+
+Query  128  AALMGVFWQQLAGIGHDLGHSGVTHSFRRDHLVGSLLSAFMGLSVGWWKSDHNTHHVVCN  187
+            AA+ G  W  +  + H+ GH   + + +    VG  L   + +    W+  H  HH   N
+Sbjct  162  AAVTGTVWTGMWVVAHECGHKAFSDNLKLQDAVGYFLHTLLLVPYFSWQRSHAVHHAHTN  221
+
+Query  188  AV  189
+             +
+Sbjct  222  HI  223
+
+
+>Emi219|CAMPEP_0187782110 unnamed protein product
+Length=487
+
+ Score = 32.0 bits (71),  Expect = 3.1, Method: Compositional matrix adjust.
+ Identities = 18/74 (24%), Positives = 30/74 (41%), Gaps = 4/74 (5%)
+
+Query  128  AALMGVFWQQLAGIGHDLGHSGVTHSFRRDHLVGSLLSAFMGLSVGWWKSDHNTHHVVCN  187
+            AA+ G  W  +  + H+ GH   + + +    VG  L   + +    W+  H  HH   N
+Sbjct  160  AAVTGTVWTGMWVVAHECGHKAFSDNLKLQDAVGYFLHTLLLVPYFSWQRSHAVHHAHTN  219
+
+Query  188  AV----EHDPNIQH  197
+             +     H P + H
+Sbjct  220  HITKGETHVPFVVH  233
+
+
+>Emi370|CAMPEP_0187669522 unnamed protein product
+Length=488
+
+ Score = 32.0 bits (71),  Expect = 3.1, Method: Compositional matrix adjust.
+ Identities = 18/74 (24%), Positives = 30/74 (41%), Gaps = 4/74 (5%)
+
+Query  128  AALMGVFWQQLAGIGHDLGHSGVTHSFRRDHLVGSLLSAFMGLSVGWWKSDHNTHHVVCN  187
+            AA+ G  W  +  + H+ GH   + + +    VG  L   + +    W+  H  HH   N
+Sbjct  161  AAVTGTVWTGMWVVAHECGHKAFSDNLKLQDAVGYFLHTLLLVPYFSWQRSHAVHHAHTN  220
+
+Query  188  AV----EHDPNIQH  197
+             +     H P + H
+Sbjct  221  HITKGETHVPFVVH  234
+
+
+>Emi379|CAMPEP_0187646164 unnamed protein product
+Length=488
+
+ Score = 32.0 bits (71),  Expect = 3.1, Method: Compositional matrix adjust.
+ Identities = 15/62 (24%), Positives = 26/62 (42%), Gaps = 0/62 (0%)
+
+Query  128  AALMGVFWQQLAGIGHDLGHSGVTHSFRRDHLVGSLLSAFMGLSVGWWKSDHNTHHVVCN  187
+            AA+ G  W  +  + H+ GH   + + +    VG  L   + +    W+  H  HH   N
+Sbjct  161  AAVTGTVWTGMWVVAHECGHKAFSDNLKLQDAVGYFLHTLLLVPYFSWQRSHAVHHAHTN  220
+
+Query  188  AV  189
+             +
+Sbjct  221  HI  222
+
+
+>Emi374|CAMPEP_0187580190 unnamed protein product
+Length=610
+
+ Score = 32.0 bits (71),  Expect = 3.2, Method: Compositional matrix adjust.
+ Identities = 15/38 (39%), Positives = 24/38 (63%), Gaps = 0/38 (0%)
+
+Query  356  DWVHIGLQFQIEHHLFPRLPRHNLRLARDMVREVVEAH  393
+            D++H  L +QIEHHL+P+L   + + A   +R + E H
+Sbjct  415  DFMHGWLNYQIEHHLWPQLSMLSYQKAAPQLRAICEKH  452
+
+
+>Emi379|CAMPEP_0187642130 unnamed protein product
+Length=590
+
+ Score = 32.0 bits (71),  Expect = 3.2, Method: Compositional matrix adjust.
+ Identities = 15/39 (38%), Positives = 25/39 (64%), Gaps = 0/39 (0%)
+
+Query  355  LDWVHIGLQFQIEHHLFPRLPRHNLRLARDMVREVVEAH  393
+            +D++H  L +QIEHHL+P L   + + A  +VR++   H
+Sbjct  392  VDFLHGWLNYQIEHHLWPDLSMLSYQKAAPLVRDLCAKH  430
+
+
+>Emi374|CAMPEP_0187581306 unnamed protein product
+Length=500
+
+ Score = 32.0 bits (71),  Expect = 3.3, Method: Compositional matrix adjust.
+ Identities = 26/98 (27%), Positives = 42/98 (43%), Gaps = 16/98 (16%)
+
+Query  70   VAPHVADFRRIRQELLRRGLFETDSRFYLKMLAWHCTLWLCAMYLSLGCDSCGAHMLGAA  129
+            VA  + D RR R  +         +   +++ +W     LCA+        CG   LGA+
+Sbjct  14   VAASIPDSRRTRPGI---------TGASMRLRSWMLPCALCAV-------CCGVCDLGAS  57
+
+Query  130  LMGVFWQQLAGIGHDLGHSGVTHSFRRDHLVGSLLSAF  167
+            L+  F+  +    ++  H+GV   F    L G LL+ F
+Sbjct  58   LLAPFYPDVLLKTYNGTHAGVGAVFGASALPGVLLTPF  95
+
+
+>Emi370|CAMPEP_0187735684 unnamed protein product
+Length=740
+
+ Score = 32.0 bits (71),  Expect = 3.6, Method: Compositional matrix adjust.
+ Identities = 15/39 (38%), Positives = 24/39 (62%), Gaps = 0/39 (0%)
+
+Query  355  LDWVHIGLQFQIEHHLFPRLPRHNLRLARDMVREVVEAH  393
+            +D++H  L +QIEHHL+P L   + + A  +VR +   H
+Sbjct  389  VDFLHGWLNYQIEHHLWPDLSMLSYQKAAPLVRNLCAKH  427
+
+
+>Emihu1|214147 unnamed protein product
+Length=213
+
+ Score = 31.2 bits (69),  Expect = 3.6, Method: Compositional matrix adjust.
+ Identities = 16/46 (35%), Positives = 25/46 (54%), Gaps = 3/46 (7%)
+
+Query  25   IVVDERVYDVSRFIDAHPGGVGPILNLAGKDCTDVF---ANYHAAR  67
+            +++D+ +YDV+ F   HPG    +   +G D T+ F    N  AAR
+Sbjct  72   LLIDDAIYDVTAFAPLHPGMAASLHLFSGSDATEPFHDAPNELAAR  117
+
+
+>Emihu1|107980 unnamed protein product
+Length=488
+
+ Score = 31.6 bits (70),  Expect = 3.8, Method: Compositional matrix adjust.
+ Identities = 26/97 (27%), Positives = 34/97 (35%), Gaps = 13/97 (13%)
+
+Query  292  WAESVGWVMLSHACMDESGILHVQIVLSHWSMHTYEGRAYNGADDEWYVTTMRTTMNVAT  351
+            WAE VGW +  H             V +H S+    G    G        T    +  A 
+Sbjct  293  WAE-VGWQLPIHPA-------SAMFVSNHPSLDAPRGEGVGGCQ-----PTASIYLEGAA  339
+
+Query  352  PPWLDWVHIGLQFQIEHHLFPRLPRHNLRLARDMVRE  388
+                DW+     +  EHH FP +P   L+  RD   E
+Sbjct  340  GEAFDWLCCFSNYHTEHHDFPDVPAFRLKQLRDAAPE  376
+
+
+>Emihu1|456958 unnamed protein product
+Length=1114
+
+ Score = 32.0 bits (71),  Expect = 3.8, Method: Compositional matrix adjust.
+ Identities = 23/88 (26%), Positives = 37/88 (42%), Gaps = 5/88 (6%)
+
+Query  290  PSWAE----SVGWVMLSHACMDESGILHVQIVLSHWSMHT-YEGRAYNGADDEWYVTTMR  344
+            P+WA         V ++HAC    G+ H + + S WS  T   G A + A+ +  V   +
+Sbjct  82   PAWARLGECEKNAVYMTHACRRACGMCHPKPICSVWSHRTPVPGSAADSAELKLLVRAPK  141
+
+Query  345  TTMNVATPPWLDWVHIGLQFQIEHHLFP  372
+                   P   +  H+ +Q Q    +FP
+Sbjct  142  APFLWLAPRGSEKRHLRVQLQAWSSMFP  169
+
+
+>Emihu1|237254 unnamed protein product
+Length=427
+
+ Score = 31.6 bits (70),  Expect = 4.0, Method: Compositional matrix adjust.
+ Identities = 26/97 (27%), Positives = 34/97 (35%), Gaps = 13/97 (13%)
+
+Query  292  WAESVGWVMLSHACMDESGILHVQIVLSHWSMHTYEGRAYNGADDEWYVTTMRTTMNVAT  351
+            WAE VGW +  H             V +H S+    G    G        T    +  A 
+Sbjct  293  WAE-VGWQLPIHPA-------SAMFVSNHPSLDAPRGEGVGGCQ-----PTASIYLEGAA  339
+
+Query  352  PPWLDWVHIGLQFQIEHHLFPRLPRHNLRLARDMVRE  388
+                DW+     +  EHH FP +P   L+  RD   E
+Sbjct  340  GEAFDWLCCFSNYHTEHHDFPDVPAFRLKQLRDAAPE  376
+
+
+>Emi370|CAMPEP_0187733916 unnamed protein product
+Length=413
+
+ Score = 31.6 bits (70),  Expect = 4.1, Method: Compositional matrix adjust.
+ Identities = 16/46 (35%), Positives = 23/46 (50%), Gaps = 2/46 (4%)
+
+Query  114  LSLGCDSCGA--HMLGAALMGVFWQQLAGIGHDLGHSGVTHSFRRD  157
+            +SL C  CGA  H+ GA   G   ++L     D G +G+    RR+
+Sbjct  124  ISLACIKCGASVHLRGAQFCGTCGERLPSTSEDAGRTGLLVRLRRE  169
+
+
+>Emi219|CAMPEP_0187761620 unnamed protein product
+Length=468
+
+ Score = 31.6 bits (70),  Expect = 4.1, Method: Compositional matrix adjust.
+ Identities = 15/39 (38%), Positives = 24/39 (62%), Gaps = 0/39 (0%)
+
+Query  355  LDWVHIGLQFQIEHHLFPRLPRHNLRLARDMVREVVEAH  393
+            +D++H  L +QIEHHL+P L   + + A  +VR +   H
+Sbjct  389  VDFLHGWLNYQIEHHLWPDLSMLSYQKAAPLVRNLCAKH  427
+
+
+>Emihu1|223435 unnamed protein product
+Length=307
+
+ Score = 31.6 bits (70),  Expect = 4.1, Method: Compositional matrix adjust.
+ Identities = 16/46 (35%), Positives = 23/46 (50%), Gaps = 2/46 (4%)
+
+Query  114  LSLGCDSCGA--HMLGAALMGVFWQQLAGIGHDLGHSGVTHSFRRD  157
+            +SL C  CGA  H+ GA   G   ++L     D G +G+    RR+
+Sbjct  121  ISLACIKCGASVHLRGAQFCGTCGERLPSTSEDAGRTGLLVRLRRE  166
+
+
+>Emi370|CAMPEP_0187693342 unnamed protein product
+Length=500
+
+ Score = 31.6 bits (70),  Expect = 4.4, Method: Compositional matrix adjust.
+ Identities = 23/88 (26%), Positives = 36/88 (41%), Gaps = 5/88 (6%)
+
+Query  290  PSWAE----SVGWVMLSHACMDESGILHVQIVLSHWSMHT-YEGRAYNGADDEWYVTTMR  344
+            P+WA         V ++HAC    G  H + + S WS  T   G A + A+ +  V   +
+Sbjct  75   PAWARLGECEKNAVFMTHACRRACGECHPKPICSVWSHRTPVPGSAADSAELKLLVRAPK  134
+
+Query  345  TTMNVATPPWLDWVHIGLQFQIEHHLFP  372
+                   P   +  H+ +Q Q    +FP
+Sbjct  135  APFLWLAPRGSEKRHLRVQLQAWSSMFP  162
+
+
+>Emi219|CAMPEP_0187796186 unnamed protein product
+Length=116
+
+ Score = 30.0 bits (66),  Expect = 4.6, Method: Compositional matrix adjust.
+ Identities = 15/37 (41%), Positives = 20/37 (54%), Gaps = 2/37 (5%)
+
+Query  24  WIVVDERVYDVSRFIDAHPGGVGPILNLAGKDCTDVF  60
+           WIV+   VYDV+ F   HPGG   +    G+D +  F
+Sbjct  3   WIVIHGDVYDVTDF--HHPGGNDRLFERGGRDASAAF  37
+
+
+>Emi370|CAMPEP_0187679838 unnamed protein product
+Length=194
+
+ Score = 30.8 bits (68),  Expect = 5.1, Method: Compositional matrix adjust.
+ Identities = 16/45 (36%), Positives = 27/45 (60%), Gaps = 4/45 (9%)
+
+Query  1    AGQPTLREYTLAEV---GKHCSRGDAWIVVDERVYDVSRFIDAHP  42
+            AG+P++   +  E     ++ +R DAWI VD+   +V +F+ AHP
+Sbjct  122  AGRPSIEAESAGEALQKAQYGARNDAWIAVDDARQEV-QFLRAHP  165
+
+
+>Emihu1|194783 unnamed protein product
+Length=487
+
+ Score = 31.2 bits (69),  Expect = 5.6, Method: Compositional matrix adjust.
+ Identities = 37/152 (24%), Positives = 61/152 (40%), Gaps = 8/152 (5%)
+
+Query  75   ADFRRIRQELLRRGLFETDSRFYLKMLAWHCTLWLCAMYLSLGCDS---CGAHMLGAALM  131
+            ++ RR   E+LRR   E  +    K  A H    + A+  ++ C +    G+ +    L 
+Sbjct  136  SELRRDLAEMLRR---EFPTPASSKASAAHWARTIAALVGTVACWAGWVQGSALACLLLP  192
+
+Query  132  GVFWQQLAGIGHDLGHSGVTHSFRRDHLVGSLLSAFMGLSVGWWKSDHN-THHVVCNAVE  190
+             V W  +A   H+  H G  H+  R +      S  +  +V  W   H  +HH   N  E
+Sbjct  193  FVHWVLIAHTVHEATH-GNLHTDPRINFWAQFTSHPICFNVFVWIPQHLLSHHQYTNDYE  251
+
+Query  191  HDPNIQHMPMLAITDKVFRRPRFWDTYHRKWV  222
+            HD +  H     I+D + R      +++  W 
+Sbjct  252  HDVDCHHFAPALISDAMPRMASAESSFNEGWT  283
+
+
+>Emi379|CAMPEP_0187637514 unnamed protein product
+Length=406
+
+ Score = 31.2 bits (69),  Expect = 5.6, Method: Compositional matrix adjust.
+ Identities = 16/49 (33%), Positives = 28/49 (57%), Gaps = 3/49 (6%)
+
+Query  340  VTTMRTTMNVATPPWLDWVHIGLQFQIEHHLFPRLPRHNLRLARDMVRE  388
+            ++  RTT+   T P L++V   + +  EHHL+  LP H L  A  ++++
+Sbjct  315  LSNTRTTL---TSPLLNFVMWNMSYHAEHHLYTILPFHALPRAHALLKQ  360
+
+
+>Emi370|CAMPEP_0187692278 unnamed protein product
+Length=406
+
+ Score = 31.2 bits (69),  Expect = 5.6, Method: Compositional matrix adjust.
+ Identities = 16/49 (33%), Positives = 28/49 (57%), Gaps = 3/49 (6%)
+
+Query  340  VTTMRTTMNVATPPWLDWVHIGLQFQIEHHLFPRLPRHNLRLARDMVRE  388
+            ++  RTT+   T P L++V   + +  EHHL+  LP H L  A  ++++
+Sbjct  315  LSNTRTTL---TSPLLNFVMWNMSYHAEHHLYTILPFHALPRAHALLKQ  360
+
+
+>Emi219|CAMPEP_0187751960 unnamed protein product
+Length=254
+
+ Score = 30.8 bits (68),  Expect = 6.1, Method: Compositional matrix adjust.
+ Identities = 16/45 (36%), Positives = 27/45 (60%), Gaps = 4/45 (9%)
+
+Query  1    AGQPTLREYTLAEV---GKHCSRGDAWIVVDERVYDVSRFIDAHP  42
+            AG+P++   +  E     ++ +R DAWI VD+   +V +F+ AHP
+Sbjct  184  AGRPSIEAESAGEALQKAQYGARNDAWIAVDDARQEV-QFLRAHP  227
+
+
+>Emi374|CAMPEP_0187601126 unnamed protein product
+Length=131
+
+ Score = 30.0 bits (66),  Expect = 6.4, Method: Compositional matrix adjust.
+ Identities = 15/49 (31%), Positives = 28/49 (57%), Gaps = 3/49 (6%)
+
+Query  340  VTTMRTTMNVATPPWLDWVHIGLQFQIEHHLFPRLPRHNLRLARDMVRE  388
+            ++  RTT+   T P +++V   + +  EHHL+  LP H L  A  ++++
+Sbjct  40   LSNTRTTL---TSPLINFVMWNMSYHAEHHLYTILPFHALPRAHALLKQ  85
+
+
+>Emi370|CAMPEP_0187683668 unnamed protein product
+Length=498
+
+ Score = 30.8 bits (68),  Expect = 6.6, Method: Compositional matrix adjust.
+ Identities = 37/152 (24%), Positives = 61/152 (40%), Gaps = 8/152 (5%)
+
+Query  75   ADFRRIRQELLRRGLFETDSRFYLKMLAWHCTLWLCAMYLSLGCDS---CGAHMLGAALM  131
+            ++ RR   E+LRR   E  +    K  A H    + A+  ++ C +    G+ +    L 
+Sbjct  148  SELRRDLAEMLRR---EFPTPASSKASAAHWARTIAALVGTVACWAGWVQGSALACLLLP  204
+
+Query  132  GVFWQQLAGIGHDLGHSGVTHSFRRDHLVGSLLSAFMGLSVGWWKSDHN-THHVVCNAVE  190
+             V W  +A   H+  H G  H+  R +      S  +  +V  W   H  +HH   N  E
+Sbjct  205  FVHWVLIAHTVHEATH-GNLHTDPRINFWAQFTSHPICFNVFVWIPQHLLSHHQYTNDYE  263
+
+Query  191  HDPNIQHMPMLAITDKVFRRPRFWDTYHRKWV  222
+            HD +  H     I+D + R      +++  W 
+Sbjct  264  HDVDCHHFAPALISDAMPRMASAESSFNEGWT  295
+
+
+>Emi219|CAMPEP_0187756798 unnamed protein product
+Length=502
+
+ Score = 30.8 bits (68),  Expect = 6.7, Method: Compositional matrix adjust.
+ Identities = 37/152 (24%), Positives = 61/152 (40%), Gaps = 8/152 (5%)
+
+Query  75   ADFRRIRQELLRRGLFETDSRFYLKMLAWHCTLWLCAMYLSLGCDS---CGAHMLGAALM  131
+            ++ RR   E+LRR   E  +    K  A H    + A+  ++ C +    G+ +    L 
+Sbjct  153  SELRRDLAEMLRR---EFPTPASSKASAAHWARTIAALVGTVACWAGWVQGSALACLLLP  209
+
+Query  132  GVFWQQLAGIGHDLGHSGVTHSFRRDHLVGSLLSAFMGLSVGWWKSDHN-THHVVCNAVE  190
+             V W  +A   H+  H G  H+  R +      S  +  +V  W   H  +HH   N  E
+Sbjct  210  FVHWVLIAHTVHEATH-GNLHTDPRINFWAQFTSHPICFNVFVWIPQHLLSHHQYTNDYE  268
+
+Query  191  HDPNIQHMPMLAITDKVFRRPRFWDTYHRKWV  222
+            HD +  H     I+D + R      +++  W 
+Sbjct  269  HDVDCHHFAPALISDAMPRMASAESSFNEGWT  300
+
+
+>Emi379|CAMPEP_0187630014 unnamed protein product
+Length=190
+
+ Score = 30.4 bits (67),  Expect = 7.1, Method: Compositional matrix adjust.
+ Identities = 16/48 (33%), Positives = 23/48 (48%), Gaps = 3/48 (6%)
+
+Query  13   EVGKHCSRGDAWIVVDERVYDVSRFIDAHPGGVGPILNLAGKDCTDVF  60
+            E G H   G   + +  RVYD + ++  HPG    +   AG+D T  F
+Sbjct  136  EPGGH---GRLLLCIHGRVYDATEYMLEHPGDPNVLRASAGRDATQAF  180
+
+
+>Emi219|CAMPEP_0187746246 unnamed protein product
+Length=157
+
+ Score = 30.0 bits (66),  Expect = 7.4, Method: Compositional matrix adjust.
+ Identities = 16/48 (33%), Positives = 23/48 (48%), Gaps = 3/48 (6%)
+
+Query  13   EVGKHCSRGDAWIVVDERVYDVSRFIDAHPGGVGPILNLAGKDCTDVF  60
+            E G H   G   + +  RVYD + ++  HPG    +   AG+D T  F
+Sbjct  103  EPGGH---GRLLLCIHGRVYDATEYMLEHPGDPNVLRASAGRDATQAF  147
+
+
+>Emi379|CAMPEP_0187628626 unnamed protein product
+Length=522
+
+ Score = 30.8 bits (68),  Expect = 7.5, Method: Compositional matrix adjust.
+ Identities = 37/152 (24%), Positives = 61/152 (40%), Gaps = 8/152 (5%)
+
+Query  75   ADFRRIRQELLRRGLFETDSRFYLKMLAWHCTLWLCAMYLSLGCDS---CGAHMLGAALM  131
+            ++ RR   E+LRR   E  +    K  A H    + A+  ++ C +    G+ +    L 
+Sbjct  172  SELRRDLAEMLRR---EFPTPASSKASAAHWARTIAALVGTVACWAGWVQGSALACLLLP  228
+
+Query  132  GVFWQQLAGIGHDLGHSGVTHSFRRDHLVGSLLSAFMGLSVGWWKSDHN-THHVVCNAVE  190
+             V W  +A   H+  H G  H+  R +      S  +  +V  W   H  +HH   N  E
+Sbjct  229  FVHWVLIAHTVHEATH-GNLHTDPRINFWAQFTSHPICFNVFVWIPQHLLSHHQYTNDYE  287
+
+Query  191  HDPNIQHMPMLAITDKVFRRPRFWDTYHRKWV  222
+            HD +  H     I+D + R      +++  W 
+Sbjct  288  HDVDCHHFAPALISDAMPRMASAESSFNEGWT  319
+
+
+>Emihu1|260412 unnamed protein product
+Length=143
+
+ Score = 29.6 bits (65),  Expect = 7.9, Method: Compositional matrix adjust.
+ Identities = 13/29 (45%), Positives = 19/29 (66%), Gaps = 0/29 (0%)
+
+Query  30   RVYDVSRFIDAHPGGVGPILNLAGKDCTD  58
+            RVYD + ++D HPG    +L+ AG D T+
+Sbjct  115  RVYDATDYLDLHPGLPDFLLSAAGTDATE  143
+
+
+>Emi370|CAMPEP_0187721352 unnamed protein product
+Length=390
+
+ Score = 30.4 bits (67),  Expect = 8.3, Method: Compositional matrix adjust.
+ Identities = 12/28 (43%), Positives = 14/28 (50%), Gaps = 3/28 (11%)
+
+Query  174  WWKSDHNTHHVVCNAVEHDPNIQHMPML  201
+            WW S H  HH  C+  + DP   H P L
+Sbjct  278  WWASRHRAHHKFCDTTQRDP---HSPAL  302
+
+
+>Emihu1|435830 unnamed protein product
+Length=407
+
+ Score = 30.4 bits (67),  Expect = 9.6, Method: Compositional matrix adjust.
+ Identities = 15/49 (31%), Positives = 28/49 (57%), Gaps = 3/49 (6%)
+
+Query  340  VTTMRTTMNVATPPWLDWVHIGLQFQIEHHLFPRLPRHNLRLARDMVRE  388
+            ++  RTT+   T P +++V   + +  EHHL+  LP H L  A  ++++
+Sbjct  315  LSNTRTTL---TSPLINFVMWNMSYHAEHHLYTILPFHALPRAHALLKQ  360
+
+
+>Emi219|CAMPEP_0187741730 unnamed protein product
+Length=406
+
+ Score = 30.4 bits (67),  Expect = 9.8, Method: Compositional matrix adjust.
+ Identities = 15/49 (31%), Positives = 28/49 (57%), Gaps = 3/49 (6%)
+
+Query  340  VTTMRTTMNVATPPWLDWVHIGLQFQIEHHLFPRLPRHNLRLARDMVRE  388
+            ++  RTT+   T P +++V   + +  EHHL+  LP H L  A  ++++
+Sbjct  315  LSNTRTTL---TSPLINFVMWNMSYHAEHHLYTILPFHALPRAHALLKQ  360
+
+
+
+Lambda      K        H        a         alpha
+   0.327    0.139    0.478    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 11331629990
+
+
+  Database: EmiHux_Clean_Proteins.fasta
+    Posted date:  Apr 27, 2015  10:38 AM
+  Number of letters in database: 45,538,491
+  Number of sequences in database:  133,147
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40
