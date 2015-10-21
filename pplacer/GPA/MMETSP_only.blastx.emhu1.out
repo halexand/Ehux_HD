@@ -1,0 +1,3087 @@
+BLASTX 2.2.30+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: Emihu1_reduced_proteins.fasta
+           33,340 sequences; 11,581,383 total letters
+
+
+
+Query= lcl|Emihu1|431830
+
+Length=1445
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  jgi|Emihu1|431830|estExtDG_fgenesh_newKGs_kg.C_10214                  211   5e-63
+  jgi|Emihu1|117875|fgeneshEH_pg.365__10                              48.5    4e-06
+  jgi|Emihu1|108533|fgeneshEH_pg.105__20                              47.8    8e-06
+  jgi|Emihu1|108601|fgeneshEH_pg.105__88                              47.4    9e-06
+  jgi|Emihu1|123525|fgeneshEH_pg.2493__1                              47.4    9e-06
+  jgi|Emihu1|106981|fgeneshEH_pg.86__57                               47.4    1e-05
+  jgi|Emihu1|225267|gm1.12300130                                      43.9    8e-05
+  jgi|Emihu1|121986|fgeneshEH_pg.1073__2                              42.4    6e-04
+  jgi|Emihu1|95962|fgeneshEH_pg.4__192                                42.4    6e-04
+  jgi|Emihu1|213562|gm1.5800051                                       38.1    0.004
+  jgi|Emihu1|113191|fgeneshEH_pg.183__46                              36.6    0.035
+  jgi|Emihu1|229952|gm1.15900116                                      33.9    0.045
+  jgi|Emihu1|232152|gm1.17900006                                      33.9    0.045
+  jgi|Emihu1|471657|estExtDG_fgeneshEH_pg.C_18570001                  35.4    0.077
+  jgi|Emihu1|199218|gm1.900410                                        33.1    0.35 
+  jgi|Emihu1|237042|gm1.24400023                                      32.7    0.41 
+  jgi|Emihu1|114208|fgeneshEH_pg.210__21                              31.2    1.5  
+
+
+> jgi|Emihu1|431830|estExtDG_fgenesh_newKGs_kg.C_10214
+Length=366
+
+ Score =   211 bits (538),  Expect = 5e-63, Method: Compositional matrix adjust.
+ Identities = 333/333 (100%), Positives = 333/333 (100%), Gaps = 0/333 (0%)
+ Frame = +2
+
+Query  29    MGVCSSTPKDQPVAEPTYDpapapapevpevpevpegavDTAIDKLETKVGSDLDgdgev  208
+             MGVCSSTPKDQPVAEPTYDPAPAPAPEVPEVPEVPEGAVDTAIDKLETKVGSDLDGDGEV
+Sbjct  1     MGVCSSTPKDQPVAEPTYDPAPAPAPEVPEVPEVPEGAVDTAIDKLETKVGSDLDGDGEV  60
+
+Query  209   agapveevpadapaeaadavepaedKNILQKAADYVKSFSGRvepepaakepavepeaap  388
+             AGAPVEEVPADAPAEAADAVEPAEDKNILQKAADYVKSFSGRVEPEPAAKEPAVEPEAAP
+Sbjct  61    AGAPVEEVPADAPAEAADAVEPAEDKNILQKAADYVKSFSGRVEPEPAAKEPAVEPEAAP  120
+
+Query  389   eggyeapkeeasaeeapaeeapepepeTASFLDKVKSYLSPRPEVPEGAVDTAIDKLETK  568
+             EGGYEAPKEEASAEEAPAEEAPEPEPETASFLDKVKSYLSPRPEVPEGAVDTAIDKLETK
+Sbjct  121   EGGYEAPKEEASAEEAPAEEAPEPEPETASFLDKVKSYLSPRPEVPEGAVDTAIDKLETK  180
+
+Query  569   VGSDLDGDgevagvpveaaaeeveaateaaeveaatevpveaaaeaveaaveaapavpeK  748
+             VGSDLDGDGEVAGVPVEAAAEEVEAATEAAEVEAATEVPVEAAAEAVEAAVEAAPAVPEK
+Sbjct  181   VGSDLDGDGEVAGVPVEAAAEEVEAATEAAEVEAATEVPVEAAAEAVEAAVEAAPAVPEK  240
+
+Query  749   KESYLGKVASILSPRKKaasdasaadapaaddaaeaaeaepvaeaeaeaapevapeaeee  928
+             KESYLGKVASILSPRKKAASDASAADAPAADDAAEAAEAEPVAEAEAEAAPEVAPEAEEE
+Sbjct  241   KESYLGKVASILSPRKKAASDASAADAPAADDAAEAAEAEPVAEAEAEAAPEVAPEAEEE  300
+
+Query  929   KPSLIQKLSKAFSSIIPATPQCLPGRPSESTLN  1027
+             KPSLIQKLSKAFSSIIPATPQCLPGRPSESTLN
+Sbjct  301   KPSLIQKLSKAFSSIIPATPQCLPGRPSESTLN  333
+
+
+> jgi|Emihu1|117875|fgeneshEH_pg.365__10
+Length=307
+
+ Score = 48.5 bits (114),  Expect = 4e-06, Method: Compositional matrix adjust.
+ Identities = 19/28 (68%), Positives = 26/28 (93%), Gaps = 0/28 (0%)
+ Frame = +2
+
+Query  929   KPSLIQKLSKAFSSIIPATPQCLPGRPS  1012
+             KP+LIQKLSKAFS+++PA P+C+P RP+
+Sbjct  261   KPTLIQKLSKAFSNLLPAAPKCMPSRPA  288
+
+
+> jgi|Emihu1|108533|fgeneshEH_pg.105__20
+Length=313
+
+ Score = 47.8 bits (112),  Expect = 8e-06, Method: Compositional matrix adjust.
+ Identities = 19/27 (70%), Positives = 25/27 (93%), Gaps = 0/27 (0%)
+ Frame = +2
+
+Query  932   PSLIQKLSKAFSSIIPATPQCLPGRPS  1012
+             P+LIQKLSKAFSS++PA P+C+P RP+
+Sbjct  254   PTLIQKLSKAFSSLLPAAPKCMPSRPA  280
+
+
+> jgi|Emihu1|108601|fgeneshEH_pg.105__88
+Length=313
+
+ Score = 47.4 bits (111),  Expect = 9e-06, Method: Compositional matrix adjust.
+ Identities = 19/27 (70%), Positives = 25/27 (93%), Gaps = 0/27 (0%)
+ Frame = +2
+
+Query  932   PSLIQKLSKAFSSIIPATPQCLPGRPS  1012
+             P+LIQKLSKAFSS++PA P+C+P RP+
+Sbjct  254   PTLIQKLSKAFSSLLPAAPKCMPSRPA  280
+
+
+> jgi|Emihu1|123525|fgeneshEH_pg.2493__1
+Length=313
+
+ Score = 47.4 bits (111),  Expect = 9e-06, Method: Compositional matrix adjust.
+ Identities = 19/27 (70%), Positives = 25/27 (93%), Gaps = 0/27 (0%)
+ Frame = +2
+
+Query  932   PSLIQKLSKAFSSIIPATPQCLPGRPS  1012
+             P+LIQKLSKAFSS++PA P+C+P RP+
+Sbjct  254   PTLIQKLSKAFSSLLPAAPKCMPSRPA  280
+
+
+> jgi|Emihu1|106981|fgeneshEH_pg.86__57
+Length=308
+
+ Score = 47.4 bits (111),  Expect = 1e-05, Method: Compositional matrix adjust.
+ Identities = 19/28 (68%), Positives = 26/28 (93%), Gaps = 0/28 (0%)
+ Frame = +2
+
+Query  929   KPSLIQKLSKAFSSIIPATPQCLPGRPS  1012
+             KP+LIQKLSKAFS+++PA P+C+P RP+
+Sbjct  250   KPTLIQKLSKAFSNLLPAAPKCMPSRPA  277
+
+
+> jgi|Emihu1|225267|gm1.12300130
+Length=209
+
+ Score = 43.9 bits (102),  Expect = 8e-05, Method: Compositional matrix adjust.
+ Identities = 17/26 (65%), Positives = 24/26 (92%), Gaps = 0/26 (0%)
+ Frame = +2
+
+Query  935   SLIQKLSKAFSSIIPATPQCLPGRPS  1012
+             +LIQKLSKAFS+++PA P+C+P RP+
+Sbjct  153   TLIQKLSKAFSNLLPAPPKCMPARPA  178
+
+
+> jgi|Emihu1|121986|fgeneshEH_pg.1073__2
+Length=742
+
+ Score = 42.4 bits (98),  Expect = 6e-04, Method: Compositional matrix adjust.
+ Identities = 45/94 (48%), Positives = 49/94 (52%), Gaps = 8/94 (9%)
+ Frame = +2
+
+Query  518  EVPEGAVDTAIDKLETKVGSDLDGDgevagvpveaaaeeveaateaaeveaatevpveaa  697
+            EVP GA DTAID LE K G D+D D               E  +     EAA     E  
+Sbjct  317  EVPGGAADTAIDSLEEKAGEDVDCD--------GEGPPAAEEWSAEGAGEAAAAEEEEET  368
+
+Query  698  aeaveaaveaapavpeKKESYLGKVASILSPRKK  799
+            A       E APAVPEKK SYLG+VA+ILSPRKK
+Sbjct  369  AAESAMTEEEAPAVPEKKTSYLGRVAAILSPRKK  402
+
+
+> jgi|Emihu1|95962|fgeneshEH_pg.4__192
+Length=726
+
+ Score = 42.4 bits (98),  Expect = 6e-04, Method: Compositional matrix adjust.
+ Identities = 45/94 (48%), Positives = 49/94 (52%), Gaps = 8/94 (9%)
+ Frame = +2
+
+Query  518  EVPEGAVDTAIDKLETKVGSDLDGDgevagvpveaaaeeveaateaaeveaatevpveaa  697
+            EVP GA DTAID LE K G D+D D               E  +     EAA     E  
+Sbjct  301  EVPGGAADTAIDSLEEKAGEDVDCD--------GEGPPAAEEWSAEGAGEAAAAEEEEET  352
+
+Query  698  aeaveaaveaapavpeKKESYLGKVASILSPRKK  799
+            A       E APAVPEKK SYLG+VA+ILSPRKK
+Sbjct  353  AAESAMTEEEAPAVPEKKTSYLGRVAAILSPRKK  386
+
+
+> jgi|Emihu1|213562|gm1.5800051
+Length=149
+
+ Score = 38.1 bits (87),  Expect = 0.004, Method: Compositional matrix adjust.
+ Identities = 15/21 (71%), Positives = 19/21 (90%), Gaps = 0/21 (0%)
+ Frame = +2
+
+Query  947   KLSKAFSSIIPATPQCLPGRP  1009
+             KLSKAFS+I+PA P+C+P RP
+Sbjct  112   KLSKAFSNILPAAPKCMPSRP  132
+
+
+> jgi|Emihu1|113191|fgeneshEH_pg.183__46
+Length=595
+
+ Score = 36.6 bits (83),  Expect = 0.035, Method: Compositional matrix adjust.
+ Identities = 18/29 (62%), Positives = 23/29 (79%), Gaps = 2/29 (7%)
+ Frame = +2
+
+Query  929   KPSLIQKLSKAFSSIIPATPQCLP-GRPS  1012
+             KP+L+Q++S AFSSI+P   QCLP  RPS
+Sbjct  321   KPTLLQQMSTAFSSILPKV-QCLPSARPS  348
+
+
+> jgi|Emihu1|229952|gm1.15900116
+Length=112
+
+ Score = 33.9 bits (76),  Expect = 0.045, Method: Compositional matrix adjust.
+ Identities = 16/26 (62%), Positives = 18/26 (69%), Gaps = 0/26 (0%)
+ Frame = +2
+
+Query  515  PEVPEGAVDTAIDKLETKVGSDLDGD  592
+            P  PEG V +AI  LE K G+DLDGD
+Sbjct  75   PGPPEGTVASAIASLEQKAGADLDGD  100
+
+
+> jgi|Emihu1|232152|gm1.17900006
+Length=112
+
+ Score = 33.9 bits (76),  Expect = 0.045, Method: Compositional matrix adjust.
+ Identities = 16/26 (62%), Positives = 18/26 (69%), Gaps = 0/26 (0%)
+ Frame = +2
+
+Query  515  PEVPEGAVDTAIDKLETKVGSDLDGD  592
+            P  PEG V +AI  LE K G+DLDGD
+Sbjct  75   PGPPEGTVASAIASLEQKAGADLDGD  100
+
+
+> jgi|Emihu1|471657|estExtDG_fgeneshEH_pg.C_18570001
+Length=431
+
+ Score = 35.4 bits (80),  Expect = 0.077, Method: Compositional matrix adjust.
+ Identities = 15/26 (58%), Positives = 20/26 (77%), Gaps = 4/26 (15%)
+ Frame = +2
+
+Query  929   KPSLIQKLSKAFSSIIPATPQCLPGR  1006
+             KP+L+QKLS    S +PA PQC+PG+
+Sbjct  367   KPTLLQKLS----SFLPAVPQCMPGK  388
+
+
+> jgi|Emihu1|199218|gm1.900410
+Length=304
+
+ Score = 33.1 bits (74),  Expect = 0.35, Method: Compositional matrix adjust.
+ Identities = 15/24 (63%), Positives = 20/24 (83%), Gaps = 1/24 (4%)
+ Frame = +2
+
+Query  929  KPSLIQKLSKAFSSIIPATPQCLP  1000
+            KP+L+Q+LSKA S+I+P   QCLP
+Sbjct  262  KPTLLQQLSKALSNILPRV-QCLP  284
+
+
+> jgi|Emihu1|237042|gm1.24400023
+Length=315
+
+ Score = 32.7 bits (73),  Expect = 0.41, Method: Compositional matrix adjust.
+ Identities = 15/24 (63%), Positives = 20/24 (83%), Gaps = 1/24 (4%)
+ Frame = +2
+
+Query  929  KPSLIQKLSKAFSSIIPATPQCLP  1000
+            KP+L+Q+LSKA S+I+P   QCLP
+Sbjct  273  KPTLLQQLSKALSNILPRV-QCLP  295
+
+
+> jgi|Emihu1|114208|fgeneshEH_pg.210__21
+Length=343
+
+ Score = 31.2 bits (69),  Expect = 1.5, Method: Compositional matrix adjust.
+ Identities = 14/24 (58%), Positives = 18/24 (75%), Gaps = 0/24 (0%)
+ Frame = +2
+
+Query  521  VPEGAVDTAIDKLETKVGSDLDGD  592
+            +P+GAV+ AI+KLE     DLDGD
+Sbjct  189  IPDGAVEGAINKLEETTKIDLDGD  212
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.134    0.401    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3100486437
+
+
+Query= lcl|Emi374|CAMPEP_0187577462
+
+Length=1774
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  jgi|Emihu1|431830|estExtDG_fgenesh_newKGs_kg.C_10214                  209   6e-61
+  jgi|Emihu1|117875|fgeneshEH_pg.365__10                              48.9    5e-06
+  jgi|Emihu1|108533|fgeneshEH_pg.105__20                              47.8    9e-06
+  jgi|Emihu1|108601|fgeneshEH_pg.105__88                              47.8    1e-05
+  jgi|Emihu1|123525|fgeneshEH_pg.2493__1                              47.8    1e-05
+  jgi|Emihu1|106981|fgeneshEH_pg.86__57                               47.4    1e-05
+  jgi|Emihu1|95962|fgeneshEH_pg.4__192                                46.6    4e-05
+  jgi|Emihu1|121986|fgeneshEH_pg.1073__2                              46.6    4e-05
+  jgi|Emihu1|225267|gm1.12300130                                      44.3    7e-05
+  jgi|Emihu1|213562|gm1.5800051                                       38.1    0.004
+  jgi|Emihu1|229952|gm1.15900116                                      36.2    0.010
+  jgi|Emihu1|232152|gm1.17900006                                      36.2    0.010
+  jgi|Emihu1|113191|fgeneshEH_pg.183__46                              36.6    0.044
+  jgi|Emihu1|471657|estExtDG_fgeneshEH_pg.C_18570001                  35.4    0.098
+  jgi|Emihu1|199218|gm1.900410                                        33.1    0.37 
+  jgi|Emihu1|114208|fgeneshEH_pg.210__21                              33.5    0.38 
+  jgi|Emihu1|237042|gm1.24400023                                      33.1    0.46 
+  jgi|Emihu1|233073|gm1.18800003                                      29.3    8.8  
+
+
+> jgi|Emihu1|431830|estExtDG_fgenesh_newKGs_kg.C_10214
+Length=366
+
+ Score =   209 bits (531),  Expect = 6e-61, Method: Compositional matrix adjust.
+ Identities = 313/333 (94%), Positives = 314/333 (94%), Gaps = 4/333 (1%)
+ Frame = -3
+
+Query  1715  MGVCSSTPKDQPVAEPTYDpapapapevpevpevpegaVDTAIDKLETKVGSDLdgdgev  1536
+             MGVCSSTPKDQPVAEPTYDPAPAPAPEVPEVPEVPEGAVDTAIDKLETKVGSDLDGDGEV
+Sbjct  1     MGVCSSTPKDQPVAEPTYDPAPAPAPEVPEVPEVPEGAVDTAIDKLETKVGSDLDGDGEV  60
+
+Query  1535  agvpveevpadapaeaadavepaeDKNILQKAADYVKSFSGRVepepaaeepavepeaap  1356
+             AG PVEEVPADAPAEAADAVEPAEDKNILQKAADYVKSFSGRVEPEPAA+EPAVEPEAAP
+Sbjct  61    AGAPVEEVPADAPAEAADAVEPAEDKNILQKAADYVKSFSGRVEPEPAAKEPAVEPEAAP  120
+
+Query  1355  eggyeapkeeasaeeapaeeapepepETASFLDKVKSYLSPRPEVPEGAVDTAIDKLETK  1176
+             EGGYEAPKEEASAEEAPAEEAPEPEPETASFLDKVKSYLSPRPEVPEGAVDTAIDKLETK
+Sbjct  121   EGGYEAPKEEASAEEAPAEEAPEPEPETASFLDKVKSYLSPRPEVPEGAVDTAIDKLETK  180
+
+Query  1175  VGSDLDGDGeva----gvpveaaaeeveaateaaaeevpveaaaeaveaaveaapavpEK  1008
+             VGSDLDGDGEVA        E      EAA   AA EVPVEAAAEAVEAAVEAAPAVPEK
+Sbjct  181   VGSDLDGDGEVAGVPVEAAAEEVEAATEAAEVEAATEVPVEAAAEAVEAAVEAAPAVPEK  240
+
+Query  1007  KESYLGKVASILSPRKKaasdasaadapaaddaaeaaeaepvaeaeaeaapevapeaeeE  828
+             KESYLGKVASILSPRKKAASDASAADAPAADDAAEAAEAEPVAEAEAEAAPEVAPEAEEE
+Sbjct  241   KESYLGKVASILSPRKKAASDASAADAPAADDAAEAAEAEPVAEAEAEAAPEVAPEAEEE  300
+
+Query  827   KPSLIQKLSKAFSSIIPATPQCLPGRPSESTLN  729
+             KPSLIQKLSKAFSSIIPATPQCLPGRPSESTLN
+Sbjct  301   KPSLIQKLSKAFSSIIPATPQCLPGRPSESTLN  333
+
+
+> jgi|Emihu1|117875|fgeneshEH_pg.365__10
+Length=307
+
+ Score = 48.9 bits (115),  Expect = 5e-06, Method: Compositional matrix adjust.
+ Identities = 19/28 (68%), Positives = 26/28 (93%), Gaps = 0/28 (0%)
+ Frame = -3
+
+Query  827  KPSLIQKLSKAFSSIIPATPQCLPGRPS  744
+            KP+LIQKLSKAFS+++PA P+C+P RP+
+Sbjct  261  KPTLIQKLSKAFSNLLPAAPKCMPSRPA  288
+
+
+> jgi|Emihu1|108533|fgeneshEH_pg.105__20
+Length=313
+
+ Score = 47.8 bits (112),  Expect = 9e-06, Method: Compositional matrix adjust.
+ Identities = 19/27 (70%), Positives = 25/27 (93%), Gaps = 0/27 (0%)
+ Frame = -3
+
+Query  824  PSLIQKLSKAFSSIIPATPQCLPGRPS  744
+            P+LIQKLSKAFSS++PA P+C+P RP+
+Sbjct  254  PTLIQKLSKAFSSLLPAAPKCMPSRPA  280
+
+
+> jgi|Emihu1|108601|fgeneshEH_pg.105__88
+Length=313
+
+ Score = 47.8 bits (112),  Expect = 1e-05, Method: Compositional matrix adjust.
+ Identities = 19/27 (70%), Positives = 25/27 (93%), Gaps = 0/27 (0%)
+ Frame = -3
+
+Query  824  PSLIQKLSKAFSSIIPATPQCLPGRPS  744
+            P+LIQKLSKAFSS++PA P+C+P RP+
+Sbjct  254  PTLIQKLSKAFSSLLPAAPKCMPSRPA  280
+
+
+> jgi|Emihu1|123525|fgeneshEH_pg.2493__1
+Length=313
+
+ Score = 47.8 bits (112),  Expect = 1e-05, Method: Compositional matrix adjust.
+ Identities = 19/27 (70%), Positives = 25/27 (93%), Gaps = 0/27 (0%)
+ Frame = -3
+
+Query  824  PSLIQKLSKAFSSIIPATPQCLPGRPS  744
+            P+LIQKLSKAFSS++PA P+C+P RP+
+Sbjct  254  PTLIQKLSKAFSSLLPAAPKCMPSRPA  280
+
+
+> jgi|Emihu1|106981|fgeneshEH_pg.86__57
+Length=308
+
+ Score = 47.4 bits (111),  Expect = 1e-05, Method: Compositional matrix adjust.
+ Identities = 19/28 (68%), Positives = 26/28 (93%), Gaps = 0/28 (0%)
+ Frame = -3
+
+Query  827  KPSLIQKLSKAFSSIIPATPQCLPGRPS  744
+            KP+LIQKLSKAFS+++PA P+C+P RP+
+Sbjct  250  KPTLIQKLSKAFSNLLPAAPKCMPSRPA  277
+
+
+> jgi|Emihu1|95962|fgeneshEH_pg.4__192
+Length=726
+
+ Score = 46.6 bits (109),  Expect = 4e-05, Method: Compositional matrix adjust.
+ Identities = 47/90 (52%), Positives = 50/90 (56%), Gaps = 4/90 (4%)
+ Frame = -3
+
+Query  1226  EVPEGAVDTAIDKLETKVGSDLDGDGevagvpveaaaeeveaateaaaeevpveaaaeav  1047
+             EVP GA DTAID LE K G D+D DG        AA E        AA     E  A   
+Sbjct  301   EVPGGAADTAIDSLEEKAGEDVDCDG----EGPPAAEEWSAEGAGEAAAAEEEEETAAES  356
+
+Query  1046  eaaveaapavpEKKESYLGKVASILSPRKK  957
+                 E APAVPEKK SYLG+VA+ILSPRKK
+Sbjct  357   AMTEEEAPAVPEKKTSYLGRVAAILSPRKK  386
+
+
+> jgi|Emihu1|121986|fgeneshEH_pg.1073__2
+Length=742
+
+ Score = 46.6 bits (109),  Expect = 4e-05, Method: Compositional matrix adjust.
+ Identities = 47/90 (52%), Positives = 50/90 (56%), Gaps = 4/90 (4%)
+ Frame = -3
+
+Query  1226  EVPEGAVDTAIDKLETKVGSDLDGDGevagvpveaaaeeveaateaaaeevpveaaaeav  1047
+             EVP GA DTAID LE K G D+D DG        AA E        AA     E  A   
+Sbjct  317   EVPGGAADTAIDSLEEKAGEDVDCDG----EGPPAAEEWSAEGAGEAAAAEEEEETAAES  372
+
+Query  1046  eaaveaapavpEKKESYLGKVASILSPRKK  957
+                 E APAVPEKK SYLG+VA+ILSPRKK
+Sbjct  373   AMTEEEAPAVPEKKTSYLGRVAAILSPRKK  402
+
+
+> jgi|Emihu1|225267|gm1.12300130
+Length=209
+
+ Score = 44.3 bits (103),  Expect = 7e-05, Method: Compositional matrix adjust.
+ Identities = 17/26 (65%), Positives = 24/26 (92%), Gaps = 0/26 (0%)
+ Frame = -3
+
+Query  821  SLIQKLSKAFSSIIPATPQCLPGRPS  744
+            +LIQKLSKAFS+++PA P+C+P RP+
+Sbjct  153  TLIQKLSKAFSNLLPAPPKCMPARPA  178
+
+
+> jgi|Emihu1|213562|gm1.5800051
+Length=149
+
+ Score = 38.1 bits (87),  Expect = 0.004, Method: Compositional matrix adjust.
+ Identities = 15/21 (71%), Positives = 19/21 (90%), Gaps = 0/21 (0%)
+ Frame = -3
+
+Query  809  KLSKAFSSIIPATPQCLPGRP  747
+            KLSKAFS+I+PA P+C+P RP
+Sbjct  112  KLSKAFSNILPAAPKCMPSRP  132
+
+
+> jgi|Emihu1|229952|gm1.15900116
+Length=112
+
+ Score = 36.2 bits (82),  Expect = 0.010, Method: Compositional matrix adjust.
+ Identities = 17/27 (63%), Positives = 19/27 (70%), Gaps = 0/27 (0%)
+ Frame = -3
+
+Query  1229  PEVPEGAVDTAIDKLETKVGSDLDGDG  1149
+             P  PEG V +AI  LE K G+DLDGDG
+Sbjct  75    PGPPEGTVASAIASLEQKAGADLDGDG  101
+
+
+> jgi|Emihu1|232152|gm1.17900006
+Length=112
+
+ Score = 36.2 bits (82),  Expect = 0.010, Method: Compositional matrix adjust.
+ Identities = 17/27 (63%), Positives = 19/27 (70%), Gaps = 0/27 (0%)
+ Frame = -3
+
+Query  1229  PEVPEGAVDTAIDKLETKVGSDLDGDG  1149
+             P  PEG V +AI  LE K G+DLDGDG
+Sbjct  75    PGPPEGTVASAIASLEQKAGADLDGDG  101
+
+
+> jgi|Emihu1|113191|fgeneshEH_pg.183__46
+Length=595
+
+ Score = 36.6 bits (83),  Expect = 0.044, Method: Compositional matrix adjust.
+ Identities = 18/29 (62%), Positives = 23/29 (79%), Gaps = 2/29 (7%)
+ Frame = -3
+
+Query  827  KPSLIQKLSKAFSSIIPATPQCLP-GRPS  744
+            KP+L+Q++S AFSSI+P   QCLP  RPS
+Sbjct  321  KPTLLQQMSTAFSSILPKV-QCLPSARPS  348
+
+
+> jgi|Emihu1|471657|estExtDG_fgeneshEH_pg.C_18570001
+Length=431
+
+ Score = 35.4 bits (80),  Expect = 0.098, Method: Compositional matrix adjust.
+ Identities = 15/26 (58%), Positives = 20/26 (77%), Gaps = 4/26 (15%)
+ Frame = -3
+
+Query  827  KPSLIQKLSKAFSSIIPATPQCLPGR  750
+            KP+L+QKLS    S +PA PQC+PG+
+Sbjct  367  KPTLLQKLS----SFLPAVPQCMPGK  388
+
+
+> jgi|Emihu1|199218|gm1.900410
+Length=304
+
+ Score = 33.1 bits (74),  Expect = 0.37, Method: Compositional matrix adjust.
+ Identities = 15/24 (63%), Positives = 20/24 (83%), Gaps = 1/24 (4%)
+ Frame = -3
+
+Query  827  KPSLIQKLSKAFSSIIPATPQCLP  756
+            KP+L+Q+LSKA S+I+P   QCLP
+Sbjct  262  KPTLLQQLSKALSNILPRV-QCLP  284
+
+
+> jgi|Emihu1|114208|fgeneshEH_pg.210__21
+Length=343
+
+ Score = 33.5 bits (75),  Expect = 0.38, Method: Compositional matrix adjust.
+ Identities = 15/25 (60%), Positives = 19/25 (76%), Gaps = 0/25 (0%)
+ Frame = -3
+
+Query  1223  VPEGAVDTAIDKLETKVGSDLDGDG  1149
+             +P+GAV+ AI+KLE     DLDGDG
+Sbjct  189   IPDGAVEGAINKLEETTKIDLDGDG  213
+
+
+ Score = 29.3 bits (64),  Expect = 7.1, Method: Compositional matrix adjust.
+ Identities = 14/26 (54%), Positives = 19/26 (73%), Gaps = 0/26 (0%)
+ Frame = -3
+
+Query  1226  EVPEGAVDTAIDKLETKVGSDLDGDG  1149
+             E+ +G V++AIDKLE    +DLD DG
+Sbjct  27    EILKGTVESAIDKLEVIAKTDLDKDG  52
+
+
+> jgi|Emihu1|237042|gm1.24400023
+Length=315
+
+ Score = 33.1 bits (74),  Expect = 0.46, Method: Compositional matrix adjust.
+ Identities = 15/24 (63%), Positives = 20/24 (83%), Gaps = 1/24 (4%)
+ Frame = -3
+
+Query  827  KPSLIQKLSKAFSSIIPATPQCLP  756
+            KP+L+Q+LSKA S+I+P   QCLP
+Sbjct  273  KPTLLQQLSKALSNILPRV-QCLP  295
+
+
+> jgi|Emihu1|233073|gm1.18800003
+Length=694
+
+ Score = 29.3 bits (64),  Expect = 8.8, Method: Compositional matrix adjust.
+ Identities = 13/31 (42%), Positives = 17/31 (55%), Gaps = 0/31 (0%)
+ Frame = -1
+
+Query  364  HENTARSAQRIQDITASARAFCIYFTFSNSI  272
+            HE  AR+ QR   + A AR    Y TF ++I
+Sbjct  493  HEGIARAEQRYNPVAAPAREGKAYMTFPDNI  523
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.134    0.401    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3951529201
+
+
+Query= lcl|Emi219|CAMPEP_0187761750
+
+Length=1356
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  jgi|Emihu1|431830|estExtDG_fgenesh_newKGs_kg.C_10214                  203   5e-60
+  jgi|Emihu1|117875|fgeneshEH_pg.365__10                              48.9    3e-06
+  jgi|Emihu1|108533|fgeneshEH_pg.105__20                              47.8    6e-06
+  jgi|Emihu1|108601|fgeneshEH_pg.105__88                              47.8    7e-06
+  jgi|Emihu1|123525|fgeneshEH_pg.2493__1                              47.8    7e-06
+  jgi|Emihu1|106981|fgeneshEH_pg.86__57                               47.4    8e-06
+  jgi|Emihu1|225267|gm1.12300130                                      44.3    5e-05
+  jgi|Emihu1|121986|fgeneshEH_pg.1073__2                              44.7    1e-04
+  jgi|Emihu1|95962|fgeneshEH_pg.4__192                                44.3    1e-04
+  jgi|Emihu1|213562|gm1.5800051                                       38.1    0.003
+  jgi|Emihu1|113191|fgeneshEH_pg.183__46                              36.6    0.029
+  jgi|Emihu1|229952|gm1.15900116                                      34.3    0.039
+  jgi|Emihu1|232152|gm1.17900006                                      34.3    0.039
+  jgi|Emihu1|471657|estExtDG_fgeneshEH_pg.C_18570001                  35.4    0.059
+  jgi|Emihu1|199218|gm1.900410                                        33.5    0.23 
+  jgi|Emihu1|237042|gm1.24400023                                      33.5    0.27 
+  jgi|Emihu1|114208|fgeneshEH_pg.210__21                              31.2    1.4  
+
+
+> jgi|Emihu1|431830|estExtDG_fgenesh_newKGs_kg.C_10214
+Length=366
+
+ Score =   203 bits (516),  Expect = 5e-60, Method: Compositional matrix adjust.
+ Identities = 309/333 (93%), Positives = 310/333 (93%), Gaps = 9/333 (3%)
+ Frame = +2
+
+Query  44    MGVCSSTPKDQPVAEPTYDpapapapevpevpevpegavDTAIDKLETKVGSDLDgdgev  223
+             MGVCSSTPKDQPVAEPTYDPAPAPAPEVPEVPEVPEGAVDTAIDKLETKVGSDLDGDGEV
+Sbjct  1     MGVCSSTPKDQPVAEPTYDPAPAPAPEVPEVPEVPEGAVDTAIDKLETKVGSDLDGDGEV  60
+
+Query  224   agapveevpadapaeaadavepaedKNILQKAADYVKSFSGRve---paeepavepeaap  394
+             AGAPVEEVPADAPAEAADAVEPAEDKNILQKAADYVKSFSGRVE    A+EPAVEPEAAP
+Sbjct  61    AGAPVEEVPADAPAEAADAVEPAEDKNILQKAADYVKSFSGRVEPEPAAKEPAVEPEAAP  120
+
+Query  395   eggyeapkeeasaeeapaeeapepepeTASFLDKVKSYLSPRPEVPEGAVDTAIDKLETK  574
+             EGGYEAPKEEASAEEAPAEEAPEPEPETASFLDKVKSYLSPRPEVPEGAVDTAIDKLETK
+Sbjct  121   EGGYEAPKEEASAEEAPAEEAPEPEPETASFLDKVKSYLSPRPEVPEGAVDTAIDKLETK  180
+
+Query  575   VGSDLDGDgeva------gvpveaaaeeveaateatevpveaaaeaveaaveaapavpeK  736
+             VGSDLDGDGEVA            AA E      ATEVPVEAAAEAVEAAVEAAPAVPEK
+Sbjct  181   VGSDLDGDGEVAGVPVEAAAEEVEAATEAAEVEAATEVPVEAAAEAVEAAVEAAPAVPEK  240
+
+Query  737   KESYLGKVASILSPRKKaasdasaadapaaddaaeaaeaepvaeaeaeaapevapeaeee  916
+             KESYLGKVASILSPRKKAASDASAADAPAADDAAEAAEAEPVAEAEAEAAPEVAPEAEEE
+Sbjct  241   KESYLGKVASILSPRKKAASDASAADAPAADDAAEAAEAEPVAEAEAEAAPEVAPEAEEE  300
+
+Query  917   KPSLIQKLSKAFSSIIPATPQCLPGRPSESTLN  1015
+             KPSLIQKLSKAFSSIIPATPQCLPGRPSESTLN
+Sbjct  301   KPSLIQKLSKAFSSIIPATPQCLPGRPSESTLN  333
+
+
+> jgi|Emihu1|117875|fgeneshEH_pg.365__10
+Length=307
+
+ Score = 48.9 bits (115),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 19/28 (68%), Positives = 26/28 (93%), Gaps = 0/28 (0%)
+ Frame = +2
+
+Query  917  KPSLIQKLSKAFSSIIPATPQCLPGRPS  1000
+            KP+LIQKLSKAFS+++PA P+C+P RP+
+Sbjct  261  KPTLIQKLSKAFSNLLPAAPKCMPSRPA  288
+
+
+> jgi|Emihu1|108533|fgeneshEH_pg.105__20
+Length=313
+
+ Score = 47.8 bits (112),  Expect = 6e-06, Method: Compositional matrix adjust.
+ Identities = 19/27 (70%), Positives = 25/27 (93%), Gaps = 0/27 (0%)
+ Frame = +2
+
+Query  920  PSLIQKLSKAFSSIIPATPQCLPGRPS  1000
+            P+LIQKLSKAFSS++PA P+C+P RP+
+Sbjct  254  PTLIQKLSKAFSSLLPAAPKCMPSRPA  280
+
+
+> jgi|Emihu1|108601|fgeneshEH_pg.105__88
+Length=313
+
+ Score = 47.8 bits (112),  Expect = 7e-06, Method: Compositional matrix adjust.
+ Identities = 19/27 (70%), Positives = 25/27 (93%), Gaps = 0/27 (0%)
+ Frame = +2
+
+Query  920  PSLIQKLSKAFSSIIPATPQCLPGRPS  1000
+            P+LIQKLSKAFSS++PA P+C+P RP+
+Sbjct  254  PTLIQKLSKAFSSLLPAAPKCMPSRPA  280
+
+
+> jgi|Emihu1|123525|fgeneshEH_pg.2493__1
+Length=313
+
+ Score = 47.8 bits (112),  Expect = 7e-06, Method: Compositional matrix adjust.
+ Identities = 19/27 (70%), Positives = 25/27 (93%), Gaps = 0/27 (0%)
+ Frame = +2
+
+Query  920  PSLIQKLSKAFSSIIPATPQCLPGRPS  1000
+            P+LIQKLSKAFSS++PA P+C+P RP+
+Sbjct  254  PTLIQKLSKAFSSLLPAAPKCMPSRPA  280
+
+
+> jgi|Emihu1|106981|fgeneshEH_pg.86__57
+Length=308
+
+ Score = 47.4 bits (111),  Expect = 8e-06, Method: Compositional matrix adjust.
+ Identities = 19/28 (68%), Positives = 26/28 (93%), Gaps = 0/28 (0%)
+ Frame = +2
+
+Query  917  KPSLIQKLSKAFSSIIPATPQCLPGRPS  1000
+            KP+LIQKLSKAFS+++PA P+C+P RP+
+Sbjct  250  KPTLIQKLSKAFSNLLPAAPKCMPSRPA  277
+
+
+> jgi|Emihu1|225267|gm1.12300130
+Length=209
+
+ Score = 44.3 bits (103),  Expect = 5e-05, Method: Compositional matrix adjust.
+ Identities = 17/26 (65%), Positives = 24/26 (92%), Gaps = 0/26 (0%)
+ Frame = +2
+
+Query  923  SLIQKLSKAFSSIIPATPQCLPGRPS  1000
+            +LIQKLSKAFS+++PA P+C+P RP+
+Sbjct  153  TLIQKLSKAFSNLLPAPPKCMPARPA  178
+
+
+> jgi|Emihu1|121986|fgeneshEH_pg.1073__2
+Length=742
+
+ Score = 44.7 bits (104),  Expect = 1e-04, Method: Compositional matrix adjust.
+ Identities = 45/88 (51%), Positives = 48/88 (55%), Gaps = 2/88 (2%)
+ Frame = +2
+
+Query  524  EVPEGAVDTAIDKLETKVGSDLDGDgevagvpveaaaeeveaateatevpveaaaeavea  703
+            EVP GA DTAID LE K G D+D D    G P         A   A     E  A     
+Sbjct  317  EVPGGAADTAIDSLEEKAGEDVDCD--GEGPPAAEEWSAEGAGEAAAAEEEEETAAESAM  374
+
+Query  704  aveaapavpeKKESYLGKVASILSPRKK  787
+              E APAVPEKK SYLG+VA+ILSPRKK
+Sbjct  375  TEEEAPAVPEKKTSYLGRVAAILSPRKK  402
+
+
+> jgi|Emihu1|95962|fgeneshEH_pg.4__192
+Length=726
+
+ Score = 44.3 bits (103),  Expect = 1e-04, Method: Compositional matrix adjust.
+ Identities = 45/88 (51%), Positives = 48/88 (55%), Gaps = 2/88 (2%)
+ Frame = +2
+
+Query  524  EVPEGAVDTAIDKLETKVGSDLDGDgevagvpveaaaeeveaateatevpveaaaeavea  703
+            EVP GA DTAID LE K G D+D D    G P         A   A     E  A     
+Sbjct  301  EVPGGAADTAIDSLEEKAGEDVDCD--GEGPPAAEEWSAEGAGEAAAAEEEEETAAESAM  358
+
+Query  704  aveaapavpeKKESYLGKVASILSPRKK  787
+              E APAVPEKK SYLG+VA+ILSPRKK
+Sbjct  359  TEEEAPAVPEKKTSYLGRVAAILSPRKK  386
+
+
+> jgi|Emihu1|213562|gm1.5800051
+Length=149
+
+ Score = 38.1 bits (87),  Expect = 0.003, Method: Compositional matrix adjust.
+ Identities = 15/21 (71%), Positives = 19/21 (90%), Gaps = 0/21 (0%)
+ Frame = +2
+
+Query  935  KLSKAFSSIIPATPQCLPGRP  997
+            KLSKAFS+I+PA P+C+P RP
+Sbjct  112  KLSKAFSNILPAAPKCMPSRP  132
+
+
+> jgi|Emihu1|113191|fgeneshEH_pg.183__46
+Length=595
+
+ Score = 36.6 bits (83),  Expect = 0.029, Method: Compositional matrix adjust.
+ Identities = 18/29 (62%), Positives = 23/29 (79%), Gaps = 2/29 (7%)
+ Frame = +2
+
+Query  917  KPSLIQKLSKAFSSIIPATPQCLP-GRPS  1000
+            KP+L+Q++S AFSSI+P   QCLP  RPS
+Sbjct  321  KPTLLQQMSTAFSSILPKV-QCLPSARPS  348
+
+
+> jgi|Emihu1|229952|gm1.15900116
+Length=112
+
+ Score = 34.3 bits (77),  Expect = 0.039, Method: Compositional matrix adjust.
+ Identities = 16/26 (62%), Positives = 18/26 (69%), Gaps = 0/26 (0%)
+ Frame = +2
+
+Query  521  PEVPEGAVDTAIDKLETKVGSDLDGD  598
+            P  PEG V +AI  LE K G+DLDGD
+Sbjct  75   PGPPEGTVASAIASLEQKAGADLDGD  100
+
+
+> jgi|Emihu1|232152|gm1.17900006
+Length=112
+
+ Score = 34.3 bits (77),  Expect = 0.039, Method: Compositional matrix adjust.
+ Identities = 16/26 (62%), Positives = 18/26 (69%), Gaps = 0/26 (0%)
+ Frame = +2
+
+Query  521  PEVPEGAVDTAIDKLETKVGSDLDGD  598
+            P  PEG V +AI  LE K G+DLDGD
+Sbjct  75   PGPPEGTVASAIASLEQKAGADLDGD  100
+
+
+> jgi|Emihu1|471657|estExtDG_fgeneshEH_pg.C_18570001
+Length=431
+
+ Score = 35.4 bits (80),  Expect = 0.059, Method: Compositional matrix adjust.
+ Identities = 15/26 (58%), Positives = 20/26 (77%), Gaps = 4/26 (15%)
+ Frame = +2
+
+Query  917  KPSLIQKLSKAFSSIIPATPQCLPGR  994
+            KP+L+QKLS    S +PA PQC+PG+
+Sbjct  367  KPTLLQKLS----SFLPAVPQCMPGK  388
+
+
+> jgi|Emihu1|199218|gm1.900410
+Length=304
+
+ Score = 33.5 bits (75),  Expect = 0.23, Method: Compositional matrix adjust.
+ Identities = 15/24 (63%), Positives = 20/24 (83%), Gaps = 1/24 (4%)
+ Frame = +2
+
+Query  917  KPSLIQKLSKAFSSIIPATPQCLP  988
+            KP+L+Q+LSKA S+I+P   QCLP
+Sbjct  262  KPTLLQQLSKALSNILPRV-QCLP  284
+
+
+> jgi|Emihu1|237042|gm1.24400023
+Length=315
+
+ Score = 33.5 bits (75),  Expect = 0.27, Method: Compositional matrix adjust.
+ Identities = 15/24 (63%), Positives = 20/24 (83%), Gaps = 1/24 (4%)
+ Frame = +2
+
+Query  917  KPSLIQKLSKAFSSIIPATPQCLP  988
+            KP+L+Q+LSKA S+I+P   QCLP
+Sbjct  273  KPTLLQQLSKALSNILPRV-QCLP  295
+
+
+> jgi|Emihu1|114208|fgeneshEH_pg.210__21
+Length=343
+
+ Score = 31.2 bits (69),  Expect = 1.4, Method: Compositional matrix adjust.
+ Identities = 14/24 (58%), Positives = 18/24 (75%), Gaps = 0/24 (0%)
+ Frame = +2
+
+Query  527  VPEGAVDTAIDKLETKVGSDLDGD  598
+            +P+GAV+ AI+KLE     DLDGD
+Sbjct  189  IPDGAVEGAINKLEETTKIDLDGD  212
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.136    0.429    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2863246050
+
+
+Query= lcl|Emi379|CAMPEP_0187613902
+
+Length=1400
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  jgi|Emihu1|431830|estExtDG_fgenesh_newKGs_kg.C_10214                  213   1e-63
+  jgi|Emihu1|117875|fgeneshEH_pg.365__10                              48.9    3e-06
+  jgi|Emihu1|108533|fgeneshEH_pg.105__20                              47.8    6e-06
+  jgi|Emihu1|108601|fgeneshEH_pg.105__88                              47.8    7e-06
+  jgi|Emihu1|123525|fgeneshEH_pg.2493__1                              47.8    7e-06
+  jgi|Emihu1|106981|fgeneshEH_pg.86__57                               47.8    8e-06
+  jgi|Emihu1|225267|gm1.12300130                                      44.3    5e-05
+  jgi|Emihu1|95962|fgeneshEH_pg.4__192                                45.4    6e-05
+  jgi|Emihu1|121986|fgeneshEH_pg.1073__2                              45.4    6e-05
+  jgi|Emihu1|213562|gm1.5800051                                       38.1    0.003
+  jgi|Emihu1|113191|fgeneshEH_pg.183__46                              36.6    0.029
+  jgi|Emihu1|229952|gm1.15900116                                      33.9    0.051
+  jgi|Emihu1|232152|gm1.17900006                                      33.9    0.051
+  jgi|Emihu1|471657|estExtDG_fgeneshEH_pg.C_18570001                  35.4    0.066
+  jgi|Emihu1|199218|gm1.900410                                        33.5    0.25 
+  jgi|Emihu1|237042|gm1.24400023                                      33.1    0.29 
+  jgi|Emihu1|114208|fgeneshEH_pg.210__21                              30.8    1.8  
+  jgi|Emihu1|108102|fgeneshEH_pg.99__28                               28.9    7.1  
+
+
+> jgi|Emihu1|431830|estExtDG_fgenesh_newKGs_kg.C_10214
+Length=366
+
+ Score =   213 bits (542),  Expect = 1e-63, Method: Compositional matrix adjust.
+ Identities = 306/333 (92%), Positives = 308/333 (92%), Gaps = 9/333 (3%)
+ Frame = -2
+
+Query  1357  MGVCSSTPKDQPVAEPTYDpapapapevpevpeg---aVDTAIDKLETKVGSDLDGDGKv  1187
+             MGVCSSTPKDQPVAEPTYDPAPAPAPEVPEVPE    AVDTAIDKLETKVGSDLDGDG+V
+Sbjct  1     MGVCSSTPKDQPVAEPTYDPAPAPAPEVPEVPEVPEGAVDTAIDKLETKVGSDLDGDGEV  60
+
+Query  1186  agapveevpadapaeaadavepaeDKNILQKAADYVKSFSGRVepepaaeepavepeaap  1007
+             AGAPVEEVPADAPAEAADAVEPAEDKNILQKAADYVKSFSGRVEPEPAA+EPAVEPEAAP
+Sbjct  61    AGAPVEEVPADAPAEAADAVEPAEDKNILQKAADYVKSFSGRVEPEPAAKEPAVEPEAAP  120
+
+Query  1006  eggyeapkeeasaeeapaeeapepepETASFLDKVKSYLSPRPEVPEGAVDTAIDKLETK  827
+             EGGYEAPKEEASAEEAPAEEAPEPEPETASFLDKVKSYLSPRPEVPEGAVDTAIDKLETK
+Sbjct  121   EGGYEAPKEEASAEEAPAEEAPEPEPETASFLDKVKSYLSPRPEVPEGAVDTAIDKLETK  180
+
+Query  826   VGSDLDGDgeva------gvpveaaaeeveaateatevpveaaaeaveavveaapavpEK  665
+             VGSDLDGDGEVA            AA E      ATEVPVEAAAEAVEA VEAAPAVPEK
+Sbjct  181   VGSDLDGDGEVAGVPVEAAAEEVEAATEAAEVEAATEVPVEAAAEAVEAAVEAAPAVPEK  240
+
+Query  664   KESYLGKVASILSPRKKAGsdasaadapaaddaaeaaeaepvaeaeaeaapevapeaeeE  485
+             KESYLGKVASILSPRKKA SDASAADAPAADDAAEAAEAEPVAEAEAEAAPEVAPEAEEE
+Sbjct  241   KESYLGKVASILSPRKKAASDASAADAPAADDAAEAAEAEPVAEAEAEAAPEVAPEAEEE  300
+
+Query  484   KPSLIQKLSKAFSSIIPATPQCLPGRPSESTLN  386
+             KPSLIQKLSKAFSSIIPATPQCLPGRPSESTLN
+Sbjct  301   KPSLIQKLSKAFSSIIPATPQCLPGRPSESTLN  333
+
+
+> jgi|Emihu1|117875|fgeneshEH_pg.365__10
+Length=307
+
+ Score = 48.9 bits (115),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 19/28 (68%), Positives = 26/28 (93%), Gaps = 0/28 (0%)
+ Frame = -2
+
+Query  484  KPSLIQKLSKAFSSIIPATPQCLPGRPS  401
+            KP+LIQKLSKAFS+++PA P+C+P RP+
+Sbjct  261  KPTLIQKLSKAFSNLLPAAPKCMPSRPA  288
+
+
+> jgi|Emihu1|108533|fgeneshEH_pg.105__20
+Length=313
+
+ Score = 47.8 bits (112),  Expect = 6e-06, Method: Compositional matrix adjust.
+ Identities = 19/27 (70%), Positives = 25/27 (93%), Gaps = 0/27 (0%)
+ Frame = -2
+
+Query  481  PSLIQKLSKAFSSIIPATPQCLPGRPS  401
+            P+LIQKLSKAFSS++PA P+C+P RP+
+Sbjct  254  PTLIQKLSKAFSSLLPAAPKCMPSRPA  280
+
+
+> jgi|Emihu1|108601|fgeneshEH_pg.105__88
+Length=313
+
+ Score = 47.8 bits (112),  Expect = 7e-06, Method: Compositional matrix adjust.
+ Identities = 19/27 (70%), Positives = 25/27 (93%), Gaps = 0/27 (0%)
+ Frame = -2
+
+Query  481  PSLIQKLSKAFSSIIPATPQCLPGRPS  401
+            P+LIQKLSKAFSS++PA P+C+P RP+
+Sbjct  254  PTLIQKLSKAFSSLLPAAPKCMPSRPA  280
+
+
+> jgi|Emihu1|123525|fgeneshEH_pg.2493__1
+Length=313
+
+ Score = 47.8 bits (112),  Expect = 7e-06, Method: Compositional matrix adjust.
+ Identities = 19/27 (70%), Positives = 25/27 (93%), Gaps = 0/27 (0%)
+ Frame = -2
+
+Query  481  PSLIQKLSKAFSSIIPATPQCLPGRPS  401
+            P+LIQKLSKAFSS++PA P+C+P RP+
+Sbjct  254  PTLIQKLSKAFSSLLPAAPKCMPSRPA  280
+
+
+> jgi|Emihu1|106981|fgeneshEH_pg.86__57
+Length=308
+
+ Score = 47.8 bits (112),  Expect = 8e-06, Method: Compositional matrix adjust.
+ Identities = 19/28 (68%), Positives = 26/28 (93%), Gaps = 0/28 (0%)
+ Frame = -2
+
+Query  484  KPSLIQKLSKAFSSIIPATPQCLPGRPS  401
+            KP+LIQKLSKAFS+++PA P+C+P RP+
+Sbjct  250  KPTLIQKLSKAFSNLLPAAPKCMPSRPA  277
+
+
+> jgi|Emihu1|225267|gm1.12300130
+Length=209
+
+ Score = 44.3 bits (103),  Expect = 5e-05, Method: Compositional matrix adjust.
+ Identities = 17/26 (65%), Positives = 24/26 (92%), Gaps = 0/26 (0%)
+ Frame = -2
+
+Query  478  SLIQKLSKAFSSIIPATPQCLPGRPS  401
+            +LIQKLSKAFS+++PA P+C+P RP+
+Sbjct  153  TLIQKLSKAFSNLLPAPPKCMPARPA  178
+
+
+> jgi|Emihu1|95962|fgeneshEH_pg.4__192
+Length=726
+
+ Score = 45.4 bits (106),  Expect = 6e-05, Method: Compositional matrix adjust.
+ Identities = 46/90 (51%), Positives = 49/90 (54%), Gaps = 2/90 (2%)
+ Frame = -2
+
+Query  877  EVPEGAVDTAIDKLETKVGSDLDGDgevagvpveaaaeeveaateatevpveaaaeavea  698
+            EVP GA DTAID LE K G D+D D    G P         A   A     E  A     
+Sbjct  301  EVPGGAADTAIDSLEEKAGEDVDCD--GEGPPAAEEWSAEGAGEAAAAEEEEETAAESAM  358
+
+Query  697  vveaapavpEKKESYLGKVASILSPRKKAG  608
+              E APAVPEKK SYLG+VA+ILSPRKKA 
+Sbjct  359  TEEEAPAVPEKKTSYLGRVAAILSPRKKAA  388
+
+
+ Score = 30.8 bits (68),  Expect = 2.5, Method: Compositional matrix adjust.
+ Identities = 13/20 (65%), Positives = 15/20 (75%), Gaps = 0/20 (0%)
+ Frame = -2
+
+Query  1249  DTAIDKLETKVGSDLDGDGK  1190
+             DTAID LE K G D+D DG+
+Sbjct  308   DTAIDSLEEKAGEDVDCDGE  327
+
+
+> jgi|Emihu1|121986|fgeneshEH_pg.1073__2
+Length=742
+
+ Score = 45.4 bits (106),  Expect = 6e-05, Method: Compositional matrix adjust.
+ Identities = 46/90 (51%), Positives = 49/90 (54%), Gaps = 2/90 (2%)
+ Frame = -2
+
+Query  877  EVPEGAVDTAIDKLETKVGSDLDGDgevagvpveaaaeeveaateatevpveaaaeavea  698
+            EVP GA DTAID LE K G D+D D    G P         A   A     E  A     
+Sbjct  317  EVPGGAADTAIDSLEEKAGEDVDCD--GEGPPAAEEWSAEGAGEAAAAEEEEETAAESAM  374
+
+Query  697  vveaapavpEKKESYLGKVASILSPRKKAG  608
+              E APAVPEKK SYLG+VA+ILSPRKKA 
+Sbjct  375  TEEEAPAVPEKKTSYLGRVAAILSPRKKAA  404
+
+
+ Score = 30.4 bits (67),  Expect = 2.5, Method: Compositional matrix adjust.
+ Identities = 13/20 (65%), Positives = 15/20 (75%), Gaps = 0/20 (0%)
+ Frame = -2
+
+Query  1249  DTAIDKLETKVGSDLDGDGK  1190
+             DTAID LE K G D+D DG+
+Sbjct  324   DTAIDSLEEKAGEDVDCDGE  343
+
+
+> jgi|Emihu1|213562|gm1.5800051
+Length=149
+
+ Score = 38.1 bits (87),  Expect = 0.003, Method: Compositional matrix adjust.
+ Identities = 15/21 (71%), Positives = 19/21 (90%), Gaps = 0/21 (0%)
+ Frame = -2
+
+Query  466  KLSKAFSSIIPATPQCLPGRP  404
+            KLSKAFS+I+PA P+C+P RP
+Sbjct  112  KLSKAFSNILPAAPKCMPSRP  132
+
+
+> jgi|Emihu1|113191|fgeneshEH_pg.183__46
+Length=595
+
+ Score = 36.6 bits (83),  Expect = 0.029, Method: Compositional matrix adjust.
+ Identities = 18/29 (62%), Positives = 23/29 (79%), Gaps = 2/29 (7%)
+ Frame = -2
+
+Query  484  KPSLIQKLSKAFSSIIPATPQCLP-GRPS  401
+            KP+L+Q++S AFSSI+P   QCLP  RPS
+Sbjct  321  KPTLLQQMSTAFSSILPKV-QCLPSARPS  348
+
+
+> jgi|Emihu1|229952|gm1.15900116
+Length=112
+
+ Score = 33.9 bits (76),  Expect = 0.051, Method: Compositional matrix adjust.
+ Identities = 16/26 (62%), Positives = 18/26 (69%), Gaps = 0/26 (0%)
+ Frame = -2
+
+Query  880  PEVPEGAVDTAIDKLETKVGSDLDGD  803
+            P  PEG V +AI  LE K G+DLDGD
+Sbjct  75   PGPPEGTVASAIASLEQKAGADLDGD  100
+
+
+ Score = 30.0 bits (66),  Expect = 1.2, Method: Compositional matrix adjust.
+ Identities = 13/19 (68%), Positives = 15/19 (79%), Gaps = 0/19 (0%)
+ Frame = -2
+
+Query  1246  TAIDKLETKVGSDLDGDGK  1190
+             +AI  LE K G+DLDGDGK
+Sbjct  84    SAIASLEQKAGADLDGDGK  102
+
+
+> jgi|Emihu1|232152|gm1.17900006
+Length=112
+
+ Score = 33.9 bits (76),  Expect = 0.051, Method: Compositional matrix adjust.
+ Identities = 16/26 (62%), Positives = 18/26 (69%), Gaps = 0/26 (0%)
+ Frame = -2
+
+Query  880  PEVPEGAVDTAIDKLETKVGSDLDGD  803
+            P  PEG V +AI  LE K G+DLDGD
+Sbjct  75   PGPPEGTVASAIASLEQKAGADLDGD  100
+
+
+ Score = 30.0 bits (66),  Expect = 1.2, Method: Compositional matrix adjust.
+ Identities = 13/19 (68%), Positives = 15/19 (79%), Gaps = 0/19 (0%)
+ Frame = -2
+
+Query  1246  TAIDKLETKVGSDLDGDGK  1190
+             +AI  LE K G+DLDGDGK
+Sbjct  84    SAIASLEQKAGADLDGDGK  102
+
+
+> jgi|Emihu1|471657|estExtDG_fgeneshEH_pg.C_18570001
+Length=431
+
+ Score = 35.4 bits (80),  Expect = 0.066, Method: Compositional matrix adjust.
+ Identities = 15/26 (58%), Positives = 20/26 (77%), Gaps = 4/26 (15%)
+ Frame = -2
+
+Query  484  KPSLIQKLSKAFSSIIPATPQCLPGR  407
+            KP+L+QKLS    S +PA PQC+PG+
+Sbjct  367  KPTLLQKLS----SFLPAVPQCMPGK  388
+
+
+> jgi|Emihu1|199218|gm1.900410
+Length=304
+
+ Score = 33.5 bits (75),  Expect = 0.25, Method: Compositional matrix adjust.
+ Identities = 15/24 (63%), Positives = 20/24 (83%), Gaps = 1/24 (4%)
+ Frame = -2
+
+Query  484  KPSLIQKLSKAFSSIIPATPQCLP  413
+            KP+L+Q+LSKA S+I+P   QCLP
+Sbjct  262  KPTLLQQLSKALSNILPRV-QCLP  284
+
+
+> jgi|Emihu1|237042|gm1.24400023
+Length=315
+
+ Score = 33.1 bits (74),  Expect = 0.29, Method: Compositional matrix adjust.
+ Identities = 15/24 (63%), Positives = 20/24 (83%), Gaps = 1/24 (4%)
+ Frame = -2
+
+Query  484  KPSLIQKLSKAFSSIIPATPQCLP  413
+            KP+L+Q+LSKA S+I+P   QCLP
+Sbjct  273  KPTLLQQLSKALSNILPRV-QCLP  295
+
+
+> jgi|Emihu1|114208|fgeneshEH_pg.210__21
+Length=343
+
+ Score = 30.8 bits (68),  Expect = 1.8, Method: Compositional matrix adjust.
+ Identities = 14/24 (58%), Positives = 18/24 (75%), Gaps = 0/24 (0%)
+ Frame = -2
+
+Query  874  VPEGAVDTAIDKLETKVGSDLDGD  803
+            +P+GAV+ AI+KLE     DLDGD
+Sbjct  189  IPDGAVEGAINKLEETTKIDLDGD  212
+
+
+> jgi|Emihu1|108102|fgeneshEH_pg.99__28
+Length=281
+
+ Score = 28.9 bits (63),  Expect = 7.1, Method: Compositional matrix adjust.
+ Identities = 16/32 (50%), Positives = 17/32 (53%), Gaps = 1/32 (3%)
+ Frame = -1
+
+Query  251  HVSAGERVGGGLILQRCGLAGSLSTLPRGSRP  156
+            HVS    VGG  +LQ  GLAG    LPR   P
+Sbjct  83   HVSVAA-VGGSFVLQAVGLAGLFQALPRVQLP  113
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.134    0.401    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2977775892
+
+
+Query= lcl|Emi370|CAMPEP_0187661956
+
+Length=1077
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  jgi|Emihu1|431830|estExtDG_fgenesh_newKGs_kg.C_10214                  151   1e-41
+  jgi|Emihu1|117875|fgeneshEH_pg.365__10                              48.9    2e-06
+  jgi|Emihu1|108533|fgeneshEH_pg.105__20                              47.8    4e-06
+  jgi|Emihu1|108601|fgeneshEH_pg.105__88                              47.8    5e-06
+  jgi|Emihu1|123525|fgeneshEH_pg.2493__1                              47.8    5e-06
+  jgi|Emihu1|106981|fgeneshEH_pg.86__57                               47.4    5e-06
+  jgi|Emihu1|225267|gm1.12300130                                      44.3    4e-05
+  jgi|Emihu1|121986|fgeneshEH_pg.1073__2                              45.4    4e-05
+  jgi|Emihu1|95962|fgeneshEH_pg.4__192                                45.4    4e-05
+  jgi|Emihu1|213562|gm1.5800051                                       38.1    0.002
+  jgi|Emihu1|113191|fgeneshEH_pg.183__46                              36.6    0.021
+  jgi|Emihu1|229952|gm1.15900116                                      34.3    0.024
+  jgi|Emihu1|232152|gm1.17900006                                      34.3    0.024
+  jgi|Emihu1|471657|estExtDG_fgeneshEH_pg.C_18570001                  35.4    0.049
+  jgi|Emihu1|199218|gm1.900410                                        33.5    0.18 
+  jgi|Emihu1|237042|gm1.24400023                                      33.1    0.22 
+  jgi|Emihu1|114208|fgeneshEH_pg.210__21                              31.2    0.90 
+  jgi|Emihu1|108102|fgeneshEH_pg.99__28                               28.1    8.1  
+
+
+> jgi|Emihu1|431830|estExtDG_fgenesh_newKGs_kg.C_10214
+Length=366
+
+ Score =   151 bits (382),  Expect = 1e-41, Method: Compositional matrix adjust.
+ Identities = 222/248 (90%), Positives = 224/248 (90%), Gaps = 4/248 (2%)
+ Frame = -3
+
+Query  994  KNILQKAADYVKSFSGRVepepaaeepavepeaapeggyeapkeeasaeeapaeeapepe  815
+            KNILQKAADYVKSFSGRVEPEPAA+EPAVEPEAAPEGGYEAPKEEASAEEAPAEEAPEPE
+Sbjct  86   KNILQKAADYVKSFSGRVEPEPAAKEPAVEPEAAPEGGYEAPKEEASAEEAPAEEAPEPE  145
+
+Query  814  pETASFLDKVKSYLSPRPEVPEGAVDTAIDKLETKVGSDL--DGDgev--agvpveaaae  647
+            PETASFLDKVKSYLSPRPEVPEGAVDTAIDKLETKVGSDL  DG+          E    
+Sbjct  146  PETASFLDKVKSYLSPRPEVPEGAVDTAIDKLETKVGSDLDGDGEVAGVPVEAAAEEVEA  205
+
+Query  646  eveaateataeevpveaaaeaveaaveaapavpEKKESYLGKVASILSPRKKAGsdasaa  467
+              EAA    A EVPVEAAAEAVEAAVEAAPAVPEKKESYLGKVASILSPRKKA SDASAA
+Sbjct  206  ATEAAEVEAATEVPVEAAAEAVEAAVEAAPAVPEKKESYLGKVASILSPRKKAASDASAA  265
+
+Query  466  dapaaddaaeaaeaepvaeaeaeaapevapeaeeEKPSLIQKLSKAFSSIIPATPQCLPG  287
+            DAPAADDAAEAAEAEPVAEAEAEAAPEVAPEAEEEKPSLIQKLSKAFSSIIPATPQCLPG
+Sbjct  266  DAPAADDAAEAAEAEPVAEAEAEAAPEVAPEAEEEKPSLIQKLSKAFSSIIPATPQCLPG  325
+
+Query  286  RPSESTLN  263
+            RPSESTLN
+Sbjct  326  RPSESTLN  333
+
+
+ Score = 45.1 bits (105),  Expect = 3e-05, Method: Compositional matrix adjust.
+ Identities = 21/21 (100%), Positives = 21/21 (100%), Gaps = 0/21 (0%)
+ Frame = -3
+
+Query  748  GAVDTAIDKLETKVGSDLDGD  686
+            GAVDTAIDKLETKVGSDLDGD
+Sbjct  37   GAVDTAIDKLETKVGSDLDGD  57
+
+
+> jgi|Emihu1|117875|fgeneshEH_pg.365__10
+Length=307
+
+ Score = 48.9 bits (115),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 19/28 (68%), Positives = 26/28 (93%), Gaps = 0/28 (0%)
+ Frame = -3
+
+Query  361  KPSLIQKLSKAFSSIIPATPQCLPGRPS  278
+            KP+LIQKLSKAFS+++PA P+C+P RP+
+Sbjct  261  KPTLIQKLSKAFSNLLPAAPKCMPSRPA  288
+
+
+> jgi|Emihu1|108533|fgeneshEH_pg.105__20
+Length=313
+
+ Score = 47.8 bits (112),  Expect = 4e-06, Method: Compositional matrix adjust.
+ Identities = 19/27 (70%), Positives = 25/27 (93%), Gaps = 0/27 (0%)
+ Frame = -3
+
+Query  358  PSLIQKLSKAFSSIIPATPQCLPGRPS  278
+            P+LIQKLSKAFSS++PA P+C+P RP+
+Sbjct  254  PTLIQKLSKAFSSLLPAAPKCMPSRPA  280
+
+
+> jgi|Emihu1|108601|fgeneshEH_pg.105__88
+Length=313
+
+ Score = 47.8 bits (112),  Expect = 5e-06, Method: Compositional matrix adjust.
+ Identities = 19/27 (70%), Positives = 25/27 (93%), Gaps = 0/27 (0%)
+ Frame = -3
+
+Query  358  PSLIQKLSKAFSSIIPATPQCLPGRPS  278
+            P+LIQKLSKAFSS++PA P+C+P RP+
+Sbjct  254  PTLIQKLSKAFSSLLPAAPKCMPSRPA  280
+
+
+> jgi|Emihu1|123525|fgeneshEH_pg.2493__1
+Length=313
+
+ Score = 47.8 bits (112),  Expect = 5e-06, Method: Compositional matrix adjust.
+ Identities = 19/27 (70%), Positives = 25/27 (93%), Gaps = 0/27 (0%)
+ Frame = -3
+
+Query  358  PSLIQKLSKAFSSIIPATPQCLPGRPS  278
+            P+LIQKLSKAFSS++PA P+C+P RP+
+Sbjct  254  PTLIQKLSKAFSSLLPAAPKCMPSRPA  280
+
+
+> jgi|Emihu1|106981|fgeneshEH_pg.86__57
+Length=308
+
+ Score = 47.4 bits (111),  Expect = 5e-06, Method: Compositional matrix adjust.
+ Identities = 19/28 (68%), Positives = 26/28 (93%), Gaps = 0/28 (0%)
+ Frame = -3
+
+Query  361  KPSLIQKLSKAFSSIIPATPQCLPGRPS  278
+            KP+LIQKLSKAFS+++PA P+C+P RP+
+Sbjct  250  KPTLIQKLSKAFSNLLPAAPKCMPSRPA  277
+
+
+> jgi|Emihu1|225267|gm1.12300130
+Length=209
+
+ Score = 44.3 bits (103),  Expect = 4e-05, Method: Compositional matrix adjust.
+ Identities = 17/26 (65%), Positives = 24/26 (92%), Gaps = 0/26 (0%)
+ Frame = -3
+
+Query  355  SLIQKLSKAFSSIIPATPQCLPGRPS  278
+            +LIQKLSKAFS+++PA P+C+P RP+
+Sbjct  153  TLIQKLSKAFSNLLPAPPKCMPARPA  178
+
+
+> jgi|Emihu1|121986|fgeneshEH_pg.1073__2
+Length=742
+
+ Score = 45.4 bits (106),  Expect = 4e-05, Method: Compositional matrix adjust.
+ Identities = 47/91 (52%), Positives = 50/91 (55%), Gaps = 4/91 (4%)
+ Frame = -3
+
+Query  760  EVPEGAVDTAIDKLETKVGSDLDGDgevagvpveaaaeeveaateataeevpveaaaeav  581
+            EVP GA DTAID LE K G D+D D    G    AA E         A     E  A   
+Sbjct  317  EVPGGAADTAIDSLEEKAGEDVDCD----GEGPPAAEEWSAEGAGEAAAAEEEEETAAES  372
+
+Query  580  eaaveaapavpEKKESYLGKVASILSPRKKA  488
+                E APAVPEKK SYLG+VA+ILSPRKKA
+Sbjct  373  AMTEEEAPAVPEKKTSYLGRVAAILSPRKKA  403
+
+
+> jgi|Emihu1|95962|fgeneshEH_pg.4__192
+Length=726
+
+ Score = 45.4 bits (106),  Expect = 4e-05, Method: Compositional matrix adjust.
+ Identities = 47/92 (51%), Positives = 50/92 (54%), Gaps = 4/92 (4%)
+ Frame = -3
+
+Query  760  EVPEGAVDTAIDKLETKVGSDLDGDgevagvpveaaaeeveaateataeevpveaaaeav  581
+            EVP GA DTAID LE K G D+D D    G    AA E         A     E  A   
+Sbjct  301  EVPGGAADTAIDSLEEKAGEDVDCD----GEGPPAAEEWSAEGAGEAAAAEEEEETAAES  356
+
+Query  580  eaaveaapavpEKKESYLGKVASILSPRKKAG  485
+                E APAVPEKK SYLG+VA+ILSPRKKA 
+Sbjct  357  AMTEEEAPAVPEKKTSYLGRVAAILSPRKKAA  388
+
+
+> jgi|Emihu1|213562|gm1.5800051
+Length=149
+
+ Score = 38.1 bits (87),  Expect = 0.002, Method: Compositional matrix adjust.
+ Identities = 15/21 (71%), Positives = 19/21 (90%), Gaps = 0/21 (0%)
+ Frame = -3
+
+Query  343  KLSKAFSSIIPATPQCLPGRP  281
+            KLSKAFS+I+PA P+C+P RP
+Sbjct  112  KLSKAFSNILPAAPKCMPSRP  132
+
+
+> jgi|Emihu1|113191|fgeneshEH_pg.183__46
+Length=595
+
+ Score = 36.6 bits (83),  Expect = 0.021, Method: Compositional matrix adjust.
+ Identities = 18/29 (62%), Positives = 23/29 (79%), Gaps = 2/29 (7%)
+ Frame = -3
+
+Query  361  KPSLIQKLSKAFSSIIPATPQCLP-GRPS  278
+            KP+L+Q++S AFSSI+P   QCLP  RPS
+Sbjct  321  KPTLLQQMSTAFSSILPKV-QCLPSARPS  348
+
+
+> jgi|Emihu1|229952|gm1.15900116
+Length=112
+
+ Score = 34.3 bits (77),  Expect = 0.024, Method: Compositional matrix adjust.
+ Identities = 16/26 (62%), Positives = 18/26 (69%), Gaps = 0/26 (0%)
+ Frame = -3
+
+Query  763  PEVPEGAVDTAIDKLETKVGSDLDGD  686
+            P  PEG V +AI  LE K G+DLDGD
+Sbjct  75   PGPPEGTVASAIASLEQKAGADLDGD  100
+
+
+> jgi|Emihu1|232152|gm1.17900006
+Length=112
+
+ Score = 34.3 bits (77),  Expect = 0.024, Method: Compositional matrix adjust.
+ Identities = 16/26 (62%), Positives = 18/26 (69%), Gaps = 0/26 (0%)
+ Frame = -3
+
+Query  763  PEVPEGAVDTAIDKLETKVGSDLDGD  686
+            P  PEG V +AI  LE K G+DLDGD
+Sbjct  75   PGPPEGTVASAIASLEQKAGADLDGD  100
+
+
+> jgi|Emihu1|471657|estExtDG_fgeneshEH_pg.C_18570001
+Length=431
+
+ Score = 35.4 bits (80),  Expect = 0.049, Method: Compositional matrix adjust.
+ Identities = 15/26 (58%), Positives = 20/26 (77%), Gaps = 4/26 (15%)
+ Frame = -3
+
+Query  361  KPSLIQKLSKAFSSIIPATPQCLPGR  284
+            KP+L+QKLS    S +PA PQC+PG+
+Sbjct  367  KPTLLQKLS----SFLPAVPQCMPGK  388
+
+
+> jgi|Emihu1|199218|gm1.900410
+Length=304
+
+ Score = 33.5 bits (75),  Expect = 0.18, Method: Compositional matrix adjust.
+ Identities = 15/24 (63%), Positives = 20/24 (83%), Gaps = 1/24 (4%)
+ Frame = -3
+
+Query  361  KPSLIQKLSKAFSSIIPATPQCLP  290
+            KP+L+Q+LSKA S+I+P   QCLP
+Sbjct  262  KPTLLQQLSKALSNILPRV-QCLP  284
+
+
+> jgi|Emihu1|237042|gm1.24400023
+Length=315
+
+ Score = 33.1 bits (74),  Expect = 0.22, Method: Compositional matrix adjust.
+ Identities = 15/24 (63%), Positives = 20/24 (83%), Gaps = 1/24 (4%)
+ Frame = -3
+
+Query  361  KPSLIQKLSKAFSSIIPATPQCLP  290
+            KP+L+Q+LSKA S+I+P   QCLP
+Sbjct  273  KPTLLQQLSKALSNILPRV-QCLP  295
+
+
+> jgi|Emihu1|114208|fgeneshEH_pg.210__21
+Length=343
+
+ Score = 31.2 bits (69),  Expect = 0.90, Method: Compositional matrix adjust.
+ Identities = 14/24 (58%), Positives = 18/24 (75%), Gaps = 0/24 (0%)
+ Frame = -3
+
+Query  757  VPEGAVDTAIDKLETKVGSDLDGD  686
+            +P+GAV+ AI+KLE     DLDGD
+Sbjct  189  IPDGAVEGAINKLEETTKIDLDGD  212
+
+
+> jgi|Emihu1|108102|fgeneshEH_pg.99__28
+Length=281
+
+ Score = 28.1 bits (61),  Expect = 8.1, Method: Compositional matrix adjust.
+ Identities = 15/28 (54%), Positives = 16/28 (57%), Gaps = 1/28 (4%)
+ Frame = -2
+
+Query  128  HVSAGERVGGGLILQRCGLAGSLSTLPR  45
+            HVS    VGG  +LQ  GLAG    LPR
+Sbjct  83   HVSVAA-VGGSFVLQAVGLAGLFQALPR  109
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.134    0.401    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2136072197
+
+
+Query= lcl|CAMNT_0028144321 /NCGR_SEQ_ID=MMETSP1366-20130426|108024
+/TAXON_ID=38817 /ORGANISM="Gephyrocapsa oceanica, Strain RCC1303"
+/LENGTH=2041
+
+Length=2041
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  jgi|Emihu1|431830|estExtDG_fgenesh_newKGs_kg.C_10214                  242   1e-72
+  jgi|Emihu1|95046|fgeneshEH_pg.1__317                                75.9    3e-14
+  jgi|Emihu1|95962|fgeneshEH_pg.4__192                                50.4    3e-06
+  jgi|Emihu1|121986|fgeneshEH_pg.1073__2                              50.4    3e-06
+  jgi|Emihu1|117875|fgeneshEH_pg.365__10                              48.5    6e-06
+  jgi|Emihu1|108533|fgeneshEH_pg.105__20                              47.8    1e-05
+  jgi|Emihu1|108601|fgeneshEH_pg.105__88                              47.4    1e-05
+  jgi|Emihu1|123525|fgeneshEH_pg.2493__1                              47.4    1e-05
+  jgi|Emihu1|229952|gm1.15900116                                      45.1    2e-05
+  jgi|Emihu1|232152|gm1.17900006                                      45.1    2e-05
+  jgi|Emihu1|106981|fgeneshEH_pg.86__57                               47.0    2e-05
+  jgi|Emihu1|225267|gm1.12300130                                      42.0    5e-04
+  jgi|Emihu1|213562|gm1.5800051                                       37.7    0.007
+  jgi|Emihu1|114208|fgeneshEH_pg.210__21                              38.5    0.011
+  jgi|Emihu1|113191|fgeneshEH_pg.183__46                              37.0    0.039
+  jgi|Emihu1|199218|gm1.900410                                        33.1    0.45 
+  jgi|Emihu1|237042|gm1.24400023                                      33.1    0.51 
+  jgi|Emihu1|471657|estExtDG_fgeneshEH_pg.C_18570001                  32.7    0.78 
+  jgi|Emihu1|102143|fgeneshEH_pg.37__35                               30.4    3.4  
+  jgi|Emihu1|116148|fgeneshEH_pg.280__25                              30.4    3.4  
+  jgi|Emihu1|101557|fgeneshEH_pg.32__96                               30.0    4.7  
+  jgi|Emihu1|421565|estExtDG_fgenesh_newKGs_pm.C_320042               29.6    7.6  
+
+
+> jgi|Emihu1|431830|estExtDG_fgenesh_newKGs_kg.C_10214
+Length=366
+
+ Score =   242 bits (617),  Expect = 1e-72, Method: Compositional matrix adjust.
+ Identities = 288/333 (86%), Positives = 292/333 (88%), Gaps = 16/333 (5%)
+ Frame = +2
+
+Query  56    MGACSSTPKDQPVAEPTYDPAPTPAPEVPE------GAVDTAIDKLETKVGSDLDGDGEV  217
+             MG CSSTPKDQPVAEPTYDPAP PAPEVPE      GAVDTAIDKLETKVGSDLDGDGEV
+Sbjct  1     MGVCSSTPKDQPVAEPTYDPAPAPAPEVPEVPEVPEGAVDTAIDKLETKVGSDLDGDGEV  60
+
+Query  218   AGAPVDEVPTDAPTEPADAVEPAEDKNILQKAADYVKSFSGRMepepaaeepavepeaap  397
+             AGAPV+EVP DAP E ADAVEPAEDKNILQKAADYVKSFSGR+EPEPAA+EPAVEPEAAP
+Sbjct  61    AGAPVEEVPADAPAEAADAVEPAEDKNILQKAADYVKSFSGRVEPEPAAKEPAVEPEAAP  120
+
+Query  398   eGGYKapteeasaeeapaeeapepepetasFLDKVKSYLSPRPEVPEGAVDTAIDKLETK  577
+             EGGY+AP EEASAEEAPAEEAPEPEPETASFLDKVKSYLSPRPEVPEGAVDTAIDKLETK
+Sbjct  121   EGGYEAPKEEASAEEAPAEEAPEPEPETASFLDKVKSYLSPRPEVPEGAVDTAIDKLETK  180
+
+Query  578   VGSDLDGDGeva----------gapveaaaeeveaateavegaaeaveaaveaapavLEK  727
+             VGSDLDGDGEVA                AAE   A    VE AAEAVEAAVEAAPAV EK
+Sbjct  181   VGSDLDGDGEVAGVPVEAAAEEVEAATEAAEVEAATEVPVEAAAEAVEAAVEAAPAVPEK  240
+
+Query  728   KESYLGKVASILSPRKKaapdasaadapaaddaaeaaeaepvaeaeaaaapevapeaeee  907
+             KESYLGKVASILSPRKKAA DASAADAPAADDAAEAAEAEPVAEAEA AAPEVAPEAEEE
+Sbjct  241   KESYLGKVASILSPRKKAASDASAADAPAADDAAEAAEAEPVAEAEAEAAPEVAPEAEEE  300
+
+Query  908   KPSLIQKLSKAFSSIIPPAPQCLPGRPSESTLN  1006
+             KPSLIQKLSKAFSSIIP  PQCLPGRPSESTLN
+Sbjct  301   KPSLIQKLSKAFSSIIPATPQCLPGRPSESTLN  333
+
+
+> jgi|Emihu1|95046|fgeneshEH_pg.1__317
+Length=581
+
+ Score = 75.9 bits (185),  Expect = 3e-14, Method: Compositional matrix adjust.
+ Identities = 40/42 (95%), Positives = 40/42 (95%), Gaps = 0/42 (0%)
+ Frame = -2
+
+Query  1944  VEAWAFGAAHEPAADTGVEVRASAAFGGRSGTRVGGQRGVAR  1819
+             VEAWAFGAAHEPAADTGV VRASAAFGGRSGTRVGGQ GVAR
+Sbjct  505   VEAWAFGAAHEPAADTGVGVRASAAFGGRSGTRVGGQGGVAR  546
+
+
+> jgi|Emihu1|95962|fgeneshEH_pg.4__192
+Length=726
+
+ Score = 50.4 bits (119),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 46/86 (53%), Positives = 50/86 (58%), Gaps = 2/86 (2%)
+ Frame = +2
+
+Query  527  EVPEGAVDTAIDKLETKVGSDL--DGDGevagapveaaaeeveaateavegaaeaveaav  700
+            EVP GA DTAID LE K G D+  DG+G  A     A      AA E  E  A       
+Sbjct  301  EVPGGAADTAIDSLEEKAGEDVDCDGEGPPAAEEWSAEGAGEAAAAEEEEETAAESAMTE  360
+
+Query  701  eaapavLEKKESYLGKVASILSPRKK  778
+            E APAV EKK SYLG+VA+ILSPRKK
+Sbjct  361  EEAPAVPEKKTSYLGRVAAILSPRKK  386
+
+
+ Score = 39.7 bits (91),  Expect = 0.006, Method: Compositional matrix adjust.
+ Identities = 19/27 (70%), Positives = 20/27 (74%), Gaps = 0/27 (0%)
+ Frame = +2
+
+Query  134  EVPEGAVDTAIDKLETKVGSDLDGDGE  214
+            EVP GA DTAID LE K G D+D DGE
+Sbjct  301  EVPGGAADTAIDSLEEKAGEDVDCDGE  327
+
+
+> jgi|Emihu1|121986|fgeneshEH_pg.1073__2
+Length=742
+
+ Score = 50.4 bits (119),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 46/86 (53%), Positives = 50/86 (58%), Gaps = 2/86 (2%)
+ Frame = +2
+
+Query  527  EVPEGAVDTAIDKLETKVGSDL--DGDGevagapveaaaeeveaateavegaaeaveaav  700
+            EVP GA DTAID LE K G D+  DG+G  A     A      AA E  E  A       
+Sbjct  317  EVPGGAADTAIDSLEEKAGEDVDCDGEGPPAAEEWSAEGAGEAAAAEEEEETAAESAMTE  376
+
+Query  701  eaapavLEKKESYLGKVASILSPRKK  778
+            E APAV EKK SYLG+VA+ILSPRKK
+Sbjct  377  EEAPAVPEKKTSYLGRVAAILSPRKK  402
+
+
+ Score = 39.7 bits (91),  Expect = 0.006, Method: Compositional matrix adjust.
+ Identities = 19/27 (70%), Positives = 20/27 (74%), Gaps = 0/27 (0%)
+ Frame = +2
+
+Query  134  EVPEGAVDTAIDKLETKVGSDLDGDGE  214
+            EVP GA DTAID LE K G D+D DGE
+Sbjct  317  EVPGGAADTAIDSLEEKAGEDVDCDGE  343
+
+
+> jgi|Emihu1|117875|fgeneshEH_pg.365__10
+Length=307
+
+ Score = 48.5 bits (114),  Expect = 6e-06, Method: Compositional matrix adjust.
+ Identities = 19/28 (68%), Positives = 26/28 (93%), Gaps = 0/28 (0%)
+ Frame = +2
+
+Query  908  KPSLIQKLSKAFSSIIPPAPQCLPGRPS  991
+            KP+LIQKLSKAFS+++P AP+C+P RP+
+Sbjct  261  KPTLIQKLSKAFSNLLPAAPKCMPSRPA  288
+
+
+> jgi|Emihu1|108533|fgeneshEH_pg.105__20
+Length=313
+
+ Score = 47.8 bits (112),  Expect = 1e-05, Method: Compositional matrix adjust.
+ Identities = 19/27 (70%), Positives = 25/27 (93%), Gaps = 0/27 (0%)
+ Frame = +2
+
+Query  911  PSLIQKLSKAFSSIIPPAPQCLPGRPS  991
+            P+LIQKLSKAFSS++P AP+C+P RP+
+Sbjct  254  PTLIQKLSKAFSSLLPAAPKCMPSRPA  280
+
+
+> jgi|Emihu1|108601|fgeneshEH_pg.105__88
+Length=313
+
+ Score = 47.4 bits (111),  Expect = 1e-05, Method: Compositional matrix adjust.
+ Identities = 19/27 (70%), Positives = 25/27 (93%), Gaps = 0/27 (0%)
+ Frame = +2
+
+Query  911  PSLIQKLSKAFSSIIPPAPQCLPGRPS  991
+            P+LIQKLSKAFSS++P AP+C+P RP+
+Sbjct  254  PTLIQKLSKAFSSLLPAAPKCMPSRPA  280
+
+
+> jgi|Emihu1|123525|fgeneshEH_pg.2493__1
+Length=313
+
+ Score = 47.4 bits (111),  Expect = 1e-05, Method: Compositional matrix adjust.
+ Identities = 19/27 (70%), Positives = 25/27 (93%), Gaps = 0/27 (0%)
+ Frame = +2
+
+Query  911  PSLIQKLSKAFSSIIPPAPQCLPGRPS  991
+            P+LIQKLSKAFSS++P AP+C+P RP+
+Sbjct  254  PTLIQKLSKAFSSLLPAAPKCMPSRPA  280
+
+
+> jgi|Emihu1|229952|gm1.15900116
+Length=112
+
+ Score = 45.1 bits (105),  Expect = 2e-05, Method: Compositional matrix adjust.
+ Identities = 32/71 (45%), Positives = 40/71 (56%), Gaps = 7/71 (10%)
+ Frame = +2
+
+Query  26   SVSHHSLSIAMGACSSTPKDQPVAEPTYDPAPTPAPEVPEGAVDTAIDKLETKVGSDLDG  205
+            S+S    S+    C S   ++P AE   + AP P    PEG V +AI  LE K G+DLDG
+Sbjct  44   SISIPKCSMPSCKCFSKGGEEPPAEALAESAPGP----PEGTVASAIASLEQKAGADLDG  99
+
+Query  206  DGE---VAGAP  229
+            DG+   VAGAP
+Sbjct  100  DGKVGAVAGAP  110
+
+
+ Score = 35.4 bits (80),  Expect = 0.025, Method: Compositional matrix adjust.
+ Identities = 16/24 (67%), Positives = 18/24 (75%), Gaps = 0/24 (0%)
+ Frame = +2
+
+Query  533  PEGAVDTAIDKLETKVGSDLDGDG  604
+            PEG V +AI  LE K G+DLDGDG
+Sbjct  78   PEGTVASAIASLEQKAGADLDGDG  101
+
+
+> jgi|Emihu1|232152|gm1.17900006
+Length=112
+
+ Score = 45.1 bits (105),  Expect = 2e-05, Method: Compositional matrix adjust.
+ Identities = 32/71 (45%), Positives = 40/71 (56%), Gaps = 7/71 (10%)
+ Frame = +2
+
+Query  26   SVSHHSLSIAMGACSSTPKDQPVAEPTYDPAPTPAPEVPEGAVDTAIDKLETKVGSDLDG  205
+            S+S    S+    C S   ++P AE   + AP P    PEG V +AI  LE K G+DLDG
+Sbjct  44   SISIPKCSMPSCKCFSKGGEEPPAEALAESAPGP----PEGTVASAIASLEQKAGADLDG  99
+
+Query  206  DGE---VAGAP  229
+            DG+   VAGAP
+Sbjct  100  DGKVGAVAGAP  110
+
+
+ Score = 35.4 bits (80),  Expect = 0.025, Method: Compositional matrix adjust.
+ Identities = 16/24 (67%), Positives = 18/24 (75%), Gaps = 0/24 (0%)
+ Frame = +2
+
+Query  533  PEGAVDTAIDKLETKVGSDLDGDG  604
+            PEG V +AI  LE K G+DLDGDG
+Sbjct  78   PEGTVASAIASLEQKAGADLDGDG  101
+
+
+> jgi|Emihu1|106981|fgeneshEH_pg.86__57
+Length=308
+
+ Score = 47.0 bits (110),  Expect = 2e-05, Method: Compositional matrix adjust.
+ Identities = 19/28 (68%), Positives = 26/28 (93%), Gaps = 0/28 (0%)
+ Frame = +2
+
+Query  908  KPSLIQKLSKAFSSIIPPAPQCLPGRPS  991
+            KP+LIQKLSKAFS+++P AP+C+P RP+
+Sbjct  250  KPTLIQKLSKAFSNLLPAAPKCMPSRPA  277
+
+
+> jgi|Emihu1|225267|gm1.12300130
+Length=209
+
+ Score = 42.0 bits (97),  Expect = 5e-04, Method: Compositional matrix adjust.
+ Identities = 16/26 (62%), Positives = 23/26 (88%), Gaps = 0/26 (0%)
+ Frame = +2
+
+Query  914  SLIQKLSKAFSSIIPPAPQCLPGRPS  991
+            +LIQKLSKAFS+++P  P+C+P RP+
+Sbjct  153  TLIQKLSKAFSNLLPAPPKCMPARPA  178
+
+
+> jgi|Emihu1|213562|gm1.5800051
+Length=149
+
+ Score = 37.7 bits (86),  Expect = 0.007, Method: Compositional matrix adjust.
+ Identities = 15/21 (71%), Positives = 19/21 (90%), Gaps = 0/21 (0%)
+ Frame = +2
+
+Query  926  KLSKAFSSIIPPAPQCLPGRP  988
+            KLSKAFS+I+P AP+C+P RP
+Sbjct  112  KLSKAFSNILPAAPKCMPSRP  132
+
+
+> jgi|Emihu1|114208|fgeneshEH_pg.210__21
+Length=343
+
+ Score = 38.5 bits (88),  Expect = 0.011, Method: Compositional matrix adjust.
+ Identities = 28/64 (44%), Positives = 36/64 (56%), Gaps = 10/64 (16%)
+ Frame = +2
+
+Query  56   MGACSSTPKDQPVAEPTYDPAPTPAP-----EVPEGAVDTAIDKLETKVGSDLDGDGEVA  220
+            MG CSS    Q V E   D A   AP     E+ +G V++AIDKLE    +DLD DG++A
+Sbjct  1    MGLCSSR---QVVEEE--DVAARAAPVNKPEEILKGTVESAIDKLEVIAKTDLDKDGDIA  55
+
+Query  221  GAPV  232
+              P+
+Sbjct  56   DVPI  59
+
+
+ Score = 38.1 bits (87),  Expect = 0.015, Method: Compositional matrix adjust.
+ Identities = 18/34 (53%), Positives = 24/34 (71%), Gaps = 0/34 (0%)
+ Frame = +2
+
+Query  137  VPEGAVDTAIDKLETKVGSDLDGDGEVAGAPVDE  238
+            +P+GAV+ AI+KLE     DLDGDG+V  A + E
+Sbjct  189  IPDGAVEGAINKLEETTKIDLDGDGQVGAADIAE  222
+
+
+ Score = 33.1 bits (74),  Expect = 0.48, Method: Compositional matrix adjust.
+ Identities = 15/25 (60%), Positives = 19/25 (76%), Gaps = 0/25 (0%)
+ Frame = +2
+
+Query  530  VPEGAVDTAIDKLETKVGSDLDGDG  604
+            +P+GAV+ AI+KLE     DLDGDG
+Sbjct  189  IPDGAVEGAINKLEETTKIDLDGDG  213
+
+
+ Score = 30.4 bits (67),  Expect = 4.2, Method: Compositional matrix adjust.
+ Identities = 14/26 (54%), Positives = 19/26 (73%), Gaps = 0/26 (0%)
+ Frame = +2
+
+Query  527  EVPEGAVDTAIDKLETKVGSDLDGDG  604
+            E+ +G V++AIDKLE    +DLD DG
+Sbjct  27   EILKGTVESAIDKLEVIAKTDLDKDG  52
+
+
+> jgi|Emihu1|113191|fgeneshEH_pg.183__46
+Length=595
+
+ Score = 37.0 bits (84),  Expect = 0.039, Method: Compositional matrix adjust.
+ Identities = 18/29 (62%), Positives = 23/29 (79%), Gaps = 2/29 (7%)
+ Frame = +2
+
+Query  908  KPSLIQKLSKAFSSIIPPAPQCLP-GRPS  991
+            KP+L+Q++S AFSSI+P   QCLP  RPS
+Sbjct  321  KPTLLQQMSTAFSSILPKV-QCLPSARPS  348
+
+
+> jgi|Emihu1|199218|gm1.900410
+Length=304
+
+ Score = 33.1 bits (74),  Expect = 0.45, Method: Compositional matrix adjust.
+ Identities = 15/24 (63%), Positives = 20/24 (83%), Gaps = 1/24 (4%)
+ Frame = +2
+
+Query  908  KPSLIQKLSKAFSSIIPPAPQCLP  979
+            KP+L+Q+LSKA S+I+P   QCLP
+Sbjct  262  KPTLLQQLSKALSNILPRV-QCLP  284
+
+
+> jgi|Emihu1|237042|gm1.24400023
+Length=315
+
+ Score = 33.1 bits (74),  Expect = 0.51, Method: Compositional matrix adjust.
+ Identities = 15/24 (63%), Positives = 20/24 (83%), Gaps = 1/24 (4%)
+ Frame = +2
+
+Query  908  KPSLIQKLSKAFSSIIPPAPQCLP  979
+            KP+L+Q+LSKA S+I+P   QCLP
+Sbjct  273  KPTLLQQLSKALSNILPRV-QCLP  295
+
+
+> jgi|Emihu1|471657|estExtDG_fgeneshEH_pg.C_18570001
+Length=431
+
+ Score = 32.7 bits (73),  Expect = 0.78, Method: Compositional matrix adjust.
+ Identities = 14/26 (54%), Positives = 19/26 (73%), Gaps = 4/26 (15%)
+ Frame = +2
+
+Query  908  KPSLIQKLSKAFSSIIPPAPQCLPGR  985
+            KP+L+QKLS    S +P  PQC+PG+
+Sbjct  367  KPTLLQKLS----SFLPAVPQCMPGK  388
+
+
+> jgi|Emihu1|102143|fgeneshEH_pg.37__35
+Length=249
+
+ Score = 30.4 bits (67),  Expect = 3.4, Method: Compositional matrix adjust.
+ Identities = 19/52 (37%), Positives = 28/52 (54%), Gaps = 2/52 (4%)
+ Frame = +2
+
+Query  95   AEPTYDPAPTPAPEVPEG--AVDTAIDKLETKVGSDLDGDGEVAGAPVDEVP  244
+            A P+   AP      P G  +++  I+ LET  G DLDGDG+V  +  + +P
+Sbjct  156  AVPSKAAAPALQSNSPAGILSIEDRINALETTTGVDLDGDGDVGLSGHNNLP  207
+
+
+> jgi|Emihu1|116148|fgeneshEH_pg.280__25
+Length=249
+
+ Score = 30.4 bits (67),  Expect = 3.4, Method: Compositional matrix adjust.
+ Identities = 19/52 (37%), Positives = 28/52 (54%), Gaps = 2/52 (4%)
+ Frame = +2
+
+Query  95   AEPTYDPAPTPAPEVPEG--AVDTAIDKLETKVGSDLDGDGEVAGAPVDEVP  244
+            A P+   AP      P G  +++  I+ LET  G DLDGDG+V  +  + +P
+Sbjct  156  AVPSKAAAPALQSNSPAGILSIEDRINALETTTGVDLDGDGDVGLSGHNNLP  207
+
+
+> jgi|Emihu1|101557|fgeneshEH_pg.32__96
+Length=250
+
+ Score = 30.0 bits (66),  Expect = 4.7, Method: Compositional matrix adjust.
+ Identities = 18/44 (41%), Positives = 24/44 (55%), Gaps = 2/44 (5%)
+ Frame = +2
+
+Query  95   AEPTYDPAPTPAPEVPEG--AVDTAIDKLETKVGSDLDGDGEVA  220
+            A P+   AP      P G  +++  I+ LET  G DLDGDG+V 
+Sbjct  157  AVPSKAAAPALQSNSPAGILSIEDRINALETTTGVDLDGDGDVG  200
+
+
+> jgi|Emihu1|421565|estExtDG_fgenesh_newKGs_pm.C_320042
+Length=643
+
+ Score = 29.6 bits (65),  Expect = 7.6, Method: Compositional matrix adjust.
+ Identities = 17/36 (47%), Positives = 21/36 (58%), Gaps = 0/36 (0%)
+ Frame = -1
+
+Query  1705  CTRHARIEVALNARERRAVPVPVPASGARAVADESR  1598
+             C R   I VAL      +VP+PVP + A A+AD SR
+Sbjct  547   CCRQLAISVALAEPVSVSVPIPVPVAVAFALADRSR  582
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.134    0.401    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4646392725
+
+
+Query= lcl|CAMNT_0027939863 /NCGR_SEQ_ID=MMETSP1363-20130426|98224
+/TAXON_ID=38817 /ORGANISM="Gephyrocapsa oceanica, Strain RCC1303"
+/LENGTH=1781
+
+Length=1781
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  jgi|Emihu1|431830|estExtDG_fgenesh_newKGs_kg.C_10214                  242   2e-73
+  jgi|Emihu1|95962|fgeneshEH_pg.4__192                                50.4    3e-06
+  jgi|Emihu1|121986|fgeneshEH_pg.1073__2                              50.4    3e-06
+  jgi|Emihu1|117875|fgeneshEH_pg.365__10                              48.5    5e-06
+  jgi|Emihu1|108533|fgeneshEH_pg.105__20                              47.8    1e-05
+  jgi|Emihu1|108601|fgeneshEH_pg.105__88                              47.4    1e-05
+  jgi|Emihu1|123525|fgeneshEH_pg.2493__1                              47.4    1e-05
+  jgi|Emihu1|229952|gm1.15900116                                      45.1    1e-05
+  jgi|Emihu1|232152|gm1.17900006                                      45.1    1e-05
+  jgi|Emihu1|106981|fgeneshEH_pg.86__57                               47.0    2e-05
+  jgi|Emihu1|225267|gm1.12300130                                      42.0    4e-04
+  jgi|Emihu1|213562|gm1.5800051                                       37.4    0.007
+  jgi|Emihu1|114208|fgeneshEH_pg.210__21                              38.5    0.009
+  jgi|Emihu1|113191|fgeneshEH_pg.183__46                              37.0    0.034
+  jgi|Emihu1|199218|gm1.900410                                        33.5    0.36 
+  jgi|Emihu1|237042|gm1.24400023                                      33.1    0.43 
+  jgi|Emihu1|471657|estExtDG_fgeneshEH_pg.C_18570001                  32.7    0.66 
+  jgi|Emihu1|102143|fgeneshEH_pg.37__35                               30.0    3.2  
+  jgi|Emihu1|116148|fgeneshEH_pg.280__25                              30.0    3.2  
+  jgi|Emihu1|101557|fgeneshEH_pg.32__96                               30.0    4.0  
+  jgi|Emihu1|421565|estExtDG_fgenesh_newKGs_pm.C_320042               29.6    6.4  
+
+
+> jgi|Emihu1|431830|estExtDG_fgenesh_newKGs_kg.C_10214
+Length=366
+
+ Score =   242 bits (617),  Expect = 2e-73, Method: Compositional matrix adjust.
+ Identities = 288/333 (86%), Positives = 292/333 (88%), Gaps = 16/333 (5%)
+ Frame = -3
+
+Query  1728  MGACSSTPKDQPVAEPTYDPAPTPAPEVPE------GAVDTAIDKLETKVGSDLDGDGEV  1567
+             MG CSSTPKDQPVAEPTYDPAP PAPEVPE      GAVDTAIDKLETKVGSDLDGDGEV
+Sbjct  1     MGVCSSTPKDQPVAEPTYDPAPAPAPEVPEVPEVPEGAVDTAIDKLETKVGSDLDGDGEV  60
+
+Query  1566  AGAPVDEVPTDAPTEPADAVEPAEDKNILQKAADYVKSFSGRMepepaaeepavepeaap  1387
+             AGAPV+EVP DAP E ADAVEPAEDKNILQKAADYVKSFSGR+EPEPAA+EPAVEPEAAP
+Sbjct  61    AGAPVEEVPADAPAEAADAVEPAEDKNILQKAADYVKSFSGRVEPEPAAKEPAVEPEAAP  120
+
+Query  1386  EGGYKapteeasaeeapaeeapepepetaSFLDKVKSYLSPRPEVPEGAVDTAIDKLETK  1207
+             EGGY+AP EEASAEEAPAEEAPEPEPETASFLDKVKSYLSPRPEVPEGAVDTAIDKLETK
+Sbjct  121   EGGYEAPKEEASAEEAPAEEAPEPEPETASFLDKVKSYLSPRPEVPEGAVDTAIDKLETK  180
+
+Query  1206  VGSDLDGDGeva----------gapveaaaeeveaateavegaaeaveaaveaapaVLEK  1057
+             VGSDLDGDGEVA                AAE   A    VE AAEAVEAAVEAAPAV EK
+Sbjct  181   VGSDLDGDGEVAGVPVEAAAEEVEAATEAAEVEAATEVPVEAAAEAVEAAVEAAPAVPEK  240
+
+Query  1056  KESYLGKVASILSPRKKaapdasaadapaaddaaeaaeaepvaeaeaaaapevapeaeeE  877
+             KESYLGKVASILSPRKKAA DASAADAPAADDAAEAAEAEPVAEAEA AAPEVAPEAEEE
+Sbjct  241   KESYLGKVASILSPRKKAASDASAADAPAADDAAEAAEAEPVAEAEAEAAPEVAPEAEEE  300
+
+Query  876   KPSLIQKLSKAFSSIIPPAPQCLPGRPSESTLN  778
+             KPSLIQKLSKAFSSIIP  PQCLPGRPSESTLN
+Sbjct  301   KPSLIQKLSKAFSSIIPATPQCLPGRPSESTLN  333
+
+
+> jgi|Emihu1|95962|fgeneshEH_pg.4__192
+Length=726
+
+ Score = 50.4 bits (119),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 46/86 (53%), Positives = 50/86 (58%), Gaps = 2/86 (2%)
+ Frame = -3
+
+Query  1257  EVPEGAVDTAIDKLETKVGSDL--DGDGevagapveaaaeeveaateavegaaeaveaav  1084
+             EVP GA DTAID LE K G D+  DG+G  A     A      AA E  E  A       
+Sbjct  301   EVPGGAADTAIDSLEEKAGEDVDCDGEGPPAAEEWSAEGAGEAAAAEEEEETAAESAMTE  360
+
+Query  1083  eaapaVLEKKESYLGKVASILSPRKK  1006
+             E APAV EKK SYLG+VA+ILSPRKK
+Sbjct  361   EEAPAVPEKKTSYLGRVAAILSPRKK  386
+
+
+ Score = 39.7 bits (91),  Expect = 0.005, Method: Compositional matrix adjust.
+ Identities = 19/27 (70%), Positives = 20/27 (74%), Gaps = 0/27 (0%)
+ Frame = -3
+
+Query  1650  EVPEGAVDTAIDKLETKVGSDLDGDGE  1570
+             EVP GA DTAID LE K G D+D DGE
+Sbjct  301   EVPGGAADTAIDSLEEKAGEDVDCDGE  327
+
+
+> jgi|Emihu1|121986|fgeneshEH_pg.1073__2
+Length=742
+
+ Score = 50.4 bits (119),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 46/86 (53%), Positives = 50/86 (58%), Gaps = 2/86 (2%)
+ Frame = -3
+
+Query  1257  EVPEGAVDTAIDKLETKVGSDL--DGDGevagapveaaaeeveaateavegaaeaveaav  1084
+             EVP GA DTAID LE K G D+  DG+G  A     A      AA E  E  A       
+Sbjct  317   EVPGGAADTAIDSLEEKAGEDVDCDGEGPPAAEEWSAEGAGEAAAAEEEEETAAESAMTE  376
+
+Query  1083  eaapaVLEKKESYLGKVASILSPRKK  1006
+             E APAV EKK SYLG+VA+ILSPRKK
+Sbjct  377   EEAPAVPEKKTSYLGRVAAILSPRKK  402
+
+
+ Score = 39.7 bits (91),  Expect = 0.005, Method: Compositional matrix adjust.
+ Identities = 19/27 (70%), Positives = 20/27 (74%), Gaps = 0/27 (0%)
+ Frame = -3
+
+Query  1650  EVPEGAVDTAIDKLETKVGSDLDGDGE  1570
+             EVP GA DTAID LE K G D+D DGE
+Sbjct  317   EVPGGAADTAIDSLEEKAGEDVDCDGE  343
+
+
+> jgi|Emihu1|117875|fgeneshEH_pg.365__10
+Length=307
+
+ Score = 48.5 bits (114),  Expect = 5e-06, Method: Compositional matrix adjust.
+ Identities = 19/28 (68%), Positives = 26/28 (93%), Gaps = 0/28 (0%)
+ Frame = -3
+
+Query  876  KPSLIQKLSKAFSSIIPPAPQCLPGRPS  793
+            KP+LIQKLSKAFS+++P AP+C+P RP+
+Sbjct  261  KPTLIQKLSKAFSNLLPAAPKCMPSRPA  288
+
+
+> jgi|Emihu1|108533|fgeneshEH_pg.105__20
+Length=313
+
+ Score = 47.8 bits (112),  Expect = 1e-05, Method: Compositional matrix adjust.
+ Identities = 19/27 (70%), Positives = 25/27 (93%), Gaps = 0/27 (0%)
+ Frame = -3
+
+Query  873  PSLIQKLSKAFSSIIPPAPQCLPGRPS  793
+            P+LIQKLSKAFSS++P AP+C+P RP+
+Sbjct  254  PTLIQKLSKAFSSLLPAAPKCMPSRPA  280
+
+
+> jgi|Emihu1|108601|fgeneshEH_pg.105__88
+Length=313
+
+ Score = 47.4 bits (111),  Expect = 1e-05, Method: Compositional matrix adjust.
+ Identities = 19/27 (70%), Positives = 25/27 (93%), Gaps = 0/27 (0%)
+ Frame = -3
+
+Query  873  PSLIQKLSKAFSSIIPPAPQCLPGRPS  793
+            P+LIQKLSKAFSS++P AP+C+P RP+
+Sbjct  254  PTLIQKLSKAFSSLLPAAPKCMPSRPA  280
+
+
+> jgi|Emihu1|123525|fgeneshEH_pg.2493__1
+Length=313
+
+ Score = 47.4 bits (111),  Expect = 1e-05, Method: Compositional matrix adjust.
+ Identities = 19/27 (70%), Positives = 25/27 (93%), Gaps = 0/27 (0%)
+ Frame = -3
+
+Query  873  PSLIQKLSKAFSSIIPPAPQCLPGRPS  793
+            P+LIQKLSKAFSS++P AP+C+P RP+
+Sbjct  254  PTLIQKLSKAFSSLLPAAPKCMPSRPA  280
+
+
+> jgi|Emihu1|229952|gm1.15900116
+Length=112
+
+ Score = 45.1 bits (105),  Expect = 1e-05, Method: Compositional matrix adjust.
+ Identities = 32/71 (45%), Positives = 40/71 (56%), Gaps = 7/71 (10%)
+ Frame = -3
+
+Query  1758  SVSHHSLSIAMGACSSTPKDQPVAEPTYDPAPTPAPEVPEGAVDTAIDKLETKVGSDLDG  1579
+             S+S    S+    C S   ++P AE   + AP P    PEG V +AI  LE K G+DLDG
+Sbjct  44    SISIPKCSMPSCKCFSKGGEEPPAEALAESAPGP----PEGTVASAIASLEQKAGADLDG  99
+
+Query  1578  DGE---VAGAP  1555
+             DG+   VAGAP
+Sbjct  100   DGKVGAVAGAP  110
+
+
+ Score = 35.4 bits (80),  Expect = 0.021, Method: Compositional matrix adjust.
+ Identities = 16/24 (67%), Positives = 18/24 (75%), Gaps = 0/24 (0%)
+ Frame = -3
+
+Query  1251  PEGAVDTAIDKLETKVGSDLDGDG  1180
+             PEG V +AI  LE K G+DLDGDG
+Sbjct  78    PEGTVASAIASLEQKAGADLDGDG  101
+
+
+> jgi|Emihu1|232152|gm1.17900006
+Length=112
+
+ Score = 45.1 bits (105),  Expect = 1e-05, Method: Compositional matrix adjust.
+ Identities = 32/71 (45%), Positives = 40/71 (56%), Gaps = 7/71 (10%)
+ Frame = -3
+
+Query  1758  SVSHHSLSIAMGACSSTPKDQPVAEPTYDPAPTPAPEVPEGAVDTAIDKLETKVGSDLDG  1579
+             S+S    S+    C S   ++P AE   + AP P    PEG V +AI  LE K G+DLDG
+Sbjct  44    SISIPKCSMPSCKCFSKGGEEPPAEALAESAPGP----PEGTVASAIASLEQKAGADLDG  99
+
+Query  1578  DGE---VAGAP  1555
+             DG+   VAGAP
+Sbjct  100   DGKVGAVAGAP  110
+
+
+ Score = 35.4 bits (80),  Expect = 0.021, Method: Compositional matrix adjust.
+ Identities = 16/24 (67%), Positives = 18/24 (75%), Gaps = 0/24 (0%)
+ Frame = -3
+
+Query  1251  PEGAVDTAIDKLETKVGSDLDGDG  1180
+             PEG V +AI  LE K G+DLDGDG
+Sbjct  78    PEGTVASAIASLEQKAGADLDGDG  101
+
+
+> jgi|Emihu1|106981|fgeneshEH_pg.86__57
+Length=308
+
+ Score = 47.0 bits (110),  Expect = 2e-05, Method: Compositional matrix adjust.
+ Identities = 19/28 (68%), Positives = 26/28 (93%), Gaps = 0/28 (0%)
+ Frame = -3
+
+Query  876  KPSLIQKLSKAFSSIIPPAPQCLPGRPS  793
+            KP+LIQKLSKAFS+++P AP+C+P RP+
+Sbjct  250  KPTLIQKLSKAFSNLLPAAPKCMPSRPA  277
+
+
+> jgi|Emihu1|225267|gm1.12300130
+Length=209
+
+ Score = 42.0 bits (97),  Expect = 4e-04, Method: Compositional matrix adjust.
+ Identities = 16/26 (62%), Positives = 23/26 (88%), Gaps = 0/26 (0%)
+ Frame = -3
+
+Query  870  SLIQKLSKAFSSIIPPAPQCLPGRPS  793
+            +LIQKLSKAFS+++P  P+C+P RP+
+Sbjct  153  TLIQKLSKAFSNLLPAPPKCMPARPA  178
+
+
+> jgi|Emihu1|213562|gm1.5800051
+Length=149
+
+ Score = 37.4 bits (85),  Expect = 0.007, Method: Compositional matrix adjust.
+ Identities = 15/21 (71%), Positives = 19/21 (90%), Gaps = 0/21 (0%)
+ Frame = -3
+
+Query  858  KLSKAFSSIIPPAPQCLPGRP  796
+            KLSKAFS+I+P AP+C+P RP
+Sbjct  112  KLSKAFSNILPAAPKCMPSRP  132
+
+
+> jgi|Emihu1|114208|fgeneshEH_pg.210__21
+Length=343
+
+ Score = 38.5 bits (88),  Expect = 0.009, Method: Compositional matrix adjust.
+ Identities = 28/64 (44%), Positives = 36/64 (56%), Gaps = 10/64 (16%)
+ Frame = -3
+
+Query  1728  MGACSSTPKDQPVAEPTYDPAPTPAP-----EVPEGAVDTAIDKLETKVGSDLDGDGEVA  1564
+             MG CSS    Q V E   D A   AP     E+ +G V++AIDKLE    +DLD DG++A
+Sbjct  1     MGLCSSR---QVVEEE--DVAARAAPVNKPEEILKGTVESAIDKLEVIAKTDLDKDGDIA  55
+
+Query  1563  GAPV  1552
+               P+
+Sbjct  56    DVPI  59
+
+
+ Score = 38.1 bits (87),  Expect = 0.013, Method: Compositional matrix adjust.
+ Identities = 18/34 (53%), Positives = 24/34 (71%), Gaps = 0/34 (0%)
+ Frame = -3
+
+Query  1647  VPEGAVDTAIDKLETKVGSDLDGDGEVAGAPVDE  1546
+             +P+GAV+ AI+KLE     DLDGDG+V  A + E
+Sbjct  189   IPDGAVEGAINKLEETTKIDLDGDGQVGAADIAE  222
+
+
+ Score = 33.1 bits (74),  Expect = 0.42, Method: Compositional matrix adjust.
+ Identities = 15/25 (60%), Positives = 19/25 (76%), Gaps = 0/25 (0%)
+ Frame = -3
+
+Query  1254  VPEGAVDTAIDKLETKVGSDLDGDG  1180
+             +P+GAV+ AI+KLE     DLDGDG
+Sbjct  189   IPDGAVEGAINKLEETTKIDLDGDG  213
+
+
+ Score = 30.4 bits (67),  Expect = 3.6, Method: Compositional matrix adjust.
+ Identities = 14/26 (54%), Positives = 19/26 (73%), Gaps = 0/26 (0%)
+ Frame = -3
+
+Query  1257  EVPEGAVDTAIDKLETKVGSDLDGDG  1180
+             E+ +G V++AIDKLE    +DLD DG
+Sbjct  27    EILKGTVESAIDKLEVIAKTDLDKDG  52
+
+
+> jgi|Emihu1|113191|fgeneshEH_pg.183__46
+Length=595
+
+ Score = 37.0 bits (84),  Expect = 0.034, Method: Compositional matrix adjust.
+ Identities = 18/29 (62%), Positives = 23/29 (79%), Gaps = 2/29 (7%)
+ Frame = -3
+
+Query  876  KPSLIQKLSKAFSSIIPPAPQCLP-GRPS  793
+            KP+L+Q++S AFSSI+P   QCLP  RPS
+Sbjct  321  KPTLLQQMSTAFSSILPKV-QCLPSARPS  348
+
+
+> jgi|Emihu1|199218|gm1.900410
+Length=304
+
+ Score = 33.5 bits (75),  Expect = 0.36, Method: Compositional matrix adjust.
+ Identities = 15/24 (63%), Positives = 20/24 (83%), Gaps = 1/24 (4%)
+ Frame = -3
+
+Query  876  KPSLIQKLSKAFSSIIPPAPQCLP  805
+            KP+L+Q+LSKA S+I+P   QCLP
+Sbjct  262  KPTLLQQLSKALSNILPRV-QCLP  284
+
+
+> jgi|Emihu1|237042|gm1.24400023
+Length=315
+
+ Score = 33.1 bits (74),  Expect = 0.43, Method: Compositional matrix adjust.
+ Identities = 15/24 (63%), Positives = 20/24 (83%), Gaps = 1/24 (4%)
+ Frame = -3
+
+Query  876  KPSLIQKLSKAFSSIIPPAPQCLP  805
+            KP+L+Q+LSKA S+I+P   QCLP
+Sbjct  273  KPTLLQQLSKALSNILPRV-QCLP  295
+
+
+> jgi|Emihu1|471657|estExtDG_fgeneshEH_pg.C_18570001
+Length=431
+
+ Score = 32.7 bits (73),  Expect = 0.66, Method: Compositional matrix adjust.
+ Identities = 14/26 (54%), Positives = 19/26 (73%), Gaps = 4/26 (15%)
+ Frame = -3
+
+Query  876  KPSLIQKLSKAFSSIIPPAPQCLPGR  799
+            KP+L+QKLS    S +P  PQC+PG+
+Sbjct  367  KPTLLQKLS----SFLPAVPQCMPGK  388
+
+
+> jgi|Emihu1|102143|fgeneshEH_pg.37__35
+Length=249
+
+ Score = 30.0 bits (66),  Expect = 3.2, Method: Compositional matrix adjust.
+ Identities = 19/52 (37%), Positives = 28/52 (54%), Gaps = 2/52 (4%)
+ Frame = -3
+
+Query  1689  AEPTYDPAPTPAPEVPEG--AVDTAIDKLETKVGSDLDGDGEVAGAPVDEVP  1540
+             A P+   AP      P G  +++  I+ LET  G DLDGDG+V  +  + +P
+Sbjct  156   AVPSKAAAPALQSNSPAGILSIEDRINALETTTGVDLDGDGDVGLSGHNNLP  207
+
+
+> jgi|Emihu1|116148|fgeneshEH_pg.280__25
+Length=249
+
+ Score = 30.0 bits (66),  Expect = 3.2, Method: Compositional matrix adjust.
+ Identities = 19/52 (37%), Positives = 28/52 (54%), Gaps = 2/52 (4%)
+ Frame = -3
+
+Query  1689  AEPTYDPAPTPAPEVPEG--AVDTAIDKLETKVGSDLDGDGEVAGAPVDEVP  1540
+             A P+   AP      P G  +++  I+ LET  G DLDGDG+V  +  + +P
+Sbjct  156   AVPSKAAAPALQSNSPAGILSIEDRINALETTTGVDLDGDGDVGLSGHNNLP  207
+
+
+> jgi|Emihu1|101557|fgeneshEH_pg.32__96
+Length=250
+
+ Score = 30.0 bits (66),  Expect = 4.0, Method: Compositional matrix adjust.
+ Identities = 18/44 (41%), Positives = 24/44 (55%), Gaps = 2/44 (5%)
+ Frame = -3
+
+Query  1689  AEPTYDPAPTPAPEVPEG--AVDTAIDKLETKVGSDLDGDGEVA  1564
+             A P+   AP      P G  +++  I+ LET  G DLDGDG+V 
+Sbjct  157   AVPSKAAAPALQSNSPAGILSIEDRINALETTTGVDLDGDGDVG  200
+
+
+> jgi|Emihu1|421565|estExtDG_fgenesh_newKGs_pm.C_320042
+Length=643
+
+ Score = 29.6 bits (65),  Expect = 6.4, Method: Compositional matrix adjust.
+ Identities = 17/36 (47%), Positives = 21/36 (58%), Gaps = 0/36 (0%)
+ Frame = +2
+
+Query  113  CTRHARIEVALNARERRAVPVPVPASGARAVADESR  220
+            C R   I VAL      +VP+PVP + A A+AD SR
+Sbjct  547  CCRQLAISVALAEPVSVSVPIPVPVAVAFALADRSR  582
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.134    0.401    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3967757247
+
+
+Query= lcl|CAMNT_0028073511 /NCGR_SEQ_ID=MMETSP1365-20130426|96898
+/TAXON_ID=38817 /ORGANISM="Gephyrocapsa oceanica, Strain RCC1303"
+/LENGTH=2034
+
+Length=2034
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  jgi|Emihu1|431830|estExtDG_fgenesh_newKGs_kg.C_10214                  242   9e-73
+  jgi|Emihu1|95046|fgeneshEH_pg.1__317                                75.9    3e-14
+  jgi|Emihu1|95962|fgeneshEH_pg.4__192                                50.4    3e-06
+  jgi|Emihu1|121986|fgeneshEH_pg.1073__2                              50.4    3e-06
+  jgi|Emihu1|117875|fgeneshEH_pg.365__10                              48.5    6e-06
+  jgi|Emihu1|108533|fgeneshEH_pg.105__20                              47.4    1e-05
+  jgi|Emihu1|108601|fgeneshEH_pg.105__88                              47.4    2e-05
+  jgi|Emihu1|123525|fgeneshEH_pg.2493__1                              47.4    2e-05
+  jgi|Emihu1|229952|gm1.15900116                                      45.1    2e-05
+  jgi|Emihu1|232152|gm1.17900006                                      45.1    2e-05
+  jgi|Emihu1|106981|fgeneshEH_pg.86__57                               47.0    2e-05
+  jgi|Emihu1|225267|gm1.12300130                                      42.0    5e-04
+  jgi|Emihu1|213562|gm1.5800051                                       37.4    0.008
+  jgi|Emihu1|114208|fgeneshEH_pg.210__21                              38.5    0.010
+  jgi|Emihu1|113191|fgeneshEH_pg.183__46                              37.0    0.040
+  jgi|Emihu1|199218|gm1.900410                                        33.5    0.43 
+  jgi|Emihu1|237042|gm1.24400023                                      33.1    0.50 
+  jgi|Emihu1|471657|estExtDG_fgeneshEH_pg.C_18570001                  32.7    0.77 
+  jgi|Emihu1|102143|fgeneshEH_pg.37__35                               30.4    3.3  
+  jgi|Emihu1|116148|fgeneshEH_pg.280__25                              30.4    3.3  
+  jgi|Emihu1|101557|fgeneshEH_pg.32__96                               30.0    4.5  
+  jgi|Emihu1|421565|estExtDG_fgenesh_newKGs_pm.C_320042               29.6    7.5  
+
+
+> jgi|Emihu1|431830|estExtDG_fgenesh_newKGs_kg.C_10214
+Length=366
+
+ Score =   242 bits (618),  Expect = 9e-73, Method: Compositional matrix adjust.
+ Identities = 288/333 (86%), Positives = 292/333 (88%), Gaps = 16/333 (5%)
+ Frame = -1
+
+Query  1977  MGACSSTPKDQPVAEPTYDPAPTPAPEVPE------GAVDTAIDKLETKVGSDLDGDGEV  1816
+             MG CSSTPKDQPVAEPTYDPAP PAPEVPE      GAVDTAIDKLETKVGSDLDGDGEV
+Sbjct  1     MGVCSSTPKDQPVAEPTYDPAPAPAPEVPEVPEVPEGAVDTAIDKLETKVGSDLDGDGEV  60
+
+Query  1815  AGAPVDEVPTDAPTEPADAVEPAEDKNILQKAADYVKSFSGRMepepaaeepavepeaap  1636
+             AGAPV+EVP DAP E ADAVEPAEDKNILQKAADYVKSFSGR+EPEPAA+EPAVEPEAAP
+Sbjct  61    AGAPVEEVPADAPAEAADAVEPAEDKNILQKAADYVKSFSGRVEPEPAAKEPAVEPEAAP  120
+
+Query  1635  EGGYKapteeasaeeapaeeapepepetaSFLDKVKSYLSPRPEVPEGAVDTAIDKLETK  1456
+             EGGY+AP EEASAEEAPAEEAPEPEPETASFLDKVKSYLSPRPEVPEGAVDTAIDKLETK
+Sbjct  121   EGGYEAPKEEASAEEAPAEEAPEPEPETASFLDKVKSYLSPRPEVPEGAVDTAIDKLETK  180
+
+Query  1455  VGSDLDGDGeva----------gapveaaaeeveaateavegaaeaveaaveaapaVLEK  1306
+             VGSDLDGDGEVA                AAE   A    VE AAEAVEAAVEAAPAV EK
+Sbjct  181   VGSDLDGDGEVAGVPVEAAAEEVEAATEAAEVEAATEVPVEAAAEAVEAAVEAAPAVPEK  240
+
+Query  1305  KESYLGKVASILSPRKKaapdasaadapaaddaaeaaeaepvaeaeaaaapevapeaeeE  1126
+             KESYLGKVASILSPRKKAA DASAADAPAADDAAEAAEAEPVAEAEA AAPEVAPEAEEE
+Sbjct  241   KESYLGKVASILSPRKKAASDASAADAPAADDAAEAAEAEPVAEAEAEAAPEVAPEAEEE  300
+
+Query  1125  KPSLIQKLSKAFSSIIPPAPQCLPGRPSESTLN  1027
+             KPSLIQKLSKAFSSIIP  PQCLPGRPSESTLN
+Sbjct  301   KPSLIQKLSKAFSSIIPATPQCLPGRPSESTLN  333
+
+
+> jgi|Emihu1|95046|fgeneshEH_pg.1__317
+Length=581
+
+ Score = 75.9 bits (185),  Expect = 3e-14, Method: Compositional matrix adjust.
+ Identities = 40/42 (95%), Positives = 40/42 (95%), Gaps = 0/42 (0%)
+ Frame = +3
+
+Query  99   VEAWAFGAAHEPAADTGVEVRASAAFGGRSGTRVGGQRGVAR  224
+            VEAWAFGAAHEPAADTGV VRASAAFGGRSGTRVGGQ GVAR
+Sbjct  505  VEAWAFGAAHEPAADTGVGVRASAAFGGRSGTRVGGQGGVAR  546
+
+
+> jgi|Emihu1|95962|fgeneshEH_pg.4__192
+Length=726
+
+ Score = 50.4 bits (119),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 46/86 (53%), Positives = 50/86 (58%), Gaps = 2/86 (2%)
+ Frame = -1
+
+Query  1506  EVPEGAVDTAIDKLETKVGSDL--DGDGevagapveaaaeeveaateavegaaeaveaav  1333
+             EVP GA DTAID LE K G D+  DG+G  A     A      AA E  E  A       
+Sbjct  301   EVPGGAADTAIDSLEEKAGEDVDCDGEGPPAAEEWSAEGAGEAAAAEEEEETAAESAMTE  360
+
+Query  1332  eaapaVLEKKESYLGKVASILSPRKK  1255
+             E APAV EKK SYLG+VA+ILSPRKK
+Sbjct  361   EEAPAVPEKKTSYLGRVAAILSPRKK  386
+
+
+ Score = 39.7 bits (91),  Expect = 0.006, Method: Compositional matrix adjust.
+ Identities = 19/27 (70%), Positives = 20/27 (74%), Gaps = 0/27 (0%)
+ Frame = -1
+
+Query  1899  EVPEGAVDTAIDKLETKVGSDLDGDGE  1819
+             EVP GA DTAID LE K G D+D DGE
+Sbjct  301   EVPGGAADTAIDSLEEKAGEDVDCDGE  327
+
+
+> jgi|Emihu1|121986|fgeneshEH_pg.1073__2
+Length=742
+
+ Score = 50.4 bits (119),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 46/86 (53%), Positives = 50/86 (58%), Gaps = 2/86 (2%)
+ Frame = -1
+
+Query  1506  EVPEGAVDTAIDKLETKVGSDL--DGDGevagapveaaaeeveaateavegaaeaveaav  1333
+             EVP GA DTAID LE K G D+  DG+G  A     A      AA E  E  A       
+Sbjct  317   EVPGGAADTAIDSLEEKAGEDVDCDGEGPPAAEEWSAEGAGEAAAAEEEEETAAESAMTE  376
+
+Query  1332  eaapaVLEKKESYLGKVASILSPRKK  1255
+             E APAV EKK SYLG+VA+ILSPRKK
+Sbjct  377   EEAPAVPEKKTSYLGRVAAILSPRKK  402
+
+
+ Score = 39.7 bits (91),  Expect = 0.006, Method: Compositional matrix adjust.
+ Identities = 19/27 (70%), Positives = 20/27 (74%), Gaps = 0/27 (0%)
+ Frame = -1
+
+Query  1899  EVPEGAVDTAIDKLETKVGSDLDGDGE  1819
+             EVP GA DTAID LE K G D+D DGE
+Sbjct  317   EVPGGAADTAIDSLEEKAGEDVDCDGE  343
+
+
+> jgi|Emihu1|117875|fgeneshEH_pg.365__10
+Length=307
+
+ Score = 48.5 bits (114),  Expect = 6e-06, Method: Compositional matrix adjust.
+ Identities = 19/28 (68%), Positives = 26/28 (93%), Gaps = 0/28 (0%)
+ Frame = -1
+
+Query  1125  KPSLIQKLSKAFSSIIPPAPQCLPGRPS  1042
+             KP+LIQKLSKAFS+++P AP+C+P RP+
+Sbjct  261   KPTLIQKLSKAFSNLLPAAPKCMPSRPA  288
+
+
+> jgi|Emihu1|108533|fgeneshEH_pg.105__20
+Length=313
+
+ Score = 47.4 bits (111),  Expect = 1e-05, Method: Compositional matrix adjust.
+ Identities = 19/27 (70%), Positives = 25/27 (93%), Gaps = 0/27 (0%)
+ Frame = -1
+
+Query  1122  PSLIQKLSKAFSSIIPPAPQCLPGRPS  1042
+             P+LIQKLSKAFSS++P AP+C+P RP+
+Sbjct  254   PTLIQKLSKAFSSLLPAAPKCMPSRPA  280
+
+
+> jgi|Emihu1|108601|fgeneshEH_pg.105__88
+Length=313
+
+ Score = 47.4 bits (111),  Expect = 2e-05, Method: Compositional matrix adjust.
+ Identities = 19/27 (70%), Positives = 25/27 (93%), Gaps = 0/27 (0%)
+ Frame = -1
+
+Query  1122  PSLIQKLSKAFSSIIPPAPQCLPGRPS  1042
+             P+LIQKLSKAFSS++P AP+C+P RP+
+Sbjct  254   PTLIQKLSKAFSSLLPAAPKCMPSRPA  280
+
+
+> jgi|Emihu1|123525|fgeneshEH_pg.2493__1
+Length=313
+
+ Score = 47.4 bits (111),  Expect = 2e-05, Method: Compositional matrix adjust.
+ Identities = 19/27 (70%), Positives = 25/27 (93%), Gaps = 0/27 (0%)
+ Frame = -1
+
+Query  1122  PSLIQKLSKAFSSIIPPAPQCLPGRPS  1042
+             P+LIQKLSKAFSS++P AP+C+P RP+
+Sbjct  254   PTLIQKLSKAFSSLLPAAPKCMPSRPA  280
+
+
+> jgi|Emihu1|229952|gm1.15900116
+Length=112
+
+ Score = 45.1 bits (105),  Expect = 2e-05, Method: Compositional matrix adjust.
+ Identities = 32/71 (45%), Positives = 40/71 (56%), Gaps = 7/71 (10%)
+ Frame = -1
+
+Query  2007  SVSHHSLSIAMGACSSTPKDQPVAEPTYDPAPTPAPEVPEGAVDTAIDKLETKVGSDLDG  1828
+             S+S    S+    C S   ++P AE   + AP P    PEG V +AI  LE K G+DLDG
+Sbjct  44    SISIPKCSMPSCKCFSKGGEEPPAEALAESAPGP----PEGTVASAIASLEQKAGADLDG  99
+
+Query  1827  DGE---VAGAP  1804
+             DG+   VAGAP
+Sbjct  100   DGKVGAVAGAP  110
+
+
+ Score = 35.4 bits (80),  Expect = 0.024, Method: Compositional matrix adjust.
+ Identities = 16/24 (67%), Positives = 18/24 (75%), Gaps = 0/24 (0%)
+ Frame = -1
+
+Query  1500  PEGAVDTAIDKLETKVGSDLDGDG  1429
+             PEG V +AI  LE K G+DLDGDG
+Sbjct  78    PEGTVASAIASLEQKAGADLDGDG  101
+
+
+> jgi|Emihu1|232152|gm1.17900006
+Length=112
+
+ Score = 45.1 bits (105),  Expect = 2e-05, Method: Compositional matrix adjust.
+ Identities = 32/71 (45%), Positives = 40/71 (56%), Gaps = 7/71 (10%)
+ Frame = -1
+
+Query  2007  SVSHHSLSIAMGACSSTPKDQPVAEPTYDPAPTPAPEVPEGAVDTAIDKLETKVGSDLDG  1828
+             S+S    S+    C S   ++P AE   + AP P    PEG V +AI  LE K G+DLDG
+Sbjct  44    SISIPKCSMPSCKCFSKGGEEPPAEALAESAPGP----PEGTVASAIASLEQKAGADLDG  99
+
+Query  1827  DGE---VAGAP  1804
+             DG+   VAGAP
+Sbjct  100   DGKVGAVAGAP  110
+
+
+ Score = 35.4 bits (80),  Expect = 0.024, Method: Compositional matrix adjust.
+ Identities = 16/24 (67%), Positives = 18/24 (75%), Gaps = 0/24 (0%)
+ Frame = -1
+
+Query  1500  PEGAVDTAIDKLETKVGSDLDGDG  1429
+             PEG V +AI  LE K G+DLDGDG
+Sbjct  78    PEGTVASAIASLEQKAGADLDGDG  101
+
+
+> jgi|Emihu1|106981|fgeneshEH_pg.86__57
+Length=308
+
+ Score = 47.0 bits (110),  Expect = 2e-05, Method: Compositional matrix adjust.
+ Identities = 19/28 (68%), Positives = 26/28 (93%), Gaps = 0/28 (0%)
+ Frame = -1
+
+Query  1125  KPSLIQKLSKAFSSIIPPAPQCLPGRPS  1042
+             KP+LIQKLSKAFS+++P AP+C+P RP+
+Sbjct  250   KPTLIQKLSKAFSNLLPAAPKCMPSRPA  277
+
+
+> jgi|Emihu1|225267|gm1.12300130
+Length=209
+
+ Score = 42.0 bits (97),  Expect = 5e-04, Method: Compositional matrix adjust.
+ Identities = 16/26 (62%), Positives = 23/26 (88%), Gaps = 0/26 (0%)
+ Frame = -1
+
+Query  1119  SLIQKLSKAFSSIIPPAPQCLPGRPS  1042
+             +LIQKLSKAFS+++P  P+C+P RP+
+Sbjct  153   TLIQKLSKAFSNLLPAPPKCMPARPA  178
+
+
+> jgi|Emihu1|213562|gm1.5800051
+Length=149
+
+ Score = 37.4 bits (85),  Expect = 0.008, Method: Compositional matrix adjust.
+ Identities = 15/21 (71%), Positives = 19/21 (90%), Gaps = 0/21 (0%)
+ Frame = -1
+
+Query  1107  KLSKAFSSIIPPAPQCLPGRP  1045
+             KLSKAFS+I+P AP+C+P RP
+Sbjct  112   KLSKAFSNILPAAPKCMPSRP  132
+
+
+> jgi|Emihu1|114208|fgeneshEH_pg.210__21
+Length=343
+
+ Score = 38.5 bits (88),  Expect = 0.010, Method: Compositional matrix adjust.
+ Identities = 28/64 (44%), Positives = 36/64 (56%), Gaps = 10/64 (16%)
+ Frame = -1
+
+Query  1977  MGACSSTPKDQPVAEPTYDPAPTPAP-----EVPEGAVDTAIDKLETKVGSDLDGDGEVA  1813
+             MG CSS    Q V E   D A   AP     E+ +G V++AIDKLE    +DLD DG++A
+Sbjct  1     MGLCSSR---QVVEEE--DVAARAAPVNKPEEILKGTVESAIDKLEVIAKTDLDKDGDIA  55
+
+Query  1812  GAPV  1801
+               P+
+Sbjct  56    DVPI  59
+
+
+ Score = 38.1 bits (87),  Expect = 0.015, Method: Compositional matrix adjust.
+ Identities = 18/34 (53%), Positives = 24/34 (71%), Gaps = 0/34 (0%)
+ Frame = -1
+
+Query  1896  VPEGAVDTAIDKLETKVGSDLDGDGEVAGAPVDE  1795
+             +P+GAV+ AI+KLE     DLDGDG+V  A + E
+Sbjct  189   IPDGAVEGAINKLEETTKIDLDGDGQVGAADIAE  222
+
+
+ Score = 33.1 bits (74),  Expect = 0.49, Method: Compositional matrix adjust.
+ Identities = 15/25 (60%), Positives = 19/25 (76%), Gaps = 0/25 (0%)
+ Frame = -1
+
+Query  1503  VPEGAVDTAIDKLETKVGSDLDGDG  1429
+             +P+GAV+ AI+KLE     DLDGDG
+Sbjct  189   IPDGAVEGAINKLEETTKIDLDGDG  213
+
+
+ Score = 30.4 bits (67),  Expect = 4.1, Method: Compositional matrix adjust.
+ Identities = 14/26 (54%), Positives = 19/26 (73%), Gaps = 0/26 (0%)
+ Frame = -1
+
+Query  1506  EVPEGAVDTAIDKLETKVGSDLDGDG  1429
+             E+ +G V++AIDKLE    +DLD DG
+Sbjct  27    EILKGTVESAIDKLEVIAKTDLDKDG  52
+
+
+> jgi|Emihu1|113191|fgeneshEH_pg.183__46
+Length=595
+
+ Score = 37.0 bits (84),  Expect = 0.040, Method: Compositional matrix adjust.
+ Identities = 18/29 (62%), Positives = 23/29 (79%), Gaps = 2/29 (7%)
+ Frame = -1
+
+Query  1125  KPSLIQKLSKAFSSIIPPAPQCLP-GRPS  1042
+             KP+L+Q++S AFSSI+P   QCLP  RPS
+Sbjct  321   KPTLLQQMSTAFSSILPKV-QCLPSARPS  348
+
+
+> jgi|Emihu1|199218|gm1.900410
+Length=304
+
+ Score = 33.5 bits (75),  Expect = 0.43, Method: Compositional matrix adjust.
+ Identities = 15/24 (63%), Positives = 20/24 (83%), Gaps = 1/24 (4%)
+ Frame = -1
+
+Query  1125  KPSLIQKLSKAFSSIIPPAPQCLP  1054
+             KP+L+Q+LSKA S+I+P   QCLP
+Sbjct  262   KPTLLQQLSKALSNILPRV-QCLP  284
+
+
+> jgi|Emihu1|237042|gm1.24400023
+Length=315
+
+ Score = 33.1 bits (74),  Expect = 0.50, Method: Compositional matrix adjust.
+ Identities = 15/24 (63%), Positives = 20/24 (83%), Gaps = 1/24 (4%)
+ Frame = -1
+
+Query  1125  KPSLIQKLSKAFSSIIPPAPQCLP  1054
+             KP+L+Q+LSKA S+I+P   QCLP
+Sbjct  273   KPTLLQQLSKALSNILPRV-QCLP  295
+
+
+> jgi|Emihu1|471657|estExtDG_fgeneshEH_pg.C_18570001
+Length=431
+
+ Score = 32.7 bits (73),  Expect = 0.77, Method: Compositional matrix adjust.
+ Identities = 14/26 (54%), Positives = 19/26 (73%), Gaps = 4/26 (15%)
+ Frame = -1
+
+Query  1125  KPSLIQKLSKAFSSIIPPAPQCLPGR  1048
+             KP+L+QKLS    S +P  PQC+PG+
+Sbjct  367   KPTLLQKLS----SFLPAVPQCMPGK  388
+
+
+> jgi|Emihu1|102143|fgeneshEH_pg.37__35
+Length=249
+
+ Score = 30.4 bits (67),  Expect = 3.3, Method: Compositional matrix adjust.
+ Identities = 19/52 (37%), Positives = 28/52 (54%), Gaps = 2/52 (4%)
+ Frame = -1
+
+Query  1938  AEPTYDPAPTPAPEVPEG--AVDTAIDKLETKVGSDLDGDGEVAGAPVDEVP  1789
+             A P+   AP      P G  +++  I+ LET  G DLDGDG+V  +  + +P
+Sbjct  156   AVPSKAAAPALQSNSPAGILSIEDRINALETTTGVDLDGDGDVGLSGHNNLP  207
+
+
+> jgi|Emihu1|116148|fgeneshEH_pg.280__25
+Length=249
+
+ Score = 30.4 bits (67),  Expect = 3.3, Method: Compositional matrix adjust.
+ Identities = 19/52 (37%), Positives = 28/52 (54%), Gaps = 2/52 (4%)
+ Frame = -1
+
+Query  1938  AEPTYDPAPTPAPEVPEG--AVDTAIDKLETKVGSDLDGDGEVAGAPVDEVP  1789
+             A P+   AP      P G  +++  I+ LET  G DLDGDG+V  +  + +P
+Sbjct  156   AVPSKAAAPALQSNSPAGILSIEDRINALETTTGVDLDGDGDVGLSGHNNLP  207
+
+
+> jgi|Emihu1|101557|fgeneshEH_pg.32__96
+Length=250
+
+ Score = 30.0 bits (66),  Expect = 4.5, Method: Compositional matrix adjust.
+ Identities = 18/44 (41%), Positives = 24/44 (55%), Gaps = 2/44 (5%)
+ Frame = -1
+
+Query  1938  AEPTYDPAPTPAPEVPEG--AVDTAIDKLETKVGSDLDGDGEVA  1813
+             A P+   AP      P G  +++  I+ LET  G DLDGDG+V 
+Sbjct  157   AVPSKAAAPALQSNSPAGILSIEDRINALETTTGVDLDGDGDVG  200
+
+
+> jgi|Emihu1|421565|estExtDG_fgenesh_newKGs_pm.C_320042
+Length=643
+
+ Score = 29.6 bits (65),  Expect = 7.5, Method: Compositional matrix adjust.
+ Identities = 17/36 (47%), Positives = 21/36 (58%), Gaps = 0/36 (0%)
+ Frame = +2
+
+Query  338  CTRHARIEVALNARERRAVPVPVPASGARAVADESR  445
+            C R   I VAL      +VP+PVP + A A+AD SR
+Sbjct  547  CCRQLAISVALAEPVSVSVPIPVPVAVAFALADRSR  582
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.134    0.401    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4630231359
+
+
+Query= lcl|CAMNT_0027961343 /NCGR_SEQ_ID=MMETSP1364-20130426|10031
+/TAXON_ID=38817 /ORGANISM="Gephyrocapsa oceanica, Strain RCC1303"
+/LENGTH=1107
+
+Length=1107
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  jgi|Emihu1|431830|estExtDG_fgenesh_newKGs_kg.C_10214                  236   1e-73
+  jgi|Emihu1|121986|fgeneshEH_pg.1073__2                              50.1    1e-06
+  jgi|Emihu1|95962|fgeneshEH_pg.4__192                                50.1    2e-06
+  jgi|Emihu1|117875|fgeneshEH_pg.365__10                              47.8    4e-06
+  jgi|Emihu1|108533|fgeneshEH_pg.105__20                              47.8    5e-06
+  jgi|Emihu1|108601|fgeneshEH_pg.105__88                              47.4    6e-06
+  jgi|Emihu1|123525|fgeneshEH_pg.2493__1                              47.4    6e-06
+  jgi|Emihu1|106981|fgeneshEH_pg.86__57                               47.0    8e-06
+  jgi|Emihu1|229952|gm1.15900116                                      43.9    2e-05
+  jgi|Emihu1|232152|gm1.17900006                                      43.9    2e-05
+  jgi|Emihu1|225267|gm1.12300130                                      41.6    3e-04
+  jgi|Emihu1|213562|gm1.5800051                                       37.4    0.004
+  jgi|Emihu1|114208|fgeneshEH_pg.210__21                              37.7    0.008
+  jgi|Emihu1|113191|fgeneshEH_pg.183__46                              37.0    0.016
+  jgi|Emihu1|199218|gm1.900410                                        33.5    0.19 
+  jgi|Emihu1|471657|estExtDG_fgeneshEH_pg.C_18570001                  32.7    0.36 
+  jgi|Emihu1|237042|gm1.24400023                                      32.0    0.54 
+  jgi|Emihu1|102143|fgeneshEH_pg.37__35                               30.4    1.5  
+  jgi|Emihu1|116148|fgeneshEH_pg.280__25                              30.4    1.5  
+  jgi|Emihu1|101557|fgeneshEH_pg.32__96                               30.0    2.3  
+  jgi|Emihu1|109365|fgeneshEH_pg.118__41                              28.5    6.6  
+  jgi|Emihu1|464061|estExtDG_fgeneshEH_pg.C_390003                    28.5    8.1  
+  jgi|Emihu1|440477|estExtDG_fgenesh_newKGs_kg.C_1290012              28.1    9.6  
+
+
+> jgi|Emihu1|431830|estExtDG_fgenesh_newKGs_kg.C_10214
+Length=366
+
+ Score =   236 bits (602),  Expect = 1e-73, Method: Compositional matrix adjust.
+ Identities = 286/330 (87%), Positives = 290/330 (88%), Gaps = 16/330 (5%)
+ Frame = -3
+
+Query  1105  CSSTPKDQPVAEPTYDPAPTPAPEVPE------GAVDTAIDKLETKVGSDLDGDGEVAGA  944
+             CSSTPKDQPVAEPTYDPAP PAPEVPE      GAVDTAIDKLETKVGSDLDGDGEVAGA
+Sbjct  4     CSSTPKDQPVAEPTYDPAPAPAPEVPEVPEVPEGAVDTAIDKLETKVGSDLDGDGEVAGA  63
+
+Query  943   PVDEVPTDAPTEPADAVEPAEDKNILQKAADYVKSFSGRMepepaaeepavepeaapEGG  764
+             PV+EVP DAP E ADAVEPAEDKNILQKAADYVKSFSGR+EPEPAA+EPAVEPEAAPEGG
+Sbjct  64    PVEEVPADAPAEAADAVEPAEDKNILQKAADYVKSFSGRVEPEPAAKEPAVEPEAAPEGG  123
+
+Query  763   YKapteeasaeeapaeeapepepetaSFLDKVKSYLSPRPEVPEGAVDTAIDKLETKVGS  584
+             Y+AP EEASAEEAPAEEAPEPEPETASFLDKVKSYLSPRPEVPEGAVDTAIDKLETKVGS
+Sbjct  124   YEAPKEEASAEEAPAEEAPEPEPETASFLDKVKSYLSPRPEVPEGAVDTAIDKLETKVGS  183
+
+Query  583   DLDGDGeva----------gapveaaaeeveaateavegaaeaveaaveaapaVLEKKES  434
+             DLDGDGEVA                AAE   A    VE AAEAVEAAVEAAPAV EKKES
+Sbjct  184   DLDGDGEVAGVPVEAAAEEVEAATEAAEVEAATEVPVEAAAEAVEAAVEAAPAVPEKKES  243
+
+Query  433   YLGKVASILSPRKKaapdasaadapaaddaaeaaeaepvaeaeaaaapevapeaeeEKPS  254
+             YLGKVASILSPRKKAA DASAADAPAADDAAEAAEAEPVAEAEA AAPEVAPEAEEEKPS
+Sbjct  244   YLGKVASILSPRKKAASDASAADAPAADDAAEAAEAEPVAEAEAEAAPEVAPEAEEEKPS  303
+
+Query  253   LIQKLSKAFSSIIPPAPQCLPGRPSESTLN  164
+             LIQKLSKAFSSIIP  PQCLPGRPSESTLN
+Sbjct  304   LIQKLSKAFSSIIPATPQCLPGRPSESTLN  333
+
+
+> jgi|Emihu1|121986|fgeneshEH_pg.1073__2
+Length=742
+
+ Score = 50.1 bits (118),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 46/86 (53%), Positives = 50/86 (58%), Gaps = 2/86 (2%)
+ Frame = -3
+
+Query  643  EVPEGAVDTAIDKLETKVGSDL--DGDGevagapveaaaeeveaateavegaaeaveaav  470
+            EVP GA DTAID LE K G D+  DG+G  A     A      AA E  E  A       
+Sbjct  317  EVPGGAADTAIDSLEEKAGEDVDCDGEGPPAAEEWSAEGAGEAAAAEEEEETAAESAMTE  376
+
+Query  469  eaapaVLEKKESYLGKVASILSPRKK  392
+            E APAV EKK SYLG+VA+ILSPRKK
+Sbjct  377  EEAPAVPEKKTSYLGRVAAILSPRKK  402
+
+
+ Score = 39.3 bits (90),  Expect = 0.003, Method: Compositional matrix adjust.
+ Identities = 19/27 (70%), Positives = 20/27 (74%), Gaps = 0/27 (0%)
+ Frame = -3
+
+Query  1036  EVPEGAVDTAIDKLETKVGSDLDGDGE  956
+             EVP GA DTAID LE K G D+D DGE
+Sbjct  317   EVPGGAADTAIDSLEEKAGEDVDCDGE  343
+
+
+> jgi|Emihu1|95962|fgeneshEH_pg.4__192
+Length=726
+
+ Score = 50.1 bits (118),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 46/86 (53%), Positives = 50/86 (58%), Gaps = 2/86 (2%)
+ Frame = -3
+
+Query  643  EVPEGAVDTAIDKLETKVGSDL--DGDGevagapveaaaeeveaateavegaaeaveaav  470
+            EVP GA DTAID LE K G D+  DG+G  A     A      AA E  E  A       
+Sbjct  301  EVPGGAADTAIDSLEEKAGEDVDCDGEGPPAAEEWSAEGAGEAAAAEEEEETAAESAMTE  360
+
+Query  469  eaapaVLEKKESYLGKVASILSPRKK  392
+            E APAV EKK SYLG+VA+ILSPRKK
+Sbjct  361  EEAPAVPEKKTSYLGRVAAILSPRKK  386
+
+
+ Score = 39.3 bits (90),  Expect = 0.003, Method: Compositional matrix adjust.
+ Identities = 19/27 (70%), Positives = 20/27 (74%), Gaps = 0/27 (0%)
+ Frame = -3
+
+Query  1036  EVPEGAVDTAIDKLETKVGSDLDGDGE  956
+             EVP GA DTAID LE K G D+D DGE
+Sbjct  301   EVPGGAADTAIDSLEEKAGEDVDCDGE  327
+
+
+> jgi|Emihu1|117875|fgeneshEH_pg.365__10
+Length=307
+
+ Score = 47.8 bits (112),  Expect = 4e-06, Method: Compositional matrix adjust.
+ Identities = 19/28 (68%), Positives = 26/28 (93%), Gaps = 0/28 (0%)
+ Frame = -3
+
+Query  262  KPSLIQKLSKAFSSIIPPAPQCLPGRPS  179
+            KP+LIQKLSKAFS+++P AP+C+P RP+
+Sbjct  261  KPTLIQKLSKAFSNLLPAAPKCMPSRPA  288
+
+
+> jgi|Emihu1|108533|fgeneshEH_pg.105__20
+Length=313
+
+ Score = 47.8 bits (112),  Expect = 5e-06, Method: Compositional matrix adjust.
+ Identities = 19/27 (70%), Positives = 25/27 (93%), Gaps = 0/27 (0%)
+ Frame = -3
+
+Query  259  PSLIQKLSKAFSSIIPPAPQCLPGRPS  179
+            P+LIQKLSKAFSS++P AP+C+P RP+
+Sbjct  254  PTLIQKLSKAFSSLLPAAPKCMPSRPA  280
+
+
+> jgi|Emihu1|108601|fgeneshEH_pg.105__88
+Length=313
+
+ Score = 47.4 bits (111),  Expect = 6e-06, Method: Compositional matrix adjust.
+ Identities = 19/27 (70%), Positives = 25/27 (93%), Gaps = 0/27 (0%)
+ Frame = -3
+
+Query  259  PSLIQKLSKAFSSIIPPAPQCLPGRPS  179
+            P+LIQKLSKAFSS++P AP+C+P RP+
+Sbjct  254  PTLIQKLSKAFSSLLPAAPKCMPSRPA  280
+
+
+> jgi|Emihu1|123525|fgeneshEH_pg.2493__1
+Length=313
+
+ Score = 47.4 bits (111),  Expect = 6e-06, Method: Compositional matrix adjust.
+ Identities = 19/27 (70%), Positives = 25/27 (93%), Gaps = 0/27 (0%)
+ Frame = -3
+
+Query  259  PSLIQKLSKAFSSIIPPAPQCLPGRPS  179
+            P+LIQKLSKAFSS++P AP+C+P RP+
+Sbjct  254  PTLIQKLSKAFSSLLPAAPKCMPSRPA  280
+
+
+> jgi|Emihu1|106981|fgeneshEH_pg.86__57
+Length=308
+
+ Score = 47.0 bits (110),  Expect = 8e-06, Method: Compositional matrix adjust.
+ Identities = 19/28 (68%), Positives = 26/28 (93%), Gaps = 0/28 (0%)
+ Frame = -3
+
+Query  262  KPSLIQKLSKAFSSIIPPAPQCLPGRPS  179
+            KP+LIQKLSKAFS+++P AP+C+P RP+
+Sbjct  250  KPTLIQKLSKAFSNLLPAAPKCMPSRPA  277
+
+
+> jgi|Emihu1|229952|gm1.15900116
+Length=112
+
+ Score = 43.9 bits (102),  Expect = 2e-05, Method: Compositional matrix adjust.
+ Identities = 29/58 (50%), Positives = 35/58 (60%), Gaps = 7/58 (12%)
+ Frame = -3
+
+Query  1105  CSSTPKDQPVAEPTYDPAPTPAPEVPEGAVDTAIDKLETKVGSDLDGDGE---VAGAP  941
+             C S   ++P AE   + AP P    PEG V +AI  LE K G+DLDGDG+   VAGAP
+Sbjct  57    CFSKGGEEPPAEALAESAPGP----PEGTVASAIASLEQKAGADLDGDGKVGAVAGAP  110
+
+
+ Score = 35.4 bits (80),  Expect = 0.013, Method: Compositional matrix adjust.
+ Identities = 16/24 (67%), Positives = 18/24 (75%), Gaps = 0/24 (0%)
+ Frame = -3
+
+Query  637  PEGAVDTAIDKLETKVGSDLDGDG  566
+            PEG V +AI  LE K G+DLDGDG
+Sbjct  78   PEGTVASAIASLEQKAGADLDGDG  101
+
+
+> jgi|Emihu1|232152|gm1.17900006
+Length=112
+
+ Score = 43.9 bits (102),  Expect = 2e-05, Method: Compositional matrix adjust.
+ Identities = 29/58 (50%), Positives = 35/58 (60%), Gaps = 7/58 (12%)
+ Frame = -3
+
+Query  1105  CSSTPKDQPVAEPTYDPAPTPAPEVPEGAVDTAIDKLETKVGSDLDGDGE---VAGAP  941
+             C S   ++P AE   + AP P    PEG V +AI  LE K G+DLDGDG+   VAGAP
+Sbjct  57    CFSKGGEEPPAEALAESAPGP----PEGTVASAIASLEQKAGADLDGDGKVGAVAGAP  110
+
+
+ Score = 35.4 bits (80),  Expect = 0.013, Method: Compositional matrix adjust.
+ Identities = 16/24 (67%), Positives = 18/24 (75%), Gaps = 0/24 (0%)
+ Frame = -3
+
+Query  637  PEGAVDTAIDKLETKVGSDLDGDG  566
+            PEG V +AI  LE K G+DLDGDG
+Sbjct  78   PEGTVASAIASLEQKAGADLDGDG  101
+
+
+> jgi|Emihu1|225267|gm1.12300130
+Length=209
+
+ Score = 41.6 bits (96),  Expect = 3e-04, Method: Compositional matrix adjust.
+ Identities = 16/26 (62%), Positives = 23/26 (88%), Gaps = 0/26 (0%)
+ Frame = -3
+
+Query  256  SLIQKLSKAFSSIIPPAPQCLPGRPS  179
+            +LIQKLSKAFS+++P  P+C+P RP+
+Sbjct  153  TLIQKLSKAFSNLLPAPPKCMPARPA  178
+
+
+> jgi|Emihu1|213562|gm1.5800051
+Length=149
+
+ Score = 37.4 bits (85),  Expect = 0.004, Method: Compositional matrix adjust.
+ Identities = 15/21 (71%), Positives = 19/21 (90%), Gaps = 0/21 (0%)
+ Frame = -3
+
+Query  244  KLSKAFSSIIPPAPQCLPGRP  182
+            KLSKAFS+I+P AP+C+P RP
+Sbjct  112  KLSKAFSNILPAAPKCMPSRP  132
+
+
+> jgi|Emihu1|114208|fgeneshEH_pg.210__21
+Length=343
+
+ Score = 37.7 bits (86),  Expect = 0.008, Method: Compositional matrix adjust.
+ Identities = 18/34 (53%), Positives = 24/34 (71%), Gaps = 0/34 (0%)
+ Frame = -3
+
+Query  1033  VPEGAVDTAIDKLETKVGSDLDGDGEVAGAPVDE  932
+             +P+GAV+ AI+KLE     DLDGDG+V  A + E
+Sbjct  189   IPDGAVEGAINKLEETTKIDLDGDGQVGAADIAE  222
+
+
+ Score = 35.4 bits (80),  Expect = 0.041, Method: Compositional matrix adjust.
+ Identities = 19/40 (48%), Positives = 27/40 (68%), Gaps = 1/40 (3%)
+ Frame = -3
+
+Query  1054  APTPAPE-VPEGAVDTAIDKLETKVGSDLDGDGEVAGAPV  938
+             AP   PE + +G V++AIDKLE    +DLD DG++A  P+
+Sbjct  20    APVNKPEEILKGTVESAIDKLEVIAKTDLDKDGDIADVPI  59
+
+
+ Score = 33.1 bits (74),  Expect = 0.27, Method: Compositional matrix adjust.
+ Identities = 15/25 (60%), Positives = 19/25 (76%), Gaps = 0/25 (0%)
+ Frame = -3
+
+Query  640  VPEGAVDTAIDKLETKVGSDLDGDG  566
+            +P+GAV+ AI+KLE     DLDGDG
+Sbjct  189  IPDGAVEGAINKLEETTKIDLDGDG  213
+
+
+ Score = 30.0 bits (66),  Expect = 2.1, Method: Compositional matrix adjust.
+ Identities = 14/26 (54%), Positives = 19/26 (73%), Gaps = 0/26 (0%)
+ Frame = -3
+
+Query  643  EVPEGAVDTAIDKLETKVGSDLDGDG  566
+            E+ +G V++AIDKLE    +DLD DG
+Sbjct  27   EILKGTVESAIDKLEVIAKTDLDKDG  52
+
+
+> jgi|Emihu1|113191|fgeneshEH_pg.183__46
+Length=595
+
+ Score = 37.0 bits (84),  Expect = 0.016, Method: Compositional matrix adjust.
+ Identities = 18/29 (62%), Positives = 23/29 (79%), Gaps = 2/29 (7%)
+ Frame = -3
+
+Query  262  KPSLIQKLSKAFSSIIPPAPQCLP-GRPS  179
+            KP+L+Q++S AFSSI+P   QCLP  RPS
+Sbjct  321  KPTLLQQMSTAFSSILPKV-QCLPSARPS  348
+
+
+> jgi|Emihu1|199218|gm1.900410
+Length=304
+
+ Score = 33.5 bits (75),  Expect = 0.19, Method: Compositional matrix adjust.
+ Identities = 15/25 (60%), Positives = 20/25 (80%), Gaps = 1/25 (4%)
+ Frame = -3
+
+Query  262  KPSLIQKLSKAFSSIIPPAPQCLPG  188
+            KP+L+Q+LSKA S+I+P   QCLP 
+Sbjct  262  KPTLLQQLSKALSNILPRV-QCLPS  285
+
+
+> jgi|Emihu1|471657|estExtDG_fgeneshEH_pg.C_18570001
+Length=431
+
+ Score = 32.7 bits (73),  Expect = 0.36, Method: Compositional matrix adjust.
+ Identities = 14/26 (54%), Positives = 19/26 (73%), Gaps = 4/26 (15%)
+ Frame = -3
+
+Query  262  KPSLIQKLSKAFSSIIPPAPQCLPGR  185
+            KP+L+QKLS    S +P  PQC+PG+
+Sbjct  367  KPTLLQKLS----SFLPAVPQCMPGK  388
+
+
+> jgi|Emihu1|237042|gm1.24400023
+Length=315
+
+ Score = 32.0 bits (71),  Expect = 0.54, Method: Compositional matrix adjust.
+ Identities = 15/24 (63%), Positives = 20/24 (83%), Gaps = 1/24 (4%)
+ Frame = -3
+
+Query  262  KPSLIQKLSKAFSSIIPPAPQCLP  191
+            KP+L+Q+LSKA S+I+P   QCLP
+Sbjct  273  KPTLLQQLSKALSNILPRV-QCLP  295
+
+
+> jgi|Emihu1|102143|fgeneshEH_pg.37__35
+Length=249
+
+ Score = 30.4 bits (67),  Expect = 1.5, Method: Compositional matrix adjust.
+ Identities = 19/52 (37%), Positives = 28/52 (54%), Gaps = 2/52 (4%)
+ Frame = -3
+
+Query  1075  AEPTYDPAPTPAPEVPEG--AVDTAIDKLETKVGSDLDGDGEVAGAPVDEVP  926
+             A P+   AP      P G  +++  I+ LET  G DLDGDG+V  +  + +P
+Sbjct  156   AVPSKAAAPALQSNSPAGILSIEDRINALETTTGVDLDGDGDVGLSGHNNLP  207
+
+
+> jgi|Emihu1|116148|fgeneshEH_pg.280__25
+Length=249
+
+ Score = 30.4 bits (67),  Expect = 1.5, Method: Compositional matrix adjust.
+ Identities = 19/52 (37%), Positives = 28/52 (54%), Gaps = 2/52 (4%)
+ Frame = -3
+
+Query  1075  AEPTYDPAPTPAPEVPEG--AVDTAIDKLETKVGSDLDGDGEVAGAPVDEVP  926
+             A P+   AP      P G  +++  I+ LET  G DLDGDG+V  +  + +P
+Sbjct  156   AVPSKAAAPALQSNSPAGILSIEDRINALETTTGVDLDGDGDVGLSGHNNLP  207
+
+
+> jgi|Emihu1|101557|fgeneshEH_pg.32__96
+Length=250
+
+ Score = 30.0 bits (66),  Expect = 2.3, Method: Compositional matrix adjust.
+ Identities = 18/43 (42%), Positives = 24/43 (56%), Gaps = 2/43 (5%)
+ Frame = -3
+
+Query  1075  AEPTYDPAPTPAPEVPEG--AVDTAIDKLETKVGSDLDGDGEV  953
+             A P+   AP      P G  +++  I+ LET  G DLDGDG+V
+Sbjct  157   AVPSKAAAPALQSNSPAGILSIEDRINALETTTGVDLDGDGDV  199
+
+
+> jgi|Emihu1|109365|fgeneshEH_pg.118__41
+Length=255
+
+ Score = 28.5 bits (62),  Expect = 6.6, Method: Compositional matrix adjust.
+ Identities = 11/24 (46%), Positives = 17/24 (71%), Gaps = 0/24 (0%)
+ Frame = -3
+
+Query  1021  AVDTAIDKLETKVGSDLDGDGEVA  950
+             +++  I+ LET  G DLDGDG++ 
+Sbjct  181   SIEDRINALETTTGVDLDGDGDIG  204
+
+
+> jgi|Emihu1|464061|estExtDG_fgeneshEH_pg.C_390003
+Length=524
+
+ Score = 28.5 bits (62),  Expect = 8.1, Method: Compositional matrix adjust.
+ Identities = 28/89 (31%), Positives = 36/89 (40%), Gaps = 6/89 (7%)
+ Frame = -3
+
+Query  1084  QPVAEPTYDPAPTPAPEVPEG-----AVDTAIDKLETKVGSDLDGDGEVAGAPVDEVPTD  920
+             QP       P  TP  +  EG      VD  +DK  T V S  DG      A V    TD
+Sbjct  48    QPHHRKRNKPRRTPPLQQNEGLTDNLVVDCGLDKHMTMVRSGGDGWSPAPAATVRRYHTD  107
+
+Query  919   APTEPADAVEPAEDKNILQKAADYVKSFS  833
+             A     + +E    K +  +AA+YV + S
+Sbjct  108   AYVAFLEKIE-LHGKEVANEAANYVLNNS  135
+
+
+> jgi|Emihu1|440477|estExtDG_fgenesh_newKGs_kg.C_1290012
+Length=254
+
+ Score = 28.1 bits (61),  Expect = 9.6, Method: Compositional matrix adjust.
+ Identities = 12/17 (71%), Positives = 14/17 (82%), Gaps = 0/17 (0%)
+ Frame = -3
+
+Query  445  KKESYLGKVASILSPRK  395
+            KK S+L KV +ILSPRK
+Sbjct  191  KKPSFLAKVTTILSPRK  207
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.134    0.401    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2218546027
+
+
+  Database: Emihu1_reduced_proteins.fasta
+    Posted date:  Oct 20, 2015  3:15 PM
+  Number of letters in database: 11,581,383
+  Number of sequences in database:  33,340
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 12
+Window for multiple hits: 40
