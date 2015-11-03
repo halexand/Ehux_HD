@@ -1,0 +1,241 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  CdCA1.hmm
+# target sequence database:        ../../../Blastdb/EmiHux_Clean_Proteins.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       CdCA1  [M=208]
+Accession:   PF10563.5
+Description: Cadmium carbonic anhydrase repeat
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                 Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                 -----------
+    8.7e-75  253.9  11.8    3.2e-74  252.0  11.8    1.8  1  Emi379|CAMPEP_0187622518  
+    7.5e-73  247.5  13.6    3.4e-72  245.4  13.6    1.9  1  Emi374|CAMPEP_0187581546  
+    7.8e-73  247.5  12.7    2.2e-72  246.0  12.7    1.7  1  Emi370|CAMPEP_0187705514  
+    5.8e-72  244.7  13.4    2.6e-71  242.5  13.4    1.9  1  Emi219|CAMPEP_0187750252  
+    1.3e-52  181.5   9.7      2e-51  177.6   9.7    2.1  1  Emihu1|436031             
+    2.9e-44  154.2   3.8    5.2e-44  153.3   3.8    1.4  1  Emihu1|227360             
+    4.3e-41  143.8  11.8    1.6e-33  119.1   3.9    3.3  3  Emi219|CAMPEP_0187742122  
+    4.2e-38  134.0   1.8    7.4e-38  133.2   1.8    1.3  1  Emihu1|241514             
+    9.6e-06   28.3   0.3    1.7e-05   27.5   0.3    1.3  1  Emihu1|195575             
+
+
+Domain annotation for each sequence (and alignments):
+>> Emi379|CAMPEP_0187622518  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  252.0  11.8   2.1e-78   3.2e-74       3     208 .]     418     656 ..     416     656 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 252.0 bits;  conditional E-value: 2.1e-78
+                     CdCA1   3 ssmcpvnvhwhlGaehysegeyde.............................eadgkepngnaelpe.erklaeas...vrvGf 54 
+                               +++cpvnvhwhlGaeh segeyd+                             e   +e + ++  p  +r+l +++    r G 
+  Emi379|CAMPEP_0187622518 418 TALCPVNVHWHLGAEHLSEGEYDHhgtgpaykngtngvhgyhdrdgedyiskeE--HDEKKEEKGDPYdRRRLGAEGgweERLGL 500
+                               689*****************************************9999876431..2233444455554667765556989**** PP
+
+                     CdCA1  55 rckkydeadekvtke.......ydwkyckdmevGetyevhwphsalGacgteeqyqtpfldGvlcnleeealttlggqdiatavG 132
+                               rc++y+++de++++        y+wk+c +m vGetyevhwphsa+Gacgte+qyqtpf+dGv+c+      + l+ ++  + +G
+  Emi379|CAMPEP_0187622518 501 RCHHYNDEDEMFKTAatnaaepYEWKHCVEMMVGETYEVHWPHSAAGACGTEWQYQTPFYDGVFCKDGIV--NILTPLNTYKKIG 583
+                               *********9986422223334*******************************************99655..5566666789*** PP
+
+                     CdCA1 133 vegqvftvvnded..yfypdllrglivaldgwdkelgkdialytGsttGdsrdneicsayapvtwqvdrkchlisass 208
+                               v+gqvft+vn+++  y y++l+ g +v  dg    +  d+a ytGsttG++rdne+cs yap+twqvdrkch+isa+s
+  Emi379|CAMPEP_0187622518 584 VQGQVFTIVNSDEpqYQYDNLIDGAWV--DG---THWADVAKYTGSTTGTTRDNEVCSRYAPITWQVDRKCHMISAKS 656
+                               **********9963377899*******..99...7889**************************************97 PP
+
+>> Emi374|CAMPEP_0187581546  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  245.4  13.6   2.3e-76   3.4e-72       4     208 .]     414     652 ..     411     652 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 245.4 bits;  conditional E-value: 2.3e-76
+                     CdCA1   4 smcpvnvhwhlGaehysegeyde...........................eadgkepngnaelpe.erklaeas...vrvGfrck 57 
+                                +c+vnvhwhlGaeh seg+yd                              + k+ + ++  p  +r+l +a+    r G rc+
+  Emi374|CAMPEP_0187581546 414 DLCTVNVHWHLGAEHLSEGQYDYhgtgpaykngtngvhgyhdrdsedytsYEEHKKMKKDKGDPYdRRRLGAAGgweERLGLRCH 498
+                               68******************************************9998763333344556666655788877767889******* PP
+
+                     CdCA1  58 kydeadekvtke.......ydwkyckdmevGetyevhwphsalGacgteeqyqtpfldGvlcnleeealttlggqdiatavGveg 135
+                               +yd+++e++++        y+wk+c +m vGetyevhwphsa+Gacgte+qyqtpf+dGv+c+     ++ l+ ++  + +Gv+g
+  Emi374|CAMPEP_0187581546 499 HYDDEHEMFKTAatnatdpYEWKHCVEMMVGETYEVHWPHSAAGACGTEWQYQTPFYDGVFCKEGI--VNILTPLNTYEKIGVQG 581
+                               ***9999885422223334*******************************************9955..55666677789****** PP
+
+                     CdCA1 136 qvftvvnde..dyfypdllrglivaldgwdkelgkdialytGsttGdsrdneicsayapvtwqvdrkchlisass 208
+                               qvft+vn++  +y y++l+ g +   dg  k+   d+a ytGsttG++r+ne+cs yap+twqvdr ch+isa+s
+  Emi374|CAMPEP_0187581546 582 QVFTIVNSDeeEYQYENLIDGAWM--DG--KDKWVDVAKYTGSTTGTTRNNEMCSRYAPITWQVDRTCHMISAKS 652
+                               *******852268999*******9..99..77889**************************************97 PP
+
+>> Emi370|CAMPEP_0187705514  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  246.0  12.7   1.5e-76   2.2e-72       4     208 .]     426     664 ..     423     664 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 246.0 bits;  conditional E-value: 1.5e-76
+                     CdCA1   4 smcpvnvhwhlGaehysegeyde...........................eadgkepngnaelpe.erklaeas...vrvGfrck 57 
+                                +c+vnvhwhlGaeh seg+yd                              + k+ + ++  p  +r+l +a+    r G rc+
+  Emi370|CAMPEP_0187705514 426 DLCTVNVHWHLGAEHLSEGQYDYhgtgpaykngtngvhgyhdrdsedyisYENHKKMKKDMGDPYdRRRLGAAGgweERLGLRCH 510
+                               68*******************************************999985555566777777865778877767889******* PP
+
+                     CdCA1  58 kydeadekvtke.......ydwkyckdmevGetyevhwphsalGacgteeqyqtpfldGvlcnleeealttlggqdiatavGveg 135
+                               +yd+++e++++        y+wk+c +m vGetyevhwphsa+Gacgte+qyqtpf+dGv+c+     ++ l+ ++  + +Gv+g
+  Emi370|CAMPEP_0187705514 511 HYDDEHEMFKTAatnatdpYEWKHCVEMMVGETYEVHWPHSAAGACGTEWQYQTPFYDGVFCKEGI--VNILTPLNTYEKIGVQG 593
+                               ***9999885422223334*******************************************9955..55666677789****** PP
+
+                     CdCA1 136 qvftvvnde..dyfypdllrglivaldgwdkelgkdialytGsttGdsrdneicsayapvtwqvdrkchlisass 208
+                               qvft+vn++  +y y++l+ g +   dg  k+   d+a ytGsttG++r+ne+cs yap+twqvdr ch+isa+s
+  Emi370|CAMPEP_0187705514 594 QVFTIVNSDeeEYQYENLIDGAWM--DG--KDKWVDVAKYTGSTTGTTRNNEMCSRYAPITWQVDRTCHMISAKS 664
+                               *******852268999*******9..99..77889**************************************97 PP
+
+>> Emi219|CAMPEP_0187750252  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  242.5  13.4   1.8e-75   2.6e-71       4     208 .]     425     663 ..     422     663 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 242.5 bits;  conditional E-value: 1.8e-75
+                     CdCA1   4 smcpvnvhwhlGaehysegeyde............................eadgkepngnaelpe.erklaeas...vrvGfrc 56 
+                                +c+vnvhwhlGaeh segeyd                             e + k+ + ++  p  +r+l +a+    r G rc
+  Emi219|CAMPEP_0187750252 425 DLCTVNVHWHLGAEHLSEGEYDYhgtgpaykngtngvhgyhdrdaedytsyE-EHKKMKEEKGDPYdRRRLGAAGgweERLGLRC 508
+                               68*****************************************999987632.33334445555555788877767889****** PP
+
+                     CdCA1  57 kkydeadekvtke.......ydwkyckdmevGetyevhwphsalGacgteeqyqtpfldGvlcnleeealttlggqdiatavGve 134
+                               ++y+++de++++        y w++c +m vGetyevhwphsa+Gacgte+qyqtpf+dGv+c+     ++ l+ ++  + +Gv+
+  Emi219|CAMPEP_0187750252 509 HHYNDEDEMFKTAatnatdpYVWRHCVEMMVGETYEVHWPHSAAGACGTEWQYQTPFYDGVFCKEGI--VNILTPLNTYEKIGVQ 591
+                               *****9999864222233349******************************************9955..55666677789***** PP
+
+                     CdCA1 135 gqvftvvnde..dyfypdllrglivaldgwdkelgkdialytGsttGdsrdneicsayapvtwqvdrkchlisass 208
+                               gqvft+vn++  +y y++l+ g +   dg  k+   d+a ytGsttG++r+ne+cs yap+twqvdr ch+isa+s
+  Emi219|CAMPEP_0187750252 592 GQVFTIVNSDeeEYQYQNLIDGAWM--DG--KDKWVDVAKYTGSTTGTTRNNEMCSRYAPITWQVDRTCHMISAKS 663
+                               ********852268999*******9..99..77889**************************************97 PP
+
+>> Emihu1|436031  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  177.6   9.7   1.3e-55     2e-51      17     208 .]     420     614 ..     378     614 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 177.6 bits;  conditional E-value: 1.3e-55
+          CdCA1  17 ehysegeyde.eadgkepngnaelpeerklaeasvrvGfrckkydeadekvt.......keydwkyckdmevGetyevhwphsalGacgteeqyqt 104
+                    +++s++ey e + ++ +p ++  + ++ +  e + r G rc++yd+++e+++       k y+wk+c +m vGetyev wphsa+Gacgte+qy  
+  Emihu1|436031 420 DYVSKEEYYEsKKNKGDPYADDGKKKK-EKKEWTERLGLRCHHYDDEHEMFKtvatgakKPYEWKHCVEMMVGETYEVPWPHSAAGACGTEWQYPD 514
+                    456788877724445569997666554.34455589***********99985232333267*********************************99 PP
+
+          CdCA1 105 pfldGvlcnleeealttlggqdiatavGvegqvftvvnde..dyfypdllrglivaldgwdkelgkdialytGsttGdsrdneicsayapvtwqvd 198
+                     +l   l +     ++ l+ ++  + +Gv+gqvft+vn++  +y y++l+ g +   dg  k+   d+a ytGsttG++r+ne+cs yap+twqvd
+  Emihu1|436031 515 ALLRRRLLQE--GVVNILTPLNTYEKIGVQGQVFTIVNSDeeQYQYENLIDGAWM--DG--KDKWVDVAKYTGSTTGTTRNNEMCSRYAPITWQVD 604
+                    9998877655..556677777789**************862268899*******9..99..77889****************************** PP
+
+          CdCA1 199 rkchlisass 208
+                    r ch+isa+s
+  Emihu1|436031 605 RTCHMISAKS 614
+                    ********97 PP
+
+>> Emihu1|227360  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  153.3   3.8   3.5e-48   5.2e-44       2     208 .]      95     322 ..      94     322 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 153.3 bits;  conditional E-value: 3.5e-48
+          CdCA1   2 essmcpvnvhwhlGaehysegeyde..............eadgkepngnaelpe........erklaeas.........vrvGfrckkydeadekv 66 
+                    e++mc vnvhwhlGaeh+ +g yd               +      +g +  p         +      +         +  G  c  ydea    
+  Emihu1|227360  95 EAGMCVVNVHWHLGAEHKNVGTYDIdgeewmeqhgktkpK-----AHGANVVPGhgygygnvK------GavplgehddIDPGNFCPGYDEALLLR 179
+                    79**********************9888888664322221.....455555665444433221......0234444557999**********9999 PP
+
+          CdCA1  67 tkeydwkyckdmevGetyevhwphsalGacgteeqyqtpfldGvlcnleeealt....tlggqdiatavGvegqvftvvndedyfypdllrgliva 158
+                    +         +++vG tye+hwphs+lGacgt +q q +f+dGvlc+++e ++     + + +d +  +Gv+g v +vvnd +y yp      ++ 
+  Emihu1|227360 180 SPACAQLRTAQLHVGFTYEIHWPHSSLGACGTPWQMQSHFMDGVLCKANEADMDpgdaVAAVLDGTAKIGVQGMVVMVVNDAAYDYP-----EWNM 270
+                    999999999***************************************99999755544444566666******************9.....5788 PP
+
+          CdCA1 159 ldgwdkelgkdialytGsttGdsrdne......icsayap.vtwqvdrkchlisass 208
+                    ++gw+ +l +d     GsttG+ + n+       c+++++ vtwq+dr ch +sa+s
+  Emihu1|227360 271 MEGWHPDLVTD-----GSTTGQKHGNDftpgakACKGTGGaVTWQMDRGCHKVSAKS 322
+                    89*99999877.....888888887752233337****999**************97 PP
+
+>> Emi219|CAMPEP_0187742122  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   26.6   0.2   2.2e-09   3.3e-05       6      70 ..     130     197 ..     127     206 .. 0.85
+   2 ?    1.5   0.0      0.11   1.6e+03      63      80 ..     287     304 ..     281     318 .. 0.88
+   3 !  119.1   3.9   1.1e-37   1.6e-33      75     207 ..     325     481 ..     310     482 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 26.6 bits;  conditional E-value: 2.2e-09
+                     CdCA1   6 cpvnvhwhlGaehysegeydeeadgkepngnaelpeerklaeas...vrvGfrckkydeadekvtkey 70 
+                               c vn+h+hlG+ehy ++ y e++ +   ++    p++ + +++      + f c++yd+++ ++++e+
+  Emi219|CAMPEP_0187742122 130 CVVNIHYHLGTEHYNADSYSENGPEFLERALGCVPANYEGMDGYdptKDTVFCCENYDHNHLAFEEEF 197
+                               9********************998877788888898766666655646778999*******9999998 PP
+
+  == domain 2  score: 1.5 bits;  conditional E-value: 0.11
+                     CdCA1  63 dekvtkeydwkyckdmev 80 
+                               ++++t+ y +k+c+d +v
+  Emi219|CAMPEP_0187742122 287 QKMFTTRYPFKHCTDKHV 304
+                               689***********9998 PP
+
+  == domain 3  score: 119.1 bits;  conditional E-value: 1.1e-37
+                     CdCA1  75 ckdmevGetyevhwphsalGacgteeqyqtpfldGvlcnleeealttlggqdiata......vGvegqvftvvndedyfypd... 150
+                                ++m+vG tyevhwphs+lG c+t++qyq pf dGv+c + e  +   ++ d          +Gv +qvftvv +e  + +    
+  Emi219|CAMPEP_0187742122 325 SSEMQVGFTYEVHWPHSTLGKCDTVWQYQSPFHDGVFCAATEAGMRPHDAIDKLLMdpesfsIGVMAQVFTVVHEEYVTREAshe 409
+                               579*************************************8888876666654333557778***********988543322111 PP
+
+                     CdCA1 151 .........llrglivaldgwdkelgkdialytGstt......Gdsrdneicsayap.vtwqvdrkchlisas 207
+                                        ++ + ++ +  w +++++d+a+y+Gs+t      G+s +++ c+a ++ vtw+vdr chli a+
+  Emi219|CAMPEP_0187742122 410 yriisnasgYFGSEWNMTTRWYDKVATDVAVYQGSSTdptpatGTS-EDKGCKAVGGlVTWHVDRSCHLITAQ 481
+                               111111111344556677778888**********976322221554.4568*****99************996 PP
+
+>> Emihu1|241514  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  133.2   1.8     5e-42   7.4e-38       2     175 ..      95     287 ..      94     290 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 133.2 bits;  conditional E-value: 5e-42
+          CdCA1   2 essmcpvnvhwhlGaehysegeyde..............eadgkepngnaelpe........erklaeas.........vrvGfrckkydeadekv 66 
+                    e++mc vnvhwhlGaeh+ +g yd               +      +g +  p         +      +         +  G  c  ydea    
+  Emihu1|241514  95 EAGMCVVNVHWHLGAEHKNVGTYDIdgeewmeqhgktkpK-----AHGANVVPGhgygygnvK------GavplgehddIDPGNFCPGYDEALLLR 179
+                    79**********************9888888664322221.....455555665444433221......0234444557999**********9999 PP
+
+          CdCA1  67 tkeydwkyckdmevGetyevhwphsalGacgteeqyqtpfldGvlcnleeealt....tlggqdiatavGvegqvftvvndedyfypdllrgliva 158
+                    +         +++vG tye+hwphs+lGacgt +q q +f+dGvlc+++e ++     + + +d +  +Gv+g v +vvnd +y yp      ++ 
+  Emihu1|241514 180 SPACAQLRTAQLHVGFTYEIHWPHSSLGACGTPWQMQSHFMDGVLCKANEADMDpgdaVAAVLDGTAKIGVQGMVVMVVNDAAYDYP-----EWNM 270
+                    999999999***************************************99999755544444566666******************9.....6788 PP
+
+          CdCA1 159 ldgwdkelgkdialytG 175
+                    ++gw+ +l +d+a+y+ 
+  Emihu1|241514 271 MEGWHPDLVTDVAIYQA 287
+                    89*************95 PP
+
+>> Emihu1|195575  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   27.5   0.3   1.2e-09   1.7e-05       6      70 ..     144     211 ..     141     234 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 27.5 bits;  conditional E-value: 1.2e-09
+          CdCA1   6 cpvnvhwhlGaehysegeydeeadgkepngnaelpeerklaeas...vrvGfrckkydeadekvtkey 70 
+                    c vn+h+hlG+ehy ++ y e++ +   ++    p++ + +++      + f c++yd+++ ++++e+
+  Emihu1|195575 144 CVVNIHYHLGTEHYNADSYSENGPEFLERALGCVPANYEGMDGYdptKDTVFCCENYDHNHLAFEDEF 211
+                    9********************998877788888898766666655646778999******99999998 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (208 nodes)
+Target sequences:                       133147  (45538491 residues searched)
+Passed MSV filter:                      1681  (0.0126251); expected 2662.9 (0.02)
+Passed bias filter:                     1412  (0.0106048); expected 2662.9 (0.02)
+Passed Vit filter:                       100  (0.00075105); expected 133.1 (0.001)
+Passed Fwd filter:                         9  (6.75945e-05); expected 1.3 (1e-05)
+Initial search space (Z):             133147  [actual number of targets]
+Domain search space  (domZ):               9  [number of targets reported over threshold]
+# CPU time: 0.82u 0.07s 00:00:00.88 Elapsed: 00:00:00.28
+# Mc/sec: 32662.09
+//
+[ok]
